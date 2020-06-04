@@ -1,2 +1,3 @@
-# atulyafoundation.org
-v2 of atulyafoundation.org (not-yet-published)
+# Atulya Foundation
+
+New and updated webiste for atulyafoundation.org
