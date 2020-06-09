@@ -1,7 +1,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -16,7 +18,7 @@
                 <li id="home"><a href="#"> Home</a></li>
                 <li class="has-drop-down" id="who"><a href="javascript:void(0)">Who we are</a>
                     <ul class="">
-                        <li><a href="">About us</a></li>
+                        <li><a href="about.php">About us</a></li>
                         <li><a href="">Meet the Team</a></li>
                         <li><a href="">Our Clients</a></li>
                     </ul>
@@ -42,17 +44,8 @@
         </div>
     </header>
     <section class="main">
-        <div onclick="openNav1()" class="toggle-btn"><img src="assets/img/Icon%20ionic-ios-menu.svg" alt=""></div>
-        <div id="main">
-            <div class="logo">
-                <img src="assets/img/Component.png" class="img-fluid" alt="">
-            </div>
-            <div class="content" id="content">
-                <img src="assets/img/Group%20216.svg" alt="">
-                <div class="text">
-                    Art is an instrument painted in lavender,<br>
-                    Every chord a different hue. In its music tint of gold.
-                </div>
-            </div>
+        <div onclick="openNav1()" class="toggle-btn"><img src="assets/img/toggle_icon_black.svg" alt=""></div>
+        <div class="logo">
+            <img src="assets/img/Component1.svg" class="img-fluid" alt="">
         </div>
     </section>

@@ -5,6 +5,7 @@
     
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -18,7 +19,7 @@
                 <li id="home"><a href="#"> Home</a></li>
                 <li class="has-drop-down" id="who"><a href="javascript:void(0)">Who we are</a>
                     <ul class="">
-                        <li><a href="">About us</a></li>
+                        <li><a href="about.php">About us</a></li>
                         <li><a href="">Meet the Team</a></li>
                         <li><a href="">Our Clients</a></li>
                     </ul>
