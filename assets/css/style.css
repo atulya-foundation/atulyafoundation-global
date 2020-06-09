@@ -783,6 +783,10 @@ footer .copyright ul li span {
         padding:0px 16px;
     }
     
+    .col-half-offset{
+        margin-left:0%
+    }
+    
     .img-block{
         padding:16px;
     }
