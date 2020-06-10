@@ -13,7 +13,7 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="atulya-digital.php" || $page="atulya-crafts.php"){
+        if($page=="atulya-digital.php" || $page=="atulya-crafts.php"){
             $bg_body_color = "#D8D4CE";
         }
         
