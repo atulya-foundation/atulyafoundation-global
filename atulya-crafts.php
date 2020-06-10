@@ -32,7 +32,7 @@
             <div class="col-xl-1 view-desktop"></div>
 
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                <h3>User Interface Graphics</h3>
+                <h3>Paper Crafts</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
             </div>
         </div>
