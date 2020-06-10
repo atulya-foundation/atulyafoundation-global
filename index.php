@@ -26,7 +26,7 @@
                 </li>
                 <li class="has-drop-down" id="service"><a href="javascript:void(0)">Services</a>
                     <ul class="">
-                        <li><a href="">Atulya Digital</a></li>
+                        <li><a href="atulya-digital.php">Atulya Digital</a></li>
                         <li><a href="">Atulya Crafts</a></li>
                         <li><a href="">Premium collection</a></li>
                     </ul>
