@@ -29,7 +29,7 @@
                     <ul class="">
                         <li><a href="atulya-digital.php">Atulya Digital</a></li>
                         <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                        <li><a href="">Premium collection</a></li>
+                        <li><a href="premium-collection.php">Premium collection</a></li>
                     </ul>
                 </li>
                 <li class="has-drop-down" id="artist"><a href="javascript:void(0)">Atulya Artists</a>
@@ -38,7 +38,7 @@
                         <li><a href="">Network Benefits</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Volunteer with us</a></li>
+                <li><a href="volunteer-program.php">Volunteer with us</a></li>
                 <li><a href="#">News and Articles</a></li>
                 <li><a href="#">Get in touch</a></li>
             </ul>

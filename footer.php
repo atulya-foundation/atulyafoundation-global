@@ -1,4 +1,17 @@
-<footer class="mt-100">
+<?php   
+        $link = $_SERVER['PHP_SELF'];
+        $link_array = explode('/',$link);
+        $page = end($link_array);
+        
+        if($page=="volunteer-program.php"){
+            $mt = "no-margin";
+        }
+        
+        else{
+            $mt = "mt-100";
+        }
+?>
+<footer class="<?php echo $mt?>">
     <div class="container">
         <div class="row">
             <div class="col-lg-4"></div>
