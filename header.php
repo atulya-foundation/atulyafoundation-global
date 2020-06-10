@@ -1,18 +1,19 @@
 <html lang="en">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <?php   
         $link = $_SERVER['PHP_SELF'];
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="atulya-digital.php"){
+        if($page=="atulya-digital.php" || $page="atulya-crafts.php"){
             $bg_body_color = "#D8D4CE";
         }
         
@@ -20,7 +21,7 @@
             $bg_body_color = "#FFFFFF";
         }
     ?>
-    
+
 </head>
 
 
@@ -40,7 +41,7 @@
                 <li class="has-drop-down" id="service"><a href="javascript:void(0)">Services</a>
                     <ul class="">
                         <li><a href="atulya-digital.php">Atulya Digital</a></li>
-                        <li><a href="">Atulya Crafts</a></li>
+                        <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
                         <li><a href="">Premium collection</a></li>
                     </ul>
                 </li>

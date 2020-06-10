@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
@@ -27,7 +28,7 @@
                 <li class="has-drop-down" id="service"><a href="javascript:void(0)">Services</a>
                     <ul class="">
                         <li><a href="atulya-digital.php">Atulya Digital</a></li>
-                        <li><a href="">Atulya Crafts</a></li>
+                        <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
                         <li><a href="">Premium collection</a></li>
                     </ul>
                 </li>
