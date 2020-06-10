@@ -64,6 +64,11 @@ function closeNav1() {
 
 $(function () {
     $('.scroll1').infiniteslide({
-        speed: 150
+        speed: 100
     });
 });
+
+
+
+
+
