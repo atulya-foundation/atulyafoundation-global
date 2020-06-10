@@ -29,7 +29,7 @@
                 </figure>
             </div>
 
-            <div class="col-xl-1 view-desktop"></div>
+            <div class="col-xl-2 view-desktop"></div>
 
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Paper Crafts</h3>
@@ -101,7 +101,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Metal Crafts</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
             </div>
@@ -125,7 +125,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
+            <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
                 <h3>Glass Crafts</h3>
                 <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, orporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts and giveaways. Each brand touchpoint is designed to consistently express the overall brand personality and reiterate the messaging.</p>
             </div>
@@ -138,8 +138,7 @@
 <section class="atulya-image abs-img-sec">
     <div class="container">
         <div class="row">
-            <div class="col-xl-1"></div>
-            <div class="col-xl-3 col-lg-6 j-center col-md-6 content order1">
+            <div class="col-xl-4 col-lg-6 j-center col-md-6 content order1">
                 <h3>Sculpture</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
             </div>
