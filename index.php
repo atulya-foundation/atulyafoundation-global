@@ -39,7 +39,7 @@
                     </ul>
                 </li>
                 <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                <li><a href="#">News and Articles</a></li>
+                <li><a href="news-and-articles.php">News and Articles</a></li>
                 <li><a href="#">Get in touch</a></li>
             </ul>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

@@ -68,7 +68,11 @@ $(function () {
     });
 });
 
+var totalItems = $('.carousel-item').length;
+var currentIndex = $('div.active').index() + 1;
+$('.num').html('0' + currentIndex + '-' + '0' + totalItems + '');
 
-
-
-
+$('#carouselExampleIndicators').on('slid.bs.carousel', function () {
+    currentIndex = $('div.active').index() + 1;
+    $('.num').html('0' + currentIndex + '-' + '0' + totalItems + '');
+});

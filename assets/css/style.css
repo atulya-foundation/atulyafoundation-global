@@ -891,6 +891,81 @@ figure {
     margin-top: 30px !important;
 }
 
+.c-white {
+    margin-top: 7.8125vw;
+}
+
+.c-white h5 {
+    color: #ffffff;
+}
+
+.c-white h1 {
+    color: #ffffff;
+}
+
+.c-white .intro {
+    color: #ffffff;
+}
+
+.c-white .content {
+    margin-top: 30px;
+}
+
+.c-white .carousel-indicators {
+    position: relative;
+    display: block;
+    margin: 0;
+    margin-top: 3.6979166666666665vw;
+}
+
+.c-white .carousel-indicators li {
+    margin: 0;
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    opacity: 1;
+    transition: opacity .6s ease;
+    height: auto;
+    width: auto;
+    text-indent: inherit;
+    font-size: 1.25em;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+.c-white .carousel-indicators li:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.c-white .carousel-indicators li span {
+    color: #EAEAEA;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+}
+
+.c-white .carousel-control-next,
+.c-white .carousel-control-prev {
+    position: relative;
+    color: #ffffff;
+    display: inline-flex;
+    width: auto;
+    opacity: 1;
+}
+
+.c-white .carousel-control-next span,
+.c-white .carousel-control-prev span {
+    font-size: 40px;
+}
+
+.c-white .carousel-numeric .num {
+    color: #ffffff;
+    padding: 0px 60px;
+    font-size: 28px;
+}
+
 @media screen and (max-width:1919px) {
     .p-abs figure img {
         width: 50%;

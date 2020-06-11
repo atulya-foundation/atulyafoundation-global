@@ -15,10 +15,20 @@
         
         if($page=="atulya-digital.php" || $page=="atulya-crafts.php"){
             $bg_body_color = "#D8D4CE";
+            $logo = "Component1.svg";
+            $nav_toggle = "toggle_icon_black.svg";
+        }
+    
+        elseif($page=="news-and-articles.php"){
+            $bg_body_color = "#1C1C1C";
+            $logo = "Component.png";
+            $nav_toggle = "Icon%20ionic-ios-menu.svg";
         }
         
         else{
             $bg_body_color = "#FFFFFF";
+            $logo = "Component1.svg";
+            $nav_toggle = "toggle_icon_black.svg";
         }
     ?>
 
@@ -52,15 +62,15 @@
                     </ul>
                 </li>
                 <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                <li><a href="#">News and Articles</a></li>
+                <li><a href="news-and-articles.php">News and Articles</a></li>
                 <li><a href="#">Get in touch</a></li>
             </ul>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
         </div>
     </header>
     <section class="main">
-        <div onclick="openNav1()" class="toggle-btn"><img src="assets/img/toggle_icon_black.svg" alt=""></div>
+        <div onclick="openNav1()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
         <div class="logo">
-            <img src="assets/img/Component1.svg" class="img-fluid" alt="">
+            <img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt="">
         </div>
     </section>
