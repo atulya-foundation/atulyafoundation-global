@@ -916,6 +916,7 @@ figure {
     display: block;
     margin: 0;
     margin-top: 3.6979166666666665vw;
+    z-index: 0;
 }
 
 .c-white .carousel-indicators li {
@@ -953,6 +954,7 @@ figure {
     display: inline-flex;
     width: auto;
     opacity: 1;
+    z-index: 0;
 }
 
 .c-white .carousel-control-next span,
@@ -1086,7 +1088,6 @@ figure {
         font-size: 1.6em;
         font-family: 'Roboto', sans-serif;
         padding-right: 0px;
-        color: #1f1f1f;
         font-weight: bold;
     }
 
