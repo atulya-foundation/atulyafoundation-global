@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <p class="intro">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
-                        <a href="#" class="touch_link">GET IN TOUCH</a>
+                        <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
                     </div>
                 </div>
             </div>

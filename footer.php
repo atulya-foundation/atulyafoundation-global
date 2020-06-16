@@ -3,7 +3,7 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="volunteer-program.php"){
+        if($page=="volunteer-program.php" || $page=="get-in-touch.php" || $page=="index.php"){
             $mt = "no-margin";
         }
         
@@ -27,9 +27,9 @@
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Meet the Team</a></li>
-                                <li><a href="#">Our Clients</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="volunteer-program.php#network">Meet the Team</a></li>
+                                <li><a href="about.php#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                         <div class="widget">
                             <h2>Services</h2>
                             <ul>
-                                <li><a href="#">Atulya Digital</a></li>
-                                <li><a href="#">Atulya Crafts</a></li>
-                                <li><a href="#">Premium collection</a></li>
+                                <li><a href="atulya-digital.php">Atulya Digital</a></li>
+                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                                <li><a href="premium-collection.php">Premium collection</a></li>
                                 <li><a href="#">Arts and Museums</a></li>
                             </ul>
                         </div>
@@ -48,7 +48,7 @@
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="#">Join Artist Network</a></li>
+                                <li><a href="volunteer-program.php#network">Join Artist Network</a></li>
                                 <li><a href="#">Network Benefits</a></li>
                             </ul>
                         </div>
@@ -57,9 +57,9 @@
                         <div class="widget">
                             <h2>Other Links</h2>
                             <ul>
-                                <li><a href="#">Volunteer with us</a></li>
-                                <li><a href="#">News and Articles</a></li>
-                                <li><a href="#">Get in touch</a></li>
+                                <li><a href="volunteer-program.php">Volunteer with us</a></li>
+                                <li><a href="news-and-articles.php">News and Articles</a></li>
+                                <li><a href="get-in-touch.php">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,8 +81,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="assets/js/infiniteslidev2.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script>
+<script src="assets/js/animation.js"></script>
 <script src="assets/js/script.js"></script>
-
 <script src="https://kit.fontawesome.com/6b74e72c40.js" crossorigin="anonymous"></script>
 
 <script>

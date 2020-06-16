@@ -2,16 +2,24 @@
 
 <section class="main-content">
     <div class="container">
-        <h5>Volunteer with us</h5>
+        <h5>Atulya Artists</h5>
         <div class="web-wrap">
-            <h1>A gift to the <br>community</h1>
+            <h1>Here is, how we can<br> benefit artists.</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro">Become a part of our stories! Join the adventure. The aim of art is to represent not the outward appearance of things, but their inward significance. </p>
+                        <p class="intro">Let us craft your dreams into reality. We listen to you and welcome your ideas. Come visit us and you will see that all are true.</p>
+                        <a href="#" class="touch_link">Join Now</a>
                     </div>
                     <div class="col-lg-6">
-                        <p>The biggest challenge in building an online community is having the right people in the network, who can understand your community’s motive and contribute by connecting more like-minded people to the community. If you are here, we hope you know about our mission (Read the about us, pretty please !). Atulya Foundation is not just a community for artists, but art-lovers as well. What we are trying to build here is an ecosystem, where happiness can be spread through a medley of colours.</p>
+                        <p>A complete range of artists including homemakers, professionals, students, etc. We
+                            firmly believe that the only qualification for an artist is his/her art and art alone.</p>
+
+                        <p>A system of referrals where potential artists will be recommended to us by people connected to us on social media.</p>
+
+                        <p>A system of local ambassadors who will help us finding potential artists who cannot connect to us due to lack of infrastructure or awareness.</p>
+
+                        <p>Artists from different parts of India and specializing in different kinds of art forms.</p>
                     </div>
                 </div>
             </div>
@@ -20,16 +28,20 @@
 </section>
 
 <section class="atulya-image">
-    <img src="assets/img/vol.jpg" class="img-fluid" />
+    <img src="assets/img/bg-terms.jpg" class="img-fluid" />
 </section>
-
-<div id="network"></div>
 
 <section class="bg-cream">
     <div class="main-content main-padding">
         <div class="container">
-            <h5>Form</h5>
-            <h1>Join volunteer <br>network</h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>Form</h5>
+                    <h1>Join Artist <br>network</h1>
+                    <p class="intro mt-40">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
+                    <p class="intro">Fill out this form to become an Atulya Artist</p>
+                </div>
+            </div>
             <div class="form">
                 <form action="#" method="post">
                     <div class="row">
@@ -87,38 +99,12 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txt_a" placeholder="Education qualification">
+                                <input type="text" class="form-control" name="txt_n" placeholder="Link of an artwork">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="Present a general opinion on the mission and vision of Atulya Foundation">
+                                <textarea type="text" class="form-control" name="txt_note" placeholder="Short Note"></textarea>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="Briefly explain your views on the current situation of the Indian Art industry">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_d" placeholder="How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_e" placeholder="Previous Volunteering Experience (if any)?">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_f" placeholder="Are you in contact with, or do you recognise , any potential artists or an art group in you locality, who could be benefited through Atulya foundation">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_g" placeholder="As a volunteer, that are your expectations from this role ? ">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_h" placeholder="Are you comfortable for travelling occasionally to nearby cities for interacting with artists and communities?">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="txt_i" placeholder="How many hours can you roughly devote to the foundation work? ">
-                            </div>
-                            <div class="input-group form-group">
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input form-control" id="inputGroupFile02">
-                                    <label class="custom-file-label form-control" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH</label>
-                                </div>
-                            </div>
+
                             <p class="mt-50">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
                             <div class="call-to-action btn-left submit mt-30">
                                 <button type="submit" class="btn-call-to-action">SEND</button>
@@ -131,5 +117,32 @@
     </div>
 </section>
 
+<section class="main-content">
+    <div class="container">
+        <h5>Network Benefits</h5>
+        <div class="web-wrap">
+            <h1>Colour outside the lines <br> inside is already filled</h1>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="intro">Know more about network perks
+                            and blah blah blah.</p>
+                        <a href="#" class="touch_link">Join Now</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>ARTWORK VALUATION: Proper valuation of their art after doing in-depth and detailed market research.</p>
+
+                        <p>POTENTIAL MARKETS: Finding potential markets and buyers across the globe using various internet platforms.</p>
+
+                        <p>IPR PROTECTION: Providing for better protection and management to their Intellectual Property Rights.</p>
+
+                        <p>INFRA & LOGISTICS: Infrastructure for packaging and shipment of their art work along with any other logistics required.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include('footer.php')?>
