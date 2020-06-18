@@ -19,7 +19,7 @@
                 <h2>Lets connect and collaborate</h2>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img/flogo.svg" class="img-fluid" alt="">
+                <img src="assets/img/Component2.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8">
                 <div class="row">
@@ -38,9 +38,8 @@
                             <h2>Services</h2>
                             <ul>
                                 <li><a href="atulya-digital.php">Atulya Digital</a></li>
+                                <li><a href="premium-collection.php">Atulya Arts</a></li>
                                 <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                                <li><a href="premium-collection.php">Premium collection</a></li>
-                                <li><a href="#">Arts and Museums</a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,15 +76,15 @@
     </div>
 </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="assets/js/infiniteslidev2.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js'></script>
-<script src="assets/js/animation.js"></script>
 <script src="assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/6b74e72c40.js" crossorigin="anonymous"></script>
-
+<script src="assets/js/get-in-touch.js"></script>
 <script>
 
 

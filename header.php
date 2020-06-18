@@ -58,7 +58,7 @@
                     <ul class="">
                         <li><a href="atulya-digital.php">Atulya Digital</a></li>
                         <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                        <li><a href="premium-collection.php">Premium collection</a></li>
+                        <li><a href="premium-collection.php">Atulya Arts</a></li>
                     </ul>
                 </li>
                 <li class="has-drop-down" id="artist"><a href="javascript:void(0)">Atulya Artists</a>

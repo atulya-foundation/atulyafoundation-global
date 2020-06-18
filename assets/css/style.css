@@ -460,8 +460,8 @@ h2 span {
 }
 
 .art-gallery {
-    padding-top: 13.593749999999998VW;
-    padding-bottom: 11.875VW;
+    padding-top: 120px;
+    padding-bottom: 140px;
     background-color: #F6F4F2;
 }
 
@@ -518,6 +518,14 @@ h2 span {
     text-transform: uppercase;
     padding: 0.951683748169839vw 2.5VW;
     border: none;
+}
+
+.call-to-action .btn-call-to-action:hover {
+    background: transparent;
+    border: 2px solid black;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .marquee {
@@ -593,7 +601,7 @@ h2 span {
 }
 
 .live {
-    padding-top: 7.8125VW;
+    padding-top: 120px;
     background-color: #ffffff;
 }
 
@@ -622,7 +630,6 @@ h2 span {
 .live .text p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    font-weight: 600;
     color: #1F1F1F;
     width: 801px;
     line-height: 1.75rem;
@@ -639,6 +646,7 @@ h2 span {
     border: none;
     border-bottom: 3px solid black;
     height: 3.6458333333333335VW;
+    border-radius: 0;
 }
 
 .newsbutton {
@@ -655,7 +663,7 @@ h2 span {
 }
 
 .mt-100 {
-    margin-top: 5.677083333333333VW;
+    margin-top: 120px;
 }
 
 .live ul {
@@ -741,7 +749,7 @@ footer .copyright ul li span {
 }
 
 .main-content {
-    margin-top: 12.34375vw;
+    margin-top: 130px;
 }
 
 .main-content h5 {
@@ -817,7 +825,7 @@ h1 {
 }
 
 .team {
-    padding: 10.416666666666668vw 0px;
+    padding: 120px 0px;
 }
 
 .teams {
@@ -952,7 +960,7 @@ figure {
 
 .main-padding {
     margin: 0;
-    padding: 10.416666666666668vw 0px;
+    padding: 7.416666666666668vw 0px;
 }
 
 .form {
@@ -969,14 +977,16 @@ figure {
     background: transparent;
     border: none;
     border-bottom: 1px solid #282828;
+    border-radius: 0;
 }
 
 .form .form-group .form-control::placeholder {
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .with-top {
-    margin-top: 4.947916666666666vw;
+    margin-top: 2.947916666666666vw;
 }
 
 .mt-50 {
@@ -1124,6 +1134,13 @@ textarea {
     height: 100px !important;
 }
 
+
+.custom-file-label::after {
+    background: transparent;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
 @media screen and (max-width:1919px) {
     .p-abs figure img {
         width: 50%;
@@ -1265,7 +1282,7 @@ textarea {
     }
 
     .video {
-        margin-top: 14.114583333333334Vh;
+        /* margin-top: 14.114583333333334Vh;*/
     }
 
     .art-gallery {

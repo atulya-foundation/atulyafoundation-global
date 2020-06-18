@@ -29,7 +29,7 @@
     <div class="main-content main-padding">
         <div class="container">
             <h5>Form</h5>
-            <h1>Join volunteer <br>network</h1>
+            <h1>Join volunteer <br><span>network</span></h1>
             <div class="form">
                 <form action="#" method="post">
                     <div class="row">

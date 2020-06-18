@@ -43,7 +43,7 @@
                             <ul class="">
                                 <li><a href="atulya-digital.php">Atulya Digital</a></li>
                                 <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                                <li><a href="premium-collection.php">Premium collection</a></li>
+                                <li><a href="premium-collection.php">Atulya Arts</a></li>
                             </ul>
                         </li>
                         <li class="has-drop-down" id="artist"><a href="javascript:void(0)">Atulya Artists</a>
@@ -102,8 +102,9 @@
     </section>
 
     <section class="video">
-        <img src="assets/img/Screenshot%202020-04-27%20at%201.56.37%20PM.jpg" class="img-responsive" alt="">
+        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/9WyZWvpZiB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
+
     <section class="art-gallery">
         <div class="container">
             <h6>Art Gallery</h6>
@@ -128,8 +129,6 @@
             <li><img src="assets/img/m5.png" class="img-fluid" alt=""></li>
         </ul>
     </section>
-
-
 
     <section class="craftman">
         <div class="container">
@@ -197,19 +196,17 @@
                 </li>
 
                 <li>
+                    <h6 class="mt-100">Instagram</h6>
+                </li>
+
+                <li>
                     <h6 class="mt-100">LinkedIn</h6>
                 </li>
 
                 <li>
                     <h6 class="mt-100">Facebook</h6>
                 </li>
-
-                <li>
-                    <h6 class="mt-100">Instagram</h6>
-                </li>
             </ul>
-
-
         </div>
     </section>
     <?php include('footer.php')?>

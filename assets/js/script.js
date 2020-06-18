@@ -3,7 +3,7 @@ function openNav() {
     document.getElementById("main").style.marginRight = "100%";
     $('#content').css("display", "none");
     $('#main .logo').css("display", "none");
-    $('body').css("overflow-y", "hidden");
+    $('#mySidenav').css("overflow", "hidden");
 }
 
 
@@ -35,7 +35,7 @@ $(document).ready(function () {
                 $('#slider .wrap-slider1').css({
                     "left": "-100%",
                 });
-            }, 50);
+            }, 15);
         } else {
             $('#slider .wrap-slider').css({
                 "left": "-100%",
@@ -47,7 +47,7 @@ $(document).ready(function () {
                     "left": "0%",
                     "background-image": "url('assets/img/bg/ph.jpg')"
                 });
-            }, 50);
+            }, 15);
         }
 
     });
@@ -69,7 +69,7 @@ $(document).ready(function () {
                 $('#slider .wrap-slider1').css({
                     "left": "-100%",
                 });
-            }, 50);
+            }, 15);
         } else {
             $('#slider .wrap-slider').css({
                 "left": "-100%",
@@ -81,7 +81,7 @@ $(document).ready(function () {
                     "left": "0%",
                     "background-image": "url('assets/img/who.jpg')"
                 });
-            }, 50);
+            }, 15);
         }
 
     });
@@ -104,7 +104,7 @@ $(document).ready(function () {
                 $('#slider .wrap-slider1').css({
                     "left": "-100%",
                 });
-            }, 50);
+            }, 15);
         } else {
             $('#slider .wrap-slider').css({
                 "left": "-100%",
@@ -116,7 +116,7 @@ $(document).ready(function () {
                     "left": "0%",
                     "background-image": "url('assets/img/services.jpg')"
                 });
-            }, 50);
+            }, 15);
         }
 
     });
@@ -135,7 +135,7 @@ $(document).ready(function () {
                 $('#slider .wrap-slider1').css({
                     "left": "-100%",
                 });
-            }, 50);
+            }, 15);
         } else {
             $('#slider .wrap-slider').css({
                 "left": "-100%",
@@ -147,7 +147,7 @@ $(document).ready(function () {
                     "left": "0%",
                     "background-image": "url('assets/img/m6.jpg')"
                 });
-            }, 50);
+            }, 15);
         }
 
     });
