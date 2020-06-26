@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>Document</title>
+    <title>Atulya Foundation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -111,8 +111,7 @@
             <h1>Meet <span>the</span> makers.<br>
                 Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
             <div class="text">
-                <p> Imagine an inspiration tool that connects visual arts with the real world,
-                    creating unbreakable connections with the existing world of art and culture. </p>
+                <p> Imagine an inspiration tool that connects  </p>
             </div>
             <div class="call-to-action">
                 <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
@@ -133,25 +132,18 @@
     <section class="craftman">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 j-center">
+                <div class="col-lg-5 j-center">
                     <h6>CRAFTSMANSHIP</h6>
-                    <h2>Join Artist <span>Network</span></h2>
+                    <h2>Join Artist <br> <span>network</span></h2>
                     <div class="text">
-                        <p>The aim of art is to represent not the outward
-                            appearance of things, but their inward
-                            significance. </p>
-
-                        <p>An accumulation of works of art by a private
-                            individual or a professional institution. You don’t
-                            need riches to collect art – start small and your
-                            collection will soon grow. The trick is knowing
-                            where to look.</p>
+                        <p>The aim of art is to represent not the outward appearance of things, but their inward significance.  An accumulation of works of art by a private individual.</p>
                     </div>
                     <div class="call-to-action">
                         <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-5">
                     <img src="assets/img/m6.jpg" class="img-fluid" alt="">
                 </div>
             </div>
@@ -206,6 +198,11 @@
                 <li>
                     <h6 class="mt-100">Facebook</h6>
                 </li>
+
+                <li>
+                    <h6 class="mt-100">Youtube</h6>
+                </li>
+
             </ul>
         </div>
     </section>

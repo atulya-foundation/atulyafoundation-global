@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap&family=Playfair+Display:wght@500&display=swap&family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto:wght@500&display=swap');
 
 body,
 html {
@@ -7,6 +9,10 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #707070;
     scroll-behavior: smooth;
+}
+
+h5{
+    font-size:12px;
 }
 
 .col-xs-1,
@@ -333,7 +339,7 @@ p {
 
 h1 span,
 h2 span {
-    font-family: "Playfair Display script=latin rev=1";
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
 }
@@ -467,32 +473,36 @@ h2 span {
 
 .art-gallery h6 {
     text-align: center;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #1F1F1F;
+    letter-spacing: 0.04em;
 }
 
 .art-gallery h1 {
-    margin-top: 2.604166666666667VW;
+    margin-top: 1.604166666666667VW;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.25rem;
     color: #1F1F1F;
+    letter-spacing: -0.04em;
 }
+
 
 .art-gallery .text {
     margin-top: 2.188rem;
     display: flex;
     justify-content: center;
+    text-align:center;
 }
 
 .art-gallery .text p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
+    font-size: 16px;
     color: #0E0E0E;
-    width: 41.71875VW;
-    line-height: 28px;
+    width: 38VW;
+    line-height: 20px;
 }
 
 .call-to-action {
@@ -514,7 +524,6 @@ h2 span {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    font-weight: 600;
     text-transform: uppercase;
     padding: 0.951683748169839vw 2.5VW;
     border: none;
@@ -560,10 +569,11 @@ h2 span {
 }
 
 .craftman h6 {
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #1F1F1F;
+    letter-spacing: 0.04em;
 }
 
 .craftman h2 {
@@ -606,11 +616,12 @@ h2 span {
 }
 
 .live h6 {
-    text-align: center;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    color: #1F1F1F;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    color: #1F1F1F;
+    letter-spacing: 0.04em;
+    text-align:center;
 }
 
 .live h2 {
@@ -631,7 +642,7 @@ h2 span {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     color: #1F1F1F;
-    width: 801px;
+    width: 542px;
     line-height: 1.75rem;
 }
 
@@ -753,7 +764,7 @@ footer .copyright ul li span {
 }
 
 .main-content h5 {
-    font-size: 1.125em;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: #1f1f1f;
     text-transform: uppercase;
@@ -763,9 +774,10 @@ footer .copyright ul li span {
     font-size: 3em;
     margin-top: 3.6458333333333335vw;
     font-family: 'Playfair Display', serif !important;
-    font-family: 'Roboto', sans-serif;
     color: #1F1F1F;
+    letter-spacing: -0.04em;
 }
+
 
 h1 {
     font-size: 3em;
@@ -780,11 +792,10 @@ h1 {
 }
 
 .main-content .intro {
-    font-size: 1.125em;
+    font-size: 1.25em;
     font-family: 'Roboto', sans-serif;
     padding-right: 55px;
     color: #1f1f1f;
-    font-weight: bold;
 }
 
 .main-content p {
@@ -796,10 +807,10 @@ h1 {
 .touch_link {
     margin-top: 5vw !important;
     color: #1f1f1f;
-    font-size: 18px;
+    font-size: 11px;
     font-family: 'Roboto', sans-serif;
     border: 1px solid gray;
-    padding: 16px;
+    padding: 16px 44px ;
 }
 
 .img-block {
@@ -888,7 +899,11 @@ figure {
     padding-bottom: 3.166666666666666vw;
     color: #383838;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+}
+
+.f-16{
+    font-size:14px!important;
+    font-style: italic;
 }
 
 .atulya-image .content p {
@@ -970,7 +985,6 @@ figure {
 .form p {
     color: #383838;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .form .form-group .form-control {
@@ -995,6 +1009,13 @@ figure {
 
 .submit .btn-call-to-action {
     padding: 11px 41px !important;
+}
+
+.custom-file-label{
+    background:transparent;
+    border:none;
+    border-bottom: 1px solid;
+    border-radius: 0;
 }
 
 .mt-30 {
@@ -1393,4 +1414,8 @@ textarea {
 .form-control:focus {
     box-shadow: none;
     border-bottom: 3px solid black;
+}
+
+.form-control{
+    padding: 0px;
 }

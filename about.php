@@ -95,7 +95,7 @@
 <div id="clients"></div>
 <section class="main-content">
     <div class="container">
-        <h5>Clients</h5>
+       
         <div class="web-wrap">
             <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>
             <div class="content">

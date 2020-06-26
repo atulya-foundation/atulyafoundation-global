@@ -90,7 +90,7 @@
                                 <input type="text" class="form-control" name="txt_a" placeholder="Education qualification">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="Present a general opinion on the mission and vision of Atulya Foundation">
+                                <textarea type="text" class="form-control" name="txt_b" placeholder="Present a general opinion on the mission and vision of Atulya Foundation"></textarea>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="txt_b" placeholder="Briefly explain your views on the current situation of the Indian Art industry">
@@ -115,11 +115,11 @@
                             </div>
                             <div class="input-group form-group">
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input form-control" id="inputGroupFile02">
-                                    <label class="custom-file-label form-control" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH</label>
+                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH</label>
                                 </div>
                             </div>
-                            <p class="mt-50">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                            <p class="mt-50 f-16">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
                             <div class="call-to-action btn-left submit mt-30">
                                 <button type="submit" class="btn-call-to-action">SEND</button>
                             </div>

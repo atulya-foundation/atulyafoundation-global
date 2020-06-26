@@ -19,7 +19,7 @@
                 <h2>Lets connect and collaborate</h2>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img/Component2.svg" class="img-fluid" alt="">
+                <img src="assets/img/footer-logo.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8">
                 <div class="row">
