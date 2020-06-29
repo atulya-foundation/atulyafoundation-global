@@ -12,12 +12,10 @@
 </head>
 
 <body>
-    <header>
+    <!--header>
         <div id="mySidenav" class="sidenav">
             <div class="row">
-                <!--div class="col-xl-4 vh-100 view-desktop" id="box">
-
-                </div-->
+                
 
                 <div class="col-xl-4 vh-100 view-desktop" id="slider">
                     <div class="wrap-slider vh-100">
@@ -66,6 +64,50 @@
                 </ul>
             </div>
         </div>
+    </header-->
+
+
+
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <div class="row">
+                <!--div class="col-xl-4 vh-100 view-desktop" id="box">
+
+                </div-->
+                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-5 nav-menu">
+                    <ul>
+                        <li><a href="javascript:void(0)"> Homepage</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="atulya-digital.php">Atulya Digital</a></li>
+                        <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                        <li><a href="premium-collection.php">Premium Collection</a></li>
+                        <li><a href="news-and-articles.php">News and Articles</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 nav-menu small-nav">
+                    <ul>
+                        <li><a href="volunteer-program.php">Volunteer with us</a></li>
+                        <li><a href="volunteer-program.php#network">Join Artist Network</a></li>
+                        <li><a href="">Network Benefits</a></li>
+                        <li><a href="atulya-artists.php">Atulya Artista</a></li>
+                        <li><a href="get-in-touch.php">Get in touch</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-12"></div>
+                <div class="col-xl-1"></div>
+                <div class="col-xl-11">
+                    <ul class="social-head">
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+        </div>
     </header>
 
     <section class="main">
@@ -75,7 +117,7 @@
                 <img src="assets/img/Component2.svg" class="img-fluid" alt="">
             </div>
             <div class="content" id="content">
-                <img src="assets/img/Group-216.png" class="img-fluid" alt="">
+                <img src="assets/img/Group216.svg" class="img-fluid" alt="">
                 <div class="text">
                     Art is an instrument painted in lavender,<br>
                     Every chord a different hue. In its music tint of gold.
@@ -111,7 +153,7 @@
             <h1>Meet <span>the</span> makers.<br>
                 Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
             <div class="text">
-                <p> Imagine an inspiration tool that connects  </p>
+                <p> Imagine an inspiration tool that connects </p>
             </div>
             <div class="call-to-action">
                 <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
@@ -136,7 +178,7 @@
                     <h6>CRAFTSMANSHIP</h6>
                     <h2>Join Artist <br> <span>network</span></h2>
                     <div class="text">
-                        <p>The aim of art is to represent not the outward appearance of things, but their inward significance.  An accumulation of works of art by a private individual.</p>
+                        <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
                     </div>
                     <div class="call-to-action">
                         <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
@@ -160,7 +202,7 @@
                     significance. </p>
             </div>
             <div class="call-to-action">
-                <a href="volunteer-program.php" class="btn-call-to-action">Know more</a>
+                <a href="volunteer-program.php" class="btn-call-to-action">Volunteer with us</a>
             </div>
         </div>
     </section>

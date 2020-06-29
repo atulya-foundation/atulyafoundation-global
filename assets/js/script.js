@@ -159,7 +159,6 @@ function closeNav() {
     document.getElementById("main").style.marginRight = "0";
 
     $('#main').css({
-        "background-image": "url('assets/img/photo-of-statue-2929886.jpg')",
         "background-position": "0px 0px!important",
         "background-size": "100% 100%"
     });

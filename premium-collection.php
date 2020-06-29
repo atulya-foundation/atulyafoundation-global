@@ -12,7 +12,9 @@
                             genres. We try to inculcate as many art forms as possible in
                             our collection. Art lovers are free to choose according to their
                             own interests and preferences.</p>
-                        <a href="#" class="touch_link">Arts & Museum</a>
+                        <div class="touch-div">
+                            <a href="#" class="touch_link">Arts & Museum</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,7 +58,7 @@
             </div>
         </div>
         <div class="call-to-action">
-            <button class="btn-call-to-action">Premium Collection</button>
+            <a href="#" class="btn-call-to-action">Premium Collection</a>
         </div>
     </div>
 </section>
@@ -69,12 +71,14 @@
             <div class="row">
                 <div class="col-lg-6">
                     <p class="intro">We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
-                    <a href="#" class="touch_link">Arts & Museum</a>
+                    <div class="touch-div">
+                        <a href="#" class="touch_link">Arts & Museum</a>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="call-to-action btn-left">
-            <button class="btn-call-to-action">Premium Collection</button>
+            <a href="#" class="btn-call-to-action">Premium Collection</a>
         </div>
     </div>
 </section>

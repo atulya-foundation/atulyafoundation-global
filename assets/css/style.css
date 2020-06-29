@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body,
 html {
@@ -11,8 +12,8 @@ html {
     scroll-behavior: smooth;
 }
 
-h5{
-    font-size:12px;
+h5 {
+    font-size: 12px;
 }
 
 .col-xs-1,
@@ -261,7 +262,7 @@ p {
 }
 
 .nav-menu {
-    padding-top: 7%;
+    padding-top: 12%;
 }
 
 .vh-100 {
@@ -294,6 +295,9 @@ p {
     transition: 0.3s;
 }
 
+.small-nav ul li a {
+    font-size: 24px;
+}
 
 .sidenav ul {
     list-style: none;
@@ -306,10 +310,11 @@ p {
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 0px;
     text-decoration: none;
     font-size: 2em;
-    font-family: 'Playfair Display', serif;
+    font-family: 'poppins', serif;
+    text-transform: uppercase;
     color: #1F1F1F;
     display: block;
     transition: 0.3s;
@@ -360,7 +365,7 @@ h2 span {
     height: 100vh;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
-    background-image: url('../img/photo-of-statue-2929886.jpg');
+    background-image: url('../img/bg.jpg');
     background-size: 100% 100%;
     background-position: 0px 0px;
 }
@@ -378,9 +383,8 @@ h2 span {
 }
 
 .social-head {
-    position: absolute;
-    bottom: 62px;
-    right: 117px;
+    position: relative;
+    margin-top: 5%;
 }
 
 .social-head li {
@@ -388,9 +392,15 @@ h2 span {
 }
 
 .social-head li a {
-    color: #AAAAAA;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    font-weight: 600;
+    padding: 0px;
+    padding-right: 14px;
 }
+
+
 
 .sidenav.other {
     padding-top: 8%;
@@ -436,10 +446,9 @@ h2 span {
 #main .content .text {
     text-align: center;
     margin-top: 10.2px;
-    font-size: 1.125rem;
+    font-size: 24px;
     font-family: 'Open Sans', sans-serif;
-    color: #1F1F1F;
-    font-weight: 600;
+    color: #fff;
 }
 
 .about {
@@ -494,7 +503,7 @@ h2 span {
     margin-top: 2.188rem;
     display: flex;
     justify-content: center;
-    text-align:center;
+    text-align: center;
 }
 
 .art-gallery .text p {
@@ -507,7 +516,8 @@ h2 span {
 
 .call-to-action {
     margin-top: 3.125VW;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .bg-new,
@@ -519,22 +529,51 @@ h2 span {
     padding-bottom: 100px;
 }
 
+.btn-call-to-action {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+
 .call-to-action .btn-call-to-action {
+    display: block;
+    width: 275px;
+    text-align: center;
     background: #1F1F1F;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     text-transform: uppercase;
-    padding: 0.951683748169839vw 2.5VW;
     border: none;
+    text-decoration: none;
+    padding-top: 18px;
+    cursor: pointer;
+    padding-bottom: 18px;
 }
 
 .call-to-action .btn-call-to-action:hover {
-    background: transparent;
-    border: 2px solid black;
-    color: #000;
-    text-decoration: none;
-    transition: 0.3s;
+    padding-right: 8px;
+    padding-left: 38px;
+    transition: 0.5s;
+}
+
+
+.call-to-action .btn-call-to-action::before {
+    content: url(../img/Icon%20feather-arrow-right.svg);
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.call-to-action .btn-call-to-action:hover::before {
+    opacity: 1;
+    left: 20px;
 }
 
 .marquee {
@@ -621,7 +660,7 @@ h2 span {
     text-transform: uppercase;
     color: #1F1F1F;
     letter-spacing: 0.04em;
-    text-align:center;
+    text-align: center;
 }
 
 .live h2 {
@@ -804,13 +843,49 @@ h1 {
     color: #707070;
 }
 
+.touch-div {
+    position: relative;
+}
+
 .touch_link {
     margin-top: 5vw !important;
     color: #1f1f1f;
-    font-size: 11px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     border: 1px solid gray;
-    padding: 16px 44px ;
+    display: block;
+    width: 275px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 18px;
+    cursor: pointer;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+
+
+.touch_link:hover {
+    padding-right: 8px;
+    padding-left: 38px;
+    transition: 0.5s;
+}
+
+
+.touch_link::before {
+    content: url(../img/blackarrow.svg);
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.touch_link:hover::before {
+    opacity: 1;
+    left: 20px;
 }
 
 .img-block {
@@ -901,8 +976,8 @@ figure {
     font-family: 'Roboto', sans-serif;
 }
 
-.f-16{
-    font-size:14px!important;
+.f-16 {
+    font-size: 14px !important;
     font-style: italic;
 }
 
@@ -970,7 +1045,7 @@ figure {
 }
 
 .btn-left {
-    text-align: left;
+    justify-content: flex-start;
 }
 
 .main-padding {
@@ -1011,9 +1086,9 @@ figure {
     padding: 11px 41px !important;
 }
 
-.custom-file-label{
-    background:transparent;
-    border:none;
+.custom-file-label {
+    background: transparent;
+    border: none;
     border-bottom: 1px solid;
     border-radius: 0;
 }
@@ -1416,6 +1491,6 @@ textarea {
     border-bottom: 3px solid black;
 }
 
-.form-control{
+.form-control {
     padding: 0px;
 }
