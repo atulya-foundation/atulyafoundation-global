@@ -185,7 +185,9 @@ function closeNav1() {
 
 $(function () {
     $('.scroll1').infiniteslide({
-        speed: 100
+        'speed': 100,
+        'pauseonhover': false
+
     });
 });
 
