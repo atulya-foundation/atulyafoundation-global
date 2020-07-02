@@ -77,10 +77,10 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-5 nav-menu">
                     <ul>
-                        <li><a href="javascript:void(0)"> Homepage</a></li>
-                        <li><a href="about.php">About us</a></li>
+                        <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
+                        <li id="about"><a href="about.php">About us</a></li>
                         <li><a href="atulya-digital.php">Atulya Digital</a></li>
-                        <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                        <li id="crafts"><a href="atulya-crafts.php">Atulya Crafts</a></li>
                         <li><a href="premium-collection.php">Premium Collection</a></li>
                         <li><a href="news-and-articles.php">News and Articles</a></li>
                     </ul>
@@ -88,10 +88,10 @@
 
                 <div class="col-xl-4 nav-menu small-nav">
                     <ul>
-                        <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                        <li><a href="volunteer-program.php#network">Join Artist Network</a></li>
-                        <li><a href="">Network Benefits</a></li>
-                        <li><a href="atulya-artists.php">Atulya Artista</a></li>
+                        <!--<li><a href="volunteer-program.php">Volunteer with us</a></li>-->
+                        <li><a href="volunteer-program.php#network">Join As Artist Network</a></li>
+                        <!--<li><a href="">Network Benefits</a></li>-->
+                        <li><a href="atulya-artists.php">Atulya Artist</a></li>
                         <li><a href="get-in-touch.php">Get in touch</a></li>
                     </ul>
                 </div>
@@ -103,6 +103,7 @@
                         <li><a href="#">Instagram</a></li>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Youtube</a></li>
                     </ul>
                 </div>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

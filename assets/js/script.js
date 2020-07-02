@@ -19,138 +19,173 @@ function openNav1() {
 
 
 $(document).ready(function () {
+    $('#about').hover(function () {
+        $("#mySidenav").css({
+            "background": "url('assets/img/bg/about.jpg')"
+        });
+
+        $('#mySidenav ul li a').css({
+            "color": "white"
+        });
+
+    });
 
     $('#home').hover(function () {
+        $("#mySidenav").css({
+            "background": "#F6F5F4",
+            "transition": "all 0.8s"
+        });
 
-        var x = $("#slider .wrap-slider").offset().left;
-        if (x >= -665) {
-            $('#slider .wrap-slider').css({
-
-                "display": "block",
-                "left": "0%",
-                "background-image": "url('assets/img/bg/ph.jpg')"
-            });
-
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "left": "-100%",
-                });
-            }, 15);
-        } else {
-            $('#slider .wrap-slider').css({
-                "left": "-100%",
-            });
-
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "display": "block",
-                    "left": "0%",
-                    "background-image": "url('assets/img/bg/ph.jpg')"
-                });
-            }, 15);
-        }
+        $('#mySidenav ul li a').css({
+            "color": "#1F1F1F"
+        });
 
     });
 
+    $('#crafts').hover(function () {
+        $("#mySidenav").css({
+            "background": "url('assets/img/bg/2.jpg')"
+        });
 
-    $('#who').hover(function () {
-
-        var x = $("#slider .wrap-slider").offset().left;
-
-        if (x <= -665) {
-            $('#slider .wrap-slider').css({
-
-                "display": "block",
-                "left": "0%",
-                "background-image": "url('assets/img/who.jpg')"
-            });
-
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "left": "-100%",
-                });
-            }, 15);
-        } else {
-            $('#slider .wrap-slider').css({
-                "left": "-100%",
-            });
-
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "display": "block",
-                    "left": "0%",
-                    "background-image": "url('assets/img/who.jpg')"
-                });
-            }, 15);
-        }
+        $('#mySidenav ul li a').css({
+            "color": "white"
+        });
 
     });
 
 
 
-    $("#service").hover(function () {
+    /* $('#home').hover(function () {
 
-        var x = $("#slider .wrap-slider").offset().left;
+         var x = $("#slider .wrap-slider").offset().left;
+         if (x >= -665) {
+             $('#slider .wrap-slider').css({
 
-        if (x >= -665) {
-            $('#slider .wrap-slider').css({
+                 "display": "block",
+                 "left": "0%",
+                 "background-image": "url('assets/img/bg/ph.jpg')"
+             });
 
-                "display": "block",
-                "left": "0%",
-                "background-image": "url('assets/img/services.jpg')"
-            });
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "left": "-100%",
+                 });
+             }, 15);
+         } else {
+             $('#slider .wrap-slider').css({
+                 "left": "-100%",
+             });
 
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "left": "-100%",
-                });
-            }, 15);
-        } else {
-            $('#slider .wrap-slider').css({
-                "left": "-100%",
-            });
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "display": "block",
+                     "left": "0%",
+                     "background-image": "url('assets/img/bg/ph.jpg')"
+                 });
+             }, 15);
+         }
 
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "display": "block",
-                    "left": "0%",
-                    "background-image": "url('assets/img/services.jpg')"
-                });
-            }, 15);
-        }
+     });
 
-    });
-    $("#artist").hover(function () {
 
-        var x = $("#slider .wrap-slider").offset().left;
-        if (x <= -665) {
-            $('#slider .wrap-slider').css({
+     $('#who').hover(function () {
 
-                "display": "block",
-                "left": "0%",
-                "background-image": "url('assets/img/person-holding-paintbrush-3959004.jpg')"
-            });
+         var x = $("#slider .wrap-slider").offset().left;
 
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "left": "-100%",
-                });
-            }, 15);
-        } else {
-            $('#slider .wrap-slider').css({
-                "left": "-100%",
-            });
+         if (x <= -665) {
+             $('#slider .wrap-slider').css({
 
-            setTimeout(function () {
-                $('#slider .wrap-slider1').css({
-                    "display": "block",
-                    "left": "0%",
-                    "background-image": "url('assets/img/m6.jpg')"
-                });
-            }, 15);
-        }
+                 "display": "block",
+                 "left": "0%",
+                 "background-image": "url('assets/img/who.jpg')"
+             });
 
-    });
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "left": "-100%",
+                 });
+             }, 15);
+         } else {
+             $('#slider .wrap-slider').css({
+                 "left": "-100%",
+             });
+
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "display": "block",
+                     "left": "0%",
+                     "background-image": "url('assets/img/who.jpg')"
+                 });
+             }, 15);
+         }
+
+     });
+
+
+
+     $("#service").hover(function () {
+
+         var x = $("#slider .wrap-slider").offset().left;
+
+         if (x >= -665) {
+             $('#slider .wrap-slider').css({
+
+                 "display": "block",
+                 "left": "0%",
+                 "background-image": "url('assets/img/services.jpg')"
+             });
+
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "left": "-100%",
+                 });
+             }, 15);
+         } else {
+             $('#slider .wrap-slider').css({
+                 "left": "-100%",
+             });
+
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "display": "block",
+                     "left": "0%",
+                     "background-image": "url('assets/img/services.jpg')"
+                 });
+             }, 15);
+         }
+
+     });
+     $("#artist").hover(function () {
+
+         var x = $("#slider .wrap-slider").offset().left;
+         if (x <= -665) {
+             $('#slider .wrap-slider').css({
+
+                 "display": "block",
+                 "left": "0%",
+                 "background-image": "url('assets/img/person-holding-paintbrush-3959004.jpg')"
+             });
+
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "left": "-100%",
+                 });
+             }, 15);
+         } else {
+             $('#slider .wrap-slider').css({
+                 "left": "-100%",
+             });
+
+             setTimeout(function () {
+                 $('#slider .wrap-slider1').css({
+                     "display": "block",
+                     "left": "0%",
+                     "background-image": "url('assets/img/m6.jpg')"
+                 });
+             }, 15);
+         }
+
+     });*/
 });
 
 
