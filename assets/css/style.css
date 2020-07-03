@@ -1498,3 +1498,7 @@ textarea {
 .medium {
     font-weight: 500;
 }
+
+.f-left {
+    justify-content: flex-start;
+}

@@ -162,7 +162,7 @@
         </div>
     </section>
 
-    <section class="m-carousel bg-new">
+    <section class="m-carousel bg-new" id="carso">
         <ul class="scroll1">
             <li><img src="assets/img/m1.png" class="img-fluid" alt=""></li>
             <li><img src="assets/img/m2.png" class="img-fluid" alt=""></li>
@@ -181,7 +181,7 @@
                     <div class="text">
                         <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
                     </div>
-                    <div class="call-to-action">
+                    <div class="call-to-action f-left">
                         <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
                     </div>
                 </div>
