@@ -386,6 +386,7 @@ h2 span {
     position: fixed;
     top: 61px;
     right: 7.292vw;
+    z-index: 9999;
 }
 
 .social-head {
@@ -499,7 +500,7 @@ h2 span {
     margin-top: 1.604166666666667VW;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 2.25rem;
+    font-size: 44px;
     color: #1F1F1F;
     letter-spacing: -0.04em;
 }
@@ -518,6 +519,7 @@ h2 span {
     color: #0E0E0E;
     width: 38VW;
     line-height: 20px;
+    font-weight: 300;
 }
 
 .call-to-action {
@@ -557,6 +559,8 @@ h2 span {
     padding-top: 18px;
     cursor: pointer;
     padding-bottom: 18px;
+    border-radius:1px;
+
 }
 
 .call-to-action .btn-call-to-action:hover {
@@ -624,7 +628,7 @@ h2 span {
 .craftman h2 {
     margin-top: 2.604166666666667VW;
     font-family: 'Playfair display', sans-serif;
-    font-size: 2.25rem;
+    font-size: 44px;
     color: #1f1f1f;
     letter-spacing: -0.04em;
 }
@@ -674,7 +678,7 @@ h2 span {
     text-align: center;
     font-family: 'Playfair display', sans-serif;
     color: #1f1f1f;
-    font-size: 2.25rem;
+    font-size: 44px;
     letter-spacing: -0.04em;
 }
 
@@ -793,7 +797,6 @@ footer .copyright ul li a {
     color: #FFFFFF;
     font-size: 0.75rem;
     font-family: sans-serif;
-    font-weight: bold;
 }
 
 footer .copyright ul li span {
