@@ -13,19 +13,19 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="atulya-digital" || $page=="atulya-crafts" ){
+        if($page=="atulya-digital.php" || $page=="atulya-crafts.php" ){
             $bg_body_color = "#F0EDE9";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="get-in-touch"){
+        elseif($page=="get-in-touch.php"){
             $bg_body_color = "#F6F4F2";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="news-and-articles" || $page=="blog-details"){
+        elseif($page=="news-and-articles.php" || $page=="blog-details.php"){
             $bg_body_color = "#1C1C1C";
             $logo = "Component.png";
             $nav_toggle = "Icon%20ionic-ios-menu.svg";
