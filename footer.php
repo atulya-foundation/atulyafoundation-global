@@ -3,7 +3,7 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="volunteer-program" || $page=="get-in-touch" || $page=="index"){
+        if($page=="volunteer-program.php" || $page=="get-in-touch.php" || $page=="index.php"){
             $mt = "no-margin";
         }
         
