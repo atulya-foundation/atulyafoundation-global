@@ -3,7 +3,7 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="volunteer-program.php" || $page=="get-in-touch.php" || $page=="index.php"){
+        if($page=="volunteer-program" || $page=="get-in-touch" || $page=="index"){
             $mt = "no-margin";
         }
         
@@ -19,7 +19,7 @@
                 <h2>Lets connect and collaborate</h2>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img/footer-logo.svg" class="img-fluid" alt="">
+                <img src="assets/img/logowhite.png" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8">
                 <div class="row">

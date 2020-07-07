@@ -37,7 +37,7 @@
 <div id="team"></div>
 <section class="bg-cream team">
     <div class="container">
-        <h5>Team</h5>
+        <h5>TEAM</h5>
         <div class="web-wrap">
             <h1><span>One</span> Team. <span>One</span> Dream.</h1>
             <div class="content">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
                     <div class="col-lg-3">
-                        <img src="assets/img/clients/Logo_of_the_ASME.jpg" class="img-fluid" />
+                        <img src="assets/img/clients/ASME_logo-3.png" class="img-fluid" />
                     </div>
 
                 </div>

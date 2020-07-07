@@ -13,19 +13,19 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="atulya-digital.php" || $page=="atulya-crafts.php" ){
+        if($page=="atulya-digital" || $page=="atulya-crafts" ){
             $bg_body_color = "#F0EDE9";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="get-in-touch.php"){
+        elseif($page=="get-in-touch"){
             $bg_body_color = "#F6F4F2";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="news-and-articles.php" || $page=="blog-details.php"){
+        elseif($page=="news-and-articles" || $page=="blog-details"){
             $bg_body_color = "#1C1C1C";
             $logo = "Component.png";
             $nav_toggle = "Icon%20ionic-ios-menu.svg";
@@ -53,21 +53,21 @@
                 <div class="col-xl-5 nav-menu">
                     <ul>
                         <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
-                        <li id="about"><a href="about.php">About us</a></li>
-                        <li><a href="atulya-digital.php">Atulya Digital</a></li>
-                        <li id="crafts"><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                        <li><a href="premium-collection.php">Premium Collection</a></li>
-                        <li><a href="news-and-articles.php">News and Articles</a></li>
+                        <li id="about"><a href="about">About us</a></li>
+                        <li><a href="atulya-digital">Atulya Design</a></li>
+                        <li><a href="premium-collection">Atulya Arts</a></li>
+                        <li id="crafts"><a href="atulya-crafts">Atulya Crafts</a></li>
+                        <li><a href="news-and-articles">News and Articles</a></li>
                     </ul>
                 </div>
 
                 <div class="col-xl-4 nav-menu small-nav">
                     <ul>
-                        <!--<li><a href="volunteer-program.php">Volunteer with us</a></li>-->
-                        <li><a href="volunteer-program.php#network">Join As Artist Network</a></li>
+                        <!--<li><a href="volunteer-program">Volunteer with us</a></li>-->
+                        <li><a href="volunteer-program#network">Join As Artist</a></li>
                         <!--<li><a href="">Network Benefits</a></li>-->
-                        <li><a href="atulya-artists.php">Atulya Artist</a></li>
-                        <li><a href="get-in-touch.php">Get in touch</a></li>
+                        <li><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="get-in-touch">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
@@ -88,6 +88,6 @@
     <section class="main">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
         <div class="logo">
-            <a href="index.php"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
+            <a href="index"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
         </div>
     </section>
