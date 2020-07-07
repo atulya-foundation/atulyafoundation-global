@@ -16,30 +16,49 @@ function openNav1() {
     $('#mySidenav1').css("overflow-y", "hidden");
 }
 
+$(function () {
+    $('.scroll1').infiniteslide({
+        'speed': 100,
+        'pauseonhover': false
 
+    });
+});
 
 $(document).ready(function () {
     $('#about').hover(function () {
         $("#mySidenav").css({
-            "background": "url('assets/img/bg/about.jpg')"
+            "background-image": "url('assets/img/bg/about.jpg')"
         });
 
         $('#mySidenav ul li a').css({
             "color": "white"
         });
 
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
     });
 
     $('#home').hover(function () {
         $("#mySidenav").css({
-            "background": "#F6F5F4",
-            "transition": "all 0.8s"
+            "background-image": "url('assets/img/navbg.png')",
         });
 
         $('#mySidenav ul li a').css({
             "color": "#1F1F1F"
         });
 
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
     });
 
     $('#crafts').hover(function () {
@@ -51,6 +70,13 @@ $(document).ready(function () {
             "color": "white"
         });
 
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
     });
 
 
@@ -186,6 +212,8 @@ $(document).ready(function () {
          }
 
      });*/
+
+
 });
 
 
@@ -218,13 +246,7 @@ function closeNav1() {
     $('body').css("overflow-y", "scroll");
 }
 
-$(function () {
-    $('.scroll1').infiniteslide({
-        'speed': 100,
-        'pauseonhover': false
 
-    });
-});
 
 var totalItems = $('.carousel-item').length;
 var currentIndex = $('div.active').index() + 1;
@@ -234,3 +256,40 @@ $('#carouselExampleIndicators').on('slid.bs.carousel', function () {
     currentIndex = $('div.active').index() + 1;
     $('.num').html('0' + currentIndex + '-' + '0' + totalItems + '');
 });
+
+
+
+$(document).ready(function () {
+    window.addEventListener('scroll', function (e) {
+        if (isOnScreen(jQuery('#scrollhere'))) {
+            /* Pass element id/class you want to check */
+            $('#toggle').attr("src", "assets/img/toggle_icon_black.svg");
+        } else {
+            $('#toggle').attr("src", "assets/img/toggle-white.svg");
+        }
+    });
+
+});
+
+
+
+
+
+function isOnScreen(elem) {
+    // if the element doesn't exist, abort
+    if (elem.length == 0) {
+        return;
+    }
+    var $window = jQuery(window)
+    var viewport_top = $window.scrollTop()
+    var viewport_height = $window.height()
+    var viewport_bottom = viewport_top + viewport_height
+    var $elem = jQuery(elem)
+    var top = $elem.offset().top
+    var height = $elem.height()
+    var bottom = top + height
+
+    return (top >= viewport_top && top < viewport_bottom) ||
+        (bottom > viewport_top && bottom <= viewport_bottom) ||
+        (height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
+}

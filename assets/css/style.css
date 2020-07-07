@@ -16,6 +16,10 @@ h5 {
     font-size: 12px;
 }
 
+p {
+    line-height: 20px;
+}
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -251,7 +255,9 @@ p {
     position: fixed;
     top: 0;
     right: 0;
-    background: #F6F5F4;
+    background-image: url('../img/navbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     overflow-x: hidden;
     transition: all 0.5s;
     z-index: 99999;
@@ -296,7 +302,7 @@ p {
 }
 
 .small-nav ul li a {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .sidenav ul {
@@ -620,6 +626,7 @@ h2 span {
     font-family: 'Playfair display', sans-serif;
     font-size: 2.25rem;
     color: #1f1f1f;
+    letter-spacing: -0.04em;
 }
 
 .craftman .text {
@@ -635,7 +642,6 @@ h2 span {
 .craftman .text p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    font-weight: 500;
     color: #1F1F1F;
     line-height: 1.75rem;
 }
@@ -669,6 +675,7 @@ h2 span {
     font-family: 'Playfair display', sans-serif;
     color: #1f1f1f;
     font-size: 2.25rem;
+    letter-spacing: -0.04em;
 }
 
 .live .text {
@@ -835,6 +842,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     padding-right: 55px;
     color: #1f1f1f;
+    line-height: 25px;
 }
 
 .main-content p {
