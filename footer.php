@@ -27,9 +27,9 @@
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="volunteer-program.php#network">Meet the Team</a></li>
-                                <li><a href="about.php#clients">Our Clients</a></li>
+                                <li><a href="about">About us</a></li>
+                                <li><a href="about#team">Make it Atulya Team</a></li>
+                                <li><a href="about#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                         <div class="widget">
                             <h2>Services</h2>
                             <ul>
-                                <li><a href="atulya-digital.php">Atulya Digital</a></li>
-                                <li><a href="premium-collection.php">Atulya Arts</a></li>
-                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                                <li><a href="premium-collection">Atulya Arts</a></li>
+                                <li><a href="atulya-crafts">Atulya Crafts</a></li>
+                                <li><a href="atulya-digital">Atulya Digital</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="volunteer-program.php#network">Join Artist Network</a></li>
-                                <li><a href="#">Network Benefits</a></li>
+                                <li><a href="volunteer-program">Network Benefits</a></li>
+                                <li><a href="volunteer-program#network">Join Artist Network</a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,9 +56,9 @@
                         <div class="widget">
                             <h2>Other Links</h2>
                             <ul>
-                                <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                                <li><a href="news-and-articles.php">News and Articles</a></li>
-                                <li><a href="get-in-touch.php">Get in touch</a></li>
+                                <li><a href="volunteer-program">Volunteer with us</a></li>
+                                <li><a href="news-and-articles">News and Articles</a></li>
+                                <li><a href="get-in-touch">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>

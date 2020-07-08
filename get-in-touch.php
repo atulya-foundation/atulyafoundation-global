@@ -48,8 +48,8 @@
                             <div class="form-group">
                                 <textarea type="text" class="form-control" name="Message" placeholder="MESSAGE" required></textarea>
                             </div>
-                            <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
-                            <div class="call-to-action btn-left submit mt-30">
+                            <p class="mt-50 f-16">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                            <div class="call-to-action btn-left mt-30 v-small-btn">
                                 <button type="submit" class="btn-call-to-action">SEND</button>
                             </div>
                         </div>

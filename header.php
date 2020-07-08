@@ -52,12 +52,12 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-5 nav-menu">
                     <ul>
-                        <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
+                        <li id="home"><a href="index"> Homepage</a></li>
                         <li id="about"><a href="about">About us</a></li>
-                        <li><a href="atulya-digital">Atulya Design</a></li>
-                        <li><a href="premium-collection">Atulya Arts</a></li>
+                        <li id="design"><a href="atulya-digital">Atulya Design</a></li>
+                        <li id="arts"><a href="premium-collection">Atulya Arts</a></li>
                         <li id="crafts"><a href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a href="news-and-articles">News and Articles</a></li>
+                        <li id="news"><a href="news-and-articles">News and Articles</a></li>
                     </ul>
                 </div>
 
@@ -71,8 +71,8 @@
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-11">
+                <div class="col-xl-6"></div>
+                <div class="col-xl-6">
                     <ul class="social-head">
                         <li><a href="#">Email</a></li>
                         <li><a href="#">Instagram</a></li>

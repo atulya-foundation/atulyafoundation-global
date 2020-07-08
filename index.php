@@ -79,10 +79,10 @@
                     <ul>
                         <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
                         <li id="about"><a href="about">About us</a></li>
-                        <li><a href="atulya-digital">Atulya Design</a></li>
-                        <li><a href="premium-collection">Atulya Arts</a></li>
+                        <li id="design"><a href="atulya-digital">Atulya Design</a></li>
+                        <li id="arts"><a href="premium-collection">Atulya Arts</a></li>
                         <li id="crafts"><a href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a href="news-and-articles">News and Articles</a></li>
+                        <li id="news"><a href="news-and-articles">News and Articles</a></li>
                     </ul>
                 </div>
 
@@ -138,7 +138,7 @@
                     via the internet infrastructure. </p>
             </div>
             <div class="call-to-action">
-                <a href="about" class="btn-call-to-action">About Us</a>
+                <a href="about" class="btn-call-to-action small-btn">About Us</a>
             </div>
         </div>
     </section>

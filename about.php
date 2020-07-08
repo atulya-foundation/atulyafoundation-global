@@ -10,17 +10,16 @@
                     <div class="col-lg-5">
                         <p class="intro">Atulya Foundation is a government registered Not-For-Profit Organisation, established with the mission to enable technologically and economically deprived artists to promote and sell their artwork via the internet infrastructure. The founding team is a bunch .
                         </p>
-                        <div class="mt-150">
-                            <div class="touch-div">
-                                <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
+                        <div class="mt-100">
+                            <div class="call-to-action f-left">
+                                <a href="get-in-touch.php" class="btn-call-to-action">GET IN TOUCH</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-1 view-desktop"></div>
                     <div class="col-lg-5">
                         <p>Art is something that is appreciated by the folklore but not the economy. Driven sheerly by the money in the market, today everyone wants to become an engineer, a doctor or an accountant. Why not an artist ? In the pressure to earn a decent living, many potential artists do not even dare to pursue arts and crafts as a career and traditional artists with their conventional methods fail to capitalise on their skills and limited resources to generate enough money to even feed their families.</p>
-                        <p>Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure.
-                        </p>
+                        <p>Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure. </p>
                     </div>
                 </div>
             </div>
@@ -106,7 +105,7 @@
                         <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" style="margin-top:-20px">
                         <img src="assets/img/clients/ASME_logo-3.png" class="img-fluid" />
                     </div>
 
