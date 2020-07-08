@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-    document.getElementById("main").style.marginRight = "100%";
+    document.getElementById("mySidenav").style.height = "100%";
+    document.getElementById("main").style.margintop = "100%";
     $('#content').css("display", "none");
     $('#main .logo').css("display", "none");
     $('#mySidenav').css("overflow", "hidden");
@@ -45,11 +45,11 @@ $(document).ready(function () {
 
     $('#home').hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbg.png')",
+            "background-image": "url('assets/img/bg/2.jpg')",
         });
 
         $('#mySidenav ul li a').css({
-            "color": "#1F1F1F"
+            "color": "white"
         });
 
     }, function () {
@@ -79,6 +79,60 @@ $(document).ready(function () {
         });
     });
 
+
+    $('#design').hover(function () {
+        $("#mySidenav").css({
+            "background": "url('assets/img/bg/2.jpg')"
+        });
+
+        $('#mySidenav ul li a').css({
+            "color": "white"
+        });
+
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
+    });
+
+    $('#arts').hover(function () {
+        $("#mySidenav").css({
+            "background": "url('assets/img/bg/about.jpg')"
+        });
+
+        $('#mySidenav ul li a').css({
+            "color": "white"
+        });
+
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
+    });
+
+    $('#news').hover(function () {
+        $("#mySidenav").css({
+            "background": "url('assets/img/bg/about.jpg')"
+        });
+
+        $('#mySidenav ul li a').css({
+            "color": "white"
+        });
+
+    }, function () {
+        $("#mySidenav").css({
+            "background-image": "url('assets/img/navbg.png')",
+        });
+        $('#mySidenav ul li a').css({
+            "color": "black"
+        });
+    });
 
 
     /* $('#home').hover(function () {
@@ -218,8 +272,8 @@ $(document).ready(function () {
 
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginRight = "0";
+    document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("main").style.marginTop = "0";
 
     $('#main').css({
         "background-position": "0px 0px!important",
