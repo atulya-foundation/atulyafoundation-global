@@ -7,6 +7,7 @@
     <title>Atulya Foundation</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css" />
 
     <?php   
         $link = $_SERVER['PHP_SELF'];
@@ -51,13 +52,13 @@
                 </div-->
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-5 nav-menu">
-                    <ul>
-                        <li id="home"><a href="index"> Homepage</a></li>
-                        <li id="about"><a href="about">About us</a></li>
-                        <li id="design"><a href="atulya-digital">Atulya Design</a></li>
-                        <li id="arts"><a href="premium-collection">Atulya Arts</a></li>
-                        <li id="crafts"><a href="atulya-crafts">Atulya Crafts</a></li>
-                        <li id="news"><a href="news-and-articles">News and Articles</a></li>
+                    <ul class="wowWrap">
+                        <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
+                        <li id="about"><a data-wow-delay="0.10s" href="about">About us</a></li>
+                        <li id="design"><a data-wow-delay="0.20s" href="atulya-digital">Atulya Design</a></li>
+                        <li id="arts"><a data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
+                        <li id="crafts"><a data-wow-delay="0.30s" href="atulya-crafts">Atulya Crafts</a></li>
+                        <li id="news"><a data-wow-delay="0.35s" href="news-and-articles">News and Articles</a></li>
                     </ul>
                 </div>
 
@@ -66,19 +67,18 @@
                         <!--<li><a href="volunteer-program">Volunteer with us</a></li>-->
                         <li><a href="volunteer-program#network">Join As Artist</a></li>
                         <!--<li><a href="">Network Benefits</a></li>-->
-                        <li><a href="volunteer-program">Join as Volunteer</a></li>
-                        <li><a href="get-in-touch">Get in touch</a></li>
+                        <li data-wow-delay="0.20s"><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
                 <div class="col-xl-6"></div>
                 <div class="col-xl-6">
                     <ul class="social-head">
-                        <li><a href="#">Email</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Linkedin</a></li>
-                        <li><a href="#">Youtube</a></li>
+                        <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/company/atulya" target="_blank">Linkedin</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" target="_blank">Youtube</a></li>
                     </ul>
                 </div>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

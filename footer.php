@@ -77,16 +77,21 @@
 </footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 <script src="assets/js/infiniteslidev2.js"></script>
 <script src="assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/6b74e72c40.js" crossorigin="anonymous"></script>
 <script src="assets/js/get-in-touch.js"></script>
-<script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 
+<script>
+    $(function() {
+        new WOW().init();
+    });
 
 </script>
 
