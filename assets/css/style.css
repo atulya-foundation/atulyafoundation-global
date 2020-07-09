@@ -305,6 +305,8 @@ p {
     font-size: 22px;
 }
 
+
+
 .sidenav ul {
     list-style: none;
     margin-left: 80px;
@@ -313,7 +315,18 @@ p {
 
 .sidenav ul li {
     list-style: none;
+    position: relative;
 }
+
+/*.sidenav ul li::after {
+    content: " ";
+    width: 100%;
+    height: 29px;
+    bottom: -12px;
+    position: absolute;
+    z-index: 9999999;
+    background: #f6f5f4;
+}*/
 
 .sidenav a {
     padding: 8px 8px 8px 0px;
@@ -1499,10 +1512,15 @@ textarea {
 }
 
 #mySidenav {
-    transition: all 0.5s;
+    transition: all 0.4s ease-in-out;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+}
+
+#mySidenav ul::before {
+    content: ' ';
+    display: table;
 }
 
 .uppercase {

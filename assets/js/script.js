@@ -1,9 +1,36 @@
 function openNav() {
+    if ($('#mySidenav ul li a').hasClass("fadeOutDown") == true) {
+        $('#mySidenav ul li a').removeClass("fadeOutDown animated");
+    }
+    $('#mySidenav ul li a').addClass("fadeInUp animated");
+    $('body').css("overflow-y", "hidden");
     document.getElementById("mySidenav").style.height = "100%";
     document.getElementById("main").style.margintop = "100%";
     $('#content').css("display", "none");
     $('#main .logo').css("display", "none");
     $('#mySidenav').css("overflow", "hidden");
+
+
+}
+
+
+
+function closeNav() {
+    $('#mySidenav ul li a').removeClass(" fadeInUp animated");
+    $('#mySidenav ul li a').addClass(" fadeOutDown animated");
+    $('body').css("overflow-y", "scroll");
+    document.getElementById("mySidenav").style.height = "0";
+    document.getElementById("main").style.marginTop = "0";
+
+    $('#main').css({
+        "background-position": "0px 0px!important",
+        "background-size": "100% 100%"
+    });
+
+    $('#content').css("display", "flex");
+    $('#main .logo').css("display", "block");
+
+
 }
 
 
@@ -25,6 +52,7 @@ $(function () {
 });
 
 $(document).ready(function () {
+
     $('#about').hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/about.jpg')"
@@ -271,19 +299,7 @@ $(document).ready(function () {
 });
 
 
-function closeNav() {
-    document.getElementById("mySidenav").style.height = "0";
-    document.getElementById("main").style.marginTop = "0";
 
-    $('#main').css({
-        "background-position": "0px 0px!important",
-        "background-size": "100% 100%"
-    });
-
-    $('#content').css("display", "flex");
-    $('#main .logo').css("display", "block");
-    $('body').css("overflow-y", "scroll");
-}
 
 function closeNav1() {
     document.getElementById("mySidenav1").style.width = "0";
