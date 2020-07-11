@@ -75,15 +75,15 @@
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-5 nav-menu">
+
+                <div class="col-xl-6 nav-menu">
                     <ul class="wowWrap">
-                        <li id="home"><a href="javascript:void(0)"> Homepage</a></li>
-                        <li id="about"><a data-wow-delay="0.10s" href="about">About us</a></li>
-                        <li id="design"><a data-wow-delay="0.20s" href="atulya-digital">Atulya Design</a></li>
-                        <li id="arts"><a data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
-                        <li id="crafts"><a data-wow-delay="0.30s" href="atulya-crafts">Atulya Crafts</a></li>
-                        <li id="news"><a data-wow-delay="0.35s" href="news-and-articles">News and Articles</a></li>
+                        <li><a id="home" href="javascript:void(0)"> Homepage</a></li>
+                        <li><a id="about" class="wow" data-wow-delay="0.10s" href="about">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.20s" href="atulya-digital">Atulya Design</a></li>
+                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
+                        <li><a id="crafts" class="wow" data-wow-delay="0.30s" href="atulya-crafts">Atulya Crafts</a></li>
+                        <li><a id="news" class="wow" data-wow-delay="0.35s" href="news-and-articles">News and Articles</a></li>
                     </ul>
                 </div>
 
@@ -145,7 +145,7 @@
     </section>
     <div id="scrollhere">
         <section class="video">
-            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/9WyZWvpZiB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/w0OazedMCBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section class="art-gallery">
@@ -218,32 +218,32 @@
                     <div class="newsletter">
                         <form action="">
                             <input type="text" placeholder="Enter your E-mail address" class="form-control" required />
-                            <button class="newsbutton" type="submit"><i class="fas fa-arrow-right"></i></button>
+                            <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
                         </form>
                     </div>
                 </center>
                 <ul>
                     <li>
-                        <h6 class="mt-100"><span>Official Channels</span></h6>
+                        <h6><span>Official Channels</span></h6>
                     </li>
                     <li>
-                        <h6 class="mt-100"><span>|</span></h6>
-                    </li>
-
-                    <li>
-                        <h6 class="mt-100">Instagram</h6>
+                        <h6><span>|</span></h6>
                     </li>
 
                     <li>
-                        <h6 class="mt-100">LinkedIn</h6>
+                        <h6>Instagram</h6>
                     </li>
 
                     <li>
-                        <h6 class="mt-100">Facebook</h6>
+                        <h6>LinkedIn</h6>
                     </li>
 
                     <li>
-                        <h6 class="mt-100">Youtube</h6>
+                        <h6>Facebook</h6>
+                    </li>
+
+                    <li>
+                        <h6>Youtube</h6>
                     </li>
 
                 </ul>

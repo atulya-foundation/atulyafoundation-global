@@ -101,7 +101,7 @@
             <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 fx-end">
                         <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
