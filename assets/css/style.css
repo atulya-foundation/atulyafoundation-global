@@ -337,6 +337,7 @@ p {
     color: #1F1F1F;
     display: block;
     transition: 0.3s;
+    width: fit-content;
 }
 
 .sidenav a:hover {
@@ -662,9 +663,9 @@ h2 span {
 
 .craftman .text p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-    color: #1F1F1F;
-    line-height: 1.75rem;
+    font-size: 16px;
+    color: #383838;
+    font-weight: 300;
 }
 
 .craftman .j-center {
@@ -682,12 +683,12 @@ h2 span {
 }
 
 .live h6 {
-    font-size: 10px;
+    text-align: center;
+    font-size: 0.75rem;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    color: #1F1F1F;
     letter-spacing: 0.04em;
-    text-align: center;
-    color: #AAAAAA;
 }
 
 .live h2 {
@@ -707,10 +708,10 @@ h2 span {
 
 .live .text p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
+    font-size: 16px;
     color: #1F1F1F;
     width: 542px;
-    line-height: 1.75rem;
+    font-weight: 300;
 }
 
 .live .newsletter {
@@ -725,6 +726,10 @@ h2 span {
     border-bottom: 3px solid black;
     height: 3.6458333333333335VW;
     border-radius: 0;
+}
+
+.live ul {
+    margin-top: 20px;
 }
 
 .newsbutton {
@@ -1096,8 +1101,21 @@ figure {
 
 .form .form-group .form-control::placeholder {
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 10px;
     font-family: "poppins";
+    color: #9A9A9A;
+}
+
+.fx-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-control::placeholder {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "poppins";
+    color: #9A9A9A;
 }
 
 .with-top {

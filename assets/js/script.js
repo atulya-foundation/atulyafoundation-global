@@ -43,15 +43,21 @@ function openNav1() {
     $('#mySidenav1').css("overflow-y", "hidden");
 }
 
-$(function () {
-    $('.scroll1').infiniteslide({
-        'speed': 100,
-        'pauseonhover': false
 
-    });
-});
 
 $(document).ready(function () {
+
+    $(function () {
+
+
+        $('.scroll1').infiniteslide({
+            'speed': 200,
+            'pauseonhover': false,
+            'responsive': true
+        });
+
+
+    });
 
     $('#about').hover(function () {
         $("#mySidenav").css({
