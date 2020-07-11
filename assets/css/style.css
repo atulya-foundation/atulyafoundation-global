@@ -386,8 +386,8 @@ h2 span {
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
     background-image: url('../img/bg.jpg');
-    background-size: 100% 100%;
-    background-position: 0px 0px;
+    background-size: cover;
+    background-position: center center;
 }
 
 
