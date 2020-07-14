@@ -9,7 +9,7 @@ function openNav() {
     $('#content').css("display", "none");
     $('#main .logo').css("display", "none");
     $('#mySidenav').css("overflow", "hidden");
-
+    $('.closebtn').css("display", "block");
 
 }
 
@@ -21,6 +21,8 @@ function closeNav() {
     $('body').css("overflow-y", "scroll");
     document.getElementById("mySidenav").style.height = "0";
     document.getElementById("main").style.marginTop = "0";
+
+    $('.closebtn').css("display", "none");
 
     $('#main').css({
         "background-position": "0px 0px!important",
@@ -51,7 +53,7 @@ $(document).ready(function () {
 
 
         $('.scroll1').infiniteslide({
-            'speed': 200,
+            'speed': 100,
             'pauseonhover': false,
             'responsive': true
         });
@@ -369,3 +371,23 @@ function isOnScreen(elem) {
         (bottom > viewport_top && bottom <= viewport_bottom) ||
         (height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
 }
+
+$(function(){
+  
+    $('.input-group input').focusout(function(){
+      
+      var text_val = $(this).val();
+      
+      if(text_val === "") {
+        
+        $(this).removeClass('has-value');
+        
+      } else {
+        
+        $(this).addClass('has-value');
+        
+      }
+      
+    });
+    
+  });
