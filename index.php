@@ -156,7 +156,7 @@
                 <h1>Meet <span>the</span> makers.<br>
                     Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
                 <div class="text">
-                    <p> Imagine an inspiration tool that connects </p>
+                    <p> Imagine an inspiration tool that connects visual arts with the real world, creating unbreakable connections with the existing world of art and culture.</p>
                 </div>
                 <div class="call-to-action">
                     <a href="premium-collection" class="btn-call-to-action">Premium Collection</a>
