@@ -747,9 +747,15 @@ h5 {
     font-weight: 400 !important;
 }
 
+h1,
+h2 {
+    line-height: 54px;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    line-height: 18px;
     color: #383838;
     font-weight: 400 !important;
 }
