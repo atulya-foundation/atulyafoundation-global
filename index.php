@@ -200,7 +200,7 @@
                 <h6>Live in colour</h6>
                 <h2>Join volunteer <span>network</span></h2>
                 <div class="text">
-                    <p> Become a part of our stories! Join the adventure. The aim of art is to
+                    <p class="text-center"> Become a part of our stories! Join the adventure. The aim of art is to
                         represent not the outward appearance of things, but their inward
                         significance. </p>
                 </div>
