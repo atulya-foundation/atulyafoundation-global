@@ -741,9 +741,10 @@ h5 {
 .live .text p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #1F1F1F;
+    color: #383838;
     width: 542px;
     font-weight: 300;
+    font-weight: 400;
 }
 
 .live .newsletter {
