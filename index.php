@@ -75,30 +75,32 @@
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
-
-                <div class="col-xl-6 nav-menu">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5 nav-menu">
                     <ul class="wowWrap">
-                        <li><a id="home" href="javascript:void(0)"> Homepage</a></li>
-                        <li><a id="about" class="wow" data-wow-delay="0.10s" href="about">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.20s" href="atulya-digital">Atulya Design</a></li>
+                        <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
+                        <li><a id="about" class="wow" href="about">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Design</a></li>
+
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
                         <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.30s" href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a id="news" class="wow" data-wow-delay="0.35s" href="news-and-articles">News and Articles</a></li>
+
                     </ul>
                 </div>
 
                 <div class="col-xl-4 nav-menu small-nav">
                     <ul>
-                        <!--<li><a href="volunteer-program">Volunteer with us</a></li>-->
+                        <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="volunteer-program#network">Join As Artist</a></li>
-                        <!--<li><a href="">Network Benefits</a></li>-->
-                        <li data-wow-delay="0.20s"><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="">Artist Network Benefits</a></li>
+                        <li><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="news-and-articles">News and Articles</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
-                <div class="col-xl-6"></div>
-                <div class="col-xl-6">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5">
                     <ul class="social-head">
                         <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
                         <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
@@ -114,7 +116,7 @@
     <section class="main">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/toggle-white.svg" id="toggle" alt=""></div>
         <div id="main">
-            <div class="logo">
+            <div class="logo abs">
                 <img src="assets/img/Component2.svg" class="img-fluid" alt="">
             </div>
             <div class="content" id="content">
@@ -145,7 +147,7 @@
     </section>
     <div id="scrollhere">
         <section class="video">
-            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/w0OazedMCBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" src="https://www.youtube.com/embed/w0OazedMCBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section class="art-gallery">
@@ -217,7 +219,11 @@
                 <center>
                     <div class="newsletter">
                         <form action="">
-                            <input type="text" placeholder="Enter your E-mail address" class="form-control" required />
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <label>Your Full Name</label>
+                            </div>
+
                             <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
                         </form>
                     </div>

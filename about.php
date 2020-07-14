@@ -106,7 +106,7 @@
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
                     <div class="col-lg-3" style="margin-top:-20px">
-                        <img src="assets/img/clients/ASME_logo-3.png" class="img-fluid" />
+                        <img src="assets/img/svg/asme.svg" class="img-fluid" />
                     </div>
 
                 </div>

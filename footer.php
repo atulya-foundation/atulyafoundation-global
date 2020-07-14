@@ -19,7 +19,7 @@
                 <h2>Lets connect and collaborate</h2>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img/logowhite.png" class="img-fluid" alt="">
+                <img src="assets/img/svg/f-logo.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8">
                 <div class="row">
@@ -28,7 +28,7 @@
                             <h2>Who we are</h2>
                             <ul>
                                 <li><a href="about">About us</a></li>
-                                <li><a href="about#team">Make it Atulya Team</a></li>
+                                <li><a href="about#team">Atulya Team</a></li>
                                 <li><a href="about#clients">Our Clients</a></li>
                             </ul>
                         </div>
@@ -39,7 +39,7 @@
                             <ul>
                                 <li><a href="premium-collection">Atulya Arts</a></li>
                                 <li><a href="atulya-crafts">Atulya Crafts</a></li>
-                                <li><a href="atulya-digital">Atulya Digital</a></li>
+                                <li><a href="atulya-digital">Atulya Designs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
+                                <li><a href="volunteer-program#network">Join as Artist</a></li>
                                 <li><a href="volunteer-program">Network Benefits</a></li>
-                                <li><a href="volunteer-program#network">Join Artist Network</a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,9 +67,9 @@
             <div class="col-lg-12 copyright">
                 <ul>
                     <li>© 2020 Atulya Foundation. All Right Reserved.</li>
-                    <li><span>|</span> <a href="#">Privacy Policy</a></li>
+                    <li><span>|</span> <a href="privacy-policy.php">Privacy Policy</a></li>
                     <li><a href="#">License</a></li>
-                    <li><a href="">Terms of Use</a></li>
+                    <li><a href="terms-of-use">Terms of Use</a></li>
                 </ul>
             </div>
         </div>

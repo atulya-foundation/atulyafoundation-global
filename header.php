@@ -20,7 +20,7 @@
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="get-in-touch.php"){
+        elseif($page=="get-in-touch.php" || $page=="terms-of-use.php" || $page=="privacy-policy.php"){
             $bg_body_color = "#F6F4F2";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";
@@ -64,9 +64,9 @@
 
                 <div class="col-xl-4 nav-menu small-nav">
                     <ul>
-                        <!--<li><a href="volunteer-program">Volunteer with us</a></li>-->
+                        <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="volunteer-program#network">Join As Artist</a></li>
-                        <!--<li><a href="">Network Benefits</a></li>-->
+                        <li><a href="">Artist Network Benefits</a></li>
                         <li data-wow-delay="0.20s"><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                     </ul>
@@ -87,7 +87,7 @@
     </header>
     <section class="main">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
-        <div class="logo">
+        <div class="logo ">
             <a href="index"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
         </div>
     </section>
