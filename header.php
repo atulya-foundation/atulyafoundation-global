@@ -50,15 +50,16 @@
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
-
-                <div class="col-xl-6 nav-menu">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5 nav-menu">
                     <ul class="wowWrap">
-                        <li><a id="home" href="javascript:void(0)"> Homepage</a></li>
-                        <li><a id="about" class="wow" data-wow-delay="0.10s" href="about">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.20s" href="atulya-digital">Atulya Design</a></li>
+                        <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
+                        <li><a id="about" class="wow" href="about">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Design</a></li>
+
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
                         <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.30s" href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a id="news" class="wow" data-wow-delay="0.35s" href="news-and-articles">News and Articles</a></li>
+
                     </ul>
                 </div>
 
@@ -67,13 +68,14 @@
                         <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="volunteer-program#network">Join As Artist</a></li>
                         <li><a href="">Artist Network Benefits</a></li>
-                        <li data-wow-delay="0.20s"><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="news-and-articles">News and Articles</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
-                <div class="col-xl-6"></div>
-                <div class="col-xl-6">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5">
                     <ul class="social-head">
                         <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
                         <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
