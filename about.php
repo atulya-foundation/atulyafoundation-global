@@ -11,7 +11,7 @@
                         <p class="intro">Atulya Foundation is a government registered Not-For-Profit Organisation, established with the mission to enable technologically and economically deprived artists to promote and sell their artwork via the internet infrastructure. The founding team is a bunch .
                         </p>
                         <div class="mt-100">
-                            <div class="call-to-action f-left">
+                            <div class="call-to-action f-left small-btn">
                                 <a href="get-in-touch.php" class="btn-call-to-action">GET IN TOUCH</a>
                             </div>
                         </div>

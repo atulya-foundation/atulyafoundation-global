@@ -2,7 +2,7 @@
 <div class="container terms mt-100">
     <div class="row ">
         <div class="col-md-12">
-            <h1 class=" text-center">Terms of Use</h1>
+            <h1 class="uppercase">Terms <span> of </span> Use</h1>
             <div class="content mt-80">
                 <p>Subject to the terms and conditions of this Agreement, Atulya Foundation hereby grant you a limited, revocable, non-transferable and
                     non-exclusive license to access and use the Site by displaying it on your internet browser only for the purpose of shopping of personal

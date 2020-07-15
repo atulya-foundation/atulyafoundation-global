@@ -20,7 +20,7 @@
             $nav_toggle = "toggle_icon_black.svg";
         }
     
-        elseif($page=="get-in-touch.php" || $page=="terms-of-use.php" || $page=="privacy-policy.php"){
+        elseif($page=="get-in-touch.php" ){
             $bg_body_color = "#F6F4F2";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";

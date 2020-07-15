@@ -2,7 +2,7 @@
 <div class="container terms mt-100">
     <div class="row ">
         <div class="col-md-12">
-            <h1 class=" text-center">Privacy Policy</h1>
+            <h1 class=" uppercase">Privacy Policy</h1>
             <div class="content mt-80">
                 <p>We value your business and we know privacy is important to you. Accordingly, we have implemented this Privacy Policy to inform you of the information that we collect from you, how we collect it and what we do with it. By using this website you are accepting the practices described in this Privacy Policy.
                 </p>
