@@ -24,10 +24,7 @@ function closeNav() {
 
     $('.closebtn').css("display", "none");
 
-    $('#main').css({
-        "background-position": "0px 0px!important",
-        "background-size": "100% 100%"
-    });
+
 
     $('#content').css("display", "flex");
     $('#main .logo').css("display", "block");
@@ -48,6 +45,21 @@ function openNav1() {
 
 
 $(document).ready(function () {
+
+    $('#mySidenav li a').click(function () {
+        $('#mySidenav ul li a').removeClass(" fadeInUp animated");
+        $('#mySidenav ul li a').addClass(" fadeOutDown animated");
+        $('body').css("overflow-y", "scroll");
+        document.getElementById("mySidenav").style.height = "0";
+        document.getElementById("main").style.marginTop = "0";
+
+        $('.closebtn').css("display", "none");
+
+
+
+        $('#content').css("display", "flex");
+        $('#main .logo').css("display", "block");
+    });
 
     $(function () {
 
@@ -372,22 +384,22 @@ function isOnScreen(elem) {
         (height > viewport_height && top <= viewport_top && bottom >= viewport_bottom)
 }
 
-$(function(){
-  
-    $('.input-group input').focusout(function(){
-      
-      var text_val = $(this).val();
-      
-      if(text_val === "") {
-        
-        $(this).removeClass('has-value');
-        
-      } else {
-        
-        $(this).addClass('has-value');
-        
-      }
-      
+$(function () {
+
+    $('.input-group input').focusout(function () {
+
+        var text_val = $(this).val();
+
+        if (text_val === "") {
+
+            $(this).removeClass('has-value');
+
+        } else {
+
+            $(this).addClass('has-value');
+
+        }
+
     });
-    
-  });
+
+});

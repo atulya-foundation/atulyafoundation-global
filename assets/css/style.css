@@ -436,6 +436,7 @@ h2 span {
     padding-right: 14px;
     letter-spacing: -0.22px;
     color: #000000;
+    text-transform: none;
 }
 
 .sidenav.other {
@@ -471,6 +472,11 @@ h2 span {
     padding-top: 32px;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
+}
+
+.logo img {
+    width: 189px;
+    height: 49px;
 }
 
 #main .content {
@@ -607,7 +613,7 @@ h5 {
 
 .call-to-action .btn-call-to-action {
     display: block;
-    width: 275px;
+    width: 240px;
     text-align: center;
     background: #1F1F1F;
     color: #ffffff;
@@ -915,21 +921,62 @@ h1 {
 }
 
 .main-content .intro {
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 27px;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
     padding-right: 55px;
-    color: #1f1f1f;
+    color: #000000;
     line-height: 25px;
     font-weight: 500;
     letter-spacing: 0px;
+    opacity: 1;
+}
+
+.get-touch .intro {
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    padding-right: 55px;
+    color: #000000;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 
 .main-content p {
-    font-size: 1em;
+    font-size: 16px;
+    line-height: 19px;
     font-family: 'Roboto', sans-serif;
-    color: #0D0D0D;
+    color: #707070;
     font-weight: 400;
-    letter-spacing: 0.32px;
+    letter-spacing: 0;
+}
+
+.get-touch p {
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+get-touch a {
+    text-align: left;
+    text-decoration: underline;
+    font: 500 11px/13px Roboto;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.get-touch p a {
+    color: #1f1f1f;
+    text-decoration: underline;
 }
 
 .touch-div {
@@ -1143,8 +1190,11 @@ figure {
 }
 
 .form p {
+    text-align: left;
+    font: 400 17px/20px Roboto;
+    letter-spacing: 0px;
     color: #383838;
-    font-size: 20px;
+    opacity: 1;
 }
 
 .form .form-group .form-control {
@@ -1190,6 +1240,7 @@ figure {
     border: none;
     border-bottom: 1px solid;
     border-radius: 0;
+    padding: 0;
 }
 
 .mt-30 {
@@ -1299,11 +1350,12 @@ blockquote {
 
 .get-touch h3 {
     margin-top: 3.6458333333333335vw;
-    font-size: 1.25em;
+    line-height: 22px;
+    font-size: 17px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     margin-bottom: 30px;
-    color: #1F1F1F;
+    color: #383838;
 }
 
 .tool p {
@@ -1601,6 +1653,10 @@ textarea {
     font-weight: 500;
 }
 
+.live ul li h6 a {
+    color: #000;
+}
+
 .uppercase span {
     text-transform: lowercase;
 }
@@ -1645,6 +1701,18 @@ input[type="email"] {
     position: relative;
 }
 
+.pos-relative {
+    position: relative;
+}
+
+.abs-select {
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    font-size: 23px;
+    color: #707070;
+}
+
 .input-group input {}
 
 .input-group label {
@@ -1654,7 +1722,43 @@ input[type="email"] {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #999;
+    pointer-events: none;
+    -webkit-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+}
+
+select {
+    font-size: 13px !important;
+    line-height: 15px !important;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #999 !important;
+    white-space: nowrap;
+
+}
+
+
+
+select::after {
+    content: "000";
+}
+
+.textarea label {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: "Poppins";
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0;
+    text-transform: uppercase;
     color: #999;
     pointer-events: none;
     -webkit-transition: all 0.15s ease-out 0s;
@@ -1663,6 +1767,13 @@ input[type="email"] {
 
 .input-group input:focus + label,
 .input-group input.has-value + label {
+    top: 0px;
+    font-size: 10px;
+    color: #aaa;
+}
+
+.input-group textarea:focus + label,
+.input-group textarea.has-value + label {
     top: 0px;
     font-size: 10px;
     color: #aaa;
@@ -1692,4 +1803,13 @@ input[type="email"] {
 
 .mt-80 {
     margin-top: 80px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.grayscale:hover {
+    transition: 0.8s;
+    filter: grayscale(0%);
 }
