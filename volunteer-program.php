@@ -36,27 +36,32 @@
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_name">
+                                <input type="text" class="form-control" name="txt_name" required>
                                 <label>NAME*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_age">
+                                <input type="text" id="age" class="form-control" name="txt_age" required>
                                 <label>AGE</label>
                             </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_gender">
-                                <label>GENDER</label>
+                            <div class="form-group pos-relative">
+                                <select required name="txt_gender" required class="form-control" id="">
+                                    <option value="">Gender</option>
+                                    <option value="Male">MALE</option>
+                                    <option value="Female">FEMALE</option>
+                                    <option value="Other">OTHER</option>
+                                </select>
+                                <!--i class="fas fa-caret-down abs-select"></i-->
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <p>Contact Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_email" placeholder="">
+                                <input type="text" class="form-control" name="txt_email" placeholder="" required>
                                 <label>EMAIL</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_phone" placeholder="">
+                                <input type="text" class="form-control" name="txt_phone" placeholder="" required>
                                 <label>PHONE NUMBER</label>
                             </div>
                         </div>
@@ -67,27 +72,27 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_street_1" placeholder="">
-                                <label>STREET 1</label>
+                                <input type="text" class="form-control" name="txt_street_1" placeholder="" required>
+                                <label>STREET</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_street_2" placeholder="">
-                                <label>STREET 2</label>
+                                <input type="text" class="form-control" name="txt_street_2" placeholder="" required>
+                                <label>Locality</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_city" placeholder="">
+                                <input type="text" class="form-control" name="txt_city" placeholder="" required>
                                 <label>CITY</label>
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_state" placeholder="">
+                                <input type="text" class="form-control" name="txt_state" placeholder="" required>
                                 <label>STATE</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_pincode" placeholder="">
-                                <label>PINCODE</label>
+                                <input type="text" class="form-control" name="txt_pincode" placeholder="" required>
+                                <label>PINCODE/ZIPCODE</label>
                             </div>
                         </div>
                     </div>
@@ -97,50 +102,77 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_a" placeholder="">
+                                <input type="text" class="form-control" name="txt_a" placeholder="" required>
                                 <label>Education qualification</label>
                             </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="">
+                            <!--div class="form-group input-group">
+                                <input type="text" class="form-control" name="txt_b" placeholder="" required>
                                 <label>Present a general opinion on the mission and vision of Atulya Foundation</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="">
+                                <input type="text" class="form-control" name="txt_b" placeholder="" required>
                                 <label>Briefly explain your views on the current situation of the Indian Art industry</label>
+                            </div-->
+                            <div class="form-group ">
+
+
+                                <select required name="txt_d" class="form-control" id="txt_d">
+                                    <option value="">How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?</option>
+
+                                    <option value="Artists Contacts">Artists Contacts</option>
+                                    <option value="Ideas and innovation">Ideas and innovation</option>
+                                    <option value="Operations support">Operations support</option>
+                                    <option value="Others">Others</option>
+                                </select>
+
+
                             </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_d" placeholder="">
-                                <label>How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?</label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_e" placeholder="">
+                            <!--div class="form-group input-group">
+                                <input type="text" class="form-control" name="txt_e" placeholder="" required>
                                 <label>Previous Volunteering Experience (if any)?</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_f" placeholder="">
+                                <input type="text" class="form-control" name="txt_f" placeholder="" required>
                                 <label>Are you in contact with, or do you recognise , any potential artists or an art group in you locality.</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_g" placeholder="">
+                                <input type="text" class="form-control" name="txt_g" placeholder="" required>
                                 <label>As a volunteer, that are your expectations from this role ? </label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_h" placeholder="">
-                                <label>Are you comfortable for travelling occasionally to nearby cities for interacting with artists and communities?</label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_i" placeholder="">
+                            </div-->
+
+                            <!--div class="form-group input-group">
+                                <input type="text" class="form-control" name="txt_i" placeholder="" required>
                                 <label>How many hours can you roughly devote to the foundation work?</label>
+                            </div-->
+
+                            <div class="form-group ">
+
+
+                                <select required name="txt_com" class="form-control" id="txt_d">
+                                    <option value="">How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?</option>
+
+                                    <option value="Artists Contacts">Yes</option>
+                                    <option value="Ideas and innovation">No</option>
+
+                                </select>
+
+
                             </div>
+
+                            <div class="form-group input-group">
+                                <input type="text" class="form-control" name="txt_thou" placeholder="" required>
+                                <label>Your thoughts about Atulya Foundation and its work</label>
+                            </div>
+
                             <div class="input-group form-group">
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                    <input type="file" class="custom-file-input" id="inputGroupFile02" required>
                                     <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH</label>
                                 </div>
                             </div>
                             <p class="mt-50 f-16">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
                             <div class="call-to-action f-left small-btn submit mt-30">
-                                <button type="submit" class="btn-call-to-action vv-small-btn">SEND</button>
+                                <button type="submit" id="submit" class="btn-call-to-action vv-small-btn">SEND</button>
                             </div>
                         </div>
                     </div>
@@ -152,3 +184,4 @@
 
 
 <?php include('footer.php')?>
+<script src="assets/js/validate.js"></script>

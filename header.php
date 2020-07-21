@@ -55,7 +55,7 @@
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
                         <li><a id="about" class="wow" href="about">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Design</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Designs</a></li>
 
                         <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
                         <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
@@ -66,8 +66,8 @@
                 <div class="col-xl-4 nav-menu small-nav">
                     <ul>
                         <li><a href="volunteer-program">Join as Volunteer</a></li>
-                        <li><a href="volunteer-program#network">Join As Artist</a></li>
-                        <li><a href="">Artist Network Benefits</a></li>
+                        <li><a href="atulya-artists#join">Join As Artist</a></li>
+                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                         <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="news-and-articles">News and Articles</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
