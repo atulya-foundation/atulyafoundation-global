@@ -1655,6 +1655,7 @@ textarea {
 
 .live ul li h6 a {
     color: #000;
+    text-transform: none;
 }
 
 .uppercase span {
