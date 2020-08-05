@@ -76,31 +76,30 @@
 
                 </div-->
                 <div class="col-xl-1"></div>
-                <div class="col-xl-5 nav-menu">
+                <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
                         <li><a id="about" class="wow" href="about">About us</a></li>
                         <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Designs</a></li>
-
                         <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
                         <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
 
                     </ul>
                 </div>
 
-                <div class="col-xl-4 nav-menu small-nav">
+                <div class="col-xl-4 nav-menu small-nav color_h_w">
                     <ul>
                         <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="atulya-artists#join">Join As Artist</a></li>
-                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
-                        <li><a href="volunteer-program">Join as Volunteer</a></li>
+                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>                       
                         <li><a href="news-and-articles">News and Articles</a></li>
+                        <li><a href="about#team">Our Team</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-12"></div>
                 <div class="col-xl-1"></div>
-                <div class="col-xl-5">
+                <div class="col-xl-5 color_h_w" style="margin-top:7%">
                     <ul class="social-head">
                         <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
                         <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
@@ -216,18 +215,19 @@
                 <h6>Newsletter</h6>
                 <h2><span>Subscribe</span> to get<br>
                     the latest updates</h2>
-                <center>
+                
                     <div class="newsletter">
                         <form action="">
                             <div class="input-group">
                                 <input type="text" class="form-control">
-                                <label>Your Full Name</label>
+                                <label>Enter your E-mail address</label>
+                                <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
                             </div>
 
-                            <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
+                            
                         </form>
                     </div>
-                </center>
+                
                 <ul>
                     <li>
                         <h6><span>Official Channels</span></h6>

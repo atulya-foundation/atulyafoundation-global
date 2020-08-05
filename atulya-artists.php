@@ -38,7 +38,7 @@
     <div class="container">
         <h5>Network Benefits</h5>
         <div class="web-wrap">
-            <h1>Colour outside the lines <br> inside is already filled</h1>
+            <h1>Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
@@ -70,9 +70,9 @@
             <div class="row">
                 <div class="col-lg-5">
                     <h5>Form</h5>
-                    <h1>Join Artist <br>network</h1>
-                    <p class="intro mt-40">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
-                    <p class="intro">Fill out this form to become an Atulya Artist</p>
+                    <h1>Join Artist <br> <span> network</span></h1>
+                    <p class="intro mt-40" style="color:#383838">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
+                    <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>
             <div class="form">
@@ -82,15 +82,15 @@
                             <p>Personal Information</p>
                             <div class="form-group input-group">
                                 <input type="text" class="form-control" name="txt_name" placeholder="">
-                                <label for="">NAME</label>
+                                <label for="">NAME*</label>
                             </div>
                             <div class="form-group input-group">
                                 <input type="text" id="age" class="form-control" name="txt_age" placeholder="">
-                                <label for="">AGE</label>
+                                <label for="">AGE*</label>
                             </div>
                             <div class="form-group ">
                                 <select required name="txt_gender" required class="form-control" id="">
-                                    <option value="">Gender</option>
+                                    <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
                                     <option value="Other">OTHER</option>
@@ -99,14 +99,14 @@
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
-                            <p>Contact Information</p>
+                            <p>Contact Information*</p>
                             <div class="form-group  input-group">
                                 <input type="text" class="form-control" name="txt_email" placeholder="">
-                                <label for="">EMAIL</label>
+                                <label for="">EMAIL*</label>
                             </div>
                             <div class="form-group  input-group">
                                 <input type="text" class="form-control" name="txt_phone" placeholder="">
-                                <label for="">PHONE NUMBER</label>
+                                <label for="">PHONE NUMBER*</label>
                             </div>
                         </div>
                     </div>
@@ -117,26 +117,26 @@
                         <div class="col-xl-5">
                             <div class="form-group  input-group">
                                 <input type="text" class="form-control" name="txt_street_1" placeholder="">
-                                <label for="">STREET</label>
+                                <label for="">STREET*</label>
                             </div>
                             <div class="form-group  input-group">
                                 <input type="text" class="form-control" name="txt_street_2" placeholder="">
-                                <label for="">Locality</label>
+                                <label for="">Locality*</label>
                             </div>
                             <div class="form-group  input-group">
                                 <input type="text" class="form-control" name="txt_city" placeholder="">
-                                <label for="">CITY</label>
+                                <label for="">CITY*</label>
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
                                 <input type="text" class="form-control" name="txt_state" placeholder="">
-                                <label for="">STATE</label>
+                                <label for="">STATE*</label>
                             </div>
                             <div class="form-group input-group">
                                 <input type="text" class="form-control" name="txt_pincode" placeholder="">
-                                <label for="">PINCODE/ZIPCODE</label>
+                                <label for="">PINCODE/ZIPCODE*</label>
                             </div>
                         </div>
                     </div>
@@ -147,16 +147,18 @@
                         <div class="col-xl-12">
                             <div class="form-group input-group">
                                 <input type="text" class="form-control" name="txt_n" placeholder="">
-                                <label for="">Link to your artwork projects</label>
-                            </div>
-                            <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="txt_note" placeholder=""></textarea>
-                                <label for="">Short Note</label>
+                                <label for="">Link to your artwork projects*</label>
                             </div>
 
-                            <p class="mt-50">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
-                            <div class="call-to-action btn-left submit mt-30">
-                                <button id="submit" type="submit" class="btn-call-to-action">SEND</button>
+                           
+                            <div class="form-group input-group textarea">
+                                <textarea type="text" class="form-control" name="txt_note" placeholder="" required></textarea>
+                                <label>Short Note*</label>
+                            </div>
+
+                            <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
+                            <div class="call-to-action f-left vv-small-btn">
+                                <button type="submit" id="submit"  class="btn-call-to-action">Send</button>
                             </div>
                         </div>
                     </div>

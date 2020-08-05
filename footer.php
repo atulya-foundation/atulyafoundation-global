@@ -47,8 +47,8 @@
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="volunteer-program#network">Join as Artist</a></li>
-                                <li><a href="volunteer-program">Network Benefits</a></li>
+                                <li><a href="atulya-artists#join">Join as Artist</a></li>
+                                <li><a href="atulya-artists#benefits">Network Benefits</a></li>
                             </ul>
                         </div>
                     </div>
