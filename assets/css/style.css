@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,669&family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body,
@@ -307,10 +308,10 @@ p {
 }
 
 .small-nav ul li a {
-    font-size: 24px;
-    font-weight: 400;
+    color: #3c3b3b;
+    text-transform: capitalize;
+    font: 500 24px/35px Poppins;
     letter-spacing: -0.24px;
-    color: #707070;
 }
 
 
@@ -358,7 +359,7 @@ p {
     position: absolute;
     top: 20px;
     right: 7.892vw;
-    font-size: 50px;
+    /* font-size: 50px; */
     margin-left: 50px;
 }
 
@@ -769,9 +770,21 @@ p {
 }
 
 .live .newsletter {
-    max-width: 39.114583333333336VW;
+    
     margin-top: 5.46875VW;
     position: relative;
+}
+
+.live .newsletter form .input-group{
+    max-width: 39.114583333333336VW;
+}
+
+.live .newsletter form .input-group label{
+    text-transform: capitalize;
+}
+
+.live .newsletter form{
+    text-align: center;
 }
 
 .live .newsletter form .form-control {
@@ -780,6 +793,11 @@ p {
     border-bottom: 3px solid black;
     height: 3.6458333333333335VW;
     border-radius: 0;
+   
+}
+
+.live   ul {
+    padding: 0;
 }
 
 .live ul {
@@ -922,13 +940,13 @@ h1 {
 
 .main-content .intro {
     font-size: 24px;
-    line-height: 27px;
+    line-height: 27px!important;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0px;
     padding-right: 55px;
-    color: #000000;
+    color: #383838;
     line-height: 25px;
-    font-weight: 500;
+    font-weight: 400!important;
     letter-spacing: 0px;
     opacity: 1;
 }
@@ -1186,15 +1204,21 @@ figure {
 }
 
 .form {
-    margin-top: 5.208333333333334vw;
+    margin-top: 3.208333333333334vw;
 }
 
 .form p {
     text-align: left;
-    font: 400 17px/20px Roboto;
+    font: 400 14px/20px Roboto;
+    font-size:14px;
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
+}
+
+.form p a{
+    font-weight: 500;
+    color:#000;
 }
 
 .form .form-group .form-control {
@@ -1372,7 +1396,8 @@ blockquote {
 }
 
 .bg-white h2 {
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 27px;
     font-family: 'Roboto', sans-serif;
     color: #383838;
 }
@@ -1400,6 +1425,10 @@ textarea {
     .p-abs figure img {
         width: 100%;
         margin-top: 50px;
+    }
+
+    .live .newsletter form .input-group{
+       max-width:100%!important;
     }
 
     .sticky {
@@ -1561,7 +1590,6 @@ textarea {
     }
 
     .live .newsletter {
-        max-width: 39.114583333333336Vh;
         margin-top: 5.46875Vh;
         position: relative;
     }
@@ -1691,7 +1719,7 @@ input:active {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],textarea {
     border: none;
 }
 
@@ -1714,7 +1742,7 @@ input[type="email"] {
     color: #707070;
 }
 
-.input-group input {}
+
 
 .input-group label {
     position: absolute;
@@ -1774,8 +1802,8 @@ select::after {
 }
 
 .input-group textarea:focus + label,
-.input-group textarea.has-value + label {
-    top: 0px;
+.input-group textarea:valid + label {
+    top: -5px;
     font-size: 10px;
     color: #aaa;
 }
@@ -1807,10 +1835,31 @@ select::after {
 }
 
 .grayscale {
-    filter: grayscale(100%);
+    filter: grayscale(90%);
 }
 
 .grayscale:hover {
     transition: 0.8s;
     filter: grayscale(0%);
+}
+
+.color_change{
+    color:#DEDEDE!important;
+}
+
+.white_c{
+    color:#DEDEDE!important;
+}
+
+.doomst li a:hover{
+    color:white;
+}
+
+.vv-small-btn{
+    width:130px!important;
+}
+
+.vv-small-btn button{
+    padding-top : 14px!important;
+    padding-bottom: 14px!important;
 }
