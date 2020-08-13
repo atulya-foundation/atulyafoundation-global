@@ -31,20 +31,20 @@
             <h5>Form</h5>
             <h1>Join volunteer <br><span>network</span></h1>
             <div class="form">
-                <form action="#" method="post">
+                <form  enctype="multipart/form-data" action="volunteer.php" method="post" id="">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_name" required>
+                                <input type="text" class="form-control" name="name" required>
                                 <label>NAME*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="txt_age" required>
+                                <input type="text" id="age" class="form-control" name="age" required>
                                 <label>AGE*</label>
                             </div>
                             <div class="form-group pos-relative">
-                                <select required name="txt_gender" required class="form-control" id="">
+                                <select required name="gender" required class="form-control" id="">
                                     <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
@@ -57,11 +57,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_email" placeholder="" required>
+                                <input type="text" class="form-control" name="email" placeholder="" required>
                                 <label>EMAIL*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_phone" placeholder="" required>
+                                <input type="text" class="form-control" name="phone" placeholder="" required>
                                 <label>PHONE NUMBER*</label>
                             </div>
                         </div>
@@ -72,26 +72,26 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_street_1" placeholder="" required>
+                                <input type="text" class="form-control" name="street" placeholder="" required>
                                 <label>STREET*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_street_2" placeholder="" required>
+                                <input type="text" class="form-control" name="locality" placeholder="" required>
                                 <label>Locality*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_city" placeholder="" required>
+                                <input type="text" class="form-control" name="city" placeholder="" required>
                                 <label>CITY*</label>
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_state" placeholder="" required>
+                                <input type="text" class="form-control" name="state" placeholder="" required>
                                 <label>STATE*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_pincode" placeholder="" required>
+                                <input type="text" class="form-control" name="zip" placeholder="" required>
                                 <label>PINCODE/ZIPCODE*</label>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                            <select required name="txt_a" class="form-control" id="txt_a">
+                            <select required name="education" class="form-control" id="txt_a">
                                     <option value="">Education qualification*</option>
 
                                     <option value="Intermediate">Intermediate</option>
@@ -122,7 +122,7 @@
                             <div class="form-group ">
 
 
-                                <select required name="txt_d" class="form-control" id="txt_d">
+                                <select required name="contribute" class="form-control" id="txt_d">
                                     <option value="">How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?*</option>
 
                                     <option value="Artists Contacts">Artists Contacts</option>
@@ -154,11 +154,11 @@
                             <div class="form-group ">
 
 
-                                <select required name="txt_com" class="form-control" id="txt_d">
+                                <select required name="comfortable" class="form-control" id="txt_d">
                                     <option value="">Are you comfortable?*</option>
 
-                                    <option value="Artists Contacts">Yes</option>
-                                    <option value="Ideas and innovation">No</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
 
                                 </select>
 
@@ -166,13 +166,13 @@
                             </div>
 
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="txt_thou" placeholder="" required></textarea>
+                                <textarea type="text" class="form-control" name="thoughts" placeholder="" required></textarea>
                                 <label>Your thoughts about Atulya Foundation and its work*</label>
                             </div>
 
                             <div class="input-group form-group">
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="inputGroupFile02" required>
+                                    <input type="file" class="custom-file-input" name="attachment" id="inputGroupFile02" required>
                                     <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH*</label>
                                 </div>
                             </div>

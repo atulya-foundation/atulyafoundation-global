@@ -76,20 +76,20 @@
                 </div>
             </div>
             <div class="form">
-                <form action="#" method="post">
+                <form action="artist.php" method="post" id="">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_name" placeholder="">
+                                <input type="text" class="form-control" name="name" placeholder="">
                                 <label for="">NAME*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="txt_age" placeholder="">
+                                <input type="text" id="age" class="form-control" name="age" placeholder="">
                                 <label for="">AGE*</label>
                             </div>
                             <div class="form-group ">
-                                <select required name="txt_gender" required class="form-control" id="">
+                                <select required name="gender" required class="form-control" id="">
                                     <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
@@ -101,11 +101,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information*</p>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="txt_email" placeholder="">
+                                <input type="text" class="form-control" name="email" placeholder="">
                                 <label for="">EMAIL*</label>
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="txt_phone" placeholder="">
+                                <input type="text" class="form-control" name="phone" placeholder="">
                                 <label for="">PHONE NUMBER*</label>
                             </div>
                         </div>
@@ -116,26 +116,26 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="txt_street_1" placeholder="">
+                                <input type="text" class="form-control" name="street" placeholder="">
                                 <label for="">STREET*</label>
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="txt_street_2" placeholder="">
+                                <input type="text" class="form-control" name="locality" placeholder="">
                                 <label for="">Locality*</label>
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="txt_city" placeholder="">
+                                <input type="text" class="form-control" name="city" placeholder="">
                                 <label for="">CITY*</label>
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_state" placeholder="">
+                                <input type="text" class="form-control" name="state" placeholder="">
                                 <label for="">STATE*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_pincode" placeholder="">
+                                <input type="text" class="form-control" name="zip" placeholder="">
                                 <label for="">PINCODE/ZIPCODE*</label>
                             </div>
                         </div>
@@ -146,13 +146,13 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_n" placeholder="">
+                                <input type="text" class="form-control" name="bio" placeholder="">
                                 <label for="">Link to your artwork projects*</label>
                             </div>
 
                            
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="txt_note" placeholder="" required></textarea>
+                                <textarea type="text" class="form-control" name="note" placeholder="" required></textarea>
                                 <label>Short Note*</label>
                             </div>
 

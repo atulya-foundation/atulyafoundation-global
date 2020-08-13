@@ -46,7 +46,7 @@
             <h2>If you don’t find what you need,<br>
                 Fill out our contact form</h2>
             <div class="form">
-                <form action="" method="post" id='get_in_touch'>
+                <form action="email.php" method="post">
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="form-group input-group">
@@ -79,3 +79,4 @@
 
 
 <?php include('footer.php') ?>
+
