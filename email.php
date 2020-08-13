@@ -50,7 +50,7 @@
          //echo '<pre>';print_r($retval);die('i am in');
           
          if( $retval == true ) {
-           header("Location:https://www.sanjaybiyani.com/index.html"); 
+           header("Location:alpha.atulyafoundation.org"); 
          }else {
            $message =  'There was a problem sending the email.';
          }
@@ -112,7 +112,7 @@
 
     // Serialize the data in the form
     var serializedData = $form.serialize();
-    //alert(serializedData);
+    alert(serializedData);
     // Let's disable the inputs for the duration of the Ajax request.
     // Note: we disable elements AFTER the form data has been serialized.
     // Disabled form elements will not be serialized.
