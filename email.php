@@ -1,6 +1,6 @@
 <?php
     ob_start();
-    echo $_POST['Name'];
+    echo "Submitting Details...";
 ?>
 <html>
 
@@ -50,7 +50,7 @@
          //echo '<pre>';print_r($retval);die('i am in');
           
          if( $retval == true ) {
-           header("Location:alpha.atulyafoundation.org"); 
+           
          }else {
            $message =  'There was a problem sending the email.';
          }
@@ -112,7 +112,7 @@
 
     // Serialize the data in the form
     var serializedData = $form.serialize();
-    alert(serializedData);
+    //alert(serializedData);
     // Let's disable the inputs for the duration of the Ajax request.
     // Note: we disable elements AFTER the form data has been serialized.
     // Disabled form elements will not be serialized.
@@ -130,10 +130,12 @@
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR) {
         // Log a message to the console
+        location.href = "https://alpha.atulyafoundation.org";
         console.log("Hooray, it worked!");
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
+        
 
     });
 
