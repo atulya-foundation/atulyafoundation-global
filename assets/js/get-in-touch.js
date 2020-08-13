@@ -1,8 +1,8 @@
-// Variable to hold request
+
 var request;
 
 // Bind to the submit event of our form
-$("#get_in_touch").submit(function (event) {
+$("#artist_form").submit(function (event) {
 
     // Abort any pending request
     if (request) {
@@ -10,7 +10,7 @@ $("#get_in_touch").submit(function (event) {
     }
     // setup some local variables
     var $form = $(this);
-
+   
     // Let's select and cache all the fields
     var $inputs = $form.find("input, select, button, textarea");
 
@@ -24,7 +24,7 @@ $("#get_in_touch").submit(function (event) {
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbyDcxndnJhqJGxHMwX6I-LKA_k_YGGo5tF5H6bvx3SuE4CgHpyh/exec",
+        url: "https://script.google.com/macros/s/AKfycbwbXW2xPXMmZJEOV6WOHUs_wVRyMFl6vEtNad0yKTHE5BkdFgM/exec",
         type: "post",
         data: serializedData
     });
@@ -60,4 +60,5 @@ $("#get_in_touch").submit(function (event) {
 
     // Prevent default posting of form
     event.preventDefault();
+
 });
