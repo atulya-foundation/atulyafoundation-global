@@ -714,6 +714,15 @@ h5 {
     font-weight: 300;
 }
 
+.atulya-image .content p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#282828;
+    font-family: "Roboto";
+    letter-spacing: 0;
+    opacity: 0.8;
+}
+
 .craftman .j-center {
     padding-right: 7.083333333333333VW;
 }
@@ -915,7 +924,6 @@ footer .copyright ul li span {
     margin-top: 130px;
 }
 
-.main-content h5 {}
 
 .main-content h1 {
     font-size: 51px;
@@ -935,7 +943,7 @@ h1 {
 }
 
 .main-content .content {
-    margin-top: 3.25em;
+    margin-top: 31px;
 }
 
 .main-content .intro {
@@ -1106,7 +1114,7 @@ get-touch a {
 }
 
 .atulya-image {
-    margin-top: 9.46875vw;
+    margin-top:143px;
 }
 
 figure {
@@ -1124,10 +1132,14 @@ figure {
 }
 
 .atulya-image .content h3 {
-    font-size: 1.75em;
-    padding-bottom: 3.166666666666666vw;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 29px;
     color: #383838;
+    letter-spacing: 0;
     font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    font-weight: bold;
 }
 
 .f-16 {
@@ -1150,8 +1162,8 @@ figure {
 
 .p-abs figure .abs-img {
     position: absolute;
-    bottom: -160px;
-    left: 130px;
+    bottom: -120px;
+    left: 70px;
 }
 
 .p-abs-l {
@@ -1160,8 +1172,8 @@ figure {
 
 .p-abs-l figure .abs-img {
     position: absolute;
-    bottom: -40px;
-    right: 120px;
+    bottom: -100px;
+    right: 40px;
 }
 
 .f-right {
@@ -1416,7 +1428,6 @@ textarea {
 @media screen and (max-width:1919px) {
 
 
-    .new-abs figure img {}
 
 
 }
@@ -1538,9 +1549,6 @@ textarea {
         width: 37.76041666666667Vh;
     }
 
-    .video {
-        /* margin-top: 14.114583333333334Vh;*/
-    }
 
     .art-gallery {
         padding-top: 13.593749999999998Vh;
