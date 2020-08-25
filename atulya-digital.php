@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-<section class="main-content">
+<section class="main-content dope">
     <div class="container">
         <h5>Atulya Digital</h5>
         <div class="web-wrap">
@@ -42,11 +42,11 @@
 <section class="atulya-image">
     <div class="container">
         <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
                 <h3>Product Design Graphics</h3>
                 <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
             </div>
-            
+            <div class="col-xl-1"></div>
             <div class="col-xl-8 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/artist/cad-3484213_1920.png" class="img-fluid">
