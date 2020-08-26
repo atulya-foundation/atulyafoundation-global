@@ -1,12 +1,12 @@
 <?php include('header.php') ?>
 
-<section class="main-content c-white">
+<section class="main-content c-white dope">
     <div class="container">
         <div class="row">
             <div class="col-xl-6">
                 <h5>Pressroom and blog</h5>
                 <div class="web-wrap">
-                    <h1>News and<br> Articles</h1>
+                    <h1 class="uppercase">News <span>and</span><br> Articles</h1>
                     <div class="content">
                         <div class="row">
                             <div class="col-lg-8">

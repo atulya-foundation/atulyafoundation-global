@@ -19,8 +19,8 @@
                             <div class="col-sm-1"></div>
                             <div class="col-sm-5">
                                 <h3>Contact Info</h3>
-                                <p>Drop us a mail at<br> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a> 
-                                <!-- or<br><br>
+                                <p>Drop us a mail at<br> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a>
+                                    <!-- or<br><br>
                                     Drop us a line on <a href="tel:+91 8385088702">+91 8385088702</a> -->
                                 </p>
                             </div>
@@ -54,11 +54,11 @@
                                 <label for="">NAME*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="Phone" placeholder="" required>
+                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="Phone" placeholder="" required>
                                 <label for="">PHONE*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="Email" placeholder="" required>
+                                <input type="email" class="form-control" name="Email" placeholder="" required>
                                 <label for="">Email*</label>
                             </div>
                             <div class="form-group input-group textarea">
@@ -67,7 +67,7 @@
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
-                                <button type="submit"  class="btn-call-to-action">Send</button>
+                                <button type="submit" class="btn-call-to-action">Send</button>
                             </div>
                         </div>
                     </div>
@@ -79,4 +79,3 @@
 
 
 <?php include('footer.php') ?>
-

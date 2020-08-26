@@ -31,7 +31,7 @@
             <h5>Form</h5>
             <h1>Join volunteer <br><span>network</span></h1>
             <div class="form">
-                <form  enctype="multipart/form-data" action="volunteer.php" method="post" id="">
+                <form enctype="multipart/form-data" action="volunteer.php" method="post" id="">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
@@ -57,11 +57,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="email" placeholder="" required>
+                                <input type="email" class="form-control" name="email" placeholder="" required>
                                 <label>EMAIL*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="phone" placeholder="" required>
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="" required>
                                 <label>PHONE NUMBER*</label>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                            <select required name="education" class="form-control" id="txt_a">
+                                <select required name="education" class="form-control" id="txt_a">
                                     <option value="">Education qualification*</option>
 
                                     <option value="Intermediate">Intermediate</option>
@@ -178,7 +178,7 @@
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
-                                <button type="submit" id="submit"  class="btn-call-to-action">Send</button>
+                                <button type="submit" id="submit" class="btn-call-to-action">Send</button>
                             </div>
                         </div>
                     </div>

@@ -1,5 +1,5 @@
 <?php include('header.php') ?>
-<section class="main-content">
+<section class="main-content dope">
     <div class="container">
         <h5>Atulya arts</h5>
         <div class="web-wrap">
@@ -11,31 +11,38 @@
                             genres. We try to inculcate as many art forms as possible in
                             our collection. Art lovers are free to choose according to their
                             own interests and preferences.</p>
-                        <div class="touch-div">
-                            <a href="#" class="touch_link">Arts & Museum</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="atulya-image premium">
+<section class="atulya-image premium" style="margin-top:295px">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/p1.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
                 </figure>
                 <h3>Sangeet</h3>
-                <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    </div>
+                </div>
+
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/p2.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
                 </figure>
                 <h3>Rani sa</h3>
-                <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -45,7 +52,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/p3.jpg" class="img-fluid" />
+                    <img src="assets/img/artist/DSC_0983-01.png" class="img-fluid w-100" />
                 </figure>
             </div>
             <div class="col-xl-4 content">
@@ -54,235 +61,52 @@
             </div>
         </div>
         <div class="call-to-action">
-            <a href="#" class="btn-call-to-action">Premium Collection</a>
+            <a href="#" class="btn-call-to-action">Art Collection</a>
         </div>
     </div>
 </section>
 <div class="bg-cream">
-    <section class="main-content team">
+
+
+    <section class="atulya-image pt-50">
         <div class="container">
-            <h5>Clients</h5>
-            <div class="web-wrap">
-                <h1>Corporate art <br>Consulting & services</h1>
-                <div class="content">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <p class="intro">We are glad to be able to work on really interesting and challenging
-                                projects, involving exciting technologies. In order to get on with more
-                                projects in the future, we are working with a wide range of partners
-                                to solve real problems for real people.</p>
-                        </div>
+            <div class="row">
+                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1 nopad">
+                    <h3>Portraits</h3>
+                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                </div>
+                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+                    <figure>
+                        <img src="assets/img/artist/watercolor-5049980_1920.png" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<section class="main-content dope">
+    <div class="container">
+
+
+
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Clients</h5>
+                    <h1 class="">Corporate <span>art</span><br>Consulting & servicesart</h1>
+                    <p class="intro" style="margin-top:24px">We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
+                    <div class="call-to-action jfs">
+                        <a href="#" class="btn-call-to-action">View All Services</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-4 order2">
-                    <figure>
-                        <img src="assets/img/artist/c1.jpg" class="img-fluid">
-                    </figure>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <img src="assets/img/artist/catherina-schurmann-lk_mlCrHYK8-unsplash.png" class="img-fluid w-100" alt="">
                 </div>
-                <div class="col-xl-2 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Development of an art program</h3>
-                    <p>What’s in a name? Well, everything!! Giving a name to a new brand or renaming an existing one is the starting point of all your communication. We work closely with our clients to develop a brand name that uniquely expresses the intent of the business. We ensure that the brand name,
-                        messaging & tonality is relevant for your audience and distinguished from your competition.</p>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Budget Development</h3>
-                    <p>After the logo is finalised we unite it with various branded elements like
-                        business cards, stationary, corporate brochures, presentation templates,
-                        email signatures, billboards, banners, adverts, packaging, corporate gifts
-                        and giveaways. Each brand touchpoint is designed to consistently express
-                        the overall brand personality and reiterate the messaging.</p>
-                </div>
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/crafts1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/craft3.jpg" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Planning art placement &
-                        Replacement</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image abs-img-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Art selection & Acquisition</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-                <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs">
-                    <figure>
-                        <img src="assets/img/artist/c3.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/c4.jpg" class="img-fluid abs-img">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/pp1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Art Rental</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
-                    <h3>Customised research</h3>
-                    <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, orporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts and giveaways. Each brand touchpoint is designed to consistently express the overall brand personality and reiterate the messaging.</p>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-4 order2">
-                    <figure>
-                        <img src="assets/img/artist/craft5.jpg" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/pp1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Framing and reframing of existing artwork</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image abs-img-sec">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Installation of new or
-                        exiting selection</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-                <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs">
-                    <figure>
-                        <img src="assets/img/artist/c3.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/c4.jpg" class="img-fluid abs-img">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/pp1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Art Rental</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
-                    <h3>Art restoration</h3>
-                    <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, orporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts and giveaways. Each brand touchpoint is designed to consistently express the overall brand personality and reiterate the messaging.</p>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-4 order2">
-                    <figure>
-                        <img src="assets/img/artist/craft5.jpg" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <section class="atulya-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
-                    <figure>
-                        <img src="assets/img/artist/pp1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-                <div class="col-xl-1"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                    <h3>Managing art moves</h3>
-                    <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<section class="atulya-image">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                <h3>Portraits</h3>
-                <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By combining signs, symbols, colours and typeface, we aim to project an image that identifies your product as well as differentiates it from your competitors.</p>
-            </div>
-            <div class="col-xl-1"></div>
-            <div class="col-xl-7 col-lg-6 col-md-6 order2">
-                <figure>
-                    <img src="assets/img/artist/p4.jpg" class="img-fluid">
-                </figure>
             </div>
         </div>
     </div>
-</section>
-<?php include('footer.php')  ?>
+</section> <?php include('footer.php')  ?>

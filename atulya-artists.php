@@ -101,11 +101,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information*</p>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="email" placeholder="">
+                                <input type="email" class="form-control" name="email" placeholder="">
                                 <label for="">EMAIL*</label>
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="phone" placeholder="">
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="">
                                 <label for="">PHONE NUMBER*</label>
                             </div>
                         </div>
@@ -150,7 +150,7 @@
                                 <label for="">Link to your artwork projects*</label>
                             </div>
 
-                           
+
                             <div class="form-group input-group textarea">
                                 <textarea type="text" class="form-control" name="note" placeholder="" required></textarea>
                                 <label>Short Note*</label>
@@ -158,7 +158,7 @@
 
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
-                                <button type="submit" id="submit"  class="btn-call-to-action">Send</button>
+                                <button type="submit" id="submit" class="btn-call-to-action">Send</button>
                             </div>
                         </div>
                     </div>
