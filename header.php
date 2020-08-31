@@ -14,7 +14,7 @@
         $link_array = explode('/',$link);
         $page = end($link_array);
         
-        if($page=="atulya-digital.php" || $page=="atulya-crafts.php" ){
+        if($page=="atulya-digital.php" || $page=="atulya-crafts.php" || $page == "atulya-arts.php" ){
             $bg_body_color = "#F0EDE9";
             $logo = "Component1.svg";
             $nav_toggle = "toggle_icon_black.svg";

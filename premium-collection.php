@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="call-to-action">
-            <a href="#" class="btn-call-to-action">Art Collection</a>
+            <a href="arts.php" class="btn-call-to-action">Art Collection</a>
         </div>
     </div>
 </section>
@@ -90,8 +90,6 @@
 <section class="main-content dope">
     <div class="container">
 
-
-
         <div class="content">
             <div class="row">
                 <div class="col-lg-6">
@@ -99,7 +97,7 @@
                     <h1 class="">Corporate <span>art</span><br>Consulting & servicesart</h1>
                     <p class="intro" style="margin-top:24px">We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
                     <div class="call-to-action jfs">
-                        <a href="#" class="btn-call-to-action">View All Services</a>
+                        <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a>
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
