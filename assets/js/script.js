@@ -99,3 +99,17 @@ $(".num").html("0" + currentIndex + "-0" + totalItems), $("#carouselExampleIndic
         "" === $(this).val() ? $(this).removeClass("has-value") : $(this).addClass("has-value")
     })
 });
+
+
+$(document).ready(function () {
+    $('.toooop li').click(function (e) {
+
+        $('.toooop li').removeClass('active');
+
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+        //e.preventDefault();
+    });
+});

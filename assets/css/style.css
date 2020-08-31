@@ -1151,8 +1151,8 @@ figure {
 
 .dope .intro {
     font-size: 17px;
-    line-height: 20px;
-    font-weight: 500;
+    line-height: 20px !important;
+    font-weight: 500 !important;
     font-family: "Roboto";
     letter-spacing: 0;
     color: #1f1f1f;
@@ -1240,6 +1240,33 @@ figure {
     letter-spacing: -0.96px;
     color: #383838;
     opacity: 1;
+}
+
+.toooop {
+    position: relative;
+    display: block;
+    margin: 0;
+    margin-top: 0px;
+    z-index: 0;
+    text-align: center;
+}
+
+.toooop li {
+    display: inline-block;
+    color: #ACACAC;
+    font: normal normal 500 14px/16px Roboto;
+    letter-spacing: 0px;
+    margin-left: 16px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+.toooop li:last-child {}
+
+.toooop .active {
+    border: 2px solid white;
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 .w-80 {
@@ -1376,7 +1403,7 @@ figure {
     color: #EAEAEA;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    margin-right: 20px;
+    margin-right: 16px;
 }
 
 .c-white .carousel-control-next,
@@ -1391,7 +1418,7 @@ figure {
 
 .c-white .carousel-control-next span,
 .c-white .carousel-control-prev span {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .c-white .carousel-numeric .num {
@@ -1734,7 +1761,7 @@ textarea {
 }
 
 .medium {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .f-left {
