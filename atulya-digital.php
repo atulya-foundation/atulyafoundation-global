@@ -1,5 +1,7 @@
 <?php include('header.php') ?>
-
+<div class="logo-pos">
+    <img src="assets/img/ad.svg" class="img-fluid" alt="">
+</div>
 <section class="main-content dope">
     <div class="container">
         <h5>Atulya Digital</h5>

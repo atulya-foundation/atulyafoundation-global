@@ -91,7 +91,7 @@
                     <ul>
                         <li><a href="volunteer-program">Join as Volunteer</a></li>
                         <li><a href="atulya-artists#join">Join As Artist</a></li>
-                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>                       
+                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                         <li><a href="news-and-articles">News and Articles</a></li>
                         <li><a href="about#team">Our Team</a></li>
                         <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
@@ -215,19 +215,19 @@
                 <h6>Newsletter</h6>
                 <h2><span>Subscribe</span> to get<br>
                     the latest updates</h2>
-                
-                    <div class="newsletter">
-                        <form action="">
-                            <div class="input-group">
-                                <input type="text" class="form-control">
-                                <label>Enter your E-mail address</label>
-                                <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
-                            </div>
 
-                            
-                        </form>
-                    </div>
-                
+                <div class="newsletter">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <label> Enter your E-mail address</label>
+                            <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
+                        </div>
+
+
+                    </form>
+                </div>
+
                 <ul>
                     <li>
                         <h6><span>Official Channels</span></h6>
