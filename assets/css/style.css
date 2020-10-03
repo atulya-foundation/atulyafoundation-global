@@ -1942,3 +1942,18 @@ select::after {
 .jfs {
     justify-content: flex-start
 }
+
+.logo-pos{
+    position: absolute;
+    top: 42px;
+    left: 35%;
+}
+
+@media screen and (max-width:768px){
+    .logo-pos{
+        position: relative;
+        text-align: left;
+        margin-top:00px;
+        left: 7%;
+    }
+}
