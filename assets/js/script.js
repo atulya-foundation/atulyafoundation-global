@@ -52,65 +52,87 @@ $(document).ready(function () {
             speed: 100,
             pauseonhover: !1,
             responsive: !0
+        });
+        $(".scroll1").hover(function(){
+            $('.scroll1').infiniteslide({
+                speed:300,
+                pauseonhover:!1,
+                responsive:!0
+            })},function(){
+                $(".scroll1").infiniteslide({
+                    speed: 100,
+                    pauseonhover: !1,
+                    responsive: !0
+            })
         })
     }), $("#about").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/art-design-gallery-group-460736.png')",
-            "-webkit-transition-timing-function": "ease",
-            "-webkit-animation-delay":"350ms",
-            "-webkit-transition-duration": "200ms"
+            "-webkit-animation-duration": "2s",
+            "-webkit-transition-property":"background-image",
+            "-webkit-transition-duration": "5s",
+
+            "-webkit-animation-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out"
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background": "#F6F4F2",
-             // "-webkit-animation-delay" : "500ms",
-             // "-webkit-transition-timing-function": "ease",
-            
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
+            "-webkit-transition-duration": "300ms"
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/jo-szczepanska-9OKGEVJiTKk-unsplash.png')",
-            "-webkit-transition-timing-function": "ease",
-            "-webkit-animation-delay":"350ms",
-            "-webkit-transition-duration": "200ms"
+            "-webkit-animation-duration": "2s",
+            "-webkit-transition-property":"background-image",
+            "-webkit-transition-duration": "5s",
+            "-webkit-animation-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out"
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background": "#F6F4F2",
-             // "-webkit-animation-delay" : "500ms",
-             // "-webkit-transition-timing-function": "ease",
-            
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
+            "-webkit-transition-duration": "300ms"
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/drool.png')",
-            "-webkit-transition-timing-function": "ease",
-            "-webkit-animation-delay":"350ms",
-            "-webkit-transition-duration": "200ms"
+            "-webkit-animation-duration": "2s",
+            "-webkit-transition-property":"background-image",
+            "-webkit-transition-duration": "5s",
+            "-webkit-animation-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out"
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
              "background": "#F6F4F2",
-             // "-webkit-animation-delay" : "500ms",
-             // "-webkit-transition-timing-function": "ease",
-            
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
+            "-webkit-transition-duration": "300ms"
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
             "background-image": "url('assets/img/bg/person-holding-paintbrush-3959004.png')",
-            "-webkit-transition-timing-function": "ease",
-            "-webkit-animation-delay":"350ms",
-            "-webkit-transition-duration": "200ms"
+            "-webkit-animation-duration": "2s",
+            "-webkit-transition-property":"background-image",
+            "-webkit-transition-duration": "5s",
+            "-webkit-animation-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out"
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #design").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
 
              "background": "#F6F4F2",
-             // "-webkit-animation-delay" : "500ms",
-             // "-webkit-transition-timing-function": "ease",
+             "-webkit-animation-delay" : "500ms",
+             "-webkit-transition-timing-function": "ease",
+             "-webkit-transition-duration": "300ms"
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #design").removeClass("color_change")
     }),
      $("#news").hover(function () {
