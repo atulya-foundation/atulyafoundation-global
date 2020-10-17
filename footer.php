@@ -27,9 +27,9 @@
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="about">About us</a></li>
-                                <li><a href="about#team">Atulya Team</a></li>
-                                <li><a href="about#clients">Our Clients</a></li>
+                                <li><a href="about.php">About us</a></li>
+                                <li><a href="about.php#team">Atulya Team</a></li>
+                                <li><a href="about.php#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,9 +37,9 @@
                         <div class="widget">
                             <h2>Services</h2>
                             <ul>
-                                <li><a href="premium-collection">Atulya Arts</a></li>
-                                <li><a href="atulya-crafts">Atulya Crafts</a></li>
-                                <li><a href="atulya-digital">Atulya Designs</a></li>
+                                <li><a href="premium-collection.php">Atulya Arts</a></li>
+                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                                <li><a href="atulya-digital.php">Atulya Designs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="atulya-artists#join">Join as Artist</a></li>
-                                <li><a href="atulya-artists#benefits">Network Benefits</a></li>
+                                <li><a href="atulya-artists.php#join">Join as Artist</a></li>
+                                <li><a href="atulya-artists.php#benefits">Network Benefits</a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,9 +56,9 @@
                         <div class="widget">
                             <h2>Other Links</h2>
                             <ul>
-                                <li><a href="volunteer-program">Volunteer with us</a></li>
-                                <li><a href="news-and-articles">News and Articles</a></li>
-                                <li><a href="get-in-touch">Get in touch</a></li>
+                                <li><a href="volunteer-program.php">Volunteer with us</a></li>
+                                <li><a href="news-and-articles.php">News and Articles</a></li>
+                                <li><a href="get-in-touch.php">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                     <li>© 2020 Atulya Foundation. All Right Reserved.</li>
                     <li><span>|</span> <a href="privacy-policy.php">Privacy Policy</a></li>
                     <li><a href="#">License</a></li>
-                    <li><a href="terms-of-use">Terms of Use</a></li>
+                    <li><a href="terms-of-use.php">Terms of Use</a></li>
                 </ul>
             </div>
         </div>

@@ -13,99 +13,53 @@
 </head>
 
 <body>
-    <!--header>
-        <div id="mySidenav" class="sidenav">
-            <div class="row">
-                
-
-                <div class="col-xl-4 vh-100 view-desktop" id="slider">
-                    <div class="wrap-slider vh-100">
-
-                    </div>
-                    <div class="wrap-slider1 vh-100">
-
-                    </div>
-                </div>
-
-
-                <div class="col-xl-8 nav-menu">
-                    <ul>
-                        <li id="home"><a href="javascript:void(0)"> Home</a></li>
-                        <li class="has-drop-down" id="who"><a href="javascript:void(0)">Who we are</a>
-                            <ul class="">
-                                <li><a href="about">About us</a></li>
-                                <li><a href="about#team">Meet the Team</a></li>
-                                <li><a href="about#clients">Our Clients</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-drop-down" id="service"><a href="javascript:void(0)">Services</a>
-                            <ul class="">
-                                <li><a href="atulya-digital">Atulya Digital</a></li>
-                                <li><a href="atulya-crafts">Atulya Crafts</a></li>
-                                <li><a href="premium-collection">Atulya Arts</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-drop-down" id="artist"><a href="javascript:void(0)">Atulya Artists</a>
-                            <ul class="">
-                                <li><a href="volunteer-program#network">Join Artist Network</a></li>
-                                <li><a href="">Network Benefits</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="volunteer-program">Volunteer with us</a></li>
-                        <li><a href="news-and-articles">News and Articles</a></li>
-                        <li><a href="get-in-touch">Get in touch</a></li>
-                    </ul>
-                </div>
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul class="social-head view-desktop">
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                </ul>
-            </div>
-        </div>
-    </header-->
-
+    
 
 
     <header>
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
             <div class="row">
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
-                <div class="col-xl-1"></div>
+                <div class="col-xl-1" style="margin-right : 0rem; padding: 0rem"></div>
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                        <li><a id="about" class="wow" href="about">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital">Atulya Designs</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts">Atulya Crafts</a></li>
-                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection">Atulya Arts</a></li>
+                        <li><a id="about" class="wow"  href="about.php">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php">Atulya Designs</a></li>
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php">Atulya Crafts</a></li>
+                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php">Atulya Arts</a></li>
 
                     </ul>
                 </div>
 
-                <div class="col-xl-4 nav-menu small-nav color_h_w">
-                    <ul>
-                        <li><a href="volunteer-program">Join as Volunteer</a></li>
-                        <li><a href="atulya-artists#join">Join As Artist</a></li>
-                        <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
-                        <li><a href="news-and-articles">News and Articles</a></li>
-                        <li><a href="about#team">Our Team</a></li>
-                        <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
-                    </ul>
+                <div class="col-xl-4 nav-menu">
+                <div class="row justify-content-end">
+                    <div class="col-xl-12  small-nav color_h_w">
+                        <ul class="sec">
+                            <li><a href="volunteer-program.php">Join as Volunteer</a></li>
+                            <li><a href="atulya-artists.php#join">Join As Artist</a></li>
+                            <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
+                            <li><a href="news-and-articles.php">News and Articles</a></li>
+                            <li><a href="about.php#team">Our Team</a></li>
+                            <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-12 color_h_w " style="margin-top: 0rem; margin-left: 3rem;">
+                        <ul class="social-head">
+                            <li><a href="#" target="_blank" style="padding-left: 6rem;">Email</a></li>
+                            <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/company/atulya" target="_blank">Linkedin</a></li>
+                            <li><a href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" target="_blank">Youtube</a></li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
                 <div class="col-xl-12"></div>
                 <div class="col-xl-1"></div>
-                <div class="col-xl-5 color_h_w" style="margin-top:7%">
-                    <ul class="social-head">
-                        <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
-                        <li><a href="https://www.linkedin.com/company/atulya" target="_blank">Linkedin</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" target="_blank">Youtube</a></li>
-                    </ul>
+                <div class="col-xl-5">
                 </div>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             </div>
@@ -140,7 +94,7 @@
                     via the internet infrastructure. </p>
             </div>
             <div class="call-to-action">
-                <a href="about" class="btn-call-to-action small-btn">About Us</a>
+                <a href="about.php" class="btn-call-to-action small-btn">About Us</a>
             </div>
         </div>
     </section>
@@ -158,7 +112,7 @@
                     <p> Imagine an inspiration tool that connects visual arts with the real world, creating unbreakable connections with the existing world of art and culture.</p>
                 </div>
                 <div class="call-to-action">
-                    <a href="premium-collection" class="btn-call-to-action">Premium Collection</a>
+                    <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
                 </div>
             </div>
         </section>
@@ -183,7 +137,7 @@
                             <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
                         </div>
                         <div class="call-to-action f-left">
-                            <a href="volunteer-program#network" class="btn-call-to-action">Join our network</a>
+                            <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
                         </div>
                     </div>
                     <div class="col-lg-2"></div>
@@ -204,7 +158,7 @@
                         significance. </p>
                 </div>
                 <div class="call-to-action">
-                    <a href="volunteer-program" class="btn-call-to-action">Volunteer with us</a>
+                    <a href="volunteer-program.php" class="btn-call-to-action">Volunteer with us</a>
                 </div>
             </div>
         </section>

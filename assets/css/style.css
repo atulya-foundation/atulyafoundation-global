@@ -9,17 +9,18 @@
 body,
 html {
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: #707070;
     scroll-behavior: smooth;
+    
 }
 
 h5 {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 p {
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .col-xs-1,
@@ -247,7 +248,7 @@ p {
 
 p {
     margin-bottom: 1em;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     color: #707070;
 }
 
@@ -257,7 +258,8 @@ p {
     position: fixed;
     top: 0;
     right: 0;
-    -webkit-transition: all .7s;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .7s;
     -moz-transition: all .7s;
     -o-transition: all .7s;
     transition: all 0.7s;
@@ -292,40 +294,52 @@ p {
 
 .sidenav.other a {
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 2.625rem;
 }
 
 .sidenav.other .has-drop-down li a {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .sidenav.other a:hover {
     color: #fff;
-    text-shadow: 0px 0px 1px white;
+    text-shadow: 0rem 0rem 0.0625rem white;
     transition: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition:0.3s;
+    -o-transition:0.3s;
 }
 
+.small-nav{
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
 .small-nav ul li a {
-    color: #3c3b3b;
+    color: #707070;
+    padding-left: 6rem; 
+    padding-right: 0rem;
     text-transform: capitalize;
-    font: 500 24px/35px Poppins;
-    letter-spacing: -0.24px;
+    font: 500 1.625rem/2rem Poppins, sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.015rem;
 }
 
 
 
 .sidenav ul {
     list-style: none;
-    margin-left: 80px;
-    width: fit-content;
+    margin-left: 0rem;
+    width: auto;
 }
 
 .sidenav ul li {
     list-style: none;
     position: relative;
 }
+
+
 
 /*.sidenav ul li::after {
     content: " ";
@@ -338,17 +352,26 @@ p {
 }*/
 
 .sidenav a {
-    padding: 8px 8px 8px 0px;
     text-decoration: none;
-    font-size: 34px;
-    font-family: 'poppins', serif;
+    font-size: 3rem;
+    font-family: Poppins, sans-serif;
     text-transform: uppercase;
     display: block;
-    transition: 0.3s;
+    -webkit-transition-property:all;
+    -webkit-transition-duration:0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
     width: fit-content;
-    letter-spacing: -0.68px;
+    letter-spacing: -0.0425rem;
     color: #000000;
     font-weight: 600;
+}
+
+.sidenav a {
+    padding-top: 0;
+    padding-left: 0rem;
+    padding-bottom: 1rem;
 }
 
 .sidenav a:hover {
@@ -357,38 +380,47 @@ p {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 20px;
-    right: 7.892vw;
+    top: 1.25rem;
+    right: 7.692vw;
     /* font-size: 50px; */
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
 
 .has-drop-down ul {
     max-height: 0;
     visibility: hidden;
     opacity: 0;
-    margin-left: 0px !important;
-    padding: 0;
+    margin-left: 0rem !important;
+    padding: 0rem;
     color: #1F1F1F;
     transition: 0.5s ease-in-out;
+    -webkit-transition-duration:0.5s;
+    -webkit-transition-timing-function:ease-in-out;
+    -moz-transition:0.5s ease-in-out;
+    -o-transition:0.5s ease-in-out;
 }
 
 h1 span,
 h2 span {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     font-weight: 500;
     font-style: italic;
 }
 
 .has-drop-down ul li a {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.sidenav ul li:hover ul {
+.sidenav ul li:hover  {
     visibility: visible;
-    max-height: 700px;
+    max-height: 110.24vh;
     opacity: 1;
-    transition: 0.9s ease-in-out;
+    -webkit-transition-property : all;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-timing-function:ease-in-out;
+    -moz-transition : all 0.7s ease-in-out ;
+    -o-transition : all 0.7s ease-in-out ;
+    transition: all 0.7s ease-in-out ;
 }
 
 #main {
@@ -405,23 +437,29 @@ h2 span {
 #head_img {
     opacity: 1;
     transition: opacity 0.5s linear;
+    -webkit-transition-property:opacity;
+    -webkit-transition-duration:0.5s;
+    -webkit-transition-timing-function:linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
 }
 
 .toggle-btn {
     position: fixed;
-    top: 40px;
+    top: 2.5rem;
     right: 7.292vw;
     z-index: 9999;
 }
 
 .toggle-btn img {
-    height: 10px;
-    width: 29px;
+    height: 0.625rem;
+    width: 1.8125rem;
 }
 
 .social-head {
     position: relative;
-    margin-top: 5%;
+    margin-top: 0rem;
+    margin-left: 1rem;
 }
 
 .social-head li {
@@ -429,15 +467,18 @@ h2 span {
 }
 
 .social-head li a {
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
+    color:#707070;
+    font-family: Poppins, sans-serif;
+    font-size: 0.75rem;
     font-weight: 600;
-    padding: 0px;
-    padding-right: 14px;
-    letter-spacing: -0.22px;
-    color: #000000;
+    padding: 0rem;
+    padding-right: 0.350rem;
+    letter-spacing: -0.01375rem;
+    
     text-transform: none;
+}
+.social-head li a:hover{
+color:#000000;
 }
 
 .sidenav.other {
@@ -447,7 +488,7 @@ h2 span {
 .sidenav.other .social-head {
     position: absolute;
     bottom: 10%;
-    right: 117px;
+    right: 7.3125rem;
 }
 
 .sidenav.other .social-head li {
@@ -456,12 +497,12 @@ h2 span {
 
 .sidenav.other .social-head li {
     color: #585858;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .sidenav.other .social-head li a {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .abs {
@@ -470,14 +511,14 @@ h2 span {
 
 .logo {
     padding-left: 7.292vw;
-    padding-top: 32px;
+    padding-top: 2rem;
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
 }
 
 .logo img {
-    width: 189px;
-    height: 49px;
+    width: 11.8125rem;
+    height: 3.0625rem;
 }
 
 #main .content {
@@ -494,8 +535,8 @@ h2 span {
 
 #main .content .text {
     text-align: center;
-    margin-top: 10.2px;
-    font-size: 24px;
+    margin-top: 0.6375rem;
+    font-size: 1.5rem;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
@@ -513,7 +554,7 @@ h2 span {
 }
 
 .about p {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 1.125em;
     width: 37.76041666666667VW;
     font-weight: 600;
@@ -536,38 +577,38 @@ h2 span {
 }
 
 .art-gallery {
-    padding-top: 120px;
-    padding-bottom: 140px;
+    padding-top: 7.5rem;
+    padding-bottom: 8.75rem;
     background-color: #F6F4F2;
 }
 
 .art-gallery h6 {
     text-align: center;
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     color: #1F1F1F;
-    letter-spacing: 1.68px;
+    letter-spacing: 0.105rem;
 }
 
 h6,
 h5 {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     color: #1F1F1F;
-    letter-spacing: 1.68px;
+    letter-spacing: 0.105rem;
 }
 
 .art-gallery h1 {
     margin-top: 1.604166666666667VW;
     text-align: center;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 51px;
+    font-family: Playfair Display, sans-serif;
+    font-size: 3.1875rem;
     color: #1F1F1F;
-    letter-spacing: -2.04px;
+    letter-spacing: -0.1275rem;
     font-weight: 500;
 }
 
@@ -580,19 +621,19 @@ h5 {
 }
 
 .art-gallery .text p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: #1F1F1F;
     width: 40VW;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .call-to-action {
     margin-top: 3.125VW;
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .bg-new,
@@ -601,7 +642,7 @@ h5 {
 }
 
 .mb-100 {
-    padding-bottom: 100px;
+    padding-bottom: 6.25rem;
 }
 
 .btn-call-to-action {
@@ -609,34 +650,37 @@ h5 {
     display: inline-block;
     position: relative;
     transition: 0.3s;
+    -webkit-transition:0.3;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 
 .call-to-action .btn-call-to-action {
     display: block;
-    width: 240px;
+    width: 15rem;
     text-align: center;
     background: #1F1F1F;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-size: 0.875rem;
     text-transform: uppercase;
     border: none;
     text-decoration: none;
-    padding-top: 18px;
+    padding-top: 1.125rem;
     cursor: pointer;
-    padding-bottom: 18px;
-    border-radius: 1px;
+    padding-bottom: 1.125rem;
+    border-radius: 0.0625rem;
 
 }
 
 .small-btn {
-    width: 180px !important;
+    width:11.25rem !important;
 }
 
 .call-to-action .btn-call-to-action:hover {
-    padding-right: 8px;
-    padding-left: 38px;
+    padding-right: 0.5rem;
+    padding-left: 2.375rem;
     transition: 0.5s;
 }
 
@@ -644,7 +688,7 @@ h5 {
 .call-to-action .btn-call-to-action::before {
     content: url(../img/Icon%20feather-arrow-right.svg);
     position: absolute;
-    left: 19px;
+    left: 1.1875rem;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0;
@@ -654,18 +698,18 @@ h5 {
 
 .call-to-action .btn-call-to-action:hover::before {
     opacity: 1;
-    left: 20px;
+    left: 1.25rem;
 }
 
 .marquee {
     width: 15.625VW;
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 0.0625rem solid #ccc;
     background: #ccc;
 }
 
 .m-carousel ul {
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
 
 .m-carousel ul li {
@@ -691,8 +735,8 @@ h5 {
 
 .craftman h2 {
     margin-top: 2.604166666666667VW;
-    font-family: 'Playfair display', sans-serif;
-    font-size: 51px;
+    font-family: Playfair display, sans-serif;
+    font-size: 3.1875rem;
     color: #1f1f1f;
     letter-spacing: -0.04em;
 }
@@ -708,17 +752,17 @@ h5 {
 }
 
 .craftman .text p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
     color: #383838;
     font-weight: 300;
 }
 
 .atulya-image .content p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     color: #282828;
-    font-family: "Roboto";
+    font-family: Roboto;
     letter-spacing: 0;
     opacity: 0.8;
 }
@@ -728,14 +772,14 @@ h5 {
 }
 
 .pt-50 {
-    padding-top: 109px;
-    padding-bottom: 81px;
+    padding-top: 6.8125rem;
+    padding-bottom: 5.0625rem;
 }
 
 .premium .content p {
     text-align: left;
-    font: normal normal normal 14px/16px Roboto;
-    letter-spacing: 0px;
+    font: normal normal normal 0.875rem/1rem Roboto;
+    letter-spacing: 0rem;
     color: #484848;
     opacity: 1;
 }
@@ -750,7 +794,7 @@ h5 {
 }
 
 .live {
-    padding-top: 80px;
+    padding-top: 5rem;
     background-color: #ffffff;
 }
 
@@ -761,9 +805,9 @@ h5 {
 .live h2 {
     margin-top: 2.604166666666667VW;
     text-align: center;
-    font-family: 'Playfair display', sans-serif;
+    font-family: Playfair display, sans-serif;
     color: #1f1f1f;
-    font-size: 51px;
+    font-size: 3.1875rem;
     letter-spacing: -0.04em;
 }
 
@@ -774,23 +818,23 @@ h5 {
 }
 
 .live .text p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
     color: #383838;
-    width: 542px;
+    width:33.875rem;
 
     font-weight: 400 !important;
 }
 
 h1,
 h2 {
-    line-height: 54px;
+    line-height: 3.375rem;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 18px;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 1.125rem;
     color: #383838;
     font-weight: 400 !important;
 }
@@ -816,7 +860,7 @@ p {
 .live .newsletter form .form-control {
     background: transparent;
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 0.1875rem solid black;
     height: 3.6458333333333335VW;
     border-radius: 0;
 
@@ -827,7 +871,7 @@ p {
 }
 
 .live ul {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .newsbutton {
@@ -839,17 +883,17 @@ p {
     right: 0;
     background: #F2F2F2;
     z-index: 10;
-    height: 49px;
+    height: 3.0625rem;
 }
 
 .live h6 span {
-    font-size: 14px;
-    font-family: "poppins";
+    font-size: 0.875rem;
+    font-family: Poppins;
     color: #585858;
 }
 
 .mt-100 {
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .live ul {
@@ -858,16 +902,16 @@ p {
 
 .live ul li {
     list-style: none;
-    font-size: 12px;
+    font-size: 0.75rem;
     display: inline-block;
     margin-right: 1.5625VW;
     color: #000000;
-    font-family: "roboto";
+    font-family: Roboto;
     font-weight: 300 !important;
 }
 
 footer {
-    padding: 50px 0px;
+    padding: 3.125rem 0rem;
     background-color: #1F1F1F;
     display: flex;
     align-items: center;
@@ -875,27 +919,27 @@ footer {
 
 footer h2 {
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 1.125rem;
     padding-bottom: 3.125VW;
 }
 
 footer .widget h2 {
     color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 1rem;
     padding-bottom: 1.1458333333333333VW;
 }
 
 footer .widget ul {
-    margin: 0;
-    padding: 0;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 footer .widget ul li {
     padding-bottom: 0.5208333333333333VW;
     font-size: 0.875rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     color: #AAAAAA;
     list-style: none;
 }
@@ -903,14 +947,18 @@ footer .widget ul li {
 footer .widget ul li a {
     color: #AAAAAA;
 }
+footer .widget ul li a:hover{
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
 
 footer .copyright {
     padding-top: 3.78125VW;
 }
 
 footer .copyright ul {
-    margin: 0;
-    padding: 0;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 footer .copyright ul li {
@@ -927,6 +975,10 @@ footer .copyright ul li a {
     font-size: 0.75rem;
     font-family: sans-serif;
 }
+footer .copyright ul li a:hover{
+    color:#b3b1b1;
+    text-decoration: none !important;
+}
 
 footer .copyright ul li span {
     color: #707070;
@@ -938,80 +990,80 @@ footer .copyright ul li span {
 }
 
 .main-content {
-    margin-top: 130px;
+    margin-top: 8.125rem;
 }
 
 
 .main-content h1 {
-    font-size: 51px;
-    margin-top: 44px;
-    font-family: 'Playfair Display', serif !important;
+    font-size: 3.1875rem;
+    margin-top: 2.75rem;
+    font-family: Playfair Display, serif !important;
     color: #1F1F1F;
-    letter-spacing: -2.04px;
+    letter-spacing: -0.1275rem;
 }
 
 
 h1 {
     font-size: 3em;
     margin-top: 3.6458333333333335vw;
-    font-family: 'Playfair Display', serif !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: Playfair Display, serif !important;
+    font-family: Roboto, sans-serif;
     color: #1F1F1F;
 }
 
 .main-content .content {
-    margin-top: 31px;
+    margin-top: 1.9375rem;
 }
 
 .main-content .intro {
-    font-size: 24px;
-    line-height: 27px !important;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0px;
+    font-size: 1.5rem;
+    line-height: 1.6875rem !important;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0rem;
     /*padding-right: 55px;*/
     color: #383838;
-    line-height: 25px;
+    line-height: 1.5625rem;
     font-weight: 400 !important;
-    letter-spacing: 0px;
+    letter-spacing: 0rem;
     opacity: 1;
 }
 
 .get-touch .intro {
-    font-size: 17px;
-    line-height: 20px;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0px;
-    padding-right: 55px;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0rem;
+    padding-right: 3.4375rem;
     color: #000000;
-    line-height: 25px;
+    line-height: 1.5625rem;
     font-weight: 500;
-    letter-spacing: 0px;
+    letter-spacing: 0rem;
     opacity: 1;
 }
 
 .main-content p {
-    font-size: 16px;
-    line-height: 19px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    font-family: Roboto, sans-serif;
     color: #707070;
     font-weight: 400;
     letter-spacing: 0;
 }
 
 .get-touch p {
-    font-size: 17px;
-    line-height: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    font-family: Roboto, sans-serif;
     color: #707070;
     font-weight: 400;
-    letter-spacing: 0;
+    letter-spacing: 0rem;
 }
 
 get-touch a {
     text-align: left;
     text-decoration: underline;
-    font: 500 11px/13px Roboto;
-    letter-spacing: 0px;
+    font: 500 0.6875rem/0.8125rem Roboto;
+    letter-spacing: 0rem;
     color: #1F1F1F;
     text-transform: uppercase;
     opacity: 1;
@@ -1029,24 +1081,24 @@ get-touch a {
 .touch_link {
     margin-top: 5vw !important;
     color: #1f1f1f;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    border: 1px solid gray;
+    font-size: 1.125rem;
+    font-family: Roboto, sans-serif;
+    border: 0.0625rem solid gray;
     display: block;
-    width: 275px;
+    width: 17.1875rem;
     text-transform: uppercase;
     text-decoration: none;
-    padding-top: 18px;
+    padding-top: 1.125rem;
     cursor: pointer;
-    padding-bottom: 18px;
+    padding-bottom: 1.125rem;
     text-align: center;
 }
 
 
 
 .touch_link:hover {
-    padding-right: 8px;
-    padding-left: 38px;
+    padding-right: 0.5rem;
+    padding-left: 2.375rem;
     transition: 0.5s;
 }
 
@@ -1054,7 +1106,7 @@ get-touch a {
 .touch_link::before {
     content: url(../img/blackarrow.svg);
     position: absolute;
-    left: 19px;
+    left: 1.1875rem;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0;
@@ -1064,7 +1116,7 @@ get-touch a {
 
 .touch_link:hover::before {
     opacity: 1;
-    left: 20px;
+    left: 1.25rem;
 }
 
 .img-block {
@@ -1072,7 +1124,7 @@ get-touch a {
 }
 
 .mt-150 {
-    margin-top: 150px;
+    margin-top: 9.375rem;
 }
 
 .img-block figure {
@@ -1090,7 +1142,7 @@ get-touch a {
 }
 
 .team {
-    padding: 120px 0px;
+    padding: 7.5rem 0rem;
 }
 
 .teams {
@@ -1101,21 +1153,21 @@ get-touch a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .team .teams .box h4 {
     font-size: 1.125em;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair Display, serif;
     margin-top: 1.5625vw;
     color: #383838;
 }
 
 .team .teams .box p {
-    margin-top: 4px;
+    margin-top: 0.25rem;
     font-size: 1.125em;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .clients {
@@ -1131,11 +1183,11 @@ get-touch a {
 }
 
 .atulya-image {
-    margin-top: 87px;
+    margin-top: 5.4375rem;
 }
 
 figure {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 
@@ -1146,32 +1198,32 @@ figure {
 }
 
 .atulya-image .content {
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
 }
 
 .dope .intro {
-    font-size: 17px;
-    line-height: 20px !important;
+    font-size: 1.0625rem;
+    line-height: 1.25rem !important;
     font-weight: 500 !important;
-    font-family: "Roboto";
-    letter-spacing: 0;
+    font-family: Roboto;
+    letter-spacing: 0rem;
     color: #1f1f1f;
     opacity: 1;
 }
 
 .atulya-image .content h3 {
-    font-size: 24px;
-    line-height: 28px;
-    padding-bottom: 29px;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    padding-bottom: 1.8125rem;
     color: #383838;
-    letter-spacing: 0;
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0rem;
+    font-family: Roboto, sans-serif;
     opacity: 1;
     font-weight: bold;
 }
 
 .f-16 {
-    font-size: 14px !important;
+    font-size: 0.875rem !important;
     font-style: italic;
 }
 
@@ -1190,8 +1242,8 @@ figure {
 
 .p-abs figure .abs-img {
     position: absolute;
-    bottom: -120px;
-    left: 70px;
+    bottom: -7.5rem;
+    left: 4.375rem;
 }
 
 .p-abs-l {
@@ -1200,8 +1252,8 @@ figure {
 
 .p-abs-l figure .abs-img {
     position: absolute;
-    bottom: -100px;
-    right: 40px;
+    bottom: -6.25rem;
+    right: 2.5rem;
 }
 
 .f-right {
@@ -1213,31 +1265,31 @@ figure {
 }
 
 .abs-img-sec {
-    margin-bottom: 256px;
+    margin-bottom: 16rem;
 }
 
 .atulya-last {
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 
 .new-abs .abs-img {
-    bottom: -49px !important;
+    bottom: -3.0625rem !important;
     right: -16% !important;
 }
 
 .dope .abs-img {
-    bottom: -95px !important;
-    left: 160px !important;
+    bottom: -5.9375rem !important;
+    left: 10rem !important;
 }
 
 .premium .content h3 {
-    margin-top: 35px;
-    padding-bottom: 17px;
-    font-family: 'Playfair Display', serif;
+    margin-top: 2.1875rem;
+    padding-bottom: 1.0625rem;
+    font-family: Playfair Display, serif;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.96px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.06rem;
     color: #383838;
     opacity: 1;
 }
@@ -1246,7 +1298,7 @@ figure {
     position: relative;
     display: block;
     margin: 0;
-    margin-top: 0px;
+    margin-top: 0rem;
     z-index: 0;
     text-align: center;
 }
@@ -1254,19 +1306,19 @@ figure {
 .toooop li {
     display: inline-block;
     color: #ACACAC;
-    font: normal normal 500 14px/16px Roboto;
-    letter-spacing: 0px;
-    margin-left: 16px;
+    font: normal normal 500 0.875rem/1rem Roboto;
+    letter-spacing: 0rem;
+    margin-left: 1rem;
     cursor: pointer;
-    margin-top: -3px;
+    margin-top: -0.1875rem;
 }
 
 .toooop li:last-child {}
 
 .toooop .active {
-    border: 2px solid white;
-    padding: 2px 6px;
-    border-radius: 4px;
+    border: 0.125rem solid white;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
 }
 
 .w-80 {
@@ -1279,7 +1331,7 @@ figure {
 
 .main-padding {
     margin: 0;
-    padding: 7.416666666666668vw 0px;
+    padding: 7.416666666666668vw 0rem;
 }
 
 .form {
@@ -1288,9 +1340,9 @@ figure {
 
 .form p {
     text-align: left;
-    font: 400 14px/20px Roboto;
-    font-size: 14px;
-    letter-spacing: 0px;
+    font: 400 0.875rem/1.25rem Roboto;
+    font-size: 0.875rem;
+    letter-spacing: 0rem;
     color: #383838;
     opacity: 1;
 }
@@ -1303,14 +1355,14 @@ figure {
 .form .form-group .form-control {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #282828;
+    border-bottom: 0.0625rem solid #282828;
     border-radius: 0;
 }
 
 .form .form-group .form-control::placeholder {
     text-transform: uppercase;
-    font-size: 11px;
-    font-family: "roboto";
+    font-size: 0.6875rem;
+    font-family: Roboto;
     color: #9A9A9A;
 }
 
@@ -1321,8 +1373,8 @@ figure {
 
 .form-control::placeholder {
     text-transform: uppercase;
-    font-size: 11px;
-    font-family: "roboto";
+    font-size: 0.6875rem;
+    font-family: Roboto;
     color: #9A9A9A;
 }
 
@@ -1331,23 +1383,23 @@ figure {
 }
 
 .mt-50 {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .submit .btn-call-to-action {
-    padding: 11px 41px !important;
+    padding: 0.6875rem 2.5625rem !important;
 }
 
 .custom-file-label {
     background: transparent;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 0.0625rem solid;
     border-radius: 0;
     padding: 0;
 }
 
 .mt-30 {
-    margin-top: 30px !important;
+    margin-top: 1.875rem !important;
 }
 
 .c-white {
@@ -1367,14 +1419,14 @@ figure {
 }
 
 .c-white .content {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .c-white .carousel-indicators {
     position: relative;
     display: block;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     z-index: 0;
 }
 
@@ -1385,25 +1437,33 @@ figure {
     border-bottom: none;
     opacity: 1;
     transition: opacity .6s ease;
+    -webkit-transition-property:opacity;
+    -webkit-transition-duration:0.6s;
+    -webkit-transition-timing-function:ease;
+    -moz-transition: opacity .6s ease;
+    -o-transition: opacity .6s ease;
     height: auto;
     width: auto;
     text-indent: inherit;
     font-size: 1.25em;
     color: #ffffff;
-    font-family: 'Playfair Display', serif;
-    margin-top: 24px;
+    font-family: Playfair Display, serif;
+    margin-top: 1.5rem;
 }
 
 .c-white .carousel-indicators li:hover {
     text-decoration: underline;
     transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
 .c-white .carousel-indicators li span {
     color: #EAEAEA;
     font-size: 1em;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 16px;
+    font-family: Roboto, sans-serif;
+    margin-right: 1rem;
 }
 
 .c-white .carousel-control-next,
@@ -1418,22 +1478,22 @@ figure {
 
 .c-white .carousel-control-next span,
 .c-white .carousel-control-prev span {
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .c-white .carousel-numeric .num {
     color: #ffffff;
-    padding: 0px 60px;
-    font-size: 28px;
+    padding: 0rem 3.75rem;
+    font-size: 1.75rem;
 }
 
 blockquote {
-    margin-top: 35px;
-    padding-left: 26px;
+    margin-top: 2.1875rem;
+    padding-left: 1.625rem;
 }
 
 .mt-40 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .relative {
@@ -1442,7 +1502,7 @@ blockquote {
 
 .sticky {
     position: sticky;
-    top: 50px;
+    top: 3.125rem;
     position: -webkit-sticky;
 }
 
@@ -1453,11 +1513,11 @@ blockquote {
 
 .get-touch h3 {
     margin-top: 3.6458333333333335vw;
-    line-height: 22px;
-    font-size: 17px;
+    line-height: 1.375rem;
+    font-size: 1.0625rem;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 30px;
+    font-family: Playfair Display, serif;
+    margin-bottom: 1.875rem;
     color: #383838;
 }
 
@@ -1475,29 +1535,37 @@ blockquote {
 }
 
 .bg-white h2 {
-    font-size: 24px;
-    line-height: 27px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6875rem;
+    font-family: Roboto, sans-serif;
     color: #383838;
 }
 
 textarea {
-    height: 100px !important;
+    height: 6.25rem !important;
 }
 
 
 .custom-file-label::after {
     background: transparent;
-    border: 1px solid black;
+    border: 0.0625rem solid black;
     border-bottom: none;
 }
 
-@media screen and (max-width:1919px) {}
+@media screen and (max-width:1919px) {
+    body{
+        overflow-x: hidden;
+    }
+}
 
 @media screen and (max-width:768px) {
+    body,html{
+        overflow-x: hidden;
+    }
+
     .p-abs figure img {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .live .newsletter form .input-group {
@@ -1506,7 +1574,7 @@ textarea {
 
     .sticky {
         position: relative;
-        margin-bottom: 70px;
+        margin-bottom: 4.375rem;
     }
 
     .new-abs figure img {
@@ -1515,25 +1583,25 @@ textarea {
 
     .p-abs figure .abs-img {
         position: absolute;
-        bottom: -79px;
+        bottom: -4.9375rem;
         left: 10%;
         width: 80%;
     }
 
     .p-abs-l figure img {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 3.125rem;
     }
 
     .p-abs-l figure .abs-img {
         position: absolute;
-        bottom: -160px;
+        bottom: -10rem;
         left: 10%;
         width: 80%;
     }
 
     .new-abs .abs-img {
-        bottom: -140px !important;
+        bottom: -8.75rem !important;
         left: 10% !important;
         width: 80% !important;
     }
@@ -1549,6 +1617,10 @@ textarea {
 
 @media (min-width: 1920px) {
 
+	
+    body{
+        overflow-x: hidden;
+    }
     .container,
     .container-lg,
     .container-md,
@@ -1559,18 +1631,27 @@ textarea {
 }
 
 @media screen and (max-height: 450px) {
+
+	body,html{
+        overflow-x: hidden;
+    }
     .sidenav {
-        padding-top: 15px;
+        padding-top: 0.9375rem;
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 112.5%;
     }
 }
 
 @media screen and (max-width:768px) {
+	
+    body,html{
+        overflow-x: hidden;
+    }
+
     #main .content {
-        padding: 0px 16px;
+        padding: 0rem 1rem;
     }
 
     .order1 {
@@ -1590,7 +1671,7 @@ textarea {
     }
 
     .img-block {
-        padding: 16px;
+        padding: 1rem;
     }
 
     .web-wrap {
@@ -1619,17 +1700,17 @@ textarea {
     }
 
     .art-gallery .text p {
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 1.125rem;
         color: #0E0E0E;
         width: 41.71875Vh;
-        line-height: 28px;
+        line-height: 1.75rem;
     }
 
     .call-to-action .btn-call-to-action {
         background: #1F1F1F;
         color: #ffffff;
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto, sans-serif;
         font-size: 1.125rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -1645,7 +1726,7 @@ textarea {
 
     .craftman .call-to-action {
         margin-top: 3.125Vh;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
         text-align: left;
     }
 
@@ -1666,20 +1747,20 @@ textarea {
 
     .live .newsletter form .form-control {
         border: none;
-        border-bottom: 3px solid black;
+        border-bottom: 0.1875rem solid black;
         height: 6.645833Vh;
     }
 
     footer {
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 
     footer .img-fluid {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 
     footer .widget {
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -1690,6 +1771,11 @@ textarea {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     transition: 1s ease-in-out 0s;
+    -moz-transition: 1s ease-in-out 0s;
+    -o-transition: 1s ease-in-out 0s;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:ease-in-out;
+    -webkit-transition-delay:0s;
 }
 
 #slider .wrap-slider {
@@ -1699,6 +1785,11 @@ textarea {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     transition: 1s ease-in-out 0s;
+    -moz-transition: 1s ease-in-out 0s;
+    -o-transition: 1s ease-in-out 0s;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:ease-in-out;
+    -webkit-transition-delay:0s;
     left: 0;
     top: 0;
     width: 100%;
@@ -1711,6 +1802,11 @@ textarea {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     transition: 1s ease-in-out 0s;
+    -moz-transition: 1s ease-in-out 0s;
+    -o-transition: 1s ease-in-out 0s;
+    -webkit-transition-duration:1s;
+    -webkit-transition-timing-function:ease-in-out;
+    -webkit-transition-delay:0s;
     left: -100%;
     top: 0;
     width: 100%;
@@ -1718,18 +1814,19 @@ textarea {
 
 .form-control:focus {
     box-shadow: none;
-    border-bottom: 3px solid black;
+    border-bottom: 0.1875rem solid black;
 }
 
 .form-control {
-    padding: 0px;
+    padding: 0rem;
 }
 
 #mySidenav {
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
-    -webkit-transition: all .7s;
+    overflow: auto !important;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .7s;
     -moz-transition: all .7s;
     -o-transition: all .7s;
     transition: all 0.7s;
@@ -1746,14 +1843,18 @@ textarea {
 
 .live ul li h6 {
     color: #000000;
-    font-family: "poppins";
-    font-size: 11px;
+    font-family: Poppins;
+    font-size: 0.6875rem;
     font-weight: 500;
 }
 
 .live ul li h6 a {
     color: #000;
     text-transform: none;
+}
+.live ul li h6 a:hover {
+    color: #585858;
+    text-decoration: none !important;
 }
 
 .uppercase span {
@@ -1769,17 +1870,17 @@ textarea {
 }
 
 .v-small-btn {
-    width: 150px !important;
+    width: 9.375rem !important;
 }
 
 
 .vv-small-btn {
-    width: 120px !important;
+    width: 7.5rem !important;
 }
 
 input {
 
-    font-size: 14px;
+    font-size: 0.875rem;
     display: inline-block;
 }
 
@@ -1797,7 +1898,7 @@ textarea {
 
 .input-group {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     position: relative;
 }
 
@@ -1807,9 +1908,9 @@ textarea {
 
 .abs-select {
     position: absolute;
-    top: 5px;
-    right: 4px;
-    font-size: 23px;
+    top: 0.3125rem;
+    right: 0.25rem;
+    font-size: 1.4375rem;
     color: #707070;
 }
 
@@ -1818,12 +1919,12 @@ textarea {
 .input-group label {
     position: absolute;
     top: 50%;
-    left: 0px;
+    left: 0rem;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: "Poppins";
-    font-size: 13px;
-    line-height: 15px;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
     letter-spacing: 0;
     text-transform: uppercase;
     color: #999;
@@ -1833,8 +1934,8 @@ textarea {
 }
 
 select {
-    font-size: 13px !important;
-    line-height: 15px !important;
+    font-size: 0.8125rem!important;
+    line-height: 0.9375rem !important;
     letter-spacing: 0;
     text-transform: uppercase;
     color: #999 !important;
@@ -1851,58 +1952,63 @@ select::after {
 .textarea label {
     position: absolute;
     top: 80%;
-    left: 0px;
+    left: 0rem;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: "Poppins";
-    font-size: 13px;
-    line-height: 15px;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    line-height: 0.9375rem;
     letter-spacing: 0;
     text-transform: uppercase;
     color: #999;
     pointer-events: none;
-    -webkit-transition: all 0.15s ease-out 0s;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    -o-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
 }
 
 .input-group input:focus + label,
 .input-group input.has-value + label {
-    top: 0px;
-    font-size: 10px;
+    top: 0rem;
+    font-size: 0.625rem;
     color: #aaa;
 }
 
 .input-group textarea:focus + label,
 .input-group textarea:valid + label {
-    top: -5px;
-    font-size: 10px;
+    top: -0.3125rem;
+    font-size: 0.625rem;
     color: #aaa;
 }
 
 .terms h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 51px;
+    font-family: Playfair Display, sans-serif;
+    font-size: 3.1875rem;
     color: #1F1F1F;
-    letter-spacing: -2.04px;
+    letter-spacing: -0.1275rem;
     font-weight: 500;
 }
 
 .terms p {
-    font-family: "Poppins" !important;
-    font-size: 16px;
+    font-family: Poppins !important;
+    font-size: 1rem;
     color: #585858;
-    line-height: 27px;
+    line-height: 1.6875rem;
 }
 
 .terms h2 {
-    font-family: "Poppins" !important;
-    font-size: 24px;
+    font-family: Poppins !important;
+    font-size: 1.5rem;
     color: #585858;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .mt-80 {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .grayscale {
@@ -1911,6 +2017,9 @@ select::after {
 
 .grayscale:hover {
     transition: 0.8s;
+    -moz-transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
     filter: grayscale(0%);
 }
 
@@ -1927,12 +2036,12 @@ select::after {
 }
 
 .vv-small-btn {
-    width: 130px !important;
+    width: 8.125rem !important;
 }
 
 .vv-small-btn button {
-    padding-top: 14px !important;
-    padding-bottom: 14px !important;
+    padding-top: 0.875rem !important;
+    padding-bottom: 0.875rem !important;
 }
 
 .text-left {
@@ -1945,15 +2054,47 @@ select::after {
 
 .logo-pos{
     position: absolute;
-    top: 42px;
+    top: 2.625rem;
     left: 35%;
 }
 
 @media screen and (max-width:768px){
+	body,html{
+        overflow-x: hidden;
+    }
     .logo-pos{
         position: relative;
         text-align: left;
-        margin-top:00px;
+        margin-top:0rem;
         left: 7%;
+    }
+}
+
+@media screen and(max-width: 520px){
+    body,html{
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:640px){
+
+    .sidenav ul li a{
+        font-size: 2.025rem !important;
+        margin:0rem !important;
+    }
+    .social-head{
+        display: none;
+    }
+    .small-nav{
+        margin:auto !important;
+    }
+    .col-xl-4{
+        padding-top: 0.625rem;
+    }
+    .small-nav ul li a{
+        font-weight: normal;
+        font-size: 2.025rem !important;
+        padding-left: 0rem;
+        margin:0rem !important;
     }
 }
