@@ -263,7 +263,7 @@ p {
     -moz-transition: all .7s;
     -o-transition: all .7s;
     transition: all 0.7s;
-    background-image: url('../img/navbg.png');
+    background: #F6F4F2;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -276,7 +276,7 @@ p {
 }
 
 .nav-menu {
-    padding-top: 12%;
+    padding-top: 10%;
 }
 
 .vh-100 {
@@ -371,7 +371,8 @@ p {
 .sidenav a {
     padding-top: 0;
     padding-left: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0.825rem;
 }
 
 .sidenav a:hover {
@@ -1849,11 +1850,11 @@ textarea {
 }
 
 .live ul li h6 a {
-    color: #000;
+    color: #585858;
     text-transform: none;
 }
 .live ul li h6 a:hover {
-    color: #585858;
+    color: #000000;
     text-decoration: none !important;
 }
 

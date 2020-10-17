@@ -62,9 +62,9 @@ $(document).ready(function () {
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "500ms",
-             "-webkit-transition-timing-function": "ease",
+             "background": "#F6F4F2",
+             // "-webkit-animation-delay" : "500ms",
+             // "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
@@ -77,9 +77,9 @@ $(document).ready(function () {
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "500ms",
-             "-webkit-transition-timing-function": "ease",
+             "background": "#F6F4F2",
+             // "-webkit-animation-delay" : "500ms",
+             // "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
@@ -92,9 +92,9 @@ $(document).ready(function () {
         }), $(".color_h_w li a").addClass("color_change"), $("#crafts , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "500ms",
-             "-webkit-transition-timing-function": "ease",
+             "background": "#F6F4F2",
+             // "-webkit-animation-delay" : "500ms",
+             // "-webkit-transition-timing-function": "ease",
             
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
@@ -108,9 +108,9 @@ $(document).ready(function () {
     }, function () {
         $("#mySidenav").css({
 
-             "background-image": "url('assets/img/navbg.png')",
-             "-webkit-animation-delay" : "500ms",
-             "-webkit-transition-timing-function": "ease",
+             "background": "#F6F4F2",
+             // "-webkit-animation-delay" : "500ms",
+             // "-webkit-transition-timing-function": "ease",
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #design").removeClass("color_change")
     }),
      $("#news").hover(function () {
@@ -121,7 +121,7 @@ $(document).ready(function () {
         })
     }, function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbg.png')"
+            "background": "#F6F4F2"
         }), $("#mySidenav ul li a").css({
             color: "black"
         })
