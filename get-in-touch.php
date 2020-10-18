@@ -1,7 +1,14 @@
 <?php include('header.php') ?>
 
-<section class="main-content get-touch">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+
+    }
+</style>
+
+<section class="main-content dope get-touch">
+    <div class="container" >
         <h5 style=" margin-bottom: 3.025rem;">Contact us</h5>
         <div class="web-wrap">
             <div class="content">
@@ -41,8 +48,8 @@
 </section>
 
 <section class="bg-white">
-    <div class="main-content main-padding">
-        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+    <div class="main-content dope main-padding">
+        <div class="container" >
             <h2>If you don’t find what you need,<br>
                 Fill out our contact form</h2>
             <div class="form">

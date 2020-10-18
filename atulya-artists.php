@@ -1,7 +1,13 @@
 <?php include('header.php')?>
 
-<section class="main-content">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<style type="text/css">
+    .dope .container{
+         margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
+
+<section class="main-content dope">
+    <div class="container">
         <h5 style="margin-bottom: 3rem;">Atulya Artists</h5>
         <div class="web-wrap">
             <h1 class="uppercase" style="margin-bottom: 3rem;">Here <span>is</span>, how we <span>can</span><br> benefit artists.</h1>
@@ -34,8 +40,8 @@
 
 <section id="benefits"></section>
 
-<section class="main-content">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="main-content dope">
+    <div class="container">
         <h5 style="margin-bottom: 3rem;">Network Benefits</h5>
         <div class="web-wrap">
             <h1 style="margin-bottom: 3rem;">Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
@@ -65,8 +71,8 @@
 <section id="join"></section>
 
 <section class="bg-cream mt-100">
-    <div class="main-content main-padding">
-        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+    <div class="main-content dope main-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-5">
                     <h5 style="margin-bottom: 3rem;">Form</h5>

@@ -1,7 +1,13 @@
 <?php include('header.php') ?>
 
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem;padding-right:10.0625rem; margin-bottom: 7.125rem;
+    }
+</style>{
+
 <section class="main-content dope">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+    <div class="container"  >
         <h5>Clients</h5>
         <div class="web-wrap">
             <h1 class="">Corporate <span>art</span> <br> Consulting <span> &</span> services</h1>
@@ -19,8 +25,8 @@
     </div>
 </section>
 
-<section class="atulya-image">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope">
+    <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
@@ -49,8 +55,8 @@
     </div>
 </section>
 
-<section class="atulya-image">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope">
+    <div class="container"  >
         <div class="row">
             <div class="col-xl-2"></div>
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
@@ -75,8 +81,8 @@
 
 
 
-<section class="atulya-image">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope">
+    <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
@@ -105,9 +111,9 @@
 
 
 
-<section class="atulya-image abs-img-sec" style="margin-bottom:177px">
+<section class="atulya-image abs-img-sec dope" style="margin-bottom:177px">
     <div class="web-wrap">
-        <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+        <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
@@ -130,8 +136,8 @@
 
 
 
-<section class="atulya-image" style="margin-top:50px">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope" style="margin-top:50px">
+    <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-6 order2">
@@ -160,8 +166,8 @@
 
 
 
-<section class="atulya-image">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope">
+    <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1">
@@ -188,8 +194,8 @@
 
 
 
-<section class="atulya-image">
-    <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+<section class="atulya-image dope">
+    <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-6 order2">
@@ -216,9 +222,9 @@
 </section>
 
 
-<section class="atulya-image abs-img-sec" style="margin-bottom:177px">
+<section class="atulya-image abs-img-sec dope" style="margin-bottom:177px">
     <div class="web-wrap">
-        <div class="container" style="margin-left:12.0625rem; padding-right:10.0625rem; margin-bottom: 7.125rem;" >
+        <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">

@@ -16,9 +16,9 @@
     
 
 
-    <header>
+    <header >
         <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
-            <div class="row">
+            <div class="row nb">
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->

@@ -1,7 +1,14 @@
 <?php include('header.php')?>
 
+<style type="text/css">
+    .main-content .dp{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
+
+
 <section class="main-content">
-    <div class="container" style=" margin-left:12.0625rem; padding-right:12.0625rem;">
+    <div class="container dp" >
         <h5>Volunteer with us</h5>
         <div class="web-wrap">
             <h1 class="uppercase">A gift <span>to the </span> <br>community</h1>
@@ -27,7 +34,7 @@
 
 <section class="bg-cream">
     <div class="main-content main-padding">
-        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+        <div class="container dp" >
             <h5>Form</h5>
             <h1>Join volunteer <br><span>network</span></h1>
             <div class="form">

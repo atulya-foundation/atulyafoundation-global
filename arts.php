@@ -1,6 +1,13 @@
 <?php include('header.php') ?>
+
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
+
 <section class="main-content dope">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+    <div class="container">
         <h5>Atulya arts</h5>
         <div class="web-wrap">
             <h1 class="uppercase">A Great Work <span>of</span> Art <br> <span>and</span> Literature, <br> Thinking <span>through</span> art</h1>
@@ -18,8 +25,8 @@
         </div>
     </div>
 </section>
-<section class="atulya-image premium" style="margin-top:295px">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="atulya-image premium dope" style="margin-top:295px">
+    <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
@@ -47,8 +54,8 @@
         </div>
     </div>
 </section>
-<section class="atulya-image premium">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="atulya-image premium dope">
+    <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <figure>
@@ -66,8 +73,8 @@
 
 
 
-<section class="atulya-image premium">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="atulya-image premium dope">
+    <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
@@ -98,8 +105,8 @@
 
 
 
-<section class="atulya-image premium">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="atulya-image premium dope">
+    <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
@@ -129,8 +136,8 @@
 </section>
 
 
-<section class="atulya-image premium">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="atulya-image premium dope">
+    <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <figure>

@@ -1,5 +1,10 @@
 <?php include('header.php') ?>
-<div class="container terms mt-100" style="margin-left:17.1025rem; padding-right:17.1025rem;">
+
+<style type="text/css">
+    .tms{margin-left:17.1025rem; padding-right:17.1025rem;}
+</style>
+
+<div class="container terms tms mt-100">
     <div class="row justify-content-center">
         <div class="col-md-12">
             <h1 class="uppercase">Terms  <span> of </span>  Use</h1>

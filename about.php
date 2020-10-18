@@ -1,8 +1,13 @@
 <?php include('header.php')?>
 
+<style type="text/css">
+    .dope .container{
+        margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+</style>
 
-<section class="main-content">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;" >
+<section class="main-content dope">
+    <div class="container"  >
         <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya’ Idea</h5>
         <div class="web-wrap">
             <h1>BELIEVE <span>in</span><br> CRAFTSMANSHIP<br> <span>and</span> BEIGN AN ARTIST</h1>
@@ -35,8 +40,8 @@
 
 
 <div id="team"></div>
-<section class="bg-cream team">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="bg-cream team dope">
+    <div class="container" >
         <h5>TEAM</h5>
         <div class="web-wrap">
             <h1><span>One</span> Team. <span>One</span> Dream.</h1>
@@ -95,8 +100,8 @@
 </section>
 
 <div id="clients"></div>
-<section class="main-content">
-    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+<section class="main-content dope">
+    <div class="container" >
 
         <div class="web-wrap">
             <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>

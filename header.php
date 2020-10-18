@@ -45,7 +45,7 @@
 
 <body style="background:<?php echo $bg_body_color ?>" id="body">
     <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
-        <div class="row">
+        <div class="row nb">
             <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
                 </div-->
@@ -92,7 +92,7 @@
         </div>
     </div>
     </header>
-    <section class="main">
+    <section class="main bgnv">
         <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
         <div class="logo ">
             <a href="index.php"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
