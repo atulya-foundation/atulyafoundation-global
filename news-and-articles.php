@@ -4,22 +4,52 @@
     <div class="container" style="margin-left: 5.625rem;">
         <div class="row">
             <div class="col-xl-6">
-                <h5 style="margin-bottom: 5rem;">Pressroom and blog</h5>
-                <div class="web-wrap" style="margin-left: 3.625rem;">
-                    <h1 class="uppercase">News <span>and</span><br> Articles</h1>
-                    <div class="content">
+                <div class="row">
+                    <div class="col-xl-12">
+                            <h5 style="margin-bottom: 5rem;">Pressroom and blog</h5>
+                            <div class="web-wrap" style="margin-left: 3.625rem;">
+                                <h1 class="uppercase">News <span>and</span><br> Articles</h1>
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <p class="intro">All the news you need and more. Let’s talk! media kits make the art business more engaging.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> <span>Aug 01, 2018</span> The journey of Mark Rothko</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"> <span>Aug 10, 2018</span> Hitler as an Artist</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"> <span>Aug 29, 2018</span> Raja Ravi Verma</li>
+                            </ol>
+                    </div>
+                    <div class="col-xl-12 mt-50 mb-3" style="margin-top: 7rem;">
                         <div class="row">
-                            <div class="col-lg-8">
-                                <p class="intro">All the news you need and more. Let’s talk! media kits make the art business more engaging.</p>
+                            <div class="col-sm-1 col-xs-1 justify-content-end" > 
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+                                <span class="fas fa-chevron-left" aria-hidden="true"></span>
+
+                                <span class="sr-only">Previous</span>
+                                </a>
+                            </div>
+                            <div class="col-sm-5 col-xs-5 nopad" style="max-width:7.421875rem;">
+                                <ol class=" toooop nopad">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">2</li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"> 3 </li>
+                                </ol>
+                            </div>
+                            <div class="col-sm-1 col-xs-1 nopad">
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="fas fa-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> <span>Aug 01, 2018</span> The journey of Mark Rothko</li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"> <span>Aug 10, 2018</span> Hitler as an Artist</li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"> <span>Aug 29, 2018</span> Raja Ravi Verma</li>
-                </ol>
+                
             </div>
             <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-5">
@@ -39,29 +69,8 @@
                 </div>
             </div>
 
-            <div class="col-xl-3  mt-50 mb-3">
-                <div class="row">
-                    <div class="col-sm-1 col-xs-1">
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="fas fa-chevron-left" aria-hidden="true"></span>
-
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </div>
-                    <div class="col-sm-5 col-xs-5 nopad">
-                        <ol class=" toooop nopad">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">1</li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1">2</li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"> 3 </li>
-                        </ol>
-                    </div>
-                    <div class="col-sm-1 col-xs-1 nopad">
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="fas fa-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-xl-3  ">
+                
             </div>
         </div>
     </div>

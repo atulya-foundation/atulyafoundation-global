@@ -1312,6 +1312,8 @@ figure {
     margin-top: 0rem;
     z-index: 0;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .toooop li {
