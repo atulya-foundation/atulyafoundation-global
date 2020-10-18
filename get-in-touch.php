@@ -1,8 +1,8 @@
 <?php include('header.php') ?>
 
 <section class="main-content get-touch">
-    <div class="container">
-        <h5>Contact us</h5>
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+        <h5 style=" margin-bottom: 3.025rem;">Contact us</h5>
         <div class="web-wrap">
             <div class="content">
                 <h1 class="uppercase">Get in touch</h1>
@@ -11,7 +11,7 @@
                         <p class="intro">Let us craft your dreams into reality. We listen to you and welcome your ideas. Come visit us and you will see that all are true.</p>
                         <div class="row">
                             <div class="col-sm-5">
-                                <h3>Correspondence Address</h3>
+                                <h3>Visit Us</h3>
                                 <p>II Floor, D-68 A, Aruna Park (Near
                                     Metro pillar No. 50), Vikas Marg,
                                     Shakarpur, Delhi – 110092</p>
@@ -42,7 +42,7 @@
 
 <section class="bg-white">
     <div class="main-content main-padding">
-        <div class="container">
+        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
             <h2>If you don’t find what you need,<br>
                 Fill out our contact form</h2>
             <div class="form">

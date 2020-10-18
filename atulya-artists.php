@@ -1,10 +1,10 @@
 <?php include('header.php')?>
 
 <section class="main-content">
-    <div class="container">
-        <h5>Atulya Artists</h5>
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+        <h5 style="margin-bottom: 3rem;">Atulya Artists</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">Here <span>is</span>, how we <span>can</span><br> benefit artists.</h1>
+            <h1 class="uppercase" style="margin-bottom: 3rem;">Here <span>is</span>, how we <span>can</span><br> benefit artists.</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
@@ -35,10 +35,10 @@
 <section id="benefits"></section>
 
 <section class="main-content">
-    <div class="container">
-        <h5>Network Benefits</h5>
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
+        <h5 style="margin-bottom: 3rem;">Network Benefits</h5>
         <div class="web-wrap">
-            <h1>Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
+            <h1 style="margin-bottom: 3rem;">Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
@@ -66,10 +66,10 @@
 
 <section class="bg-cream mt-100">
     <div class="main-content main-padding">
-        <div class="container">
+        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
             <div class="row">
                 <div class="col-lg-5">
-                    <h5>Form</h5>
+                    <h5 style="margin-bottom: 3rem;">Form</h5>
                     <h1>Join Artist <br> <span> network</span></h1>
                     <p class="intro mt-40" style="color:#383838">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
                     <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>

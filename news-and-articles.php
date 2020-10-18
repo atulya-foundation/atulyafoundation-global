@@ -1,11 +1,11 @@
 <?php include('header.php') ?>
 
 <section class="main-content c-white dope">
-    <div class="container">
+    <div class="container" style="margin-left: 5.625rem;">
         <div class="row">
             <div class="col-xl-6">
-                <h5>Pressroom and blog</h5>
-                <div class="web-wrap">
+                <h5 style="margin-bottom: 5rem;">Pressroom and blog</h5>
+                <div class="web-wrap" style="margin-left: 3.625rem;">
                     <h1 class="uppercase">News <span>and</span><br> Articles</h1>
                     <div class="content">
                         <div class="row">

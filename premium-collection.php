@@ -3,7 +3,7 @@
     <img src="assets/img/aa.svg" class="img-fluid" alt="">
 </div>
 <section class="main-content dope">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <h5>Atulya arts</h5>
         <div class="web-wrap">
             <h1 class="uppercase">A Great Work <span>of</span> Art <br> <span>and</span> Literature, <br> Thinking <span>through</span> art</h1>
@@ -22,7 +22,7 @@
     </div>
 </section>
 <section class="atulya-image premium" style="margin-top:295px">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
@@ -51,7 +51,7 @@
     </div>
 </section>
 <section class="atulya-image premium">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-12">
                 <figure>
@@ -72,7 +72,7 @@
 
 
     <section class="atulya-image pt-50">
-        <div class="container">
+        <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1 nopad">
@@ -91,7 +91,7 @@
 
 </div>
 <section class="main-content dope">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
 
         <div class="content">
             <div class="row">

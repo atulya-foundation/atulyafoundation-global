@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
-<div class="container terms mt-100">
-    <div class="row ">
+<div class="container terms mt-100" style="margin-left:17.1025rem; padding-right:17.1025rem;">
+    <div class="row justify-content-center">
         <div class="col-md-12">
             <h1 class=" uppercase">Privacy Policy</h1>
             <div class="content mt-80">

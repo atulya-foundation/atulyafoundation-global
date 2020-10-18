@@ -543,8 +543,9 @@ color:#000000;
 #main .content .text {
     text-align: center;
     margin-top: 0.6375rem;
-    font-size: 1.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
     color: #fff;
 }
 
@@ -843,7 +844,8 @@ p {
     font-size: 1rem;
     line-height: 1.125rem;
     color: #383838;
-    font-weight: 400 !important;
+    font-weight: normal !important;
+    letter-spacing: 0rem;
 }
 
 .live .newsletter {
@@ -926,7 +928,8 @@ footer {
 
 footer h2 {
     color: #FFFFFF;
-    font-family: Poppins, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
     font-size: 1.125rem;
     padding-bottom: 3.125VW;
 }
@@ -946,7 +949,8 @@ footer .widget ul {
 footer .widget ul li {
     padding-bottom: 0.5208333333333333VW;
     font-size: 0.875rem;
-    font-family: Poppins, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
     color: #AAAAAA;
     list-style: none;
 }
@@ -1054,7 +1058,7 @@ h1 {
     font-family: Roboto, sans-serif;
     color: #707070;
     font-weight: 400;
-    letter-spacing: 0;
+    letter-spacing: 0.02rem;
 }
 
 .get-touch p {
@@ -1423,6 +1427,9 @@ figure {
 
 .c-white .intro {
     color: #EAEAEA;
+    font-size: 1.025rem/1.125rem ;
+    font-family:Roboto,sans-serif;
+    font-weight: normal;
 }
 
 .c-white .content {
@@ -1452,7 +1459,9 @@ figure {
     height: auto;
     width: auto;
     text-indent: inherit;
-    font-size: 1.25em;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    letter-spacing: 0;
     color: #ffffff;
     font-family: Playfair Display, serif;
     margin-top: 1.5rem;
@@ -1468,8 +1477,9 @@ figure {
 
 .c-white .carousel-indicators li span {
     color: #EAEAEA;
-    font-size: 1em;
-    font-family: Roboto, sans-serif;
+    font-size: 0.875rem !important;
+    font-family: Roboto, sans-serif !important;
+    font-weight: normal !important;
     margin-right: 1rem;
 }
 
@@ -2009,6 +2019,7 @@ select::after {
 
 .terms h2 {
     font-family: Poppins !important;
+    font-weight: 600 !important;
     font-size: 1.5rem;
     color: #585858;
     margin-top: 2.5rem;

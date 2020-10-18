@@ -3,7 +3,7 @@
     <img src="assets/img/ac.svg" class="img-fluid" alt="">
 </div>
 <section class="main-content dope">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <h5>Atulya Digital</h5>
         <div class="web-wrap">
             <h1 class="uppercase">Combining strategy & <br> design <span>to</span> create brands <br> that lead <span>and</span> not just <br> keep up</h1>
@@ -24,7 +24,7 @@
 
 
 <section class="atulya-image abs-img-sec">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs-l new-abs">
                 <figure>
@@ -45,7 +45,7 @@
 </section>
 
 <section class="atulya-image">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
@@ -72,7 +72,7 @@
 
 
 <section class="atulya-image">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-2"></div>
 
@@ -93,7 +93,7 @@
 
 
 <section class="atulya-image abs-img-sec">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs dope">
                 <figure>
@@ -118,7 +118,7 @@
 </section>
 
 <section class="atulya-image abs-img-sec">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-4 order2">
                 <figure>
@@ -137,7 +137,7 @@
 
 
 <section class="atulya-image abs-img-sec">
-    <div class="container">
+    <div class="container" style="margin-left:12.0625rem; padding-right:12.0625rem;">
         <div class="row">
             <div class="col-xl-1"></div>
             <div class="col-xl-3 col-lg-6 j-center col-md-6 content order1">
@@ -157,7 +157,7 @@
 </section>
 
 
-<section class="atulya-last j-center container">
+<section class="atulya-last j-center container" style="margin-left: 15rem; padding-right: 15rem;">
     <div class="web-wrap">
         <div class="row">
             <div class="col-lg-2"></div>
@@ -173,7 +173,7 @@
 
 <?php include('footer.php')  ?>
 
-<style>
+<!-- <style>
     .col,
     .col-1,
     .col-10,
@@ -253,3 +253,4 @@
     }
 
 </style>
+ -->
