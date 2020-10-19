@@ -2113,7 +2113,7 @@ select::after {
         letter-spacing: 0rem !important;
     }
     .social-head{
-        display: none;
+        visibility: hidden;
     }
     .small-nav{
         margin:1rem auto 0.875rem auto !important;
@@ -2133,7 +2133,7 @@ select::after {
         color: #EAEAEA!important;
     }
     .logo-pos{
-        display: none !important;
+        visibility: hidden !important;
     }
     .dope .container{
         margin:auto !important;
@@ -2167,8 +2167,4 @@ select::after {
     #carouselExampleIndicators{
         display: none;
     }
-    
-    /*.bgnv .logo{
-        position: fixed;
-    }*/
 }
