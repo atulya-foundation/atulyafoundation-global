@@ -12,15 +12,16 @@ function openNav() {
 }
 
 function closeNav() {
-    $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
-    $("#mySidenav ul li a").addClass(" fadeOutDown animated"), 
+    1 == $("#mySidenav ul li a").hasClass("fadeInUp") && $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
+         // $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
+        $("#mySidenav ul li a").addClass(" fadeOutDown animated"), 
     
-    $("body").css("overflow-y", "scroll"), 
-    document.getElementById("mySidenav").style.height = "0", 
-    document.getElementById("main").style.marginTop = "0", 
-    $(".closebtn").css("display", "none"), 
-    $("#content").css("display", "flex"), 
-    $("#main .logo").css("display", "block")
+        $("body").css("overflow-y", "scroll"), 
+        document.getElementById("mySidenav").style.height = "0", 
+        document.getElementById("main").style.marginTop = "0", 
+        $(".closebtn").css("display", "none"), 
+        $("#content").css("display", "flex"), 
+        $("#main .logo").css("display", "block")
 }
 
 function openNav1() {

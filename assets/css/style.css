@@ -313,12 +313,13 @@ p {
 }
 
 .small-nav{
-    margin-top: 0rem;
+    padding-top: 0.57rem;
+    margin-top: 0.050rem;
     margin-left: 1rem;
 }
 .small-nav ul li a {
     color: #707070;
-    margin-bottom: 2rem; 
+    margin-bottom: 1.575rem; 
     padding-right: 0rem;
     margin-left: 6rem;
     text-transform: capitalize;
@@ -465,7 +466,7 @@ h2 span {
 
 .social-head {
     position: relative;
-    margin-top: 0rem;
+    margin-top: 1.65rem;
     margin-left: 1rem;
 }
 
