@@ -67,11 +67,15 @@
     </header>
 
     <section class="main">
-        <div onclick="openNav()" class="toggle-btn"><img src="assets/img/toggle-white.svg" id="toggle" alt=""></div>
+        <div onclick="openNav()" class="toggle-btn abcd"><img src="assets/img/toggle-white.svg" id="toggle" alt=""></div>
         <div id="main">
-            <div class="logo abs">
+            <div class="logo abs abcd">
                 <img src="assets/img/Component2.svg" class="img-fluid" alt="">
             </div>
+            <nav class="navbar navbar-dark bg-dark fixed-top n">
+                <a href="index.php" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
+                <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
+            </nav>
             <div class="content" id="content">
                 <img src="assets/img/Group216.svg" class="img-fluid" alt="">
                 <div class="text">
@@ -199,7 +203,7 @@
                     </li>
 
                     <li>
-                        <h6><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></h6>
+                        <h6 class="t"><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></h6>
                     </li>
 
                     <li>
@@ -211,3 +215,54 @@
         </section>
     </div>
     <?php include('footer.php')?>
+
+
+<style type="text/css">
+        .n{
+            visibility: hidden;
+        }
+        .n .btn{
+                height: 0.625rem;
+                width: 2.8125rem;   
+                margin-right:1rem; 
+                right: 7.292vw; 
+            }
+        .form-control{
+            width: 94%!important;
+        }
+        @media only screen and (max-width:768px){
+            .abcd{
+                visibility: hidden;
+            }
+            .n{
+                visibility: visible;
+                /*margin-left: 0rem;
+                padding-left: 0rem !important; */
+            }
+            .n .brand{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .n .btn{
+                padding-top: 0rem;
+                margin-top: 0rem;
+            }
+            
+            .btn-call-to-action{
+                font-weight: normal!important;
+            }
+            .j-center{
+                text-align: center;
+            }
+            .f-left{
+                 justify-content: center!important;
+            }
+            .form-control{
+                 width: 90%!important;
+            }
+            .t{
+                margin-left: 11.75rem;
+            }
+        }
+
+</style>

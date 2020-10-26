@@ -364,7 +364,7 @@ p {
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
-    width: fit-content;
+    width: max-content;
     letter-spacing: -0.0425rem;
     color: #000000;
     font-weight: 600;
@@ -1732,7 +1732,7 @@ textarea {
         color: #ffffff;
         font-family: Roboto, sans-serif;
         font-size: 1.125rem;
-        font-weight: 600;
+        font-weight: normal!important;
         text-transform: uppercase;
         padding: 1.1979166666666667Vh 2.5Vh;
         border: none;
@@ -2129,6 +2129,7 @@ select::after {
         margin:0.625rem 0rem 0rem 0rem !important;
         color:#EAEAEA !important;
         letter-spacing: 0rem !important;
+        width: -moz-max-content;
     }
     .closebtn{
         color: #EAEAEA!important;
@@ -2167,5 +2168,11 @@ select::after {
 
     #carouselExampleIndicators{
         display: none;
+    }
+    .btn-call-to-action{
+        font-weight: normal !important;
+    }
+    .craftsman h2{
+        text-align: center!important;
     }
 }

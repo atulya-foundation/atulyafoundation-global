@@ -108,17 +108,7 @@
         .n{
             visibility: hidden;
         }
-        /*.n .brand{
-            /*padding-top: 0rem;*/
-             padding-bottom: 0rem;
-             margin-bottom: 0.625rem;
-        }*/
-        .n .btn{
-            height: 0.625rem;
-            width: 2.8125rem;   
-            margin-right:1rem; 
-            right: 7.292vw; 
-        }
+        
         @media only screen and (max-width:768px){
             .bgnv{
                 visibility: hidden;
@@ -131,6 +121,12 @@
             .n .brand{
                 margin-top: 1rem;
                 margin-bottom: 1rem;
+            }
+            .n .btn{
+            height: 0.625rem;
+            width: 2.8125rem;   
+            margin-right:1rem; 
+            right: 7.292vw; 
             }
         }
 
