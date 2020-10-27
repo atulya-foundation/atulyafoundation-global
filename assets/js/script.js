@@ -68,7 +68,7 @@ $(document).ready(function () {
         // })
     }), $("#about").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/art-design-gallery-group-460736.png')",
+            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
             "-webkit-animation-duration": "2s",
             "-webkit-transition-property":"background-image",
             "-webkit-transition-duration": "5s",
@@ -96,7 +96,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/jo-szczepanska-9OKGEVJiTKk-unsplash.png')",
+            "background-image": "url('assets/img/navbar/crafts_AF.jpg')",
             "-webkit-animation-duration": "2s",
             "-webkit-transition-property":"background-image",
             "-webkit-transition-duration": "5s",
@@ -125,7 +125,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/drool.png')",
+            "background-image": "url('assets/img/navbar/Design_AF.jpg')",
             "-webkit-animation-duration": "2s",
             "-webkit-transition-property":"background-image",
             "-webkit-transition-duration": "5s",
@@ -154,7 +154,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#crafts , #about , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/bg/person-holding-paintbrush-3959004.png')",
+            "background-image": "url('assets/img/navbar/Arts_AF.jpg')",
             "-webkit-animation-duration": "2s",
             "-webkit-transition-property":"background-image",
             "-webkit-transition-duration": "5s",
