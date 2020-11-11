@@ -66,7 +66,7 @@
             </div>
             <div class="col-lg-12 copyright">
                 <ul>
-                    <li>© 2020 Atulya Foundation. All Right Reserved.</li>
+                    <li style="color: #AAAAAA">© 2020 Atulya Foundation. All Right Reserved.</li>
                     <li><span>|</span> <a href="privacy-policy.php">Privacy Policy</a></li>
                     <li><a href="#">License</a></li>
                     <li><a href="terms-of-use.php">Terms of Use</a></li>

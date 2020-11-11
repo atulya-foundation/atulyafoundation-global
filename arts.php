@@ -25,7 +25,7 @@
         </div>
     </div>
 </section>
-<section class="atulya-image premium dope" style="margin-top:295px">
+<section class="atulya-image premium dope" >
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
@@ -62,7 +62,7 @@
                     <img src="assets/img/artist/DSC_0992-01.png" class="img-fluid w-100" />
                 </figure>
             </div>
-            <div class="col-xl-4 content">
+            <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
                 <h3>Rajputana</h3>
                 <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
             </div>
@@ -144,7 +144,7 @@
                     <img src="assets/img/artist/DSC_0983-01.png" class="img-fluid w-100" />
                 </figure>
             </div>
-            <div class="col-xl-4 content">
+            <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
                 <h3>Rajputana</h3>
                 <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
             </div>
@@ -154,14 +154,14 @@
 </section>
 
 
-<section class="atulya-last j-center container">
+<section class="atulya-last j-center container" >
 
     <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
             <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-1"></div>
     </div>
 
 </section>

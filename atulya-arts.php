@@ -248,11 +248,11 @@
 <section class="atulya-last j-center container">
 
     <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
             <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
         </div>
-        <div class="col-lg-3"></div>
+        <div class="col-lg-1"></div>
     </div>
 
 </section>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css" />
+    <script src="https://kit.fontawesome.com/11722d95b8.js" crossorigin="anonymous"></script> 
 </head>
 
 <body>
@@ -72,7 +73,7 @@
             <div class="logo abs abcd">
                 <img src="assets/img/Component2.svg" class="img-fluid" alt="">
             </div>
-            <nav class="navbar navbar-dark bg-dark fixed-top n">
+            <nav class="navbar navbar-dark fixed-top n" style="background-color: #000000!important;">
                 <a href="index.php" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
                 <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
             </nav>
@@ -195,19 +196,31 @@
                     </li>
 
                     <li>
-                        <h6><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></h6>
+                        <h6>
+                            <a class="icon" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram" ></i></a>
+                            <a class="text1" href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a>
+                        </h6>
                     </li>
 
                     <li>
-                        <h6><a href="https://www.linkedin.com/company/atulya" target="_blank">LinkedIn</a></h6>
+                        <h6>
+                            <a class="icon" href="https://www.linkedin.com/company/atulya"><i class="fab fa-linkedin"></i></a>
+                            <a class="text1" href="https://www.linkedin.com/company/atulya" target="_blank">LinkedIn</a>
+                        </h6>
                     </li>
 
                     <li>
-                        <h6 class="t"><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></h6>
+                        <h6 >
+                            <a class="icon" href="https://www.facebook.com/Aulyafoundation"><i class="fab fa-facebook"></i></a>
+                            <a class="text1" href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a>
+                        </h6>
                     </li>
 
                     <li>
-                        <h6><a href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" target="_blank">Youtube</a></h6>
+                        <h6>
+                            <a class="icon" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg"><i class="fab fa-youtube"></i></a>
+                            <a class="text1" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" target="_blank">Youtube</a>
+                        </h6>
                     </li>
 
                 </ul>
@@ -229,6 +242,10 @@
             }
         .form-control{
             width: 94%!important;
+        }
+        .icon{
+            visibility: hidden;
+            display: none;
         }
         @media only screen and (max-width:768px){
             .abcd{
@@ -260,8 +277,14 @@
             .form-control{
                  width: 90%!important;
             }
-            .t{
-                margin-left: 11.75rem;
+            
+            .icon{
+                visibility: visible;
+                display: flex;
+            }
+            .text1{
+                visibility: hidden;
+                display: none;
             }
         }
 

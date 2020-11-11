@@ -183,7 +183,7 @@
                                     <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH*</label>
                                 </div>
                             </div>
-                            <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
+                            <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" > Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
                                 <button type="submit" id="submit" class="btn-call-to-action">Send</button>
                             </div>

@@ -7,14 +7,14 @@ function openNav() {
          document.getElementById("main").style.margintop = "100%", 
          $("#content").css("display", "none"), 
          $("#main .logo").css("display", "none"), 
-         $("#mySidenav").css({"overflow" : "auto !important"}),  
+         $("#mySidenav").css({"overflow" : "hidden !important"}),  
          $(".closebtn").css("display", "block")
 }
 
 function closeNav() {
-    1 == $("#mySidenav ul li a").hasClass("fadeInUp") && $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
+    1 == $("#mySidenav ul li a").hasClass("fadeInUp") && $("#mySidenav ul li a").removeClass("fadeInUp animated"),
          // $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
-        $("#mySidenav ul li a").addClass(" fadeOutDown animated"), 
+        $("#mySidenav ul li a").addClass("fadeOutDown animated"), 
     
         $("body").css("overflow-y", "scroll"), 
         document.getElementById("mySidenav").style.height = "0", 

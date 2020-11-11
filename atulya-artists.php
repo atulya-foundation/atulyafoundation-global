@@ -68,9 +68,10 @@
     </div>
 </section>
 
-<section id="join"></section>
+
 
 <section class="bg-cream mt-100">
+    <section id="join"></section>
     <div class="main-content dope main-padding">
         <div class="container">
             <div class="row">

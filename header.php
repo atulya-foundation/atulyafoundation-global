@@ -66,7 +66,7 @@
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
-                            <li><a href="atulya-artists.php#join">Join As Artist</a></li>
+                            <li><a href="atulya-artists.php">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
                             <li><a href="news-and-articles.php">News and Articles</a></li>
                             <li><a href="about.php#team">Our Team</a></li>
@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <nav class="navbar navbar-dark bg-dark fixed-top n">
+    <nav class="navbar navbar-dark fixed-top n" style="background-color: #000000!important;">
          <a href="index.php" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
          <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
     </nav>

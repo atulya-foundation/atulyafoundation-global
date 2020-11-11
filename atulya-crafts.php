@@ -164,16 +164,16 @@
 </section>
 
 
-<section class="atulya-last j-center container" style="margin-left: 15rem; padding-right: 15rem;">
-    <div class="web-wrap">
+<section class="atulya-last j-center container" >
+    <!-- <div class="web-wrap"> -->
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
                 <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org
                     mentioning the type of service you demand in the mail subject.</p>
             </div>
-            <div class="col-lg-2"></div>
-        </div>
+            <div class="col-lg-1"></div>
+        <!-- </div> -->
 
     </div>
 </section>
