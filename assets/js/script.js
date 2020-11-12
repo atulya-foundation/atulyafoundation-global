@@ -68,12 +68,13 @@ $(document).ready(function () {
         // })
     }), $("#about").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
+            
             "-webkit-animation-duration": "2s",
-            "-webkit-transition-property":"background-image",
-            "-webkit-transition-duration": "5s",
+            "-webkit-transition-property":"background-image !important",
+            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
+            "-webkit-transition-duration": "5s !important",
             "-webkit-animation-timing-function": "ease-in-out",
-            "-webkit-transition-timing-function": "ease-in-out",
+            "-webkit-transition-timing-function": "ease-in-out !important",
 
 
             "-moz-animation-duration":"2s",

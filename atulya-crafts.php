@@ -16,8 +16,8 @@
             <h1 class="uppercase">Combining strategy & <br> design <span>to</span> create brands <br> that lead <span>and</span> not just <br> keep up</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p class="intro">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
+                    <div class="col-lg-8">
+                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important;">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
                         <!-- <div class="touch-div">
                             <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
                         </div> -->
@@ -42,7 +42,7 @@
 
             <div class="col-xl-2 view-desktop"></div>
 
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-3 col-lg-6 col-md-6  content order1">
                 <h3>Paper Crafts</h3>
                 <p>What’s in a name? Well, everything!! Giving a name to a new brand or renaming an existing one is the starting point of all your communication. We work closely with our clients to develop a brand name</p>
             </div>
@@ -81,9 +81,9 @@
 <section class="atulya-image dope">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-2"></div>
+            <div class="col-xl-1"></div>
 
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Ceramic Crafts</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -109,7 +109,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-3 col-lg-6 col-md-6  content order1">
                 <h3>Metal Crafts</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -133,7 +133,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
+            <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
                 <h3>Glass Crafts</h3>
                 <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, orporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
             </div>
@@ -147,7 +147,7 @@
     <div class="container" >
         <div class="row">
             <div class="col-xl-1"></div>
-            <div class="col-xl-3 col-lg-6 j-center col-md-6 content order1">
+            <div class="col-xl-3 col-lg-6 col-md-6 content order1">
                 <h3>Sculpture</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -180,7 +180,7 @@
 
 <?php include('footer.php')  ?>
 
-<!-- <style>
+<style>
     .col,
     .col-1,
     .col-10,
@@ -255,9 +255,8 @@
         padding-right: 0;
     }
 
-    .main-content h1 {
+    /*.main-content h1 {
         margin-left: -17px;
-    }
+    }*/
 
 </style>
- -->

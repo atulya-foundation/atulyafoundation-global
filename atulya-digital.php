@@ -20,8 +20,8 @@
             <h1 class="uppercase">Combining strategy & <br> design <span>to</span> create brands <br> that lead <span>and</span> not just <br> keep up</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <p class="intro">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
+                    <div class="col-lg-10">
+                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important;">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
 
                     </div>
                 </div>
@@ -55,12 +55,12 @@
 <section class="atulya-image">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Product Design Graphics</h3>
                 <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
             </div>
             <div class="col-xl-1"></div>
-            <div class="col-xl-8 col-lg-6 col-md-6 order2">
+            <div class="col-xl-7 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/artist/cad-3484213_1920.png" class="img-fluid">
                 </figure>
@@ -107,7 +107,7 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Film Design</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -152,7 +152,7 @@
                     <img src="assets/img/artist/gui-2311260_1280.png" class="img-fluid abs-img">
                 </figure>
             </div>
-            <div class="col-xl-3 col-lg-6 col-md-6 content order1">
+            <div class="col-xl-6 col-lg-6 col-md-6 content order1">
                 <h3>User Interface Graphics</h3>
                 <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
             </div>
@@ -199,7 +199,7 @@
 </section>
 
 <?php include('footer.php')  ?>
-<!-- <style>
+<style>
     .col,
     .col-1,
     .col-10,
@@ -274,8 +274,8 @@
         padding-right: 0;
     }
 
-    .main-content h1 {
+   /* .main-content h1 {
         margin-left: -17px;
-    }
+    }*/
 
-</style> -->
+</style>

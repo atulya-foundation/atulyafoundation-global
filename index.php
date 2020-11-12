@@ -233,6 +233,7 @@
 <style type="text/css">
         .n{
             visibility: hidden;
+            display: none;
         }
         .n .btn{
                 height: 0.625rem;
@@ -250,9 +251,12 @@
         @media only screen and (max-width:768px){
             .abcd{
                 visibility: hidden;
+                display: none;
             }
             .n{
                 visibility: visible;
+
+                display: flex;
                 /*margin-left: 0rem;
                 padding-left: 0rem !important; */
             }

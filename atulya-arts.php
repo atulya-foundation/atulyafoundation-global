@@ -4,8 +4,11 @@
     .dope .container{
         margin-left:12.0625rem;padding-right:10.0625rem; margin-bottom: 7.125rem;
     }
-</style>{
+</style>
 
+<div class="logo-pos">
+    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+</div>
 <section class="main-content dope">
     <div class="container"  >
         <h5>Clients</h5>
@@ -13,8 +16,8 @@
             <h1 class="">Corporate <span>art</span> <br> Consulting <span> &</span> services</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p class="intro">We are glad to be able to work on really interesting and challenging projects,
+                    <div class="col-lg-8">
+                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important;">We are glad to be able to work on really interesting and challenging projects,
                             involving exciting technologies. In order to get on with more projects in the future, we are
                             working with a wide range of partners to solve real problems for real people.</p>
 
@@ -43,7 +46,7 @@
                         <div class="col-sm-12">
                             <h3>Development of an art program </h3>
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-12">
                             <p>What’s in a name? Well, everything!! Giving a name to a new brand or renaming an existing
                                 one is the starting point of all your communication. We work closely with our clients to
                                 develop a brand name that</p>
@@ -64,7 +67,7 @@
                     <div class="col-sm-12">
                         <h3>Art selection & Acquisition</h3>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-10">
                         <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
                     </div>
                 </div>
@@ -99,7 +102,7 @@
                         <div class="col-sm-12">
                             <h3>Art Rental</h3>
                         </div>
-                        <div class="col-sm-9">
+                        <div class="col-sm-11">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -153,7 +156,7 @@
                         <div class="col-sm-12">
                             <h3>Framing and installation of selection</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-10">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -175,7 +178,7 @@
                         <div class="col-sm-12">
                             <h3>Buy Local</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-9">
                             <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
                         </div>
                     </div>
@@ -211,7 +214,7 @@
                         <div class="col-sm-12">
                             <h3>Art restoration</h3>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-10">
                             <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
                         </div>
                     </div>
@@ -258,7 +261,7 @@
 </section>
 
 <?php include('footer.php')  ?>
-<!-- <style>
+<style>
     .col,
     .col-1,
     .col-10,
@@ -333,9 +336,8 @@
         padding-right: 0;
     }
 
-    .main-content h1 {
+    /*.main-content h1 {
         margin-left: -17px;
-    }
+    }*/
 
 </style>
- -->
