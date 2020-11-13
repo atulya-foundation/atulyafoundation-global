@@ -27,10 +27,10 @@
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                        <li><a id="about" class="wow"  href="about.php">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php">Atulya Designs</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php">Atulya Crafts</a></li>
-                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php">Atulya Arts</a></li>
+                        <li><a id="about" class="wow"  href="about.php" style="transition: background-image 2s ease-in-out 1s;">About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Designs</a></li>
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Crafts</a></li>
+                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Arts</a></li>
 
                     </ul>
                 </div>
@@ -289,6 +289,18 @@
             .text1{
                 visibility: hidden;
                 display: none;
+            }
+            section .container h1{
+                font-size: 2.5rem !important;
+            }
+            section .container h2{
+                font-size: 2.5rem!important;
+            }
+            .live h2{
+                letter-spacing: 0rem!important;
+            }
+            .fab {
+                font-size: 1rem;
             }
         }
 

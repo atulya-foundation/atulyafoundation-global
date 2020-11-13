@@ -2134,7 +2134,7 @@ select::after {
     .small-nav ul li a{
         font-weight: normal;
         font-size: 1.5rem !important;
-        padding-left: 0rem;
+        padding-left: 0rem !important;
         margin:0.625rem 0rem 0rem 0rem !important;
         color:#EAEAEA !important;
         letter-spacing: 0rem !important;

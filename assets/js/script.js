@@ -24,27 +24,27 @@ function closeNav() {
         $("#main .logo").css("display", "block")
 }
 
-function openNav1() {
-    document.getElementById("mySidenav1").style.width = "100%", 
-    document.getElementById("main").style.marginRight = "70%", 
-    $("body").css("overflow-y", "hidden"), 
-    $("#content").css("display", "none"), 
-    $("#main .logo").css("display", "none"), 
-    $("#mySidenav1").css("overflow-y", "hidden")
-}
+// function openNav1() {
+//     document.getElementById("mySidenav1").style.width = "100%", 
+//     document.getElementById("main").style.marginRight = "70%", 
+//     $("body").css("overflow-y", "hidden"), 
+//     $("#content").css("display", "none"), 
+//     $("#main .logo").css("display", "none"), 
+//     $("#mySidenav1").css("overflow-y", "hidden")
+// }
 
-function closeNav1() {
-    document.getElementById("mySidenav1").style.width = "0", 
-    document.getElementById("main").style.marginRight = "0", 
-    $("#main").css({
-        "background-image": "url('assets/img/photo-of-statue-2929886.jpg')",
-        "background-position": "0px 0px!important",
-        "background-size": "100% 100%"
-    }), 
-    $("#content").css("display", "flex"), 
-    $("#main .logo").css("display", "block"), 
-    $("body").css("overflow-y", "scroll")
-}
+// function closeNav1() {
+//     document.getElementById("mySidenav1").style.width = "0", 
+//     document.getElementById("main").style.marginRight = "0", 
+//     $("#main").css({
+//         "background-image": "url('assets/img/photo-of-statue-2929886.jpg')",
+//         "background-position": "0px 0px!important",
+//         "background-size": "100% 100%"
+//     }), 
+//     $("#content").css("display", "flex"), 
+//     $("#main .logo").css("display", "block"), 
+//     $("body").css("overflow-y", "scroll")
+// }
 $(document).ready(function () {
     $("#mySidenav li a").click(function () {
         $("#mySidenav ul li a").removeClass(" fadeInUp animated"), $("#mySidenav ul li a").addClass(" fadeOutDown animated"), $("body").css("overflow-y", "scroll"), document.getElementById("mySidenav").style.height = "0", document.getElementById("main").style.marginTop = "0", $(".closebtn").css("display", "none"), $("#content").css("display", "flex"), $("#main .logo").css("display", "block")
