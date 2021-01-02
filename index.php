@@ -117,7 +117,7 @@
                     <p> Imagine an inspiration tool that connects visual arts with the real world, creating unbreakable connections with the existing world of art and culture.</p>
                 </div>
                 <div class="call-to-action">
-                    <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
+                    <a href="arts.php" class="btn-call-to-action">Premium Collection</a>
                 </div>
             </div>
         </section>
@@ -142,7 +142,7 @@
                             <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
                         </div>
                         <div class="call-to-action f-left">
-                            <a href="volunteer-program.php#network" class="btn-call-to-action">Join our network</a>
+                            <a href="atulya-artists.php" class="btn-call-to-action">Join our network</a>
                         </div>
                     </div>
                     <div class="col-lg-2"></div>

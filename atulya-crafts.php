@@ -17,7 +17,7 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-8">
-                        <p class="intro">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
+                        <p class="intro" style="color: #707070;">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
                         <!-- <div class="touch-div">
                             <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
                         </div> -->
@@ -169,7 +169,7 @@
         <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-10">
-                <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org
+                <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
                     mentioning the type of service you demand in the mail subject.</p>
             </div>
             <div class="col-lg-1"></div>
@@ -181,6 +181,13 @@
 <?php include('footer.php')  ?>
 
 <style>
+    .atulya-last p a{
+        color: #707070;
+        text-decoration: none!important;
+    }
+    .atulya-last p a:hover{
+        color: black !important;
+    }
     .col,
     .col-1,
     .col-10,

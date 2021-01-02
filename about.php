@@ -111,11 +111,20 @@
                         <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
-                    <div class="col-lg-3" style="margin-top:-20px">
+                    <div class="col-lg-3" style="margin-top:-30px">
                         <img src="assets/img/svg/asme.svg" class="img-fluid grayscale" />
                     </div>
+                    
 
                 </div>
+                <div class="row">
+                        <div class="col-lg-3">
+                            
+                        </div>
+                        <div class="col-lg-9">
+                            <h5>And Many More To Come...</h5>
+                        </div>
+                    </div>
             </div>
         </div>
         <!--div class="clients">

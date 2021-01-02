@@ -17,7 +17,7 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-8">
-                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important;">We are glad to be able to work on really interesting and challenging projects,
+                        <p class="intro" style="padding-left: 24px; padding-right: 0px!important; color: #707070;">We are glad to be able to work on really interesting and challenging projects,
                             involving exciting technologies. In order to get on with more projects in the future, we are
                             working with a wide range of partners to solve real problems for real people.</p>
 
@@ -253,7 +253,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>
@@ -262,6 +262,13 @@
 
 <?php include('footer.php')  ?>
 <style>
+    .atulya-last p a{
+        color: #707070;
+        text-decoration: none!important;
+    }
+    .atulya-last p a:hover{
+        color: black !important;
+    }
     .col,
     .col-1,
     .col-10,

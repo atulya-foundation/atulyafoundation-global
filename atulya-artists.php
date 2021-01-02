@@ -41,19 +41,15 @@
             <h1 style="margin-bottom: 3rem;">Colour outside <span> the </span> lines <br> inside <span> is </span>already filled</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <p class="intro">Know more about network perks
-                            and blah blah blah.</p>
+                    
+                    <div class="col-lg-8">
+                        <p><strong>ARTWORK VALUATION</strong>: Proper valuation of their art after doing in-depth and detailed market research.</p>
 
-                    </div>
-                    <div class="col-lg-6">
-                        <p>ARTWORK VALUATION: Proper valuation of their art after doing in-depth and detailed market research.</p>
+                        <p><strong>POTENTIAL MARKETS</strong>: Finding potential markets and buyers across the globe using various internet platforms.</p>
 
-                        <p>POTENTIAL MARKETS: Finding potential markets and buyers across the globe using various internet platforms.</p>
+                        <p><strong>IPR PROTECTION</strong>: Providing for better protection and management to their Intellectual Property Rights.</p>
 
-                        <p>IPR PROTECTION: Providing for better protection and management to their Intellectual Property Rights.</p>
-
-                        <p>INFRA & LOGISTICS: Infrastructure for packaging and shipment of their art work along with any other logistics required.</p>
+                        <p><strong>INFRA & LOGISTICS</strong>: Infrastructure for packaging and shipment of their art work along with any other logistics required.</p>
 
                     </div>
                 </div>
@@ -72,7 +68,7 @@
                 <div class="col-lg-5">
                     <h5 style="margin-bottom: 3rem;">Form</h5>
                     <h1>Join Artist <br> <span> network</span></h1>
-                    <p class="intro mt-40" style="color:#383838">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
+                    <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
                     <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>

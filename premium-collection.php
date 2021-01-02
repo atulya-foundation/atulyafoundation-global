@@ -11,7 +11,7 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro">Our art collection contains paintings of different themes and
+                        <p class="intro" style="color: #707070;">Our art collection contains paintings of different themes and
                             genres. We try to inculcate as many art forms as possible in
                             our collection. Art lovers are free to choose according to their
                             own interests and preferences.</p>
@@ -117,7 +117,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to sales@atulyafoundation.org mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>
@@ -128,6 +128,13 @@
 
 
 <style type="text/css">
+    .atulya-last p a{
+        color: #707070;
+        text-decoration: none!important;
+    }
+    .atulya-last p a:hover{
+        color: black !important;
+    }
     .dope .container{
         margin-left:12.0625rem; padding-right:12.0625rem;
     }

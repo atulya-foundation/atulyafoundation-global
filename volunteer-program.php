@@ -10,7 +10,8 @@
                     <div class="col-lg-6">
                         <p class="intro">Become a part of our stories! Join the adventure. The aim of art is to represent not the outward appearance of things, but their inward significance. </p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5">
                         <p>The biggest challenge in building an online community is having the right people in the network, who can understand your community’s motive and contribute by connecting more like-minded people to the community. If you are here, we hope you know about our mission (Read the about us, pretty please !). Atulya Foundation is not just a community for artists, but art-lovers as well. What we are trying to build here is an ecosystem, where happiness can be spread through a medley of colours.</p>
                     </div>
                 </div>
@@ -157,8 +158,10 @@
                                 <select required name="comfortable" class="form-control" id="txt_d">
                                     <option value="">Are you comfortable?*</option>
 
-                                    <option value="Yes">Yes</option>
-                                    <option value="No">No</option>
+                                    <option value="Yes, no issues at all">Yes, no issues at all</option>
+                                    <option value="Yes, Somewhat">Yes, Somewhat</option>
+                                    <option value="Depends on the place and project">Depends on the place and project</option>
+                                    <option value="No, i don’t want to travel at all">No, i don’t want to travel at all</option>
 
                                 </select>
 
