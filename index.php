@@ -18,7 +18,7 @@
 
 
     <header >
-        <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
+            <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
             <div class="row nb">
                 <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
@@ -27,10 +27,10 @@
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                        <li><a id="about" class="wow"  href="about.php" style="transition: background-image 2s ease-in-out 1s;">About us</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Designs</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Crafts</a></li>
-                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" style="transition: background-image 2s ease-in-out 1s;">Atulya Arts</a></li>
+                        <li><a id="about" class="wow"  href="about.php" >About us</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php" >Atulya Designs</a></li>
+                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" >Atulya Crafts</a></li>
+                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" >Atulya Arts</a></li>
 
                     </ul>
                 </div>
@@ -64,7 +64,7 @@
                 </div>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             </div>
-        </div>
+        </div>       
     </header>
 
     <section class="main">
@@ -90,13 +90,10 @@
     <section class="art-gallery">
         <div class="container">
             <h6>Atulya Idea</h6>
-            <h1>THIS <span>is</span> Atulya<br>
-                WHO <span>we</span> ARE</h1>
+            <h1>A paintbrush <span>and</span> a canvas,<br>
+                Creates a whole  <span>new world.</span></h1>
             <div class="text">
-                <p class="text-center"> Atulya Foundation is a government registered Not-For-Profit
-                    Organisation, established with the mission to enable technologically
-                    and economically deprived artists to promote and sell their artwork
-                    via the internet infrastructure. </p>
+                <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood. Many talented artists are in a state of dire poverty today and are turning to other jobs to sustain themselves. Hence we bring in our professional expertise to convert artwork into products and services so as to monetize art in the best way possible. Our not-for profit model ensures that the benefits reach completely and directly to the artists. </p>
             </div>
             <div class="call-to-action">
                 <a href="about.php" class="btn-call-to-action small-btn">About Us</a>
@@ -110,11 +107,11 @@
 
         <section class="art-gallery">
             <div class="container">
-                <h6>Atulya Idea</h6>
+                <h6>Atulya Collection</h6>
                 <h1>Meet <span>the</span> makers.<br>
                     Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
                 <div class="text">
-                    <p> Imagine an inspiration tool that connects visual arts with the real world, creating unbreakable connections with the existing world of art and culture.</p>
+                    <p> This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art, the collection depicts India’s eclectic and rich art tradition. If you want to get a glimpse of the profound imagination and creativity of our artists, a quick glimpse inside is highly recommended.</p>
                 </div>
                 <div class="call-to-action">
                     <a href="arts.php" class="btn-call-to-action">Premium Collection</a>
@@ -137,9 +134,9 @@
                 <div class="row">
                     <div class="col-lg-5 j-center">
                         <h6>CRAFTSMANSHIP</h6>
-                        <h2>Join Artist <br> <span>network</span></h2>
+                        <h2><span>Join Our Artist network</span></h2>
                         <div class="text">
-                            <p>The aim of art is to represent not the outward appearance of things, but their inward significance. An accumulation of works of art by a private individual.</p>
+                            <p>We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with your paintbrush.</p>
                         </div>
                         <div class="call-to-action f-left">
                             <a href="atulya-artists.php" class="btn-call-to-action">Join our network</a>
@@ -156,11 +153,9 @@
         <section class="live">
             <div class="container">
                 <h6>Live in colour</h6>
-                <h2>Join volunteer <span>network</span></h2>
+                <h2><span>Join volunteer network</span></h2>
                 <div class="text">
-                    <p class="text-center"> Become a part of our stories! Join the adventure. The aim of art is to
-                        represent not the outward appearance of things, but their inward
-                        significance. </p>
+                    <p class="text-center"> We welcome art enthusiasts to join us in making this world more colourful. Become a part of our stories. Join the adventure. </p>
                 </div>
                 <div class="call-to-action">
                     <a href="volunteer-program.php" class="btn-call-to-action">Volunteer with us</a>

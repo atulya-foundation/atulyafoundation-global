@@ -9,14 +9,11 @@
     <div class="container">
         <h5>Atulya arts</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">A Great Work <span>of</span> Art <br> <span>and</span> Literature, <br> Thinking <span>through</span> art</h1>
+            <h1 class="uppercase">PAINTING <span>is</span> JUST ANOTHER<br>WAY <span>of</span> KEEPING A DIARY</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro" style="color: #707070;">Our art collection contains paintings of different themes and
-                            genres. We try to inculcate as many art forms as possible in
-                            our collection. Art lovers are free to choose according to their
-                            own interests and preferences.</p>
+                        <p class="intro" style="color: #707070;">Our art collection contains paintings of different themes and genres. We try to inculcate as many art forms as possible in our collection. Art lovers are free to choose according to their own interests and preferences.</p>
 
                     </div>
                 </div>

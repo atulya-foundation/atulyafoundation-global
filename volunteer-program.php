@@ -4,15 +4,15 @@
     <div class="container dp" >
         <h5>Volunteer with us</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">A gift <span>to the </span> <br>community</h1>
+            <h1 class="uppercase">NO <span>effort, </span> <br>HOWEVER <span>small, </span><br> <span>ever</span> GOES WASTE</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p class="intro">Become a part of our stories! Join the adventure. The aim of art is to represent not the outward appearance of things, but their inward significance. </p>
+                        <p class="intro">We welcome art enthusiasts to join us in making this world more colourful. Become a part of our stories. Join the adventure. </p>
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-5">
-                        <p>The biggest challenge in building an online community is having the right people in the network, who can understand your community’s motive and contribute by connecting more like-minded people to the community. If you are here, we hope you know about our mission (Read the about us, pretty please !). Atulya Foundation is not just a community for artists, but art-lovers as well. What we are trying to build here is an ecosystem, where happiness can be spread through a medley of colours.</p>
+                        <p>The biggest challenge in building an online community is having the right people in the network, who can understand your community’s motive and contribute by connecting more like-minded people to the community. If you are here, we hope you know about our mission (Read the about us, pretty please !). Atulya Foundation is not just a community for artists, but art-lovers as well. We are trying to build here is an ecosystem, where happiness can be spread through a medley of colours.</p>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
     <div class="main-content main-padding">
         <div class="container dp" >
             <h5>Form</h5>
-            <h1>Join volunteer <br><span>network</span></h1>
+            <h1>Join Volunteer <br><span>Network</span></h1>
             <div class="form">
                 <form enctype="multipart/form-data" action="volunteer.php" method="post" id="">
                     <div class="row">
@@ -112,51 +112,27 @@
                                     <option value="Ph. D">Ph. D</option>
                                 </select>
                             </div>
-                            <!--div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="" required>
-                                <label>Present a general opinion on the mission and vision of Atulya Foundation</label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_b" placeholder="" required>
-                                <label>Briefly explain your views on the current situation of the Indian Art industry</label>
-                            </div-->
+                            
                             <div class="form-group ">
 
 
                                 <select required name="contribute" class="form-control" id="txt_d">
-                                    <option value="">How, as a volunteer, can you contribute to the Atulya foundation (contacts, ideas, skills, etc)?*</option>
+                                    <option value="">How, as a volunteer, can you contribute to the Atulya foundation?*</option>
 
-                                    <option value="Artists Contacts">Artists Contacts</option>
-                                    <option value="Ideas and innovation">Ideas and innovation</option>
-                                    <option value="Operations support">Operations support</option>
-                                    <option value="Others">Others</option>
+                                    <option value="Building artists network">Building artists network</option>
+                                    <option value="Technology & innovation">Technology & innovation</option>
+                                    <option value="Media & marketing">Media & marketing</option>
+                                    <option value="Operations & logistical support">Operations & logistical support</option>
                                 </select>
 
 
                             </div>
-                            <!--div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_e" placeholder="" required>
-                                <label>Previous Volunteering Experience (if any)?</label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_f" placeholder="" required>
-                                <label>Are you in contact with, or do you recognise , any potential artists or an art group in you locality.</label>
-                            </div>
-                            <div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_g" placeholder="" required>
-                                <label>As a volunteer, that are your expectations from this role ? </label>
-                            </div-->
-
-                            <!--div class="form-group input-group">
-                                <input type="text" class="form-control" name="txt_i" placeholder="" required>
-                                <label>How many hours can you roughly devote to the foundation work?</label>
-                            </div-->
 
                             <div class="form-group ">
 
 
                                 <select required name="comfortable" class="form-control" id="txt_d">
-                                    <option value="">Are you comfortable?*</option>
+                                    <option value="">Are you comfortable to travel for assignments?*</option>
 
                                     <option value="Yes, no issues at all">Yes, no issues at all</option>
                                     <option value="Yes, Somewhat">Yes, Somewhat</option>

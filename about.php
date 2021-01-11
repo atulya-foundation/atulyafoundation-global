@@ -8,13 +8,13 @@
 
 <section class="main-content dope">
     <div class="container"  >
-        <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya’ Idea</h5>
+        <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya Idea’</h5>
         <div class="web-wrap">
-            <h1>BELIEVE <span>in</span><br> CRAFTSMANSHIP<br> <span>and</span> BEIGN AN ARTIST</h1>
+            <h1>MAKING <span>art</span><br> A VIABLE MEANS<br> OF LIVELIHOOD <span>of</span> ARTISTS</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-5">
-                        <p class="intro">Atulya Foundation is a government registered Not-For-Profit Organisation, established with the mission to enable technologically and economically deprived artists to promote and sell their artwork via the internet infrastructure. The founding team is a bunch .
+                        <p class="intro">Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood. Many talented artists are in a state of dire poverty today and are turning to other jobs to sustain themselves. Hence we bring in our professional expertise to convert artwork into products and services so as to monetize art in the best way possible. Our not-for profit model ensures that the benefits reach completely and directly to the artist.
                         </p>
                         <div class="mt-100">
                             <div class="call-to-action f-left small-btn">
@@ -24,8 +24,10 @@
                     </div>
                     <div class="col-xl-1 view-desktop"></div>
                     <div class="col-lg-5">
-                        <p>Art is something that is appreciated by the folklore but not the economy. Driven sheerly by the money in the market, today everyone wants to become an engineer, a doctor or an accountant. Why not an artist ? In the pressure to earn a decent living, many potential artists do not even dare to pursue arts and crafts as a career and traditional artists with their conventional methods fail to capitalise on their skills and limited resources to generate enough money to even feed their families.</p>
-                        <p>Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure. </p>
+                        <p>Art is the most beautiful manifestation of human creativity. World is a home to numerous traditional & modern art forms. This rich heritage of art needs to be preserved. Inadequate incentive and livelihood is forcing artists to abandon art and look for other jobs. </p>
+                        <p>In the pressure to earn a decent living, many potential artists do not even dare to pursue arts and crafts as a career and traditional artists with their conventional methods fail to capitalise on their skills and limited resources to generate enough money to even feed their families. </p>
+                        <p>This is where the ‘Atulya’ Idea is born: Making Art a Sustained Means of Livelihood</p>
+                        <p>Atulya foundation is a family of artists and art enthusiasts. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure.</p>
                     </div>
                 </div>
             </div>
@@ -44,71 +46,28 @@
     <div class="container" >
         <h5>TEAM</h5>
         <div class="web-wrap">
-            <h1><span>One</span> Team. <span>One</span> Dream.</h1>
+            <h1><span>One Team. One Dream.</span> </h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-10">
-                        <p class="intro" style="margin-top: 1.025rem;">Atulya foundation is a family of artists and art enthusiasts, connected by an e-commerce platform through which one could browse and purchase art from a myriad of genres and types. We leverage the internet technologies to make the art business more engaging, efficient and lucrative and at the same time being secure and authentic. With billions of devices active on the internet, we have access to a massive customer base that conventionally would have required a tremendous amount of manpower, capital and infrastructure.</p>
+                        <p class="intro" style="margin-top: 1.025rem;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers, business grads & lawyers who came together as a result of common affinity towards art and with the motive of preserving art so that art is not lost in this fast moving world.<br>We strive towards a very clear goal:  monetizing the art to its fullest using technology and innovative ideas. Bringing Art and colours in all forms to all lives.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--div class="container-fluid">
-        <div class="teams">
-            <div class="row">
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team1.jpg" class="img-fluid" />
-                    <h4>David Gilmour</h4>
-                    <p>Founder</p>
-                </div>
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team4.jpg" class="img-fluid" />
-                    <h4>Roger Waters</h4>
-                    <p>Vocals</p>
-                </div>
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team2.jpg" class="img-fluid" />
-                    <h4>Richard Wright</h4>
-                    <p>Bass Guitar</p>
-                </div>
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team3.jpg" class="img-fluid" />
-                    <h4>Richard Wright</h4>
-                    <p>Bass Guitar</p>
-                </div>
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team4.jpg" class="img-fluid" />
-                    <h4>David Gilmour</h4>
-                    <p>Bass Guitar</p>
-                </div>
-
-                <div class="col-lg-2 col-xs-6 box">
-                    <img src="assets/img/team/team5.jpg" class="img-fluid" />
-                    <h4>Syd</h4>
-                    <p>Bass Guitar</p>
-                </div>
-
-            </div>
-        </div>
-    </div-->
 </section>
 
 <div id="clients"></div>
 <section class="main-content dope">
     <div class="container" >
-
+        <h5>CLIENTS</h5>
         <div class="web-wrap">
-            <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>
+            <h1><span>Good customer service costs less than bad customer service.</span></h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-8 fx-end">
-                        <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. In order to get on with more projects in the future, we are working with a wide range of partners to solve real problems for real people.</p>
+                        <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. We are working with a wide range of partners to provide best and most innovative art services.</p>
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
                     <div class="col-lg-3" style="margin-top:-30px">
@@ -118,10 +77,10 @@
 
                 </div>
                 <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-5">
                             
                         </div>
-                        <div class="col-lg-9">
+                        <div class="col-lg-7">
                             <h5>And Many More To Come...</h5>
                         </div>
                     </div>

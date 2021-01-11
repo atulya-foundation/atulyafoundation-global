@@ -12,21 +12,19 @@
         <h5 style=" margin-bottom: 3.025rem;">Contact us</h5>
         <div class="web-wrap">
             <div class="content">
-                <h1 class="uppercase">Get in touch</h1>
+                <h1 class="uppercase">GET <span>in</span> TOUCH</h1>
                 <div class="row">
                     <div class="col-lg-12 mt-40">
-                        <p class="intro" style="padding-right: 0;">Let us craft your dreams into reality. We listen to you and welcome your ideas. Come visit us and you will see that all are true.</p>
+                        <p class="intro" style="padding-right: 0;">We listen to you and welcome your ideas.</p>
                         <div class="row">
                             <div class="col-sm-5">
                                 <h3>Correspondence Address</h3>
                                 <p><em>III Floor, D-68 A, Aruna Park (Near Metro Pillar No. 50), Vikas Marg, New Delhi, India  – 110092</em></p>
                             </div>
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-5">
+                            <div class="col-sm-6">
                                 <h3>Contact Info</h3>
-                                <p><em>Drop us a mail at: <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
-                                    <!-- or<br><br>
-                                    Drop us a line on <a href="tel:+91 8385088702">+91 8385088702</a> -->
+                                <p><em>Drop us a message: <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
                                 </p>
                             </div>
                         </div>
@@ -48,8 +46,7 @@
 <section class="bg-white">
     <div class="main-content dope main-padding">
         <div class="container" >
-            <h2>If you don’t find what you need,<br>
-                Fill out our contact form</h2>
+            <h2>If you don’t find what you need, fill out our contact form</h2>
             <div class="form">
                 <form action="email.php" method="post">
                     <div class="row">

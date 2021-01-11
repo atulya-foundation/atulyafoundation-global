@@ -13,11 +13,12 @@
     <div class="container" >
         <h5>Atulya Digital</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">Combining strategy & <br> design <span>to</span> create brands <br> that lead <span>and</span> not just <br> keep up</h1>
+            <h1 class="uppercase">HAPPINESS <span>is</span> HANDMADE <br><span>so is</span> CRAFT
+</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-8">
-                        <p class="intro" style="color: #707070;">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
+                        <p class="intro" style="color: #707070;">Our crafts collection contain some of the most beautiful forms of crafts by some of the best craftsmen. We promise to make your living and work space more asthetic and comforting with our craft products. Our craftsmen represent long continuing traditions of craftsmanship who have the magic in their hands to weave beauty into products.</p>
                         <!-- <div class="touch-div">
                             <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
                         </div> -->
@@ -40,11 +41,11 @@
                 </figure>
             </div>
 
-            <div class="col-xl-2 view-desktop"></div>
+            <div class="col-xl-1 view-desktop"></div>
 
-            <div class="col-xl-3 col-lg-6 col-md-6  content order1">
-                <h3>Paper Crafts</h3>
-                <p>What’s in a name? Well, everything!! Giving a name to a new brand or renaming an existing one is the starting point of all your communication. We work closely with our clients to develop a brand name</p>
+            <div class="col-xl-4 col-lg-6 col-md-6  content order1">
+                <h3>Hand-Crafted Stationery</h3>
+                <p>Update your stationery drawer, with our beautiful selection of luxury personalised hand crafted products which are produced with a combination of machines and handwritten contributions. We create custom diaries, notebooks, envelopes, papers, cards, etc. with carefully selected details and finishes that will aptly represent your brand identity. Let our handcrafted stationery serve as a little reminder of the feeling of putting pen to paper.</p>
             </div>
         </div>
     </div>
@@ -55,12 +56,12 @@
     <div class="container" >
         <div class="row">
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Wood Crafts</h3>
-                <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, corporate brochures, resentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
+                <p>Wooden handicrafts are renowned for their beauty, durability and utility. Our skilled artisans through their traditional tools carve magnificent designs on wooden items and enhance their look by painting them or with intricate metal/ivory inlay work. Deciduous, evergreen & alpine trees are used extensively to manufacture wooden handicrafts. Wooden handicrafts include <strong>furniture, utensils, boxes, beads, finely carved figurines, accessories</strong> etc.</p>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-7 col-lg-6 col-md-6 order2">
+            <div class="col-xl-6 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/artist/wood-3215942_1920.png" class="img-fluid w-100">
                 </figure>
@@ -84,8 +85,9 @@
             <div class="col-xl-1"></div>
 
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                <h3>Ceramic Crafts</h3>
-                <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                <h3>Pottery & Ceramics Craft</h3>
+                <p>Pottery is considered to be the oldest industry on earth. Ceramic wares are safe to decorate with as they are stone mixed and hence stronger. Our artisans create<strong> flower vase, plant tumblers, terracotta products, tableware, candleholders, lamps, show pieces, pots of various sizes, figurines 
+                </strong>and much more. Creating ceramics is a very long and complicated process, requiring lots of patience, attention and knowledge.</p>
             </div>
             <div class="col-xl-1"></div>
 
@@ -109,9 +111,9 @@
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6  content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6  content order1">
                 <h3>Metal Crafts</h3>
-                <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                <p>The rare aesthetic beauty and finesse of our metal crafts will leave you wanting even more of it. Items such as <strong>pots, utensils, doorknobs, show pieces, boxes, photo frames, sculptures of deities</strong>, etc. have been crafted by our skilled artisans from iron, copper, silver and alloys like bronze, brass, bell metal, white metal and more. Their elegance and style have left the art lovers simple amazed and enthralled.</p>
             </div>
         </div>
     </div>
@@ -135,7 +137,7 @@
             <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
                 <h3>Glass Crafts</h3>
-                <p>After the logo is finalised we unite it with various branded elements like business cards, stationary, orporate brochures, presentation templates, email signatures, billboards, banners, adverts, packaging, corporate gifts</p>
+                <p>Glass is an incredibly versatile material that can be shaped and formed in unlimited artistic products. Our artisans create glass art by heating glass at a temperature of 2000 degrees or more. The molten glass is then gathered from a furnace and is commonly used to create <strong>sculptures, vases, containers, goblets, art marbles</strong> and other items with techniques such as glass blowing and glass casting.</p>
             </div>
         </div>
     </div>
@@ -148,8 +150,8 @@
         <div class="row">
             <div class="col-xl-1"></div>
             <div class="col-xl-3 col-lg-6 col-md-6 content order1">
-                <h3>Sculpture</h3>
-                <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                <h3>Stone Crafts</h3>
+                <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures and many more things. We make our creations on different stones like sandstone, marble, granite, basalt, graphite etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
             </div>
             <div class="col-xl-1"></div>
             <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs-l">
