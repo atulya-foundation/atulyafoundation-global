@@ -134,7 +134,7 @@
                 <div class="row">
                     <div class="col-lg-5 j-center">
                         <h6>CRAFTSMANSHIP</h6>
-                        <h2><span>Join Our Artist network</span></h2>
+                        <h2>Join Our Artist <span>network</span></h2>
                         <div class="text">
                             <p>We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with your paintbrush.</p>
                         </div>
@@ -153,7 +153,7 @@
         <section class="live">
             <div class="container">
                 <h6>Live in colour</h6>
-                <h2><span>Join volunteer network</span></h2>
+                <h2>Join volunteer <span>network</span></h2>
                 <div class="text">
                     <p class="text-center"> We welcome art enthusiasts to join us in making this world more colourful. Become a part of our stories. Join the adventure. </p>
                 </div>
