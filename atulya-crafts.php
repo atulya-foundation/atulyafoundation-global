@@ -7,7 +7,7 @@
 </style>{
 
 <div class="logo-pos">
-    <img src="assets/img/ac.svg" class="img-fluid" alt="">
+    <a href="atulya-crafts.php"><img src="assets/img/ac.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container" >
@@ -17,7 +17,7 @@
 </h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <p class="intro" style="color: #707070;">Our crafts collection contain some of the most beautiful forms of crafts by some of the best craftsmen. We promise to make your living and work space more asthetic and comforting with our craft products. Our craftsmen represent long continuing traditions of craftsmanship who have the magic in their hands to weave beauty into products.</p>
                         <!-- <div class="touch-div">
                             <a href="get-in-touch.php" class="touch_link">GET IN TOUCH</a>
@@ -45,7 +45,7 @@
 
             <div class="col-xl-4 col-lg-6 col-md-6  content order1">
                 <h3>Hand-Crafted Stationery</h3>
-                <p>Update your stationery drawer, with our beautiful selection of luxury personalised hand crafted products which are produced with a combination of machines and handwritten contributions. We create custom diaries, notebooks, envelopes, papers, cards, etc. with carefully selected details and finishes that will aptly represent your brand identity. Let our handcrafted stationery serve as a little reminder of the feeling of putting pen to paper.</p>
+                <p>Update your stationery drawer, with our beautiful selection of luxury personalised hand crafted products which are produced with a combination of machines and handwritten contributions. We create <strong>custom diaries, notebooks, envelopes, papers, cards,</strong> etc. with carefully selected details and finishes that will aptly represent your brand identity. Let our handcrafted stationery serve as a little reminder of the feeling of putting pen to paper.</p>
             </div>
         </div>
     </div>
@@ -151,7 +151,7 @@
             <div class="col-xl-1"></div>
             <div class="col-xl-3 col-lg-6 col-md-6 content order1">
                 <h3>Stone Crafts</h3>
-                <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures and many more things. We make our creations on different stones like sandstone, marble, granite, basalt, graphite etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
+                <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like <strong>toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures</strong> and many more things. We make our creations on different stones like <strong>sandstone, marble, granite, basalt, graphite</strong> etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
             </div>
             <div class="col-xl-1"></div>
             <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs-l">

@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <div class="logo-pos">
-    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+    <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container">
@@ -10,7 +10,7 @@
             <h1 class="uppercase">IF WE COULD SAY <span>it in</span> WORDS<br>THERE WOULD <span>be</span> NO<br>REASON <span>to</span> PAINT</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <p class="intro" style="color: #707070;">From traditional, arts to modern arts to portraits and art services, we promise you all forms of art products and services. What makes us unique is our artworks from some of the best artists combined with our research and analytical skills to add value to it. Atulya artist creates unique arts reflecting their own vision of world, dreams and aspirations.</p>
 
                     </div>
@@ -94,7 +94,7 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-6">
-                    <h5>Clients</h5>
+                    <h5>Services</h5>
                     <h1 class="">Corporate <span>art</span><br>Consulting & Services</h1>
                     <p class="intro" style="margin-top:24px">Art is mostly looked as a product but very less as a service. We bring in our professional expertise to provide art services to our clients to beautify their spaces and integrate it into their products and services.</p>
                     <div class="call-to-action jfs">
@@ -114,7 +114,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>

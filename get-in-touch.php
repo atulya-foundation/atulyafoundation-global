@@ -17,14 +17,14 @@
                     <div class="col-lg-12 mt-40">
                         <p class="intro" style="padding-right: 0;">We listen to you and welcome your ideas.</p>
                         <div class="row">
-                            <div class="col-sm-5">
+                            <div class="col-sm-6">
                                 <h3>Correspondence Address</h3>
                                 <p><em>III Floor, D-68 A, Aruna Park (Near Metro Pillar No. 50), Vikas Marg, New Delhi, India  – 110092</em></p>
                             </div>
                             <div class="col-sm-1"></div>
-                            <div class="col-sm-6">
-                                <h3>Contact Info</h3>
-                                <p><em>Drop us a message: <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
+                            <div class="col-sm-5">
+                                <h3>Drop us a message</h3>
+                                <p><em> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
                                 </p>
                             </div>
                         </div>

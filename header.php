@@ -68,7 +68,7 @@
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
-                            <li><a href="news-and-articles.php">News and Articles</a></li>
+                            <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
                             <li><a href="about.php#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                         </ul>

@@ -11,16 +11,16 @@
 </style>
 
 <div class="logo-pos">
-    <img src="assets/img/ad.svg" class="img-fluid" alt="">
+    <a href="atulya-digital.php"><img src="assets/img/ad.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container" >
-        <h5>Atulya Digital</h5>
+        <h5>Atulya Designs</h5>
         <div class="web-wrap">
             <h1 class="uppercase">COMBINING STRATEGY <span>&</span> <br>DESIGN <span>to</span> CREATE BRANDS <br>THAT LEAD <span>and</span> NOT JUST <br>KEEP UP</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-10">
+                    <div class="col-lg-12">
                         <p class="intro" style="color: #707070;">We design powerful visual identities and usage standards so that your brand’s footprint is consistent and cohesive. From popular brands looking for a change to ambitious start-ups looking to break into the market, we collaborate closely with our clients to create winning brand stories.</p>
 
                     </div>

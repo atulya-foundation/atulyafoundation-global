@@ -2,7 +2,7 @@
 
 
 <div class="logo-pos">
-    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+     <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
 </div>
 
 <section class="main-content dope">
@@ -12,7 +12,7 @@
             <h1 class="uppercase">PAINTING <span>is</span> JUST ANOTHER<br>WAY <span>of</span> KEEPING A DIARY</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <p class="intro" style="color: #707070;">Our art collection contains paintings of different themes and genres. We try to inculcate as many art forms as possible in our collection. Art lovers are free to choose according to their own interests and preferences.</p>
 
                     </div>
@@ -28,10 +28,10 @@
                 <figure>
                     <img src="assets/img/artist/LRM_EXPORT_20180812_175443-01.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Sangeet</h3>
+                <h3>Wealth of Contentment</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>According to Mahatma Buddha contentment is the biggest wealth and this girl seems to have realized this, maybe not in the same language, at a very young age. Poverty cannot steal her happiness and her innocent smile depicts this in a very beautiful manner. This painting has been made keeping in mind the intensity of this emotion and has done so with its unique combination of colours.</p>
                     </div>
                 </div>
 
@@ -40,10 +40,10 @@
                 <figure>
                     <img src="assets/img/artist/DSC_0981-01.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Rani sa</h3>
+                <h3>Awakening</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>A rising sun symbolizes new energy and awakening. A mother takes her daughter from deep dark woods towards the bright rising sun which represents empowerment. This painting represents a bright future of the society which can only come with a bright future of the women. Like nature which nurtures all the creatures, a woman nurtures her family and this painting depicts this in its own colourful and subtle language.</p>
                     </div>
                 </div>
             </div>
@@ -59,8 +59,8 @@
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
-                <h3>Rajputana</h3>
-                <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
+                <h3>Sacred Symphony of Love</h3>
+                <p>Radha and Krishna are the epitome of divine love and this painting tries to depict it in its own unique and creative way. The beautiful and unique intermixing of various colours represents the coming together of two souls. The symphony of flute represents emotions which forms the source of sacred union of Radha- Krishna. The painting defines the purest form of love in its own language of colours.</p>
             </div>
         </div>
 
@@ -76,10 +76,10 @@
                 <figure>
                     <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Sangeet</h3>
+                <h3>Tazurba</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>Experience or Tazurba is the most important treasure of life and the man in the painting does not need to speak that he has it. The intense look, long white beard and rural outlook of this person tell us that he has so many stories to tell and so many lessons to teach and you certainly won’t learn them in your schools. The painting, with its unique theme, represents one of the most important class of individuals of our society.</p>
                     </div>
                 </div>
 
@@ -88,10 +88,10 @@
                 <figure>
                     <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Rani sa</h3>
+                <h3>Panchtatva</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>The Indian philosophy believes that the world is made up of five elements land, water, sky, air and fire and everything around us is a manifestation of these elements in some form. While the feeling of being a human seems to be very strong and special, we should not forget that we have come from these elements and will go back to them. This painting, with a very beautiful colour scheme, portrays the most important philosophy, or law, of nature.</p>
                     </div>
                 </div>
             </div>
@@ -108,22 +108,22 @@
                 <figure>
                     <img src="assets/img/artist/DSC_0985-01.png" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Sangeet</h3>
+                <h3>Bond of Togetherness</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>This painting, in its very unique colour style, has tried to depict the bond of togetherness. The foundation of a society is togetherness and one of the most beautiful forms of togetherness is that of a brother and sister. From care free childhood plays to growing up into bond of responsibilities, the brother-sister relationship is a gift of life and this painting has tried to put it beautifully on a canvass.</p>
                     </div>
                 </div>
 
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/zdcz.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/Interface.jpg" class="img-fluid w-100" alt="">
                 </figure>
-                <h3>Rani sa</h3>
+                <h3>Interface</h3>
                 <div class="row">
-                    <div class="col-sm-8">
-                        <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours epresents the..</p>
+                    <div class="col-sm-12">
+                        <p>The interaction of human and nature is the essence of existence. We are part of the nature and yet are different in our own form. This painting has tried to showcase this beautiful thought of human-nature interface. This painting uses a very unique colour scheme to bring out an artist’s imagination of human being as a part of nature.</p>
                     </div>
                 </div>
             </div>
@@ -141,8 +141,8 @@
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
-                <h3>Rajputana</h3>
-                <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p>
+                <h3>Hope</h3>
+                <p>When everything else seems to be lost, hope remains. With its unique style and colour scheme, this painting portrays the emotion of hope. From humans beings to animals, hope as an emotion is present in everyone in different forms and is expressed in different languages. Hope represents optimism and belief over a divine force. The cute duo in the painting, lost in the vastness of water, hopes to find a shore.</p>
             </div>
         </div>
 
@@ -155,7 +155,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>

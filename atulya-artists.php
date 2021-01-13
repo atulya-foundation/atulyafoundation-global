@@ -35,7 +35,7 @@
     <div class="container">
         <h5 style="margin-bottom: 3rem;">Network Benefits</h5>
         <div class="web-wrap">
-            <h1 style="margin-bottom: 3rem;">FULFILLING <span>your</span> JOURNEY <br><span>to</span> COLOUR the WORLD</h1>
+            <h1 style="margin-bottom: 3rem;">FULFILLING <span>your</span> JOURNEY <br><span>to</span> COLOUR <span>the</span> WORLD</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
@@ -70,7 +70,7 @@
                 <div class="col-lg-5">
                     <h5 style="margin-bottom: 3rem;">Form</h5>
                     <h1>Join Artist <br> <span> Network</span></h1>
-                    <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p>
+                   <!--  <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p> -->
                     <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>
@@ -152,7 +152,7 @@
 
                             <div class="form-group input-group textarea">
                                 <textarea type="text" class="form-control" name="note" placeholder="" required></textarea>
-                                <label>Short Note*</label>
+                                <label>Additional Comments</label>
                             </div>
 
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>

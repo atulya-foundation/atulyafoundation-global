@@ -30,7 +30,7 @@
     <div class="main-content main-padding">
         <div class="container dp" >
             <h5>Form</h5>
-            <h1>Join Volunteer <br><span>Network</span></h1>
+            <h1>Join Volunteer <br><span>network</span></h1>
             <div class="form">
                 <form enctype="multipart/form-data" action="volunteer.php" method="post" id="">
                     <div class="row">
@@ -152,7 +152,7 @@
                             <div class="input-group form-group">
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" name="attachment" id="inputGroupFile02" required>
-                                    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">RESUME UPLOAD PATH*</label>
+                                    <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02" style="width: 18rem;">UPLOAD YOUR RESUME*</label>
                                 </div>
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" > Terms of Service</a>.</p>

@@ -57,7 +57,7 @@
                             <h2>Other Links</h2>
                             <ul>
                                 <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                                <li><a href="news-and-articles.php">News and Articles</a></li>
+                                <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
                                 <li><a href="get-in-touch.php">Get in touch</a></li>
                             </ul>
                         </div>

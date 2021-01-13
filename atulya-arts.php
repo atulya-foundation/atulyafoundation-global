@@ -7,7 +7,7 @@
 </style>
 
 <div class="logo-pos">
-    <img src="assets/img/aa.svg" class="img-fluid" alt="">
+    <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container"  >
@@ -16,7 +16,7 @@
             <h1 class="">ART <span>is</span> NOT WHAT YOU SEE<br>BUT WHAT YOU MAKE <span>others</span> SEE</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <p class="intro" style="padding-left: 24px; padding-right: 0px!important; color: #707070;">Art is mostly looked as a product but very less as a service. We bring in our professional expertise to provide art services to our clients to beautify their spaces and integrate it into their products and services. We bring in creative ways to monetise art so that maximum value can be extracted from artworks which can generate good opportunities for businesses and artists.</p>
 
                     </div>
@@ -245,7 +245,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>

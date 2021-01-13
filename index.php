@@ -42,7 +42,7 @@
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
-                            <li><a href="news-and-articles.php">News and Articles</a></li>
+                            <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
                             <li><a href="about.php#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                         </ul>
@@ -91,7 +91,7 @@
         <div class="container">
             <h6>Atulya Idea</h6>
             <h1>A paintbrush <span>and</span> a canvas,<br>
-                Creates a whole  <span>new world.</span></h1>
+                creates a whole  <span>new world.</span></h1>
             <div class="text">
                 <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood. Many talented artists are in a state of dire poverty today and are turning to other jobs to sustain themselves. Hence we bring in our professional expertise to convert artwork into products and services so as to monetize art in the best way possible. Our not-for profit model ensures that the benefits reach completely and directly to the artists. </p>
             </div>
@@ -111,7 +111,7 @@
                 <h1>Meet <span>the</span> makers.<br>
                     Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
                 <div class="text">
-                    <p> This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art, the collection depicts India’s eclectic and rich art tradition. If you want to get a glimpse of the profound imagination and creativity of our artists, a quick glimpse inside is highly recommended.</p>
+                    <p  style="width: 69vw !important;" > This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art, the collection depicts India’s eclectic and rich art tradition. If you want to get a glimpse of the profound imagination and creativity of our artists, a quick glimpse inside is highly recommended.</p>
                 </div>
                 <div class="call-to-action">
                     <a href="arts.php" class="btn-call-to-action">Premium Collection</a>
@@ -136,7 +136,7 @@
                         <h6>CRAFTSMANSHIP</h6>
                         <h2>Join Our Artist <span>network</span></h2>
                         <div class="text">
-                            <p>We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with your paintbrush.</p>
+                            <p style="margin-right: 1.50rem;">We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with your paintbrush.</p>
                         </div>
                         <div class="call-to-action f-left">
                             <a href="atulya-artists.php" class="btn-call-to-action">Join our network</a>

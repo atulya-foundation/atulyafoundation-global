@@ -49,7 +49,7 @@
             <h1><span>One Team. One Dream.</span> </h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-10">
+                    <div class="col-lg-12">
                         <p class="intro" style="margin-top: 1.025rem;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers, business grads & lawyers who came together as a result of common affinity towards art and with the motive of preserving art so that art is not lost in this fast moving world.<br>We strive towards a very clear goal:  monetizing the art to its fullest using technology and innovative ideas. Bringing Art and colours in all forms to all lives.</p>
                     </div>
                 </div>
@@ -63,25 +63,22 @@
     <div class="container" >
         <h5>CLIENTS</h5>
         <div class="web-wrap">
-            <h1><span>Good customer service costs less than bad customer service.</span></h1>
+            <h1>Good customer service <span>costs less than</span> bad customer service.</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-8 fx-end">
+                    <div class="col-lg-12 fx-end">
                         <p>We are glad to be able to work on really interesting and challenging projects, involving exciting technologies. We are working with a wide range of partners to provide best and most innovative art services.</p>
                     </div>
                     <div class="col-lg-1 view-desktop"></div>
-                    <div class="col-lg-3" style="margin-top:-30px">
-                        <img src="assets/img/svg/asme.svg" class="img-fluid grayscale" />
-                    </div>
-                    
-
                 </div>
                 <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
                             
                         </div>
-                        <div class="col-lg-7">
-                            <h5>And Many More To Come...</h5>
+                        <div class="col-lg-4" style="margin-top: 1rem; margin-bottom: -2rem;">
+                           
+                        <img src="assets/img/svg/asme.svg" class="img-fluid grayscale" />
+                    
                         </div>
                     </div>
             </div>

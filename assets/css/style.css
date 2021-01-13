@@ -906,7 +906,7 @@ p {
 }
 
 .mt-100 {
-    margin-top: 6.25rem;
+    margin-top: 4.25rem;
 }
 
 .live ul {
@@ -1031,14 +1031,14 @@ h1 {
 }
 
 .main-content .intro {
-    font-size: 1.5rem;
-    line-height: 1.6875rem !important;
+   font-size: 1.0625rem;
+    line-height: 1.25rem !important;
+    font-weight: 500 !important;
     font-family: Roboto, sans-serif;
     letter-spacing: 0rem;
     /*padding-right: 55px;*/
     color: #383838;
     line-height: 1.5625rem;
-    font-weight: 400 !important;
     letter-spacing: 0rem;
     opacity: 1;
 }
@@ -2061,7 +2061,7 @@ select::after {
 }
 
 .color_change {
-    color: #DEDEDE !important;
+    color: #d6d6d6 !important;
 }
 
 .white_c {
@@ -2092,7 +2092,7 @@ select::after {
 .logo-pos{
     position: absolute;
     top: 2.625rem;
-    left: 35%;
+    left: 27%;
 }
 
 @media screen and (max-width:768px){
