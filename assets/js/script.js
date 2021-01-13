@@ -46,47 +46,47 @@ $(document).ready(function () {
     // $("#mySidenav").css({"background":"rgb(248 244 242 / 1)"}),
     $("#about").hover(function () {
         $("#mySidenav").css({
-            "background": "url('assets/img/navbar/About Us_AF.jpg')",
-            "transition":" background 500ms ease all"  
+            "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
+            "transition":" background-image 500ms ease all"  
             
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background": "rgb(248 244 242 / 1)",
-             "transition":"background 100ms ease all"
+             "background-image": "url('assets/img/navbg.png')",
+             "transition":"background-image 100ms ease all"
 
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
     }), $("#crafts").hover(function () {
         $("#mySidenav").css({
-            "background": "url('assets/img/navbar/crafts_AF.jpg')",
-             "transition":" background 500ms ease all"   
+            "background-image": "url('assets/img/navbar/crafts_AF.jpg')",
+             "transition":" background-image 500ms ease all"   
         
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background": "rgb(248 244 242 / 1)",
-             "transition":"background 100ms ease all"       
+             "background-image": "url('assets/img/navbg.png')",
+             "transition":"background-image 100ms ease all"       
          }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
-            "background": "url('assets/img/navbar/Design_AF.jpg')",
-             "transition":" background 500ms ease all"   
+            "background-image": "url('assets/img/navbar/Design_AF.jpg')",
+             "transition":" background-image 500ms ease all"   
         }), $(".color_h_w li a").addClass("color_change"), $(" #about , #crafts , #arts").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
-             "background": "rgb(248 244 242 / 1)",
-             "transition":"background 100ms ease all"
+             "background-image": "url('assets/img/navbg.png')",
+             "transition":"background-image 100ms ease all"
         }), $(".color_h_w li a").removeClass("color_change"), $(" #about , #crafts , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
-            "background": "url('assets/img/navbar/Arts_AF.jpg')",
-            "transition":" background 500ms ease all"   
+            "background-image": "url('assets/img/navbar/Arts_AF.jpg')",
+            "transition":" background-image 500ms ease all"   
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts ,  #about").addClass("color_change")
     }, function () {
         $("#mySidenav").css({
 
-             "background": "rgb(248 244 242 / 1)",
-             "transition":"background 100ms ease all"          
+             "background-image": "url('assets/img/navbg.png')",
+             "transition":"background-image 100ms ease all"          
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts ,  #about").removeClass("color_change")
     })
 });
