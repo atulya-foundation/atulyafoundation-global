@@ -7,9 +7,9 @@
 
 <section class="main-content dope">
     <div class="container">
-        <h5>Atulya arts</h5>
+        <h5>Art Collection</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">PAINTING <span>is</span> JUST ANOTHER<br>WAY <span>of</span> KEEPING A DIARY</h1>
+            <h1 class="uppercase">PAINTING <span>is</span> JUST ANOTHER<br>WAY <span>of</span>  KEEPING A DIARY</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
@@ -155,7 +155,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning name of the painting in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>

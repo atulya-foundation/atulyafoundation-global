@@ -11,9 +11,9 @@
 </div>
 <section class="main-content dope">
     <div class="container" >
-        <h5>Atulya Digital</h5>
+        <h5>Atulya Crafts</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">HAPPINESS <span>is</span> HANDMADE <br><span>so is</span> CRAFT
+            <h1 class="uppercase">HAPPINESS <span>is</span><br> HANDMADE <br><span>so is</span> CRAFT
 </h1>
             <div class="content">
                 <div class="row">

@@ -10,7 +10,7 @@
     <div class="container"  >
         <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya Idea’</h5>
         <div class="web-wrap">
-            <h1>MAKING <span>art</span><br> A VIABLE MEANS<br> OF LIVELIHOOD <span>of</span> ARTISTS</h1>
+            <h1>MAKING <span>art</span><br> A VIABLE MEANS<br> OF LIVELIHOOD <span>for</span> ARTISTS</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-5">
@@ -46,11 +46,11 @@
     <div class="container" >
         <h5>TEAM</h5>
         <div class="web-wrap">
-            <h1><span>One Team. One Dream.</span> </h1>
+            <h1>One <span>team.</span> One <span>dream.</span> </h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="intro" style="margin-top: 1.025rem;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers, business grads & lawyers who came together as a result of common affinity towards art and with the motive of preserving art so that art is not lost in this fast moving world.<br>We strive towards a very clear goal:  monetizing the art to its fullest using technology and innovative ideas. Bringing Art and colours in all forms to all lives.</p>
+                        <p class="intro" style="margin-top: 1.025rem;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers, business grads & lawyers who came together as a result of common affinity towards art and with the motive of preserving art so that art is not lost in this fast moving world.</p><p class="intro">We strive towards a very clear goal:  monetizing the art to its fullest using technology and innovative ideas. Bringing Art and colours in all forms to all lives.</p>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
     <div class="container" >
         <h5>CLIENTS</h5>
         <div class="web-wrap">
-            <h1>Good customer service <span>costs less than</span> bad customer service.</h1>
+            <h1>Good customer service<br> <span>costs less than</span> bad<br> customer service.</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12 fx-end">
@@ -75,7 +75,7 @@
                         <div class="col-lg-4">
                             
                         </div>
-                        <div class="col-lg-4" style="margin-top: 1rem; margin-bottom: -2rem;">
+                        <div class="col-lg-4" style="margin-top: 1.8rem; margin-bottom: 0rem;">
                            
                         <img src="assets/img/svg/asme.svg" class="img-fluid grayscale" />
                     

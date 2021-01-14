@@ -17,7 +17,7 @@
     <div class="container" >
         <h5>Atulya Designs</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">COMBINING STRATEGY <span>&</span> <br>DESIGN <span>to</span> CREATE BRANDS <br>THAT LEAD <span>and</span> NOT JUST <br>KEEP UP</h1>
+            <h1 class="uppercase">Designing Brands <span>that</span><br> <span>lead &</span> not just keep up<!--  <span>&</span> <br>DESIGN <span>to</span> CREATE BRANDS <br>THAT LEAD <span>and</span> NOT JUST <br>KEEP UP --></h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">

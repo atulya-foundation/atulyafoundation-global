@@ -69,9 +69,9 @@
             <div class="row">
                 <div class="col-lg-5">
                     <h5 style="margin-bottom: 3rem;">Form</h5>
-                    <h1>Join Artist <br> <span> Network</span></h1>
+                    <h1>Join Artist <br> <span> network</span></h1>
                    <!--  <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p> -->
-                    <p class="intro" style="color:#383838">Fill out this form to become an Atulya Artist</p>
+                    <p class="intro" style="color:#383838;margin-top: 2.4rem;margin-bottom: -1.2rem;">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>
             <div class="form">

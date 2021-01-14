@@ -94,7 +94,7 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-6">
-                    <h5>Services</h5>
+                    <h5>Folk Art</h5>
                     <h1 class="">Corporate <span>art</span><br>Consulting & Services</h1>
                     <p class="intro" style="margin-top:24px">Art is mostly looked as a product but very less as a service. We bring in our professional expertise to provide art services to our clients to beautify their spaces and integrate it into their products and services.</p>
                     <div class="call-to-action jfs">
@@ -114,7 +114,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above products & services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>

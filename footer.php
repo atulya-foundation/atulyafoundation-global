@@ -16,7 +16,8 @@
         <div class="row">
             <div class="col-lg-4"></div>
             <div class="col-lg-8">
-                <h2>Lets connect and collaborate</h2>
+                <!-- <h2>Lets connect and collaborate</h2> -->
+                <h2></h2>
             </div>
             <div class="col-lg-4">
                 <img src="assets/img/logowhite.png" class="img-fluid" alt="">
@@ -25,21 +26,22 @@
                 <div class="row">
                     <div class="col-lg-3 col-xs-6">
                         <div class="widget">
+                        	<h2>Services</h2>
+                            <ul>
+                                <li><a href="premium-collection.php">Atulya Arts</a></li>
+                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
+                                <li><a href="atulya-digital.php">Atulya Designs</a></li>
+                                <li><a href="atulya-digital.php">Art Consulting</a></li>
+                            </ul>               
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xs-6">
+                        <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
                                 <li><a href="about.php">About us</a></li>
                                 <li><a href="about.php#team">Atulya Team</a></li>
                                 <li><a href="about.php#clients">Our Clients</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-xs-6">
-                        <div class="widget">
-                            <h2>Services</h2>
-                            <ul>
-                                <li><a href="premium-collection.php">Atulya Arts</a></li>
-                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                                <li><a href="atulya-digital.php">Atulya Designs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,7 +70,7 @@
                 <ul>
                     <li style="color: #AAAAAA">© 2020 Atulya Foundation. All Right Reserved.</li>
                     <li><span>|</span> <a href="privacy-policy.php">Privacy Policy</a></li>
-                    <li><a href="#">License</a></li>
+                    <!-- <li><a href="#">License</a></li> -->
                     <li><a href="terms-of-use.php">Terms of Use</a></li>
                 </ul>
             </div>

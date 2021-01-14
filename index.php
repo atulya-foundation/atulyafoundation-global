@@ -27,11 +27,10 @@
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                        <li><a id="about" class="wow"  href="about.php" >About us</a></li>
+                       <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" >Atulya Arts</a></li>
+                       <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" >Atulya Crafts</a></li>
                         <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php" >Atulya Designs</a></li>
-                        <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" >Atulya Crafts</a></li>
-                        <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" >Atulya Arts</a></li>
-
+                         <li><a id="about" class="wow"  href="atulya-arts.php" >Art Consulting</a></li>     
                     </ul>
                 </div>
 
@@ -39,6 +38,7 @@
                 <div class="row justify-content-end">
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
+                            <li><a href="about.php">About Us</a></li>
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
@@ -93,7 +93,7 @@
             <h1>A paintbrush <span>and</span> a canvas,<br>
                 creates a whole  <span>new world.</span></h1>
             <div class="text">
-                <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood. Many talented artists are in a state of dire poverty today and are turning to other jobs to sustain themselves. Hence we bring in our professional expertise to convert artwork into products and services so as to monetize art in the best way possible. Our not-for profit model ensures that the benefits reach completely and directly to the artists. </p>
+                <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood.</p>
             </div>
             <div class="call-to-action">
                 <a href="about.php" class="btn-call-to-action small-btn">About Us</a>

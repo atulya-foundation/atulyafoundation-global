@@ -1223,7 +1223,7 @@ figure {
 .dope .intro {
     font-size: 1.0625rem;
     line-height: 1.25rem !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     font-family: Roboto;
     letter-spacing: 0rem;
     color: #1f1f1f;
@@ -1418,9 +1418,11 @@ figure {
 .custom-file-label {
     background: transparent;
     border: none;
-    border-bottom: 0.0625rem solid;
+    border-bottom: 0;
     border-radius: 0;
     padding-right: 0;
+    padding-left: 0;
+    color: black !important;
 }
 
 .mt-30 {

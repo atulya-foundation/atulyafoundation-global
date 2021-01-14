@@ -7,13 +7,13 @@
 </style>
 
 <div class="logo-pos">
-    <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
+   <!--  <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a> -->
 </div>
 <section class="main-content dope">
     <div class="container"  >
-        <h5>Services</h5>
+        <h5>Art Consulting</h5>
         <div class="web-wrap">
-            <h1 class="">ART <span>is</span> NOT WHAT YOU SEE<br>BUT WHAT YOU MAKE <span>others</span> SEE</h1>
+            <h1 class="">ART <span>is</span> NOT WHAT <br>YOU SEE <span>but</span> WHAT <br>YOU MAKE <span>others</span> SEE</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
@@ -108,6 +108,12 @@
     </div>
 </section>
 
+<section class="atulya-image">
+    <figure>
+        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
+    </figure>
+</section>
+
 
 
 <section class="atulya-image abs-img-sec dope" style="margin-bottom:177px">
@@ -189,6 +195,12 @@
     </div>
 </section>
 
+<section class="atulya-image">
+    <figure>
+        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
+    </figure>
+</section>
+
 
 
 <section class="atulya-image dope">
@@ -245,7 +257,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
         </div>
         <div class="col-lg-1"></div>
     </div>
