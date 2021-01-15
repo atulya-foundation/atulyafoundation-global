@@ -95,10 +95,10 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h5>Folk Art</h5>
-                    <h1 class="">Corporate <span>art</span><br>Consulting & Services</h1>
-                    <p class="intro" style="margin-top:24px">Art is mostly looked as a product but very less as a service. We bring in our professional expertise to provide art services to our clients to beautify their spaces and integrate it into their products and services.</p>
+                    <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colors</h1>
+                    <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani, Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
                     <div class="call-to-action jfs">
-                        <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a>
+                       <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
                 <div class="col-sm-1"></div>
