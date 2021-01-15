@@ -4,9 +4,9 @@
     .dope .container{
         margin-left:12.0625rem; padding-right:12.0625rem;
     }
-    .atulya-image .container{
+    /*.atulya-image .container{
         margin-left:12.0625rem; padding-right:9.0625rem;
-    }
+    }*/
 
 </style>
 

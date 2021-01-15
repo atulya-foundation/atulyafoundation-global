@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <style type="text/css">
-    .dope .container{
+    .i .container{
         margin-left:12.0625rem;padding-right:10.0625rem; margin-bottom: 7.125rem;
     }
 </style>
@@ -9,7 +9,7 @@
 <div class="logo-pos">
    <!--  <a href="premium-collection.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a> -->
 </div>
-<section class="main-content dope">
+<section class="main-content dope i">
     <div class="container"  >
         <h5>Art Consulting</h5>
         <div class="web-wrap">
