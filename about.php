@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="col-xl-1 view-desktop"></div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-6">
                         <p>Art is the most beautiful manifestation of human creativity. World is a home to numerous traditional & modern art forms. This rich heritage of art needs to be preserved. Inadequate incentive and livelihood is forcing artists to abandon art and look for other jobs. </p>
                         <p>In the pressure to earn a decent living, many potential artists do not even dare to pursue arts and crafts as a career and traditional artists with their conventional methods fail to capitalise on their skills and limited resources to generate enough money to even feed their families. </p>
                         <p>This is where the ‘Atulya’ Idea is born: Making Art a Sustained Means of Livelihood</p>
