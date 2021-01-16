@@ -661,7 +661,7 @@ h5 {
 
 .marquee__inner {
     width: fit-content;
-    width: -moz-fit-contents;
+    width: -moz-fit-content;
     display: flex;
     position: relative;
     transform: translate3d(var(--move-initial), 0, 0);
