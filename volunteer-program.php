@@ -32,20 +32,20 @@
             <h5>Form</h5>
             <h1>Join Volunteer <br><span>network</span></h1>
             <div class="form">
-                <form enctype="multipart/form-data" action="volunteer.php" method="post" id="">
+                <form enctype="multipart/form-data" action="https://sheetdb.io/api/v1/7eynth0bef646" method="post" id="volunteer-program-form">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="name" required>
+                                <input type="text" class="form-control" name="data[name]" required>
                                 <label>NAME*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="age" required>
+                                <input type="text" id="age" class="form-control" name="data[age]" required>
                                 <label>AGE*</label>
                             </div>
                             <div class="form-group pos-relative">
-                                <select required name="gender" required class="form-control" id="">
+                                <select required name="data[gender]" class="form-control" id="">
                                     <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
@@ -58,11 +58,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information</p>
                             <div class="form-group input-group">
-                                <input type="email" class="form-control" name="email" placeholder="" required>
+                                <input type="email" class="form-control" name="data[email]" placeholder="" required>
                                 <label>EMAIL*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="" required>
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="data[phone]" placeholder="" required>
                                 <label>PHONE NUMBER*</label>
                             </div>
                         </div>
@@ -73,26 +73,26 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="street" placeholder="" required>
+                                <input type="text" class="form-control" name="data[street]" placeholder="" required>
                                 <label>STREET*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="locality" placeholder="" required>
+                                <input type="text" class="form-control" name="data[locality]" placeholder="" required>
                                 <label>Locality*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="city" placeholder="" required>
+                                <input type="text" class="form-control" name="data[city]" placeholder="" required>
                                 <label>CITY*</label>
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="state" placeholder="" required>
+                                <input type="text" class="form-control" name="data[state]" placeholder="" required>
                                 <label>STATE*</label>
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="zip" placeholder="" required>
+                                <input type="text" class="form-control" name="data[zip]" placeholder="" required>
                                 <label>PINCODE/ZIPCODE*</label>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <select required name="education" class="form-control" id="txt_a">
+                                <select required name="data[education]" class="form-control" id="txt_a">
                                     <option value="">Education qualification*</option>
 
                                     <option value="Intermediate">Intermediate</option>
@@ -116,7 +116,7 @@
                             <div class="form-group ">
 
 
-                                <select required name="contribute" class="form-control" id="txt_d">
+                                <select required name="data[contribute]" class="form-control" id="txt_d">
                                     <option value="">How, as a volunteer, can you contribute to the Atulya foundation?*</option>
 
                                     <option value="Building artists network">Building artists network</option>
@@ -131,7 +131,7 @@
                             <div class="form-group ">
 
 
-                                <select required name="comfortable" class="form-control" id="txt_d">
+                                <select required name="data[comfortable]" class="form-control" id="txt_d">
                                     <option value="">Are you comfortable to travel for assignments?*</option>
 
                                     <option value="Yes, no issues at all">Yes, no issues at all</option>
@@ -145,19 +145,31 @@
                             </div>
 
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="thoughts" placeholder="" required></textarea>
+                                <textarea type="text" class="form-control" name="data[thoughts]" placeholder="" required></textarea>
                                 <label>Your thoughts about Atulya Foundation and its work*</label>
                             </div>
 
                             <div class="input-group form-group">
                                 <div class="custom-file">
-                                    <input type="file" class="custom-file-input" name="attachment" id="inputGroupFile02" required>
+                                    <input type="file" class="custom-file-input" name="data[attachment]" id="inputGroupFile02" required>
                                     <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02" style="width: 18rem;">UPLOAD YOUR RESUME*</label>
                                 </div>
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" > Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
                                 <button type="submit" id="submit" class="btn-call-to-action">Send</button>
+                            </div>
+
+                            <div class="toast" id="volunteer-form-toast-success" style="position: absolute">
+                                <div class="toast-body">
+                                    Form Submitted
+                                </div>
+                            </div>
+
+                            <div class="toast" id="volunteer-form-toast-failure" style="position: absolute">
+                                <div class="toast-body">
+                                    Failed to submit form, Please try again
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,8 +181,6 @@
 
 
 <?php include('footer.php')?>
-<script src="assets/js/validate.js"></script>
-
 
 <style type="text/css">
     .main-content .dp{

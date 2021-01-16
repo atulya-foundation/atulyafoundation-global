@@ -648,9 +648,47 @@ h5 {
     margin-bottom: 1.875rem;
 }
 
-.bg-new,
-.m-carousel div {
+.bg-new {
     background: #F2F2F2 !important;
+}
+
+.marquee {
+    overflow: hidden;
+    --offset: 20vw;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+}
+
+.marquee__inner {
+    width: fit-content;
+    width: -moz-fit-contents;
+    display: flex;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 10s linear infinite;
+    animation-play-state: running;
+}
+
+.marquee__inner div {
+    display: flex;
+}
+
+.marquee__inner div>img {
+    padding: 0 10px;
+}
+
+.marquee:hover .marquee__inner {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
 }
 
 .mb-100 {
@@ -713,30 +751,6 @@ h5 {
     left: 1.25rem;
 }
 
-.marquee {
-    width: 15.625VW;
-    overflow: hidden;
-    border: 0.0625rem solid #ccc;
-    background: #ccc;
-}
-
-.m-carousel ul {
-    margin-bottom: 0rem;
-}
-
-.m-carousel ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 1.25em;
-}
-
-.scroll1 {
-    display: none;
-}
-
-.scroll1 img {
-    vertical-align: top;
-}
 
 .craftman {
     padding-top: 6.25VW;

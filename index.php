@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    
 
 
     <header >
@@ -119,14 +118,37 @@
             </div>
         </section>
 
-        <section class="m-carousel bg-new" id="carso">
-            <ul class="scroll1">
-                <li><img src="assets/img/m1.png" class="img-fluid" alt=""></li>
-                <li><img src="assets/img/m2.png" class="img-fluid" alt=""></li>
-                <li><img src="assets/img/m3.png" class="img-fluid" alt=""></li>
-                <li><img src="assets/img/m4.png" class="img-fluid" alt=""></li>
-                <li><img src="assets/img/m5.png" class="img-fluid" alt=""></li>
-            </ul>
+        <section class="bg-new marquee">
+            <div class="marquee__inner" aria-hidden="true">
+            <div>
+                    <img src="assets/img/m1.png" alt="">
+                    <img src="assets/img/m2.png" alt="">
+                    <img src="assets/img/m3.png" alt="">
+                    <img src="assets/img/m4.png" alt="">
+                    <img src="assets/img/m5.png" alt="">
+                </div>
+            <div>
+                    <img src="assets/img/m1.png" alt="">
+                    <img src="assets/img/m2.png" alt="">
+                    <img src="assets/img/m3.png" alt="">
+                    <img src="assets/img/m4.png" alt="">
+                    <img src="assets/img/m5.png" alt="">
+                </div>
+            <div>
+                    <img src="assets/img/m1.png" alt="">
+                    <img src="assets/img/m2.png" alt="">
+                    <img src="assets/img/m3.png" alt="">
+                    <img src="assets/img/m4.png" alt="">
+                    <img src="assets/img/m5.png" alt="">
+                </div>
+            <div>
+                    <img src="assets/img/m1.png" alt="">
+                    <img src="assets/img/m2.png" alt="">
+                    <img src="assets/img/m3.png" alt="">
+                    <img src="assets/img/m4.png" alt="">
+                    <img src="assets/img/m5.png" alt="">
+                </div>
+            </div>
         </section>
 
         <section class="craftman">
