@@ -193,9 +193,13 @@
                     the latest updates</h2>
 
                 <div class="newsletter">
-                    <form action="">
+                    <form action="https://atulyafoundation.us19.list-manage.com/subscribe/post" method="POST">
+                        <input type="hidden" name="u" value="d0828646301471c9c6d7306d8">
+                        <input type="hidden" name="id" value="c99cd87b30">
+
+
                         <div class="input-group">
-                            <input type="text" class="form-control">
+                            <input type="text" name="MERGE0" class="form-control">
                             <label> Enter your E-mail address</label>
                             <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
                         </div>
