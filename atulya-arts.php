@@ -123,7 +123,7 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
                     <h3>Customised Research</h3>
-                    <p>While developing art programs our professional market researchers & analytics team do in depth research of the markets to fill in for the requests by our clients. In our research practice few elements play a key role such as client’s working industry/domain/sector, team of employees, location of the site, regional culture & taste,  to bring out the best plan that rightly positions client’s brand.</p>
+                    <p>While developing art programs our professional market researchers & analytics team do in depth research of the markets to fill in for the requests by our clients. In our research practice few elements play a key role such as client’s working industry/sector, team of employees, location of the site, regional culture & taste,  to bring out the best plan that rightly positions client’s brand.</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs">
                     <figure>

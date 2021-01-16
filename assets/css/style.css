@@ -2011,8 +2011,8 @@ select::after {
 
 .input-group input:focus + label,
 .input-group input.has-value + label {
-    top: 0rem;
-    font-size: 0.625rem;
+    /*top: 0rem;
+    font-size: 0.625rem;*/
     color: #aaa;
 }
 

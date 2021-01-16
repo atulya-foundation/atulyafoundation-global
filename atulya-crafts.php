@@ -150,7 +150,7 @@
             <div class="col-xl-1"></div>
             <div class="col-xl-3 col-lg-6 col-md-6 content order1">
                 <h3>Stone Crafts</h3>
-                <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like <strong>toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures</strong> and many more things. We make our creations on different stones like <strong>sandstone, marble, granite, basalt, graphite</strong> etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
+                <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like <strong>toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures</strong> and many more things. We make our creations on different stones like sandstone, marble, granite, basalt, graphite etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
             </div>
             <div class="col-xl-1"></div>
             <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs-l">
