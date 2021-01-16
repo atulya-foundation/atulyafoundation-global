@@ -55,26 +55,23 @@
         <div class="container" >
             <h2>If you don’t find what you need, fill out our contact form</h2>
             <div class="form">
-                <form action="https://atulyafoundation.us19.list-manage.com/subscribe/post" method="post">
-                    <input type="hidden" name="u" value="d0828646301471c9c6d7306d8">
-                    <input type="hidden" name="id" value="4b319b8e39">
-                    
+                <form action="email.php" method="post">
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="MERGE1" value="" required>
-                                <label for="">NAME*</label>
+                                <input type="text" class="form-control" name="Name" placeholder="NAME*" required>
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="MERGE4" placeholder="" required>
-                                <label for="">PHONE*</label>
+                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="Phone" placeholder="PHONE*" required>
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="email" class="form-control" name="MERGE0" placeholder="" required>
-                                <label for="">Email*</label>
+                                <input type="email" class="form-control" name="Email" placeholder="Email*" required>
+                                
                             </div>
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="MERGE3" placeholder="" required></textarea>
+                                <textarea type="text" class="form-control" name="Message" placeholder="" required></textarea>
                                 <label for="">MESSAGE*</label>
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>

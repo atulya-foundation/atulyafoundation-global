@@ -75,20 +75,20 @@
                 </div>
             </div>
             <div class="form">
-                <form action="https://sheetdb.io/api/v1/1o4ukgw3emrad" method="post" id="artists-form">
+                <form action="artist.php" method="post" id="">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="data[name]" placeholder="">
-                                <label for="">NAME*</label>
+                                <input type="text" class="form-control" name="name" placeholder="NAME*">
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="data[age]" placeholder="">
-                                <label for="">AGE*</label>
+                                <input type="text" id="age" class="form-control" name="age" placeholder="AGE*">
+                                
                             </div>
                             <div class="form-group ">
-                                <select required name="data[gender]" required class="form-control" id="">
+                                <select required name="gender" required class="form-control" id="">
                                     <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
@@ -100,12 +100,12 @@
                         <div class="col-xl-5">
                             <p>Contact Information*</p>
                             <div class="form-group  input-group">
-                                <input type="email" class="form-control" name="data[email]" placeholder="">
-                                <label for="">EMAIL*</label>
+                                <input type="email" class="form-control" name="email" placeholder="EMAIL*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="data[phone]" placeholder="">
-                                <label for="">PHONE NUMBER*</label>
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="PHONE NUMBER*">
+                                
                             </div>
                         </div>
                     </div>
@@ -115,27 +115,27 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="data[street]" placeholder="">
-                                <label for="">STREET*</label>
+                                <input type="text" class="form-control" name="street" placeholder="STREET*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="data[locality]" placeholder="">
-                                <label for="">Locality*</label>
+                                <input type="text" class="form-control" name="locality" placeholder="Locality*">
+                                
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="data[city]" placeholder="">
-                                <label for="">CITY*</label>
+                                <input type="text" class="form-control" name="city" placeholder="CITY*">
+                                
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="data[state]" placeholder="">
-                                <label for="">STATE*</label>
+                                <input type="text" class="form-control" name="state" placeholder="STATE*">
+                                
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="data[zip]" placeholder="">
-                                <label for="">PINCODE/ZIPCODE*</label>
+                                <input type="text" class="form-control" name="zip" placeholder="PINCODE/ZIPCODE*">
+                                
                             </div>
                         </div>
                     </div>
@@ -145,32 +145,20 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="data[bio]" placeholder="">
-                                <label for="">Link to your artwork projects*</label>
+                                <input type="text" class="form-control" name="bio" placeholder="Link to your artwork projects*">
+                                
                             </div>
 
 
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="data[note]" placeholder="" required></textarea>
-                                <label>Additional Comments</label>
+                                <textarea type="text" class="form-control" name="note" placeholder="Additional Comments" required></textarea>
+                                
                             </div>
 
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
                                 <button type="submit" id="submit" class="btn-call-to-action">Send</button>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="toast" id="artist-form-toast-success" style="position: absolute">
-                        <div class="toast-body">
-                            Form Submitted
-                        </div>
-                    </div>
-
-                    <div class="toast" id="artist-form-toast-failure" style="position: absolute">
-                        <div class="toast-body">
-                            Failed to submit form, Please try again
                         </div>
                     </div>
                 </form>
