@@ -5,6 +5,13 @@
         margin-left:12.0625rem; padding-right:12.0625rem;
 
     }
+    .text1{
+        color: #707070 !important;
+    }
+    .text1:hover{
+        color: black !important;
+        text-decoration: none !important; 
+    }
 </style>
 
 <section class="main-content dope get-touch">
@@ -79,5 +86,28 @@
     </div>
 </section>
 
+<section class="get-touch">
+    <div class="container" >
+        <div class="web-wrap">
+            <div class="content">
+                <h1 class="uppercase">Stay <span>tuned</span> ...</h1>
+                <div class="row">
+                    <div class="col-lg-12 mt-40">
+                        <div class="row">
+                            <div class="col-sm-2" style="color: black;">Official Channels || </div>
+                             <div class="col-sm-2"> <a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram" ></i> Instagram</a></div>
+                            <div class="col-sm-2"><a class="text1" href="https://www.linkedin.com/company/atulya" ><i class="fab fa-linkedin"></i> LinkedIn</a></div>
+                            <div class="col-sm-2"><a class="text1" href="https://www.facebook.com/Aulyafoundation" ><i class="fab fa-facebook"></i> Facebook</a></div>
+                            <div class="col-sm-2"> <a class="text1" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg" ><i class="fab fa-youtube"></i> Youtube</a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 tool"> </div>
+                    <div class="col-sm-12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include('footer.php') ?>

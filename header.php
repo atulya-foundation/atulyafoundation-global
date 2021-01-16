@@ -44,7 +44,7 @@
 
 
 <body style="background:<?php echo $bg_body_color ?>" id="body">
-    <div id="mySidenav" class="sidenav" style="overflow: auto !important;">
+    <div id="mySidenav" class="sidenav" style="overflow: hidden !important;">
         <div class="row nb">
             <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 

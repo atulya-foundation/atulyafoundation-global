@@ -4,7 +4,7 @@
     .i .container{
         margin-left:12.0625rem; padding-right:12.0625rem;
     }
-</style>{
+</style>
 
 <div class="logo-pos">
     <a href="atulya-crafts.php"><img src="assets/img/ac.svg" class="img-fluid" alt=""></a>
@@ -13,8 +13,7 @@
     <div class="container" >
         <h5>Atulya Crafts</h5>
         <div class="web-wrap">
-            <h1 class="uppercase">HAPPINESS <span>is</span><br> HANDMADE <br><span>so is</span> CRAFT
-</h1>
+            <h1 class="uppercase">HAPPINESS <span>is</span><br> HANDMADE <br><span>so is</span> CRAFT</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
