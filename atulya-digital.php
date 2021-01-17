@@ -102,18 +102,20 @@
 <section class="atulya-image">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-7 col-lg-6 col-md-6 order2">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-5 col-lg-6 col-md-6 order2">
                 <figure>
-                    <img src="assets/img/artist/sam-mcghee-KieCLNzKoBo-unsplash.png" class="img-fluid w-100">
+                    <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid w-100">
                 </figure>
             </div>
-            <div class="col-xl-1 view-desktop"></div>
+            <div class="col-xl-2 view-desktop"></div>
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
-                <h3>Film Design</h3>
-                <p>We understand that a logo is not just the identity of your brand but also the foundation of your marketing strategy. Our design process ensures that we create logos that communicate your brand’s character in the most appealing way. By</p>
+                <h3>Digital Art & Illustrations</h3>
+                <p>Our illustrators create original images done completely on computer or hand-drawn images scanned into a computer and finished using a software program. Our art takes a number of forms, from fine art to decoration to storytelling illustrations. We use any combination of media and techniques to create our work as we collaborate with writers, editors, managers, marketers and art directors across all graphic design types</p>
             </div>
         </div>
     </div>
+    <div class="clearfix"></div>
 </section>
 
 <section class="atulya-image">
@@ -122,26 +124,6 @@
     </figure>
 </section>
 
-<section class="atulya-image">
-    <div class="web-wrap">
-        <div class="container" >
-            <div class="row">
-                <div class="col-xl-1 view-desktop"> </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
-                    <h3>Motion Graphics Design</h3>
-                    <p>Some ideas (especially big, abstract ones) are hard to explain with words or still images. A few seconds of motion graphics can clear everything up perfectly. Typical motion graphic is an animation, with a text as a significant component. It is a way to communicate with the audiences with music and compelling content. Our design team can illustrate your complex ideas visually with help of motion graphics.</p>
-                </div>
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-6 col-lg-6 col-md-4 order2">
-                    <figure>
-                        <img src="assets/img/Atulya designs/Motion Graphics/1.jpg" class="img-fluid w-100">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</section>
 
 
 <section class="atulya-image abs-img-sec">
@@ -167,6 +149,27 @@
     <div class="web-wrap">
         <div class="container" >
             <div class="row">
+                <div class="col-xl-1 view-desktop"> </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
+                    <h3>Motion Graphics Design</h3>
+                    <p>Some ideas (especially big, abstract ones) are hard to explain with words or still images. A few seconds of motion graphics can clear everything up perfectly. Typical motion graphic is an animation, with a text as a significant component. It is a way to communicate with the audiences with music and compelling content. Our design team can illustrate your complex ideas visually with help of motion graphics.</p>
+                </div>
+                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-6 col-lg-6 col-md-4 order2">
+                    <figure>
+                        <img src="assets/img/Atulya designs/Motion Graphics/1.jpg" class="img-fluid w-100">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</section>
+
+<!-- <section class="atulya-image">
+    <div class="web-wrap">
+        <div class="container" >
+            <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
                     <h3>Digital Art & Illustrations</h3>
@@ -182,7 +185,7 @@
         </div>
     </div>
     <div class="clearfix"></div>
-</section>
+</section> -->
 
 <section class="atulya-last j-center container" >
     <!-- <div class="web-wrap"> -->
