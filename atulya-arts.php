@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/artist/abbie-bernet-04X58d_hHv8-unsplash.png" class="img-fluid">
+                        <img src="assets/img/Art Consulting/Art Plan development/1.jpg" class="img-fluid">
                     </figure>
                 </div>
 
@@ -54,11 +54,11 @@
     </div>
 </section>
 
-<section class="atulya-image dope">
+<section class="atulya-image dope" style="margin-bottom: 8rem;">
     <div class="container"  >
         <div class="row">
             <div class="col-xl-2"></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1" style="margin-top: -7rem;">
                 <div class="row">
                     <div class="col-sm-12">
                         <h3>Art Curation & Acquisition</h3>
@@ -69,24 +69,30 @@
                 </div>
             </div>
 
-            <div class="col-xl-5 col-lg-6 col-md-6 order2">
+            <div class="col-xl-5 col-lg-6 col-md-6 order2 p-abs">
                 <figure>
-                    <img src="assets/img/artist/catherina-schurmann-lk_mlCrHYK8-unsplash.png" class="img-fluid">
+                    <img src="assets/img/Art Consulting/Art curation _ Acquisition/1.jpg" class="img-fluid f-right">
+                        <img src="assets/img/Art Consulting/Art curation _ Acquisition/2.jpg" class="img-fluid abs-img" style="left: 8% !important">
                 </figure>
             </div>
         </div>
     </div>
 </section>
 
+<section class="atulya-image">
+    <figure>
+        <img src="assets/img/Art Consulting/big horizontal images/1.jpg" class="img-fluid w-100" />
+    </figure>
+</section>
 
 
-<section class="atulya-image dope">
+<section class="atulya-image dope" >
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/artist/crew-9u2GMRE8MdE-unsplash.png" class="img-fluid">
+                        <img src="assets/img/Art Consulting/Art leasing/1.jpg" class="img-fluid">
                     </figure>
                 </div>
 
@@ -108,26 +114,22 @@
     </div>
 </section>
 
-<section class="atulya-image">
-    <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
-    </figure>
-</section>
 
 
 
-<section class="atulya-image abs-img-sec dope" style="margin-bottom:177px">
+
+<section class="atulya-image abs-img-sec dope" style="margin-bottom:177px ">
     <div class="web-wrap">
         <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center">
+                <div class="col-xl-3 col-lg-6 col-md-6 content order1 j-center" style="margin-top: -6rem;">
                     <h3>Customised Research</h3>
                     <p>While developing art programs our professional market researchers & analytics team do in depth research of the markets to fill in for the requests by our clients. In our research practice few elements play a key role such as client’s working industry/sector, team of employees, location of the site, regional culture & taste,  to bring out the best plan that rightly positions client’s brand.</p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs">
                     <figure>
-                        <img src="assets/img/artist/william-iven-gcsNOsPEXfs-unsplash.png" class="img-fluid f-right">
+                        <img src="assets/img/Art Consulting/Customised research/pexels-fauxels-3183153.jpg" class="img-fluid f-right">
                         <img src="assets/img/artist/kaleidico-26MJGnCM0Wc-unsplash.png" class="img-fluid abs-img" style="left:95px;bottom:-90px;">
                     </figure>
                 </div>
@@ -137,21 +139,28 @@
     <div class="clearfix"></div>
 </section>
 
+<section class="atulya-image">
+    <figure>
+        <img src="assets/img/Art Consulting/big horizontal images/2.jpg" class="img-fluid w-100" />
+    </figure>
+</section>
 
-
-<section class="atulya-image dope" style="margin-top:50px">
+<section class="atulya-image dope" >
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-6 order2">
+                <div class="col-xl-5 col-lg-6 col-md-6 order2 p-abs-l">
                     <figure>
-                        <img src="assets/img/artist/darshan-patel-LWNKjKmxRrE-unsplash.png" class="img-fluid">
+                        
+                        <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid">
+                    <img src="assets/img/Art Consulting/Framing _ Installation/2.jpg" class="img-fluid abs-img">
+
                     </figure>
                 </div>
                 <div class="col-xl-1 view-desktop">
                 </div>
 
-                <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1">
+                <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1 " style="margin-top: -13rem;">
                     <div class="row">
                         <div class="col-sm-12">
                             <h3>Art Framing & Installation</h3>
@@ -169,7 +178,7 @@
 
 
 
-<section class="atulya-image dope">
+<section class="atulya-image dope" style="margin-top: 14rem;">
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
@@ -187,7 +196,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/artist/kadir-celep-PbEzsnNLcA4-unsplash.png" class="img-fluid w-100">
+                        <img src="assets/img/Art Consulting\Art localism/pexels-flat-hito-862938.jpg" class="img-fluid w-100">
                     </figure>
                 </div>
             </div>
@@ -197,7 +206,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
+        <img src="assets/img/Art Consulting/big horizontal images/4.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 
@@ -242,7 +251,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs">
                     <figure>
-                        <img src="assets/img/artist/boxes-3883980_1920.png" class="img-fluid f-right">
+                        <img src="assets/img/Art Consulting/Art shipment/1.jpg" class="img-fluid f-right">
                         <img src="assets/img/artist/box-1209969_1920.png" class="img-fluid abs-img" style="left:190px;bottom:-70px;">
                     </figure>
                 </div>

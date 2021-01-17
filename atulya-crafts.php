@@ -35,8 +35,8 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs-l new-abs">
                 <figure>
-                    <img src="assets/img/artist/pexels-jess-bailey-designs-1764436.png" class="img-fluid">
-                    <img src="assets/img/artist/92e99693836145.5e73d3f759285.png" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
 
@@ -92,7 +92,7 @@
 
             <div class="col-xl-6 col-lg-6 col-md-6 order2">
                 <figure>
-                    <img src="assets/img/artist/jessica-ruscello-G8vPQ-XVxxY-unsplash.png" class="img-fluid">
+                    <img src="assets/img/Atulya Crafts/Pottery _ Ceramics/1.jpg" class="img-fluid">
                 </figure>
             </div>
         </div>
@@ -105,8 +105,8 @@
         <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs dope">
                 <figure>
-                    <img src="assets/img/artist/crown-3060391_1920.png" class="img-fluid f-right">
-                    <img src="assets/img/artist/bird-3983936_1920.png" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya Crafts/Metal Crafts/1.jpg" class="img-fluid f-right">
+                    <img src="assets/img/Atulya Crafts/Metal Crafts/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
@@ -130,7 +130,7 @@
         <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-4 order2">
                 <figure>
-                    <img src="assets/img/artist/Making_a_Glass_Horse_(7251890544).png" class="img-fluid w-100">
+                    <img src="assets/img/Atulya Crafts/Glass Crafts/H05pKFg293.jpg" class="img-fluid w-100">
                 </figure>
             </div>
             <div class="col-xl-1 view-desktop"></div>
@@ -148,15 +148,15 @@
     <div class="container" >
         <div class="row">
             <div class="col-xl-1"></div>
-            <div class="col-xl-3 col-lg-6 col-md-6 content order1">
+            <div class="col-xl-4 col-lg-6 col-md-6 content order1">
                 <h3>Stone Crafts</h3>
                 <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like <strong>toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures</strong> and many more things. We make our creations on different stones like sandstone, marble, granite, basalt, graphite etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
             </div>
-            <div class="col-xl-1"></div>
-            <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs-l">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-5 col-lg-6 col-md-4 order2 p-abs-l">
                 <figure>
-                    <img src="assets/img/artist/sculpture-3187129_1920.png" class="img-fluid">
-                    <img src="assets/img/artist/zen-509371_1920.png" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya Crafts/Stone Crafts/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya Crafts/Stone Crafts/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
         </div>

@@ -34,16 +34,17 @@
     <div class="container" >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs-l">
                     <figure>
-                        <img src="assets/img/artist/digital1-min.png" class="img-fluid">
+                        <img src="assets/img/Atulya designs/Brand identity/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya designs/Brand identity/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
 
                 <div class="col-xl-1 view-desktop">
                 </div>
 
-                <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1">
+                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                     <h3>Brand Identity Design </h3>
                     <p>What’s in a name? Well, everything!! We work closely with our clients to breathe life into their stories by creating assets like logos, typography, colour palettes and image libraries that represent a brand’s personality that will accurately portray who they are to their customers. Logo is not just the identity of a brand but also the foundation of marketing strategy, so we unite it with various branded business elements & presentations.</p>
                 </div>
@@ -52,7 +53,7 @@
     </div>
 </section>
 
-<section class="atulya-image">
+<section class="atulya-image" style="margin-top: 12rem;">
     <div class="container" >
         <div class="row">
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
@@ -62,7 +63,7 @@
             <div class="col-xl-1"></div>
             <div class="col-xl-7 col-lg-6 col-md-6 order2">
                 <figure>
-                    <img src="assets/img/artist/cad-3484213_1920.png" class="img-fluid">
+                    <img src="assets/img/Atulya designs/Product design/1.jpg" class="img-fluid">
                 </figure>
             </div>
         </div>
@@ -133,7 +134,7 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-6 col-lg-6 col-md-4 order2">
                     <figure>
-                        <img src="assets/img/artist/graphic-933379_1920.png" class="img-fluid w-100">
+                        <img src="assets/img/Atulya designs/Motion Graphics/1.jpg" class="img-fluid w-100">
                     </figure>
                 </div>
             </div>
@@ -148,8 +149,8 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs-l">
                 <figure>
-                    <img src="assets/img/artist/white-printer-paper-196645.png" class="img-fluid">
-                    <img src="assets/img/artist/gui-2311260_1280.png" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya designs/UI/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya designs/UI/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 content order1">
@@ -174,7 +175,7 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-5 col-lg-6 col-md-4 order2">
                     <figure>
-                        <img src="assets/img/artist/charli-xIoA-PC53XA-unsplash.png" class="img-fluid">
+                        <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid">
                     </figure>
                 </div>
             </div>

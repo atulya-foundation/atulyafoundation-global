@@ -121,32 +121,44 @@
         <section class="bg-new marquee">
             <div class="marquee__inner" aria-hidden="true">
             <div>
-                    <img src="assets/img/m1.png" alt="">
-                    <img src="assets/img/m2.png" alt="">
-                    <img src="assets/img/m3.png" alt="">
-                    <img src="assets/img/m4.png" alt="">
-                    <img src="assets/img/m5.png" alt="">
+                    <img src="assets/img/slider/m1.jpg" alt="">
+                    <img src="assets/img/slider/m2.jpg" alt="">
+                    <img src="assets/img/slider/m3.jpg" alt="">
+                    <img src="assets/img/slider/m4.jpg" alt="">
+                    <img src="assets/img/slider/m5.jpg" alt="">
+                    <img src="assets/img/slider/m6.jpg" alt="">
+                    <img src="assets/img/slider/m7.jpg" alt="">
+                    <img src="assets/img/slider/m8.jpg" alt="">
                 </div>
             <div>
-                    <img src="assets/img/m1.png" alt="">
-                    <img src="assets/img/m2.png" alt="">
-                    <img src="assets/img/m3.png" alt="">
-                    <img src="assets/img/m4.png" alt="">
-                    <img src="assets/img/m5.png" alt="">
+                    <img src="assets/img/slider/m1.jpg" alt="">
+                    <img src="assets/img/slider/m2.jpg" alt="">
+                    <img src="assets/img/slider/m3.jpg" alt="">
+                    <img src="assets/img/slider/m4.jpg" alt="">
+                    <img src="assets/img/slider/m5.jpg" alt="">
+                    <img src="assets/img/slider/m6.jpg" alt="">
+                    <img src="assets/img/slider/m7.jpg" alt="">
+                    <img src="assets/img/slider/m8.jpg" alt="">
                 </div>
             <div>
-                    <img src="assets/img/m1.png" alt="">
-                    <img src="assets/img/m2.png" alt="">
-                    <img src="assets/img/m3.png" alt="">
-                    <img src="assets/img/m4.png" alt="">
-                    <img src="assets/img/m5.png" alt="">
+                    <img src="assets/img/slider/m1.jpg" alt="">
+                    <img src="assets/img/slider/m2.jpg" alt="">
+                    <img src="assets/img/slider/m3.jpg" alt="">
+                    <img src="assets/img/slider/m4.jpg" alt="">
+                    <img src="assets/img/slider/m5.jpg" alt="">
+                    <img src="assets/img/slider/m6.jpg" alt="">
+                    <img src="assets/img/slider/m7.jpg" alt="">
+                    <img src="assets/img/slider/m8.jpg" alt="">
                 </div>
             <div>
-                    <img src="assets/img/m1.png" alt="">
-                    <img src="assets/img/m2.png" alt="">
-                    <img src="assets/img/m3.png" alt="">
-                    <img src="assets/img/m4.png" alt="">
-                    <img src="assets/img/m5.png" alt="">
+                    <img src="assets/img/slider/m1.jpg" alt="">
+                    <img src="assets/img/slider/m2.jpg" alt="">
+                    <img src="assets/img/slider/m3.jpg" alt="">
+                    <img src="assets/img/slider/m4.jpg" alt="">
+                    <img src="assets/img/slider/m5.jpg" alt="">
+                    <img src="assets/img/slider/m6.jpg" alt="">
+                    <img src="assets/img/slider/m7.jpg" alt="">
+                    <img src="assets/img/slider/m8.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -166,7 +178,7 @@
                     </div>
                     <div class="col-lg-2"></div>
                     <div class="col-lg-5">
-                        <img src="assets/img/m6.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/joa.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

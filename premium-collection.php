@@ -76,10 +76,10 @@
                     <h3>Portraits</h3>
                     <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph. Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
                 </div>
-                <div class="col-xl-1 view-desktop"></div>
+                <div class="col-xl-2 view-desktop"></div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/artist/watercolor-5049980_1920.png" class="img-fluid">
+                        <img src="assets/img/artist/1.jpg" class="img-fluid">
                     </figure>
                 </div>
             </div>
