@@ -81,7 +81,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/1.jpg" class="img-fluid " />
+        <img src="assets/img/Art Consulting/big horizontal images/1.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 
@@ -141,7 +141,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/2.jpg" class="img-fluid " />
+        <img src="assets/img/Art Consulting/big horizontal images/2.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 
@@ -206,7 +206,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/4.jpg" class="img-fluid " />
+        <img src="assets/img/Art Consulting/big horizontal images/4.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 

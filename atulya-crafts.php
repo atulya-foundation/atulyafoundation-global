@@ -71,7 +71,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/ornaments-4157521_1920.png" class="img-fluid " />
+        <img src="assets/img/artist/ornaments-4157521_1920.png" class="img-fluid w-100" />
     </figure>
 </section>
 
@@ -121,7 +121,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Atulya Crafts/bg.jpg" class="img-fluid " />
+        <img src="assets/img/Atulya Crafts/bg.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 

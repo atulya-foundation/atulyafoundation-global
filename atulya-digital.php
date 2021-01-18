@@ -74,7 +74,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fnLi5j7kPU4-unsplash.png" class="img-fluid " />
+        <img src="assets/img/artist/pawel-czerwinski-fnLi5j7kPU4-unsplash.png" class="img-fluid w-100" />
     </figure>
 </section>
 
@@ -122,7 +122,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid " />
+        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
     </figure>
 </section>
 
