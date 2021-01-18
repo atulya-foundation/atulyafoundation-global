@@ -7,6 +7,7 @@
     <title>Atulya Foundation</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css" />
 
     <?php   
@@ -114,6 +115,28 @@
         }
         
         @media only screen and (max-width:768px){
+            .bgnv{
+                visibility: hidden;
+                display: none;
+            }
+            .n{
+                visibility: visible;
+                display: flex;
+                /*margin-left: 0rem;
+                padding-left: 0rem !important; */
+            }
+            .n .brand{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .n .btn{
+            height: 0.625rem;
+            width: 2.8125rem;   
+            margin-right:1rem; 
+            right: 7.292vw; 
+            }
+        }
+        @media screen and (width: 1024px){
             .bgnv{
                 visibility: hidden;
                 display: none;

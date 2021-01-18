@@ -77,7 +77,7 @@
                     <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph. Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
                 </div>
                 <div class="col-xl-2 view-desktop"></div>
-                <div class="col-xl-6 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
                         <img src="assets/img/artist/1.jpg" class="img-fluid">
                     </figure>

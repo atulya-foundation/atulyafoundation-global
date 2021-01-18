@@ -33,16 +33,16 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-4 order2 p-abs-l new-abs">
+            <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l new-abs">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Handcrafted Stationery/1.jpg" class="img-fluid">
                     <img src="assets/img/Atulya Crafts/Handcrafted Stationery/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
 
-            <div class="col-xl-1 view-desktop"></div>
+            <div class="col-xl-1 col-lg-2 view-desktop"></div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6  content order1">
+            <div class="col-xl-4 col-lg-5 col-md-6  content order1">
                 <h3>Hand-Crafted Stationery</h3>
                 <p>Update your stationery drawer, with our beautiful selection of luxury personalised hand crafted products which are produced with a combination of machines and handwritten contributions. We create <strong>custom diaries, notebooks, envelopes, papers, cards,</strong> etc. with carefully selected details and finishes that will aptly represent your brand identity. Let our handcrafted stationery serve as a little reminder of the feeling of putting pen to paper.</p>
             </div>
@@ -103,14 +103,14 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-7 col-lg-6 col-md-4 order2 p-abs dope">
+            <div class="col-xl-7 col-lg-5 col-md-6 order2 p-abs dope">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Metal Crafts/1.jpg" class="img-fluid f-right">
                     <img src="assets/img/Atulya Crafts/Metal Crafts/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
-            <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-4 col-lg-6 col-md-6  content order1">
+            <div class="col-xl-1 col-lg-2 view-desktop"></div>
+            <div class="col-xl-4 col-lg-5 col-md-6  content order1">
                 <h3>Metal Crafts</h3>
                 <p>The rare aesthetic beauty and finesse of our metal crafts will leave you wanting even more of it. Items such as <strong>pots, utensils, doorknobs, show pieces, boxes, photo frames, sculptures of deities</strong>, etc. have been crafted by our skilled artisans from iron, copper, silver and alloys like bronze, brass, bell metal, white metal and more. Their elegance and style have left the art lovers simple amazed and enthralled.</p>
             </div>
@@ -128,13 +128,13 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-7 col-lg-6 col-md-4 order2">
+            <div class="col-xl-7 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Glass Crafts/H05pKFg293.jpg" class="img-fluid w-100">
                 </figure>
             </div>
-            <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
+            <div class="col-xl-1 col-lg-1 view-desktop"></div>
+            <div class="col-xl-4 col-lg-5 col-md-6 content order1 j-center">
                 <h3>Glass Crafts</h3>
                 <p>Glass is an incredibly versatile material that can be shaped and formed in unlimited artistic products. Our artisans create glass art by heating glass at a temperature of 2000 degrees or more. The molten glass is then gathered from a furnace and is commonly used to create <strong>sculptures, vases, containers, goblets, art marbles</strong> and other items with techniques such as glass blowing and glass casting.</p>
             </div>
@@ -148,12 +148,12 @@
     <div class="container" >
         <div class="row">
             <div class="col-xl-1"></div>
-            <div class="col-xl-4 col-lg-6 col-md-6 content order1">
+            <div class="col-xl-4 col-lg-5 col-md-6 content order1">
                 <h3>Stone Crafts</h3>
                 <p>Our artisans work laboriously to craft splendid pieces of stonework. They have been crafting pieces like <strong>toys, decorative items, carved panels, tiles, paper weights, pen stands, structures & models, sculptures</strong> and many more things. We make our creations on different stones like sandstone, marble, granite, basalt, graphite etc. Basic design is traced on a stone and is given a crude shape. Final carving is then carried out and items are polished before delivery.</p>
             </div>
-            <div class="col-xl-2"></div>
-            <div class="col-xl-5 col-lg-6 col-md-4 order2 p-abs-l">
+            <div class="col-xl-2 col-lg-1 view-desktop"></div>
+            <div class="col-xl-5 col-lg-6 col-md-6 order2 p-abs-l">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Stone Crafts/1.jpg" class="img-fluid">
                     <img src="assets/img/Atulya Crafts/Stone Crafts/2.jpg" class="img-fluid abs-img">
