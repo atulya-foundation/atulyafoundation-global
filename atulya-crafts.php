@@ -35,8 +35,8 @@
         <div class="row">
             <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l new-abs">
                 <figure>
-                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/11.jpg" class="img-fluid">
-                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/12.jpg" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya Crafts/h-s/11.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya Crafts/h-s/12.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
 
