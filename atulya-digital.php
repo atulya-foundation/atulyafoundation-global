@@ -74,7 +74,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fnLi5j7kPU4-unsplash.png" class="img-fluid w-100" />
+        <img src="assets/img/artist/pawel-czerwinski-fnLi5j7kPU4-unsplash.png" class="img-fluid " />
     </figure>
 </section>
 
@@ -83,7 +83,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-5 col-md-6 content order1">
+                <div class="col-xl-4 col-lg-5 col-md-6 content j-center order1">
                     <h3>Packaging Design</h3>
                     <p>Packaging! it is not just packaging or merely a wrapper to protect the product. Every box, bottle and bag, every can, container, or canister is a chance tell the story of your brand. We target that design of the packaging should be such that it immediately grabs the attention of the consumer. It is a practical element that can make a huge impact on the product’s viability in the market.</p>
                 </div>
@@ -107,7 +107,7 @@
             <div class="col-xl-1"></div>
             <div class="col-xl-6 col-lg-5 col-md-6 order2">
                 <figure>
-                    <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid w-100">
+                    <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid ">
                 </figure>
             </div>
             <div class="col-xl-1 col-lg-1 view-desktop"></div>
@@ -122,7 +122,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100" />
+        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid " />
     </figure>
 </section>
 
@@ -137,7 +137,7 @@
                     <img src="assets/img/Atulya designs/UI/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 content order1">
+            <div class="col-xl-6 col-lg-6 col-md-6 content j-center order1">
                 <h3>User Interface Design</h3>
                 <p>A user interface (UI) design is an essential part of the user experience when a user interacts with a device or application. We always aim to design interfaces which are balanced in aesthetic appeal with technical functionality and adaptable to changing user needs. Our designers focus that layout of a user interface design should be clearly set out for users so that elements can be found in a logical position.</p>
             </div>
@@ -151,15 +151,15 @@
     <div class="web-wrap">
         <div class="container" >
             <div class="row">
-                <div class="col-xl-1 view-desktop"> </div>
-                <div class="col-xl-3 col-lg-5 col-md-6 content order1 j-center">
+               <!--  <div class="col-xl-1 view-desktop"> </div> -->
+                <div class="col-xl-4 col-lg-5 col-md-6 content order1 j-center">
                     <h3>Motion Graphics Design</h3>
                     <p>Some ideas (especially big, abstract ones) are hard to explain with words or still images. A few seconds of motion graphics can clear everything up perfectly. Typical motion graphic is an animation, with a text as a significant component. It is a way to communicate with the audiences with music and compelling content. Our design team can illustrate your complex ideas visually with help of motion graphics.</p>
                 </div>
                 <div class="col-xl-1 col-lg-1 view-desktop"></div>
                 <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/Atulya designs/Motion Graphics/1.jpg" class="img-fluid w-100">
+                        <img src="assets/img/Atulya designs/Motion Graphics/1.jpg" class="img-fluid ">
                     </figure>
                 </div>
             </div>

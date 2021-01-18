@@ -58,7 +58,7 @@
     <div class="container"  >
         <div class="row">
             <div class="col-xl-1 col-lg-1"></div>
-            <div class="col-xl-4 col-lg-5 col-md-6 j-center content order1" style="margin-top: -7rem;">
+            <div class="col-xl-4 col-lg-5 col-md-6 j-center content order1" >
                 <div class="row">
                     <div class="col-sm-12">
                         <h3>Art Curation & Acquisition</h3>
@@ -81,7 +81,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/1.jpg" class="img-fluid w-100" />
+        <img src="assets/img/Art Consulting/big horizontal images/1.jpg" class="img-fluid " />
     </figure>
 </section>
 
@@ -123,7 +123,7 @@
         <div class="container"  >
             <div class="row">
                 <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-3 col-lg-5 col-md-6 content order1 j-center" style="margin-top: -6rem;">
+                <div class="col-xl-3 col-lg-5 col-md-6 content order1 j-center" >
                     <h3>Customised Research</h3>
                     <p>While developing art programs our professional market researchers & analytics team do in depth research of the markets to fill in for the requests by our clients. In our research practice few elements play a key role such as client’s working industry/sector, team of employees, location of the site, regional culture & taste,  to bring out the best plan that rightly positions client’s brand.</p>
                 </div>
@@ -141,7 +141,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/2.jpg" class="img-fluid w-100" />
+        <img src="assets/img/Art Consulting/big horizontal images/2.jpg" class="img-fluid " />
     </figure>
 </section>
 
@@ -196,7 +196,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
-                        <img src="assets/img/Art Consulting\Art localism/pexels-flat-hito-862938.jpg" class="img-fluid w-100">
+                        <img src="assets/img/Art Consulting\Art localism/pexels-flat-hito-862938.jpg" class="img-fluid ">
                     </figure>
                 </div>
             </div>
@@ -206,7 +206,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/Art Consulting/big horizontal images/4.jpg" class="img-fluid w-100" />
+        <img src="assets/img/Art Consulting/big horizontal images/4.jpg" class="img-fluid " />
     </figure>
 </section>
 
@@ -282,9 +282,9 @@
     .atulya-last p a:hover{
         color: black !important;
     }
-    .rd{
+   /* .rd{
         margin-top: -13rem;
-    }
+    }*/
     .col,
     .col-1,
     .col-10,
