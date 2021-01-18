@@ -50,7 +50,7 @@ $(document).ready(function () {
             }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
         }), $("#crafts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/crafts_AF.jpg')",
+            "background-image": "url('assets/img/navbar/Crafts.jpg')",
             "transition": " background-image 500ms ease all"
 
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
@@ -61,7 +61,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
     }), $("#design").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/Design_AF.jpg')",
+            "background-image": "url('assets/img/navbar/Designs.jpg')",
             "transition": " background-image 500ms ease all"
         }), $(".color_h_w li a").addClass("color_change"), $(" #about , #crafts , #arts").addClass("color_change")
     }, function () {
@@ -71,7 +71,7 @@ $(document).ready(function () {
         }), $(".color_h_w li a").removeClass("color_change"), $(" #about , #crafts , #arts").removeClass("color_change")
     }), $("#arts").hover(function () {
         $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/Arts_AF.jpg')",
+            "background-image": "url('assets/img/navbar/Arts.jpg')",
             "transition": " background-image 500ms ease all"
         }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts ,  #about").addClass("color_change")
     }, function () {

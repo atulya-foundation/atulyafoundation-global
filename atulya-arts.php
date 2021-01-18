@@ -252,7 +252,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs">
                     <figure>
                         <img src="assets/img/Art Consulting/Art shipment/1.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/box-1209969_1920.png" class="img-fluid abs-img" style="left:190px;bottom:-70px;">
+                        <img src="assets/img/Art Consulting/Art shipment/2.jpg" class="img-fluid abs-img" style="left:190px;bottom:-70px;">
                     </figure>
                 </div>
             </div>

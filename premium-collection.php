@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-sm-1"></div>
                 <div class="col-sm-4">
-                    <img src="assets/img/artist/catherina-schurmann-lk_mlCrHYK8-unsplash.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/Folk Art_/1.png" class="img-fluid w-100" alt="">
                 </div>
             </div>
         </div>

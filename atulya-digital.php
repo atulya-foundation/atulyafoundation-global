@@ -89,8 +89,8 @@
 
                 <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs">
                     <figure class="ll">
-                        <img src="assets/img/artist/b6bcfb91711527.5e3bd29513a45.png" class="img-fluid f-right">
-                        <img src="assets/img/artist/89489c91711527.5e3b2479d015f.png" class="img-fluid abs-img">
+                        <img src="assets/img/Atulya designs/Packaging/1.jpg" class="img-fluid f-right">
+                        <img src="assets/img/Atulya designs/Packaging/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
             </div>

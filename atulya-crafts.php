@@ -62,7 +62,7 @@
             <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-6 col-lg-6 col-md-6 order2">
                 <figure>
-                    <img src="assets/img/artist/wood-3215942_1920.png" class="img-fluid w-100">
+                    <img src="assets/img/Atulya Crafts/Wood crafts/1.jpg" class="img-fluid w-100">
                 </figure>
             </div>
         </div>
@@ -121,7 +121,7 @@
 
 <section class="atulya-image">
     <figure>
-        <img src="assets/img/artist/steve-johnson-5Oe8KFH5998-unsplash.png" class="img-fluid w-100" />
+        <img src="assets/img/Atulya Crafts/bg.jpg" class="img-fluid w-100" />
     </figure>
 </section>
 
