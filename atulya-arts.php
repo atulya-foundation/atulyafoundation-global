@@ -57,7 +57,7 @@
 <section class="atulya-image dope" style="margin-bottom: 8rem;">
     <div class="container"  >
         <div class="row">
-            <div class="col-xl-2 col-lg-1"></div>
+            <div class="col-xl-1 col-lg-1"></div>
             <div class="col-xl-4 col-lg-5 col-md-6 j-center content order1" style="margin-top: -7rem;">
                 <div class="row">
                     <div class="col-sm-12">
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-5 col-lg-5 col-md-6 order2 p-abs">
+            <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs">
                 <figure>
                     <img src="assets/img/Art Consulting/Art curation _ Acquisition/1.jpg" class="img-fluid f-right">
                         <img src="assets/img/Art Consulting/Art curation _ Acquisition/2.jpg" class="img-fluid abs-img" style="left: 8% !important">
@@ -149,7 +149,7 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-6 order2 p-abs-l">
+                <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l">
                     <figure>
                         
                         <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid">
@@ -216,15 +216,15 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-6 order2">
+                <div class="col-xl-6 col-lg-6 col-md-6 order2">
                     <figure>
                         <img src="assets/img/artist/vintage-923467_1920.png" class="img-fluid">
                     </figure>
                 </div>
-                <div class="col-xl-2 view-desktop">
+                <div class="col-xl-1 view-desktop">
                 </div>
 
-                <div class="col-xl-5 col-lg-6 col-md-6 j-center content order1">
+                <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                     <div class="row">
                         <div class="col-sm-12">
                             <h3>Art Restoration</h3>

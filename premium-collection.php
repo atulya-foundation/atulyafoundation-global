@@ -100,8 +100,8 @@
                        <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
-                <div class="col-sm-1"></div>
-                <div class="col-sm-4">
+                <div class="col-lg-1 col-sm-1"></div>
+                <div class="col-lg-5 col-sm-4">
                     <img src="assets/img/Folk Art_/1.png" class="img-fluid w-100" alt="">
                 </div>
             </div>
