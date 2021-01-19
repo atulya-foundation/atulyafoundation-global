@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/l.jpg" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/p1.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <!-- <h3>Sangeet</h3> -->
                 <div class="row">
@@ -35,7 +35,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/a.jpg" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/p2.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <!-- <h3>Rani sa</h3> -->
                 <div class="row">
@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/z.jpg" class="img-fluid w-100" />
+                    <img src="assets/img/artist/p3.jpg" class="img-fluid w-100" />
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
                 <div class="col-lg-5 col-sm-4">
-                    <img src="assets/img/Folk Art_/1.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/Folk Art_/2.jpg" class="img-fluid " alt="">
                 </div>
             </div>
         </div>
