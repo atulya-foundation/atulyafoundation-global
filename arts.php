@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/LRM_EXPORT_20180812_174856-01.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/l.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <h3>Tazurba</h3>
                 <div class="row">
@@ -86,7 +86,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6  content">
                 <figure>
-                    <img src="assets/img/artist/DSC_0988-02.png" class="img-fluid w-100" alt="">
+                    <img src="assets/img/artist/a.jpg" class="img-fluid w-100" alt="">
                 </figure>
                 <h3>Panchtatva</h3>
                 <div class="row">
@@ -137,7 +137,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/DSC_0983-01.png" class="img-fluid w-100" />
+                    <img src="assets/img/artist/z.jpg" class="img-fluid w-100" />
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
