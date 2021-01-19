@@ -33,10 +33,11 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
+        	<div class="col-xl-1 "></div>
             <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l new-abs">
                 <figure>
-                    <img src="assets/img/Atulya Crafts/h-s/11.jpg" class="img-fluid">
-                    <img src="assets/img/Atulya Crafts/h-s/12.jpg" class="img-fluid abs-img">
+                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya Crafts/Handcrafted Stationery/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
 
@@ -59,14 +60,15 @@
                 <h3>Wood Crafts</h3>
                 <p>Wooden handicrafts are renowned for their beauty, durability and utility. Our skilled artisans through their traditional tools carve magnificent designs on wooden items and enhance their look by painting them or with intricate metal/ivory inlay work. Deciduous, evergreen & alpine trees are used extensively to manufacture wooden handicrafts. Wooden handicrafts include <strong>furniture, utensils, boxes, beads, finely carved figurines, accessories</strong> etc.</p>
             </div>
-            <div class="col-xl-1 view-desktop"></div>
-            <div class="col-xl-6 col-lg-6 col-md-6 order2">
+            <div class="col-xl-1 col-lg-1 view-desktop"></div>
+            <div class="col-xl-6 col-lg-5 col-md-6 order2">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Wood crafts/1.jpg" class="img-fluid ">
                 </figure>
             </div>
         </div>
     </div>
+    <div class="clearfix"></div>
 </section>
 
 <section class="atulya-image">
@@ -81,14 +83,14 @@
 <section class="atulya-image dope">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-1"></div>
+           <div class="col-xl-1 view-desktop"></div>
 
             <div class="col-xl-4 col-lg-6 col-md-6 j-center content order1">
                 <h3>Pottery & Ceramics Craft</h3>
                 <p>Pottery is considered to be the oldest industry on earth. Ceramic wares are safe to decorate with as they are stone mixed and hence stronger. Our artisans create<strong> flower vase, plant tumblers, terracotta products, tableware, candleholders, lamps, show pieces, pots of various sizes, figurines 
                 </strong>and much more. Creating ceramics is a very long and complicated process, requiring lots of patience, attention and knowledge.</p>
             </div>
-            <div class="col-xl-1"></div>
+            <div class="col-xl-1 view-desktop"></div>
 
             <div class="col-xl-6 col-lg-6 col-md-6 order2">
                 <figure>
@@ -103,6 +105,7 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
+
             <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs dope">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Metal Crafts/1.jpg" class="img-fluid f-right">
@@ -128,6 +131,7 @@
 <section class="atulya-image abs-img-sec dope">
     <div class="container" >
         <div class="row">
+        	<div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-6 col-lg-6 col-md-6 order2">
                 <figure>
                     <img src="assets/img/Atulya Crafts/Glass Crafts/H05pKFg293.jpg" class="img-fluid ">
@@ -168,13 +172,11 @@
 <section class="atulya-last j-center container" >
     <!-- <div class="web-wrap"> -->
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
-                <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
-                    mentioning the type of service you demand in the mail subject.</p>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a></p>
             </div>
-            <div class="col-lg-1"></div>
-        <!-- </div> -->
+            <div class="col-lg-3"></div>
 
     </div>
 </section>

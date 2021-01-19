@@ -30,6 +30,7 @@
     <div class="container"  >
         <div class="web-wrap">
             <div class="row">
+
                 <div class="col-xl-6 col-lg-5 col-md-6 order2">
                     <figure>
                         <img src="assets/img/Art Consulting/Art Plan development/1.jpg" class="img-fluid">
@@ -129,8 +130,8 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs">
                     <figure>
-                        <img src="assets/img/Art Consulting/Customised research/pexels-fauxels-3183153.jpg" class="img-fluid f-right">
-                        <img src="assets/img/artist/kaleidico-26MJGnCM0Wc-unsplash.png" class="img-fluid abs-img" style="left:95px;bottom:-90px;">
+                        <img src="assets/img/Art Consulting/Customised research/1.jpg" class="img-fluid f-right">
+                        <img src="assets/img/Art Consulting/Customised research/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
             </div>
@@ -150,11 +151,9 @@
         <div class="web-wrap">
             <div class="row">
                 <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs-l">
-                    <figure>
-                        
-                        <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid">
-                    <img src="assets/img/Art Consulting/Framing _ Installation/2.jpg" class="img-fluid abs-img">
-
+                    <figure>    
+                        <img src="assets/img/Art Consulting/Framing _ Installation/1.jpg" class="img-fluid ">
+                        <img src="assets/img/Art Consulting/Framing _ Installation/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
                 <div class="col-xl-1 col-lg-2 view-desktop">
@@ -203,6 +202,9 @@
         </div>
     </div>
 </section>
+
+
+
 
 <section class="atulya-image">
     <figure>
@@ -266,7 +268,7 @@
     <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-10">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> mentioning the type of service you demand in the mail subject.</p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
         </div>
         <div class="col-lg-1"></div>
     </div>

@@ -51,6 +51,7 @@
             </div>
         </div>
     </div>
+    <div class="clearfix"></div>
 </section>
 
 <section class="atulya-image mtgh" >
@@ -69,6 +70,7 @@
             </div>
         </div>
     </div>
+    <div class="clearfix"></div>
 </section>
 
 
@@ -82,18 +84,20 @@
     <div class="web-wrap">
         <div class="container" >
             <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
+               <!--  <div class="col-xl-1 view-desktop"></div> -->
                 <div class="col-xl-4 col-lg-5 col-md-6 content j-center order1">
                     <h3>Packaging Design</h3>
                     <p>Packaging! it is not just packaging or merely a wrapper to protect the product. Every box, bottle and bag, every can, container, or canister is a chance tell the story of your brand. We target that design of the packaging should be such that it immediately grabs the attention of the consumer. It is a practical element that can make a huge impact on the product’s viability in the market.</p>
                 </div>
-                <div class="col-lg-1 view-desktop"></div>
+                <!-- <div class="col-lg-1 view-desktop"></div> -->
+                <div class="col-xl-1 col-lg-1 view-desktop"></div>
                 <div class="col-xl-6 col-lg-5 col-md-6 order2 p-abs">
                     <figure class="ll">
                         <img src="assets/img/Atulya designs/Packaging/1.jpg" class="img-fluid f-right">
                         <img src="assets/img/Atulya designs/Packaging/2.jpg" class="img-fluid abs-img">
                     </figure>
                 </div>
+                <!-- <div class="col-xl-1 view-desktop"></div> -->
             </div>
         </div>
     </div>
@@ -104,7 +108,7 @@
 <section class="atulya-image">
     <div class="container" >
         <div class="row">
-            <div class="col-xl-1"></div>
+            <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-6 col-lg-5 col-md-6 order2">
                 <figure>
                     <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid ">
@@ -131,13 +135,15 @@
 <section class="atulya-image abs-img-sec">
     <div class="container" >
         <div class="row">
+            <div class="col-xl-1 view-desktop"></div>
             <div class="col-xl-6 col-lg-6 col-md-6 order2 p-abs-l">
                 <figure class="ll">
-                    <img src="assets/img/Atulya designs/UI/1.jpg" class="img-fluid">
+                    <img src="assets/img/Atulya designs/UI/1.jpg" class="img-fluid ">
                     <img src="assets/img/Atulya designs/UI/2.jpg" class="img-fluid abs-img">
                 </figure>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 content j-center order1">
+            <div class="col-xl-1 view-desktop"></div>
+            <div class="col-xl-4 col-lg-6 col-md-6 content j-center order1">
                 <h3>User Interface Design</h3>
                 <p>A user interface (UI) design is an essential part of the user experience when a user interacts with a device or application. We always aim to design interfaces which are balanced in aesthetic appeal with technical functionality and adaptable to changing user needs. Our designers focus that layout of a user interface design should be clearly set out for users so that elements can be found in a logical position.</p>
             </div>
@@ -151,7 +157,7 @@
     <div class="web-wrap">
         <div class="container" >
             <div class="row">
-               <!--  <div class="col-xl-1 view-desktop"> </div> -->
+                <div class="col-xl-1 view-desktop"> </div>
                 <div class="col-xl-4 col-lg-5 col-md-6 content order1 j-center">
                     <h3>Motion Graphics Design</h3>
                     <p>Some ideas (especially big, abstract ones) are hard to explain with words or still images. A few seconds of motion graphics can clear everything up perfectly. Typical motion graphic is an animation, with a text as a significant component. It is a way to communicate with the audiences with music and compelling content. Our design team can illustrate your complex ideas visually with help of motion graphics.</p>
@@ -168,36 +174,15 @@
     <div class="clearfix"></div>
 </section>
 
-<!-- <section class="atulya-image">
-    <div class="web-wrap">
-        <div class="container" >
-            <div class="row">
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-4 col-lg-6 col-md-6 content order1 j-center">
-                    <h3>Digital Art & Illustrations</h3>
-                    <p>Our illustrators create original images done completely on computer or hand-drawn images scanned into a computer and finished using a software program. Our art takes a number of forms, from fine art to decoration to storytelling illustrations. We use any combination of media and techniques to create our work as we collaborate with writers, editors, managers, marketers and art directors across all graphic design types</p>
-                </div>
-                <div class="col-xl-1 view-desktop"></div>
-                <div class="col-xl-5 col-lg-6 col-md-4 order2">
-                    <figure>
-                        <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</section> -->
-
 <section class="atulya-last j-center container" >
     <!-- <div class="web-wrap"> -->
-        <div class="row justify-content-start">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10">
+        <div class="row ">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
                 <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
-                    mentioning the type of service you demand in the mail subject.</p>
+                   </p>
             </div>
-            <div class="col-lg-1"></div>
+            <div class="col-lg-3"></div>
        <!--  </div> -->
 
     </div>

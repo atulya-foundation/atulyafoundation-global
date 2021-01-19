@@ -87,8 +87,7 @@
 </section>
 
 <section class="main-content dope get-touch">
-    <div class="container" style="
-    margin-top: -4.5rem;>
+    <div class="container" style="margin-top: -4.5rem;">
         <h5 style=" margin-bottom: 3.025rem;">Social Media</h5>
         <div class="web-wrap">
             <div class="content" >
@@ -97,7 +96,7 @@
                     <div class="col-lg-12 mt-40">
                         <div class="row">
                             <!-- <div class="col-sm-2"></div> -->
-                            <div class="col-sm-3" style="color: black;"><p>Official Channels || </p></div>
+                            <div class="col-sm-2" style="color: black;"><!-- <p>Official Channels || </p> --></div>
                              <div class="col-sm-2"> <a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram" ></i> Instagram</a></div>
                             <div class="col-sm-2"><a class="text1" href="https://www.linkedin.com/company/atulya" ><i class="fab fa-linkedin"></i> LinkedIn</a></div>
                             <div class="col-sm-2"><a class="text1" href="https://www.facebook.com/Aulyafoundation" ><i class="fab fa-facebook"></i> Facebook</a></div>
