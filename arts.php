@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <div class="logo-pos">
-    <a href="arts.php"><img src="assets/img/aa.svg" class="img-fluid" alt=""></a>
+    <a href="arts.php"><img src="assets/img/atulya_arts_logo.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container">
