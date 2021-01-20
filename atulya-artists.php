@@ -75,20 +75,20 @@
                 </div>
             </div>
             <div class="form">
-                <form action="artist.php" method="post" id="">
+                <form action="https://sheetdb.io/api/v1/1o4ukgw3emrad" method="post" id="artists-form">
                     <div class="row">
                         <div class="col-xl-5">
                             <p>Personal Information</p>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="name" placeholder="NAME*">
+                                <input type="text" class="form-control" name="data[name]" placeholder="NAME*">
                                 
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" id="age" class="form-control" name="age" placeholder="AGE*">
+                                <input type="text" id="age" class="form-control" name="data[age]" placeholder="AGE*">
                                 
                             </div>
                             <div class="form-group ">
-                                <select required name="gender" required class="form-control" id="">
+                                <select required name="data[gender]" class="form-control" id="">
                                     <option value="">Gender*</option>
                                     <option value="Male">MALE</option>
                                     <option value="Female">FEMALE</option>
@@ -100,11 +100,11 @@
                         <div class="col-xl-5">
                             <p>Contact Information*</p>
                             <div class="form-group  input-group">
-                                <input type="email" class="form-control" name="email" placeholder="EMAIL*">
+                                <input type="email" class="form-control" name="data[email]" placeholder="EMAIL*">
                                 
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="phone" placeholder="PHONE NUMBER*">
+                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="data[phone]" placeholder="PHONE NUMBER*">
                                 
                             </div>
                         </div>
@@ -115,26 +115,26 @@
                         </div>
                         <div class="col-xl-5">
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="street" placeholder="STREET*">
+                                <input type="text" class="form-control" name="data[street]" placeholder="STREET*">
                                 
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="locality" placeholder="Locality*">
+                                <input type="text" class="form-control" name="data[locality]" placeholder="Locality*">
                                 
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" class="form-control" name="city" placeholder="CITY*">
+                                <input type="text" class="form-control" name="data[city]" placeholder="CITY*">
                                 
                             </div>
                         </div>
                         <div class="col-xl-2 view-desktop"></div>
                         <div class="col-xl-5">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="state" placeholder="STATE*">
+                                <input type="text" class="form-control" name="data[state]" placeholder="STATE*">
                                 
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="zip" placeholder="PINCODE/ZIPCODE*">
+                                <input type="text" class="form-control" name="data[zip]" placeholder="PINCODE/ZIPCODE*">
                                 
                             </div>
                         </div>
@@ -145,13 +145,13 @@
                         </div>
                         <div class="col-xl-12">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="bio" placeholder="Link to your artwork projects*">
+                                <input type="text" class="form-control" name="data[bio]" placeholder="Link to your artwork projects*">
                                 
                             </div>
 
 
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="note" placeholder="Additional Comments" required></textarea>
+                                <textarea type="text" class="form-control" name="data[note]" placeholder="Additional Comments" required></textarea>
                                 
                             </div>
 
@@ -159,6 +159,18 @@
                             <div class="call-to-action f-left vv-small-btn">
                                 <button type="submit" id="submit" class="btn-call-to-action">Send</button>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="toast" id="artist-form-toast-success" style="position: absolute">
+                        <div class="toast-body">
+                            Form Submitted
+                        </div>
+                    </div>
+
+                    <div class="toast" id="artist-form-toast-failure" style="position: absolute">
+                        <div class="toast-body">
+                            Failed to submit form, Please try again
                         </div>
                     </div>
                 </form>
