@@ -12,139 +12,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css" />
     <script src="https://kit.fontawesome.com/11722d95b8.js" crossorigin="anonymous"></script> 
-
-    <style type="text/css">
-        .n{
-            visibility: hidden;
-            display: none;
-        }
-        .n .btn{
-                height: 0.625rem;
-                width: 2.8125rem;   
-                margin-right:1rem; 
-                right: 7.292vw; 
-            }
-        .form-control{
-            width: 94%!important;
-        }
-        .icon{
-            visibility: hidden;
-            display: none;
-        }
-        @media only screen and (max-width:768px){
-            .abcd{
-                visibility: hidden;
-                display: none;
-            }
-            .n{
-                visibility: visible;
-
-                display: flex;
-                /*margin-left: 0rem;
-                padding-left: 0rem !important; */
-            }
-            .n .brand{
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-            }
-            .n .btn{
-                padding-top: 0rem;
-                margin-top: 0rem;
-            }
-            
-            .btn-call-to-action{
-                font-weight: normal!important;
-            }
-            .j-center{
-                text-align: center;
-            }
-            .f-left{
-                 justify-content: center!important;
-            }
-            .form-control{
-                 width: 90%!important;
-            }
-            
-            .icon{
-                visibility: visible;
-                display: flex;
-            }
-            .text1{
-                visibility: hidden;
-                display: none;
-            }
-            section .container h1{
-                font-size: 2.5rem !important;
-            }
-            section .container h2{
-                font-size: 2.5rem!important;
-            }
-            .live h2{
-                letter-spacing: 0rem!important;
-            }
-            .fab {
-                font-size: 1rem;
-            }
-        }
-        @media screen and (width: 1024px){
-            .abcd{
-                visibility: hidden;
-                display: none;
-            }
-            .n{
-                visibility: visible;
-
-                display: flex;
-                /*margin-left: 0rem;
-                padding-left: 0rem !important; */
-            }
-            .n .brand{
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-            }
-            .n .btn{
-                padding-top: 0rem;
-                margin-top: 0rem;
-            }
-            
-            .btn-call-to-action{
-                font-weight: normal!important;
-            }
-            .j-center{
-                text-align: center;
-            }
-            .f-left{
-                 justify-content: center!important;
-            }
-            .form-control{
-                 width: 90%!important;
-            }
-            
-            .icon{
-                visibility: visible;
-                display: flex;
-            }
-            .text1{
-                visibility: hidden;
-                display: none;
-            }
-            section .container h1{
-                font-size: 2.5rem !important;
-            }
-            section .container h2{
-                font-size: 2.5rem!important;
-            }
-            .live h2{
-                letter-spacing: 0rem!important;
-            }
-            .fab {
-                font-size: 1rem;
-            }
-            
-        }
-
-</style>
-
 </head>
 
 <body>
@@ -397,4 +264,134 @@
     <?php include('footer.php')?>
 
 
+<style type="text/css">
+        .n{
+            visibility: hidden;
+            display: none;
+        }
+        .n .btn{
+                height: 0.625rem;
+                width: 2.8125rem;   
+                margin-right:1rem; 
+                right: 7.292vw; 
+            }
+        .form-control{
+            width: 94%!important;
+        }
+        .icon{
+            visibility: hidden;
+            display: none;
+        }
+        @media only screen and (max-width:768px){
+            .abcd{
+                visibility: hidden;
+                display: none;
+            }
+            .n{
+                visibility: visible;
 
+                display: flex;
+                /*margin-left: 0rem;
+                padding-left: 0rem !important; */
+            }
+            .n .brand{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .n .btn{
+                padding-top: 0rem;
+                margin-top: 0rem;
+            }
+            
+            .btn-call-to-action{
+                font-weight: normal!important;
+            }
+            .j-center{
+                text-align: center;
+            }
+            .f-left{
+                 justify-content: center!important;
+            }
+            .form-control{
+                 width: 90%!important;
+            }
+            
+            .icon{
+                visibility: visible;
+                display: flex;
+            }
+            .text1{
+                visibility: hidden;
+                display: none;
+            }
+            section .container h1{
+                font-size: 2.5rem !important;
+            }
+            section .container h2{
+                font-size: 2.5rem!important;
+            }
+            .live h2{
+                letter-spacing: 0rem!important;
+            }
+            .fab {
+                font-size: 1rem;
+            }
+        }
+        @media screen and (width: 1024px){
+        	.abcd{
+                visibility: hidden;
+                display: none;
+            }
+            .n{
+                visibility: visible;
+
+                display: flex;
+                /*margin-left: 0rem;
+                padding-left: 0rem !important; */
+            }
+            .n .brand{
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            .n .btn{
+                padding-top: 0rem;
+                margin-top: 0rem;
+            }
+            
+            .btn-call-to-action{
+                font-weight: normal!important;
+            }
+            .j-center{
+                text-align: center;
+            }
+            .f-left{
+                 justify-content: center!important;
+            }
+            .form-control{
+                 width: 90%!important;
+            }
+            
+            .icon{
+                visibility: visible;
+                display: flex;
+            }
+            .text1{
+                visibility: hidden;
+                display: none;
+            }
+            section .container h1{
+                font-size: 2.5rem !important;
+            }
+            section .container h2{
+                font-size: 2.5rem!important;
+            }
+            .live h2{
+                letter-spacing: 0rem!important;
+            }
+            .fab {
+                font-size: 1rem;
+            }
+            
+        }
+
+</style>
