@@ -212,7 +212,7 @@
 
 
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter your E-mail address">
+                            <input type="text" class="form-control" name="MERGE0" placeholder="Enter your E-mail address">
                           <!--   <label> Enter your E-mail address</label> -->
                             <button class="newsbutton" type="submit"><img src="assets/img/svg/right-arrow.svg" alt=""></button>
                         </div>
