@@ -20,7 +20,7 @@
                 <h2></h2>
             </div>
             <div class="col-lg-4">
-                <img src="assets/img/logowhite.png" class="img-fluid" alt="">
+                <img src="assets/img/logo_with_tag.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-8">
                 <div class="row">
