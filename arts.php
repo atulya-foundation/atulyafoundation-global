@@ -153,11 +153,11 @@
 <section class="atulya-last j-center container" >
 
     <div class="row">
-       <div class="col-lg-4"></div>
+       <div class="col-lg-3"></div>
             <div class="col-lg-6">
                 <p class="medium">For any of the above services, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a></p>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-3"></div>
     </div>
 
 </section>
