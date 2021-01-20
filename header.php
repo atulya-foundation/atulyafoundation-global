@@ -54,12 +54,12 @@
             <div class="col-xl-5 nav-menu doomst">
                 <ul class="wowWrap">
                     <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                    <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php">Atulya Arts</a></li>
-                    <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php">Atulya Crafts</a></li>
-                    <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php">Atulya Designs</a></li>
+                    <li><a id="arts" class="wow" data-wow-delay="0.25s" href="arts.php">Atulya Arts</a></li>
+                    <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="crafts.php">Atulya Crafts</a></li>
+                    <li><a id="design" class="wow" data-wow-delay="0.10s" href="designs.php">Atulya Designs</a></li>
                     
                     
-                    <li><a id="about" class="wow"  href="atulya-arts.php" >Art Consulting</a></li>    
+                    <li><a id="about" class="wow"  href="consulting.php" >Art Consulting</a></li>    
 
                 </ul>
             </div>
@@ -68,12 +68,12 @@
                 <div class="row justify-content-end">
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
-                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="aboutus.php">About Us</a></li>
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
                             <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
-                            <li><a href="about.php#team">Our Team</a></li>
+                            <li><a href="aboutus.php#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                         </ul>
                     </div>

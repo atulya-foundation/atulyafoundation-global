@@ -27,10 +27,10 @@
                 <div class="col-xl-5 nav-menu doomst">
                     <ul class="wowWrap">
                         <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                       <li><a id="arts" class="wow" data-wow-delay="0.25s" href="premium-collection.php" >Atulya Arts</a></li>
-                       <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="atulya-crafts.php" >Atulya Crafts</a></li>
-                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="atulya-digital.php" >Atulya Designs</a></li>
-                         <li><a id="about" class="wow"  href="atulya-arts.php" >Art Consulting</a></li>     
+                       <li><a id="arts" class="wow" data-wow-delay="0.25s" href="arts.php" >Atulya Arts</a></li>
+                       <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="crafts.php" >Atulya Crafts</a></li>
+                        <li><a id="design" class="wow" data-wow-delay="0.10s" href="designs.php" >Atulya Designs</a></li>
+                         <li><a id="about" class="wow"  href="consulting.php" >Art Consulting</a></li>     
                     </ul>
                 </div>
 
@@ -38,12 +38,12 @@
                 <div class="row justify-content-end">
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
-                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="aboutus.php">About Us</a></li>
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
                             <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
-                            <li><a href="about.php#team">Our Team</a></li>
+                            <li><a href="aboutus.php#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
                         </ul>
                     </div>
@@ -96,7 +96,7 @@
                 <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them when art is a viable means of livelihood.</p>
             </div>
             <div class="call-to-action">
-                <a href="about.php" class="btn-call-to-action small-btn">About Us</a>
+                <a href="aboutus.php" class="btn-call-to-action small-btn">About Us</a>
             </div>
         </div>
     </section>
@@ -114,7 +114,7 @@
                     <p  style="width: 69vw !important;" > This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art, the collection depicts India’s eclectic and rich art tradition. If you want to get a glimpse of the profound imagination and creativity of our artists, a quick glimpse inside is highly recommended.</p>
                 </div>
                 <div class="call-to-action">
-                    <a href="arts.php" class="btn-call-to-action">Premium Collection</a>
+                    <a href="premium-collection.php" class="btn-call-to-action">Premium Collection</a>
                 </div>
             </div>
         </section>

@@ -11,7 +11,7 @@
 </style>
 
 <div class="logo-pos">
-    <a href="atulya-digital.php"><img src="assets/img/ad.svg" class="img-fluid" alt=""></a>
+    <a href="designs.php"><img src="assets/img/ad.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container" >

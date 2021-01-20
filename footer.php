@@ -28,10 +28,10 @@
                         <div class="widget">
                         	<h2>Services</h2>
                             <ul>
-                                <li><a href="premium-collection.php">Atulya Arts</a></li>
-                                <li><a href="atulya-crafts.php">Atulya Crafts</a></li>
-                                <li><a href="atulya-digital.php">Atulya Designs</a></li>
-                                <li><a href="atulya-digital.php">Art Consulting</a></li>
+                                <li><a href="arts.php">Atulya Arts</a></li>
+                                <li><a href="crafts.php">Atulya Crafts</a></li>
+                                <li><a href="designs.php">Atulya Designs</a></li>
+                                <li><a href="consulting.php">Art Consulting</a></li>
                             </ul>               
                         </div>
                     </div>
@@ -39,9 +39,9 @@
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="about.php#team">Atulya Team</a></li>
-                                <li><a href="about.php#clients">Our Clients</a></li>
+                                <li><a href="aboutus.php">About us</a></li>
+                                <li><a href="aboutus.php#team">Atulya Team</a></li>
+                                <li><a href="aboutus.php#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
