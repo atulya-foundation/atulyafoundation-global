@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
                 <div class="col-lg-6 col-sm-4">
-                    <img src="assets/img/Folk Art_/2.jpg" class="img-fluid " alt="">
+                    <img src="assets/img/Folk Art_/1.jpg" class="img-fluid " alt="">
                 </div>
             </div>
         </div>
