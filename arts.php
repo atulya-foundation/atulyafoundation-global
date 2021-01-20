@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-                <div class="col-lg-6 col-sm-4">
+                <div class="col-lg-6 col-sm-4 please">
                     <img src="assets/img/Folk Art_/1.jpg" class="img-fluid " alt="">
                 </div>
             </div>
@@ -132,6 +132,9 @@
     }
     .dope .container{
         margin-left:12.0625rem; padding-right:12.0625rem;
+    }
+    .please{
+    	margin-top: 5rem;
     }
     @media only screen and (max-width:768px){
         .main-content{
