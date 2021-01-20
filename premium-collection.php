@@ -113,7 +113,7 @@
         <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
+            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
         </div>
         <div class="col-lg-3"></div>
     </div>
