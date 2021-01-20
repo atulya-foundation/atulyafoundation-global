@@ -92,7 +92,7 @@
 
         <div class="content">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <h5>Folk Art</h5>
                     <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
                     <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani, Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
-                <div class="col-lg-5 col-sm-4">
+                <div class="col-lg-6 col-sm-4">
                     <img src="assets/img/Folk Art_/2.jpg" class="img-fluid " alt="">
                 </div>
             </div>
