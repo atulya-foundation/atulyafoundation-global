@@ -173,5 +173,29 @@ $(document).ready(function () {
             });
         });
     }
+
+    const get_in_touch_form = document.getElementById('get-in-touch-form');
+    if (get_in_touch_form) {
+        get_in_touch_form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(get_in_touch_form.action, {
+                method: "POST",
+                body: new FormData(get_in_touch_form),
+            }).then(
+                response => response.json()
+            ).then((response) => {
+                if (response.created === 1) {
+                    $("#get-in-touch-form-toast-success").toast({delay: 3000});
+                    $('#get-in-touch-form-toast-success').toast('show');
+                    get_in_touch_form.reset();
+                } else {
+                    throw "invalid";
+                }
+            }).catch((err) => {
+                $("#get-in-touch-form-toast-failure").toast({delay: 3000});
+                $('#get-in-touch-form-toast-failure').toast('show');
+            });
+        });
+    }
 });
 

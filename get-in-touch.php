@@ -55,28 +55,40 @@
         <div class="container" >
             <h2>If you don’t find what you need, fill out our contact form</h2>
             <div class="form">
-                <form action="email.php" method="post">
+                <form action="https://sheetdb.io/api/v1/xozpuqu26c40v" method="post" id="get-in-touch-form">
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" name="Name" placeholder="NAME*" required>
+                                <input type="text" class="form-control" name="data[name]" placeholder="NAME*" required>
                                 
                             </div>
                             <div class="form-group input-group">
-                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="Phone" placeholder="PHONE*" required>
+                                <input type="text" class="form-control" pattern="[7896][0-9]{9}" name="data[phone]" placeholder="PHONE*" required>
                                 
                             </div>
                             <div class="form-group input-group">
-                                <input type="email" class="form-control" name="Email" placeholder="Email*" required>
+                                <input type="email" class="form-control" name="data[email]" placeholder="Email*" required>
                                 
                             </div>
                             <div class="form-group input-group textarea">
-                                <textarea type="text" class="form-control" name="Message" placeholder="" required></textarea>
+                                <textarea class="form-control" name="data[message]" placeholder="" required></textarea>
                                 <label for="">MESSAGE*</label>
                             </div>
                             <p class="mt-10 f-16">This site is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy?hl=en-US" target="_blank"> Google Privacy Policy </a> and <a href="https://policies.google.com/terms?hl=en-US" target="_blank"> Terms of Service</a>.</p>
                             <div class="call-to-action f-left vv-small-btn">
                                 <button type="submit" class="btn-call-to-action">Send</button>
+                            </div>
+
+                            <div class="toast" id="get-in-touch-form-toast-success" style="position: absolute">
+                                <div class="toast-body">
+                                    Form Submitted
+                                </div>
+                            </div>
+
+                            <div class="toast" id="get-in-touch-form-toast-failure" style="position: absolute">
+                                <div class="toast-body">
+                                    Failed to submit form, Please try again
+                                </div>
                             </div>
                         </div>
                     </div>
