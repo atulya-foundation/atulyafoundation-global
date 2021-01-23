@@ -1,4 +1,4 @@
-<?php include('header.php')?>
+<?php include('header.php') ?>
 
 <section class="main-content">
     <div class="container">
@@ -28,7 +28,7 @@
 </section>
 
 <section class="atulya-image">
-    <img src="assets/img/bg-terms.jpg" class="img-fluid" />
+    <img src="assets/img/bg-terms.jpg" class="img-fluid"/>
 </section>
 
 <section class="bg-cream">
@@ -145,4 +145,4 @@
     </div>
 </section>
 
-<?php include('footer.php')?>
+<?php include('footer.php') ?>

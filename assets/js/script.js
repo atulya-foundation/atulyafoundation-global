@@ -59,7 +59,7 @@ $(document).ready(function () {
     }, function () {
         $("#design-bg").fadeOut("500");
     });
-    
+
     $("#about").hover(function () {
         $("#about-bg").fadeIn("500");
     }, function () {

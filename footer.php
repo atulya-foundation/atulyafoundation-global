@@ -1,17 +1,15 @@
-<?php   
-        $link = $_SERVER['PHP_SELF'];
-        $link_array = explode('/',$link);
-        $page = end($link_array);
-        
-        if($page=="volunteer-program.php" || $page=="get-in-touch.php" || $page=="index.php" || $page == "atulya-artists.php"){
-            $mt = "no-margin";
-        }
-        
-        else{
-            $mt = "mt-100";
-        }
+<?php
+$link = $_SERVER['PHP_SELF'];
+$link_array = explode('/', $link);
+$page = end($link_array);
+
+if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == "index.php" || $page == "atulya-artists.php") {
+    $mt = "no-margin";
+} else {
+    $mt = "mt-100";
+}
 ?>
-<footer class="<?php echo $mt?>">
+<footer class="<?php echo $mt ?>">
     <div class="container">
         <div class="row">
             <div class="col-lg-4"></div>
@@ -26,13 +24,13 @@
                 <div class="row">
                     <div class="col-lg-3 col-xs-6">
                         <div class="widget">
-                        	<h2>Services</h2>
+                            <h2>Services</h2>
                             <ul>
                                 <li><a href="arts.php">Atulya Arts</a></li>
                                 <li><a href="crafts.php">Atulya Crafts</a></li>
                                 <li><a href="designs.php">Atulya Designs</a></li>
                                 <li><a href="consulting.php">Art Consulting</a></li>
-                            </ul>               
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-xs-6">
@@ -83,9 +81,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-<script src="assets/js/infiniteslidev2.js"></script>
 <script src="assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/6b74e72c40.js" crossorigin="anonymous"></script>
-<script src="assets/js/get-in-touch.js"></script>
 
 </html>

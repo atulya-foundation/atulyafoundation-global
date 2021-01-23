@@ -25,12 +25,26 @@
                                 <p class="intro">“Pictures must be miraculous.”<br>
                                     – Mark Rothko</p>
                             </blockquote>
-                            <p class="intro mt-40">Rothko first developed this compositional strategy in 1947. Described as “Colour Field painting” —a term that stuck —it is a style characterised by significant open space and an expressive use of colours. Rothko was one of its pioneers. “His coloured rectangles seemed to dematerialise into pure light. These are some of his paintings from the early fifties:</p>
-                            <p class="intro mt-40">Rothko spent the rest of his career exploring the limitless possibilities of layering variously sized and colored rectangles onto fields of color. As the style developed, Rothko’s paintings grew much larger, something the artist believed created “a state of intimacy.” “A large picture is an immediate transaction,” he said. “It takes you into it. He wanted to remove all obstacles between the painter, the painting and the viewer. His paintings were meant to entirely engulf the viewer and pull the viewer out of the mechanized, commercial society over which artists like Rothko despaired. In his own words: </p>
-                            <p class="intro mt-40">He was always somewhat of an advocate .In particular he supported artists’ total freedom of expression, which he felt was compromised by the market. This belief often put him at odds with the art world establishment, leading him to publicly respond to critics, and ccasionally refuse commissions, sales and exhibitions.</p>
-                            <p class="intro mt-40">Rothko wrote the manuscript for a book which was to be called The Artist’s Reality. However, it was never published in his lifetime, being hidden away for over fifty years. These writings discuss Rothko’s ideas about Modern art, myth, beauty, the nature of American art, and the challenges of being an artist in his society.</p>
-                            <p class="intro mt-40">By 1968, Rothko’s health was in decline from years of severe anxiety and his related drinking and smoking habits. After surviving an aneurism, he continued to smoke and drink despite his doctor’s orders, but he did scale back the size of his canvases and switch from oils to acrylic paints to reduce the strain that his painting process placed on his body.</p>
-                            <p class="intro mt-40">To visitors he explained that because of his heart condition he was not allowed to lift heavy canvases, and thus he had resorted to working on paper. His paintings got noticeably darker, some people tried to relate that to his mental state of depression, it ultimately culminated in Suicide.</p>
+                            <p class="intro mt-40">Rothko first developed this compositional strategy in 1947. Described as “Colour Field painting” —a term that stuck —it is a
+                                style characterised by significant open space and an expressive use of colours. Rothko was one of its pioneers. “His coloured rectangles seemed to
+                                dematerialise into pure light. These are some of his paintings from the early fifties:</p>
+                            <p class="intro mt-40">Rothko spent the rest of his career exploring the limitless possibilities of layering variously sized and colored rectangles onto
+                                fields of color. As the style developed, Rothko’s paintings grew much larger, something the artist believed created “a state of intimacy.” “A large
+                                picture is an immediate transaction,” he said. “It takes you into it. He wanted to remove all obstacles between the painter, the painting and the
+                                viewer. His paintings were meant to entirely engulf the viewer and pull the viewer out of the mechanized, commercial society over which artists like
+                                Rothko despaired. In his own words: </p>
+                            <p class="intro mt-40">He was always somewhat of an advocate .In particular he supported artists’ total freedom of expression, which he felt was
+                                compromised by the market. This belief often put him at odds with the art world establishment, leading him to publicly respond to critics, and
+                                ccasionally refuse commissions, sales and exhibitions.</p>
+                            <p class="intro mt-40">Rothko wrote the manuscript for a book which was to be called The Artist’s Reality. However, it was never published in his
+                                lifetime, being hidden away for over fifty years. These writings discuss Rothko’s ideas about Modern art, myth, beauty, the nature of American art,
+                                and the challenges of being an artist in his society.</p>
+                            <p class="intro mt-40">By 1968, Rothko’s health was in decline from years of severe anxiety and his related drinking and smoking habits. After surviving
+                                an aneurism, he continued to smoke and drink despite his doctor’s orders, but he did scale back the size of his canvases and switch from oils to
+                                acrylic paints to reduce the strain that his painting process placed on his body.</p>
+                            <p class="intro mt-40">To visitors he explained that because of his heart condition he was not allowed to lift heavy canvases, and thus he had resorted
+                                to working on paper. His paintings got noticeably darker, some people tried to relate that to his mental state of depression, it ultimately
+                                culminated in Suicide.</p>
                         </div>
                     </div>
                 </div>

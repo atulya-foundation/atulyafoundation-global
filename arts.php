@@ -11,14 +11,16 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="intro" style="color: #707070;">From traditional, arts to modern arts to portraits and art services, we promise you all forms of art products and services. What makes us unique is our artworks from some of the best artists combined with our research and analytical skills to add value to it. Atulya artist creates unique arts reflecting their own vision of world, dreams and aspirations.</p>
+                        <p class="intro" style="color: #707070;">From traditional, arts to modern arts to portraits and art services, we promise you all forms of art products and
+                            services. What makes us unique is our artworks from some of the best artists combined with our research and analytical skills to add value to it. Atulya
+                            artist creates unique arts reflecting their own vision of world, dreams and aspirations.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="atulya-image premium" >
+<section class="atulya-image premium">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6  content">
@@ -52,12 +54,12 @@
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/p3.jpg" class="img-fluid w-100" />
+                    <img src="assets/img/artist/p3.jpg" class="img-fluid w-100"/>
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
                 <!-- <h3>Rajputana</h3> -->
-               <!--  <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p> -->
+                <!--  <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p> -->
             </div>
         </div>
         <div class="call-to-action">
@@ -74,7 +76,8 @@
                 <div class="col-xl-1 view-desktop"></div>
                 <div class="col-xl-3 col-lg-6 col-md-6 j-center content order1 nopad">
                     <h3>Portraits</h3>
-                    <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph. Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
+                    <p>Your portraits will live much longer than you. We promise that our artist can paint you in beautiful colours on a canvass, much attractive than a photograph.
+                        Try gifting a portrait to a loved one for it will strengthen your bond with the person. </p>
                 </div>
                 <div class="col-xl-2 view-desktop"></div>
                 <div class="col-xl-6 col-lg-5 col-md-6 order2">
@@ -95,9 +98,12 @@
                 <div class="col-lg-5">
                     <h5>Folk Art</h5>
                     <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
-                    <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani, Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
+                    <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different
+                        parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani,
+                            Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can
+                        assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
                     <div class="call-to-action jfs">
-                       <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
+                        <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
                 <div class="col-lg-1 col-sm-1"></div>
@@ -108,36 +114,42 @@
         </div>
     </div>
 </section>
-<section class="atulya-last j-center" >
+<section class="atulya-last j-center">
     <div class="container">
         <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
-            <p class="medium" style="margin-bottom: -1.5rem;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a> </p>
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <p class="medium" style="margin-bottom: -1.5rem;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
+                </p>
+            </div>
+            <div class="col-lg-3"></div>
         </div>
-        <div class="col-lg-3"></div>
-    </div>
     </div>
 </section>
- <?php include('footer.php')  ?>
+<?php include('footer.php') ?>
 
 
 <style type="text/css">
-    .atulya-last p a{
+    .atulya-last p a {
         color: #707070;
-        text-decoration: none!important;
+        text-decoration: none !important;
     }
-    .atulya-last p a:hover{
+
+    .atulya-last p a:hover {
         color: black !important;
     }
-    .dope .container{
-        margin-left:12.0625rem; padding-right:12.0625rem;
+
+    .dope .container {
+        margin-left: 12.0625rem;
+        padding-right: 12.0625rem;
     }
-    .please{
-    	margin-top: 5rem;
+
+    .please {
+        margin-top: 5rem;
     }
-    @media only screen and (max-width:768px){
-        .main-content{
+
+    @media only screen and (max-width: 768px) {
+        .main-content {
             margin-top: 6.125rem !important;
         }
 
@@ -214,7 +226,8 @@
             padding-left: 15px;
             padding-right: 30px;
         }
-         .dope h1{
+
+        .dope h1 {
             font-size: 2.775rem;
             margin-top: 0rem;
             margin-bottom: 1rem;

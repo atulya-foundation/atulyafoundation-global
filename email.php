@@ -1,6 +1,6 @@
 <?php
-    ob_start();
-    echo "Submitting Details...";
+ob_start();
+echo "Submitting Details...";
 ?>
 <html>
 
@@ -11,52 +11,52 @@
 
 <body>
 
-    <?php
-	 if(!empty($_POST)){ 
-       
-		 $name 			= $_POST['Name'];
-		 $email 			= $_POST['Email'];
-		 $phone 		= $_POST['Phone']; 
-		 $me 	= $_POST['Message']; 
-         $to = "shubham.aladinn@gmail.com";
-         $subject = "Atulya Enquiry";		 
-        
-         $message="<b>Hello</b>";
-         $message .= "<table width='600' height='124' border='1' cellpadding='0' cellspacing='0' bgcolor='#FFFFCC'>
+<?php
+if (!empty($_POST)) {
+
+    $name = $_POST['Name'];
+    $email = $_POST['Email'];
+    $phone = $_POST['Phone'];
+    $me = $_POST['Message'];
+    $to = "shubham.aladinn@gmail.com";
+    $subject = "Atulya Enquiry";
+
+    $message = "<b>Hello</b>";
+    $message .= "<table width='600' height='124' border='1' cellpadding='0' cellspacing='0' bgcolor='#FFFFCC'>
 								<tr>
-									<td>Name :</td><td>".$name."</td>
+									<td>Name :</td><td>" . $name . "</td>
 								</tr>
 									<tr>
-									<td>Email :</td><td>".$email."</td>
+									<td>Email :</td><td>" . $email . "</td>
 								</tr>
 								
 								<tr>
-									<td>Mobile :</td><td>".$phone."</td>
+									<td>Mobile :</td><td>" . $phone . "</td>
 								</tr> 
 								
 								<tr>
-									<td>Message :</td><td>".$me."</td>
+									<td>Message :</td><td>" . $me . "</td>
 								</tr>
 				 
 							</table>";
-         
-                           
-		 $header = "From:".$email." \r\n";
-		 $header .= "Cc: shubham.aladinn@gmail.com \r\n";
-         $header .= "MIME-Version: 1.0\r\n";
-         $header .= "Content-type: text/html\r\n";
-		 $header .= "Reply-To: ". strip_tags($email) . "\r\n";
-         $retval = mail ($to,$subject,$message,$header);
-         //echo '<pre>';print_r($retval);die('i am in');
-          
-         if( $retval == true ) {
-           
-         }else {
-           $message =  'There was a problem sending the email.';
-         }
-	   }
-	  
-      ?>
+
+
+    $header = "From:" . $email . " \r\n";
+    $header .= "Cc: shubham.aladinn@gmail.com \r\n";
+    $header .= "MIME-Version: 1.0\r\n";
+    $header .= "Content-type: text/html\r\n";
+    $header .= "Reply-To: " . strip_tags($email) . "\r\n";
+    $retval = mail($to, $subject, $message, $header);
+    //echo '<pre>';print_r($retval);die('i am in');
+
+    if ($retval == true) {
+
+    } else {
+        $message = 'There was a problem sending the email.';
+    }
+}
+
+?>
 
 </body>
 
@@ -68,29 +68,28 @@
         <div class="col-xl-8">
             <div class="form-group input-group">
                 <input type="hidden" value="<?php echo $name ?>" class="form-control" name="Name" placeholder=""
-                    required>
+                       required>
 
             </div>
             <div class="form-group input-group">
                 <input type="hidden" class="form-control" value="<?php echo $phone ?>" name="Phone" placeholder=""
-                    required>
+                       required>
 
             </div>
             <div class="form-group input-group">
                 <input type="hidden" class="form-control" value="<?php echo $email ?>" name="Email" placeholder=""
-                    required>
+                       required>
 
             </div>
             <div class="form-group input-group textarea">
                 <input type="hidden" class="form-control" value="<?php echo $me ?>" name="Message" placeholder=""
-                    required>
+                       required>
 
             </div>
 
         </div>
     </div>
 </form>
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
@@ -126,7 +125,6 @@
     });
 
 
-
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR) {
         // Log a message to the console
@@ -135,7 +133,7 @@
         console.log(response);
         console.log(textStatus);
         console.log(jqXHR);
-        
+
 
     });
 
