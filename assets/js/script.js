@@ -42,29 +42,19 @@ $(document).ready(function () {
         $(".nav-menu a").removeClass("hover-active");
     });
 
-    $("#arts").hover(function () {
-        $("#arts-bg").fadeIn("500");
-    }, function () {
-        $("#arts-bg").fadeOut("500");
-    });
 
-    $("#crafts").hover(function () {
-        $("#crafts-bg").fadeIn("500");
-    }, function () {
-        $("#crafts-bg").fadeOut("500");
-    });
+    function setHoverBg(a, bg) {
+        a.hover(function () {
+            bg.stop().fadeIn(500);
+        }, function () {
+            bg.stop().fadeOut(500);
+        });
+    }
 
-    $("#design").hover(function () {
-        $("#design-bg").fadeIn("500");
-    }, function () {
-        $("#design-bg").fadeOut("500");
-    });
-
-    $("#about").hover(function () {
-        $("#about-bg").fadeIn("500");
-    }, function () {
-        $("#about-bg").fadeOut("500");
-    });
+    setHoverBg($("#arts"), $("#arts-bg"));
+    setHoverBg($("#crafts"), $("#crafts-bg"));
+    setHoverBg($("#design"), $("#design-bg"));
+    setHoverBg($("#about"), $("#about-bg"));
 });
 
 var totalItems = $(".carousel-item").length,
