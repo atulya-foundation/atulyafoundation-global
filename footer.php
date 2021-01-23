@@ -87,15 +87,5 @@
 <script src="assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/6b74e72c40.js" crossorigin="anonymous"></script>
 <script src="assets/js/get-in-touch.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-
-
-
-<script>
-    $(function() {
-        new WOW().init();
-    });
-
-</script>
 
 </html>

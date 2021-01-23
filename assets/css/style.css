@@ -1223,6 +1223,23 @@ figure {
     margin-bottom: 1.875rem;
 }
 
+.sidenav .bg-image {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+}
+
+.hover-active {
+    color: lightgrey !important;
+}
+
+.nav-main-menu:hover {
+    color: white !important;
+}
 
 .v-end {
     display: flex;

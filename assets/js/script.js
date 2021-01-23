@@ -34,54 +34,39 @@ $(document).ready(function () {
             $(".closebtn").css("display", "none"),
             $("#content").css("display", "flex"),
             $("#main .logo").css("display", "block")
-    }),
-        // $("#mySidenav").css({"background":"rgb(248 244 242 / 1)"}),
-        $("#about").hover(function () {
-            $("#mySidenav").css({
-                "background-image": "url('assets/img/navbar/About Us_AF.jpg')",
-                "transition": " background-image 500ms ease all"
-
-            }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts , #arts").addClass("color_change")
-        }, function () {
-            $("#mySidenav").css({
-                "background-image": "url('assets/img/navbg.png')",
-                "transition": "background-image 100ms ease all"
-
-            }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts , #arts").removeClass("color_change")
-        }), $("#crafts").hover(function () {
-        $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/Crafts_2.jpg')",
-            "transition": " background-image 500ms ease all"
-
-        }), $(".color_h_w li a").addClass("color_change"), $("#design , #about , #arts").addClass("color_change")
-    }, function () {
-        $("#mySidenav").css({
-            "background-image": "url('assets/img/navbg.png')",
-            "transition": "background-image 100ms ease all"
-        }), $(".color_h_w li a").removeClass("color_change"), $("#design , #about , #arts").removeClass("color_change")
-    }), $("#design").hover(function () {
-        $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/Designs_2.jpg')",
-            "transition": " background-image 500ms ease all"
-        }), $(".color_h_w li a").addClass("color_change"), $(" #about , #crafts , #arts").addClass("color_change")
-    }, function () {
-        $("#mySidenav").css({
-            "background-image": "url('assets/img/navbg.png')",
-            "transition": "background-image 100ms ease all"
-        }), $(".color_h_w li a").removeClass("color_change"), $(" #about , #crafts , #arts").removeClass("color_change")
-    }), $("#arts").hover(function () {
-        $("#mySidenav").css({
-            "background-image": "url('assets/img/navbar/Arts_2.jpg')",
-            "transition": " background-image 500ms ease all"
-        }), $(".color_h_w li a").addClass("color_change"), $("#design , #crafts ,  #about").addClass("color_change")
-    }, function () {
-        $("#mySidenav").css({
-
-            "background-image": "url('assets/img/navbg.png')",
-            "transition": "background-image 100ms ease all"
-        }), $(".color_h_w li a").removeClass("color_change"), $("#design , #crafts ,  #about").removeClass("color_change")
     })
+
+    $(".nav-main-menu").hover(function () {
+        $(".nav-menu a").addClass("hover-active");
+    }, function () {
+        $(".nav-menu a").removeClass("hover-active");
+    });
+
+    $("#arts").hover(function () {
+        $("#arts-bg").fadeIn("500");
+    }, function () {
+        $("#arts-bg").fadeOut("500");
+    });
+
+    $("#crafts").hover(function () {
+        $("#crafts-bg").fadeIn("500");
+    }, function () {
+        $("#crafts-bg").fadeOut("500");
+    });
+
+    $("#design").hover(function () {
+        $("#design-bg").fadeIn("500");
+    }, function () {
+        $("#design-bg").fadeOut("500");
+    });
+    
+    $("#about").hover(function () {
+        $("#about-bg").fadeIn("500");
+    }, function () {
+        $("#about-bg").fadeOut("500");
+    });
 });
+
 var totalItems = $(".carousel-item").length,
     currentIndex = $("div.active").index() + 1;
 
