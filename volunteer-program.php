@@ -99,6 +99,10 @@
                                 <input type="text" class="form-control" name="data[zip]" placeholder="PINCODE/ZIPCODE*" required>
 
                             </div>
+                            <div class="form-group  input-group">
+                                <input type="text" class="form-control" name="data[country]" placeholder="Country*">
+
+                            </div>
                         </div>
                     </div>
                     <div class="row with-top">

@@ -109,8 +109,7 @@
 
                             </div>
                             <div class="form-group  input-group">
-                                <input type="text" pattern="[7896][0-9]{9}" class="form-control" name="data[phone]" placeholder="PHONE NUMBER*">
-
+                                <input type="text" class="form-control" name="data[phone]" placeholder="PHONE NUMBER*">
                             </div>
                         </div>
                     </div>
@@ -140,6 +139,10 @@
                             </div>
                             <div class="form-group input-group">
                                 <input type="text" class="form-control" name="data[zip]" placeholder="PINCODE/ZIPCODE*">
+
+                            </div>
+                            <div class="form-group  input-group">
+                                <input type="text" class="form-control" name="data[country]" placeholder="Country*">
 
                             </div>
                         </div>

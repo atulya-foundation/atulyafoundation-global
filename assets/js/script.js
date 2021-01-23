@@ -38,8 +38,10 @@ $(document).ready(function () {
 
     $(".nav-main-menu").hover(function () {
         $(".nav-menu a").addClass("hover-active");
+        $(".closebtn").addClass("hover-active");
     }, function () {
         $(".nav-menu a").removeClass("hover-active");
+        $(".closebtn").removeClass("hover-active");
     });
 
 
