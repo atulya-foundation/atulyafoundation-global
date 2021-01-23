@@ -39,21 +39,23 @@
 
 <body style="background:<?php echo $bg_body_color ?>" id="body">
 <div id="mySidenav" class="sidenav" style="overflow: hidden !important;">
+    <div id="arts-bg" class="bg-image" style="background-image: url('assets/img/navbar/Arts_2.jpg')"></div>
+    <div id="crafts-bg" class="bg-image" style="background-image: url('assets/img/navbar/Crafts_2.jpg')"></div>
+    <div id="design-bg" class="bg-image" style="background-image: url('assets/img/navbar/Designs_2.jpg')"></div>
+    <div id="about-bg" class="bg-image" style="background-image: url('assets/img/navbar/About Us_AF.jpg')"></div>
+
     <div class="row nb">
         <!--div class="col-xl-4 vh-100 view-desktop" id="box">
 
-            </div-->
-        <div class="col-xl-1"></div>
+        </div-->
+        <div class="col-xl-1" style="margin-right : 0; padding: 0"></div>
         <div class="col-xl-5 nav-menu doomst">
-            <ul class="wowWrap">
+            <ul>
                 <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                <li><a id="arts" class="wow" data-wow-delay="0.25s" href="arts.php">Atulya Arts</a></li>
-                <li><a id="crafts" class="wow" data-wow-delay="0.20s" href="crafts.php">Atulya Crafts</a></li>
-                <li><a id="design" class="wow" data-wow-delay="0.10s" href="designs.php">Atulya Designs</a></li>
-
-
-                <li><a id="about" class="wow" href="consulting.php">Art Consulting</a></li>
-
+                <li><a id="arts" class="nav-main-menu" href="arts.php">Atulya Arts</a></li>
+                <li><a id="crafts" class="nav-main-menu" href="crafts.php">Atulya Crafts</a></li>
+                <li><a id="design" class="nav-main-menu" href="designs.php">Atulya Designs</a></li>
+                <li><a id="about" class="nav-main-menu" href="consulting.php">Art Consulting</a></li>
             </ul>
         </div>
 
