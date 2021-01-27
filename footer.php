@@ -37,9 +37,9 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="aboutus.php">About us</a></li>
-                                <li><a href="aboutus.php#team">Atulya Team</a></li>
-                                <li><a href="aboutus.php#clients">Our Clients</a></li>
+                                <li><a href="about-us.php">About us</a></li>
+                                <li><a href="about-us.php#team">Atulya Team</a></li>
+                                <li><a href="about-us.php#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,8 +57,8 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                             <h2>Other Links</h2>
                             <ul>
                                 <li><a href="volunteer-program.php">Volunteer with us</a></li>
-                                <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
-                                <li><a href="get-in-touch.php">Get in touch</a></li>
+                                <li><a href="premium-collection.php">Art Collection</a></li>
+                                <li><a href="contact-us.php">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>

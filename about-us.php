@@ -23,7 +23,7 @@
                         </p>
                         <div class="mt-100">
                             <div class="call-to-action f-left small-btn">
-                                <a href="get-in-touch.php" class="btn-call-to-action">GET IN TOUCH</a>
+                                <a href="contact-us.php" class="btn-call-to-action">GET IN TOUCH</a>
                             </div>
                         </div>
                     </div>

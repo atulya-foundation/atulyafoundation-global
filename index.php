@@ -203,13 +203,13 @@
                 <div class="row justify-content-end">
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
-                            <li><a href="aboutus.php">About Us</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
-                            <!-- <li><a href="news-and-articles.php">News and Articles</a></li> -->
-                            <li><a href="aboutus.php#team">Our Team</a></li>
-                            <li><a data-wow-delay="0.30s" href="get-in-touch.php">Get in touch</a></li>
+                            <li><a href="premium-collection.php">Art Collection</a></li>
+                            <li><a href="about-us.php#team">Our Team</a></li>
+                            <li><a data-wow-delay="0.30s" href="contact-us.php">Get in touch</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-12 color_h_w " style="margin-top: 0rem; margin-left: 3rem;">
@@ -263,7 +263,7 @@
                 when art is a viable means of livelihood.</p>
         </div>
         <div class="call-to-action">
-            <a href="aboutus.php" class="btn-call-to-action small-btn">About Us</a>
+            <a href="about-us.php" class="btn-call-to-action small-btn">About Us</a>
         </div>
     </div>
 </section>
