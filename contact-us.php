@@ -15,6 +15,9 @@
         color: black !important;
         text-decoration: none !important;
     }
+    .mt-100{
+        margin-top: 0.25rem;
+    }
 </style>
 
 <section class="main-content dope get-touch">
@@ -39,7 +42,6 @@
                                         <div class="row">
                                             <div class="col-lg-12 ">
                                                 <div class="row">
-                                                    <div class="col-sm-1" style="color: black;"><!-- <p>Official Channels || </p> --></div>
                                                     <div class="col-sm-1"><a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram"></i> </a></div>
                                                     <div class="col-sm-1"><a class="text1" href="https://www.linkedin.com/company/atulya"><i class="fab fa-linkedin"></i></a></div>
                                                     <div class="col-sm-1"><a class="text1" href="https://www.facebook.com/Aulyafoundation"><i class="fab fa-facebook"></i> </a></div>

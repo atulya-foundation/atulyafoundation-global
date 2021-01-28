@@ -204,10 +204,11 @@
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
                             <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="premium-collection.php">Art Collection</a></li>
                             <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
-                            <li><a href="premium-collection.php">Art Collection</a></li>
+                            
                             <li><a href="about-us.php#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="contact-us.php">Get in touch</a></li>
                         </ul>

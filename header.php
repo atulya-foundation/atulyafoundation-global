@@ -15,7 +15,7 @@
     $link_array = explode('/', $link);
     $page = end($link_array);
 
-    if ($page == "designs.php" || $page == "crafts.php" || $page == "arts.php") {
+    if ($page == "designs.php" || $page == "crafts.php" || $page == "arts.php" ) {
         $bg_body_color = "#F0EDE9";
         $logo = "Component1.svg";
         $nav_toggle = "toggle_icon_black.svg";
@@ -64,10 +64,11 @@
                 <div class="col-xl-12  small-nav color_h_w">
                     <ul class="sec">
                         <li><a href="about-us.php">About Us</a></li>
+                        <li><a href="premium-collection.php">Art Collection</a></li>
                         <li><a href="volunteer-program.php">Join as Volunteer</a></li>
                         <li><a href="atulya-artists.php">Join As Artist</a></li>
                         <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
-                        <li><a href="premium-collection.php">Art Collection</a></li>
+                        
                         <li><a href="about-us.php#team">Our Team</a></li>
                         <li><a data-wow-delay="0.30s" href="contact-us.php">Get in touch</a></li>
                     </ul>
