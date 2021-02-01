@@ -86,7 +86,7 @@
             left: 0.625rem;
             margin-bottom: 0rem;
         }
-        @media screen and (max-width: 700px){
+        @media screen and (max-width: 750px){
             div.images{order: 2;}
             div.services{order:1;}
             .single-image{

@@ -18,6 +18,12 @@
     .mt-100{
         margin-top: 0.25rem;
     }
+    @media screen and (max-width: 768px){
+    	.legends{
+    		flex-wrap: inherit !important;
+    		width: 0;
+    	}
+    }
 </style>
 
 <section class="main-content dope get-touch">
@@ -39,9 +45,9 @@
                                 <h3>Drop us a message</h3>
                                 <p><em> <a href="mailto:info@atulyafoundation.org">info@atulyafoundation.org</a></em>
                                 
-                                        <div class="row">
+                                        <div class="row ">
                                             <div class="col-lg-12 ">
-                                                <div class="row">
+                                                <div class="row legends">
                                                     <div class="col-sm-1"><a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram"></i> </a></div>
                                                     <div class="col-sm-1"><a class="text1" href="https://www.linkedin.com/company/atulya"><i class="fab fa-linkedin"></i></a></div>
                                                     <div class="col-sm-1"><a class="text1" href="https://www.facebook.com/Aulyafoundation"><i class="fab fa-facebook"></i> </a></div>

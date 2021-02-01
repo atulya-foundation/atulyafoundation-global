@@ -191,7 +191,7 @@
     }
 
     .dope .container {
-        margin-left: 12.0625rem;
+        margin-left: 14.5rem;
         padding-right: 12.0625rem;
     }
 

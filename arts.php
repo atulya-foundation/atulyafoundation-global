@@ -49,12 +49,12 @@
         </div>
     </div>
 </section>
-<section class="atulya-image premium">
+<section class="atulya-image premium p">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <figure>
-                    <img src="assets/img/artist/p3.jpg" class="img-fluid w-100"/>
+                    <img src="assets/img/artist/p3.jpg" class="img-fluid b w-100"/>
                 </figure>
             </div>
             <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
@@ -102,9 +102,7 @@
                         parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani,
                             Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can
                         assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
-                    <div class="call-to-action jfs">
-                        <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
-                    </div>
+                   
                 </div>
                 <div class="col-lg-1 col-md-1"></div>
                 <div class="col-lg-6 col-md-5 please">
@@ -151,6 +149,12 @@
     @media only screen and (max-width: 768px) {
         .main-content {
             margin-top: 6.125rem !important;
+        }
+        .b{
+        	height: 530px;
+        }
+        .p{
+        	margin-top: 0rem;
         }
 
         .col,
