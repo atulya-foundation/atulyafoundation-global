@@ -95,7 +95,7 @@
 
         <div class="content">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-6">
                     <h5>Folk Art</h5>
                     <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
                     <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different
@@ -106,8 +106,8 @@
                         <!--  <a href="atulya-arts.php" class="btn-call-to-action">View All Services</a> -->
                     </div>
                 </div>
-                <div class="col-lg-1 col-sm-1"></div>
-                <div class="col-lg-6 col-sm-4 please">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-6 col-md-5 please">
                     <img src="assets/img/Folk Art_/1.jpg" class="img-fluid " alt="">
                 </div>
             </div>

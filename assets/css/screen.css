@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body, html {
         overflow-x: hidden;
     }
@@ -92,7 +92,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
     body, html {
         overflow-x: hidden;
@@ -509,7 +509,7 @@ select::after {
     left: 27%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body, html {
         overflow-x: hidden;
     }
@@ -529,7 +529,7 @@ select::after {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
     .sidenav {
         background-color: #0D0E0E;
@@ -647,7 +647,7 @@ select::after {
     }
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
     .sidenav {
         background-color: #0D0E0E;
 
@@ -780,7 +780,7 @@ select::after {
     }
 }
 
-@media screen and (width: 1024px) {
+@media screen and (width: 1024px) and (max-width: 1336px) {
     @media screen and (height: 768px ) {
         .sidenav {
             background-color: #0D0E0E;

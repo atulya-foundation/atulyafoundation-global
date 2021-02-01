@@ -110,7 +110,7 @@
         display: none;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1000px) {
         .bgnv {
             visibility: hidden;
             display: none;
@@ -136,7 +136,7 @@
         }
     }
 
-    @media screen and (width: 1024px) {
+    @media screen and (width: 1024px) and (max-width: 1336px) {
         .bgnv {
             visibility: hidden;
             display: none;

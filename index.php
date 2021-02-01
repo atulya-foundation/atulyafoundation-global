@@ -35,7 +35,7 @@
             display: none;
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 1000px) {
             .abcd {
                 visibility: hidden;
                 display: none;
@@ -102,7 +102,7 @@
             }
         }
 
-        @media screen and (width: 1024px) {
+        @media screen and (width: 1024px) and (max-width: 1336px) {
             .abcd {
                 visibility: hidden;
                 display: none;
@@ -338,7 +338,7 @@
     <section class="craftman">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 j-center">
+                <div class="col-lg-5 col-md-5 j-center">
                     <h6>CRAFTSMANSHIP</h6>
                     <h2>Join Our Artist <span>network</span></h2>
                     <div class="text">
@@ -350,8 +350,8 @@
                         <a href="atulya-artists.php" class="btn-call-to-action">Join our network</a>
                     </div>
                 </div>
-                <div class="col-lg-2"></div>
-                <div class="col-lg-5">
+                <div class="col-lg-2 col-md-2"></div>
+                <div class="col-lg-5 col-md-5">
                     <img src="assets/img/joa.jpg" class="img-fluid" alt="">
                 </div>
             </div>
