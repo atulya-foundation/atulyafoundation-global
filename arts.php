@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-lg-1 col-md-1"></div>
                 <div class="col-lg-6 col-md-5 please">
-                    <img src="assets/img/Folk Art_/1.jpg" class="img-fluid " alt="">
+                    <img src="assets/img/Folk Art_/2.png" class="img-fluid " alt="">
                 </div>
             </div>
         </div>
