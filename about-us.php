@@ -1,15 +1,15 @@
 <?php include('header.php') ?>
 
 <style type="text/css">
-    .dope .container {
-        margin-left: 12.0625rem;
-        padding-right: 12.0625rem;
-    }
+    /* .dope .container {
+        margin-left: 15vw;
+        padding-right: 15vw;
+    } */
 </style>
 
 <section class="main-content dope">
     <div class="container">
-        <h5 style="margin-bottom: 3.125rem !important;">The ‘Atulya Idea’</h5>
+        <h5 style="margin-bottom: 5.125vh !important;">The ‘Atulya Idea’</h5>
         <div class="web-wrap">
             <h1>MAKING <span>art</span><br> A VIABLE MEANS<br> OF LIVELIHOOD <span>for</span> ARTISTS</h1>
             <div class="content">
@@ -58,7 +58,7 @@
             <div class="content">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="intro" style="margin-top: 1.025rem;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers,
+                        <p class="intro" style="margin-top: 4vh;">The founders of the Atulya Foundation are a bunch of graduates and working professionals including engineers,
                             business grads & lawyers who came together as a result of common affinity towards art and with the motive of preserving art so that art is not lost in
                             this fast moving world.</p>
                         <p class="intro">We strive towards a very clear goal: monetizing the art to its fullest using technology and innovative ideas. Bringing Art and colours in
@@ -88,7 +88,7 @@
                     <div class="col-lg-4">
 
                     </div>
-                    <div class="col-lg-4" style="margin-top: 1.8rem; margin-bottom: 0rem;">
+                    <div class="col-lg-4" style="margin-top: 5vh; margin-bottom: 0rem;">
 
                         <img src="assets/img/svg/asme.svg" class="img-fluid grayscale"/>
 

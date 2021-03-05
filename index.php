@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/newStyle.css">
     <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"/>
     <script src="https://kit.fontawesome.com/11722d95b8.js" crossorigin="anonymous"></script>
@@ -17,13 +17,6 @@
         .n {
             visibility: hidden;
             display: none;
-        }
-
-        .n .btn {
-            height: 0.625rem;
-            width: 2.8125rem;
-            margin-right: 1rem;
-            right: 7.292vw;
         }
 
         .form-control {
@@ -35,30 +28,60 @@
             display: none;
         }
 
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (min-width:992px) and (max-width: 1199px) {
             .abcd {
                 visibility: hidden;
                 display: none;
             }
 
+            body{
+                overflow:auto !important;
+            }
             .n {
                 visibility: visible;
 
                 display: flex;
-                /*margin-left: 0rem;
-                padding-left: 0rem !important; */
             }
 
             .n .brand {
-                margin-top: 1rem;
-                margin-bottom: 1rem;
+                margin-top: 1.6vh;
+                margin-bottom: 1.6vh;
             }
 
             .n .btn {
+                height: 2vh;
+                width: 6vw;
+                margin-right: 1vw;
+                right: 7.292vw;
                 padding-top: 0rem;
                 margin-top: 0rem;
             }
 
+            .logo-pos{
+                visibility:hidden;
+            }
+
+            .sidenav{
+                background-color:black;
+            }
+            .sidenav ul li a {
+                /* font-size: 2.187rem !important; */
+                margin: 0.825rem 0rem 0rem 0rem !important;
+                color: #EAEAEA !important;
+                letter-spacing: 0rem !important;
+            }
+            .social-head {
+                visibility: hidden;
+            }
+            .closebtn {
+                color: #EAEAEA !important;
+            }
+            .nav-menu{
+                padding-top:8vh;
+            }
+            .small-nav ul li a{
+                font: 300 3rem Poppins, sans-serif;
+            }
             .btn-call-to-action {
                 font-weight: normal !important;
             }
@@ -102,7 +125,11 @@
             }
         }
 
-        @media screen and (width: 1024px) and (max-width: 1336px) {
+        @media only screen and (max-width: 991px) {
+
+            body{
+                overflow:auto !important;
+            }
             .abcd {
                 visibility: hidden;
                 display: none;
@@ -112,8 +139,6 @@
                 visibility: visible;
 
                 display: flex;
-                /*margin-left: 0rem;
-                padding-left: 0rem !important; */
             }
 
             .n .brand {
@@ -167,7 +192,6 @@
             .fab {
                 font-size: 1rem;
             }
-            
         }
 
     </style>
@@ -178,7 +202,7 @@
 
 
 <header>
-    <div id="mySidenav" class="sidenav" style="overflow: hidden !important;">
+    <div id="mySidenav" class="sidenav" >
         <div id="arts-bg" class="bg-image" style="background-image: url('assets/img/navbar/Arts_2.jpg')"></div>
         <div id="crafts-bg" class="bg-image" style="background-image: url('assets/img/navbar/Crafts_2.jpg')"></div>
         <div id="design-bg" class="bg-image" style="background-image: url('assets/img/navbar/Designs_2.jpg')"></div>
@@ -213,9 +237,8 @@
                             <li><a data-wow-delay="0.30s" href="contact-us.php">Get in touch</a></li>
                         </ul>
                     </div>
-                    <div class="col-xl-12 color_h_w " style="margin-top: 0rem; margin-left: 3rem;">
+                    <div class="col-xl-12 color_h_w " >
                         <ul class="social-head">
-                            <li><a href="#" target="_blank" style="padding-left: 6rem;">Email</a></li>
                             <li><a href="https://www.instagram.com/atulya_foundation/" target="_blank">Instagram</a></li>
                             <li><a href="https://www.facebook.com/Aulyafoundation" target="_blank">Facebook</a></li>
                             <li><a href="https://www.linkedin.com/company/atulya" target="_blank">Linkedin</a></li>
@@ -259,7 +282,7 @@
         <h1>A paintbrush <span>and</span> a canvas,<br>
             creates a whole <span>new world.</span></h1>
         <div class="text">
-            <p class="text-center" style="width: 69vw !important;"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We
+            <p class="text-center"> Atulya foundation is a not for profit organization working for the welfare of the artist community in India. We
                 believe that art can only be preserved when the artists get incentives, both monetary and social, to remain artists and these incentive can only be brought to them
                 when art is a viable means of livelihood.</p>
         </div>
@@ -280,7 +303,7 @@
             <h1>Meet <span>the</span> makers.<br>
                 Explore <span>their craft</span>. Share <span>their stories</span>.</h1>
             <div class="text">
-                <p style="width: 69vw !important;"> This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art,
+                <p> This collection features some of the best artworks from our artists network. From traditional to modern and other forms of art,
                     the collection depicts India’s eclectic and rich art tradition. If you want to get a glimpse of the profound imagination and creativity of our artists, a quick
                     glimpse inside is highly recommended.</p>
             </div>
@@ -342,7 +365,7 @@
                     <h6>CRAFTSMANSHIP</h6>
                     <h2>Join Our Artist <span>network</span></h2>
                     <div class="text">
-                        <p style="margin-right: 1.50rem;">We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is
+                        <p>We understand it takes courage to be creative. If you see the world more colourful than others, Atulya artist network is
                             the right place for you. We firmly believe that the only qualification for an artist is his/her art and art alone, so we call you to join us just with
                             your paintbrush.</p>
                     </div>

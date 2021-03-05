@@ -1,15 +1,15 @@
 <?php include('header.php') ?>
 <style type="text/css">
-    .tms {
-        margin-left: 17.1025rem;
-        padding-right: 17.1025rem;
-    }
+    /* .tms {
+        margin-left: 17.1025vw;
+       
+    } */
 </style>
 
 <div class="container terms tms mt-100">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <h1 class=" uppercase">Privacy Policy</h1>
+            <h1 class=" uppercase" style="margin-left:25rem;">Privacy Policy</h1>
             <div class="content mt-80">
                 <p>We value your business and we know privacy is important to you. Accordingly, we have implemented this Privacy Policy to inform you of the information that we
                     collect from you, how we collect it and what we do with it. By using this website you are accepting the practices described in this Privacy Policy.

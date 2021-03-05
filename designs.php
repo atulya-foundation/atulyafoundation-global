@@ -8,13 +8,13 @@
     }
     .image1 {
       position: absolute;
-      left: 6.75rem;
+      left: 6.75vw;
     }
      .image2 {
       position: relative;
       top: 17.5rem;
-      left: 1rem;
-      margin-bottom: 6rem;
+      left: 1vw;
+      margin-bottom: 10vh;
     }
     .dope{
         margin-bottom: 12rem;  
@@ -60,7 +60,7 @@
         opacity: 0.8;
     }
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 991px){
         .dope{
             margin-bottom: 6rem;  
             margin-left: 0rem; 
@@ -75,7 +75,8 @@
             margin-bottom: 0rem;
         }
         .large-image{
-            margin-bottom: 12rem;        }
+            margin-bottom: 12rem;        
+        }
         .image1 {
           position: relative;
           left: -2rem;
@@ -85,6 +86,9 @@
             top: -11.5rem;
             left: 0.625rem;
             margin-bottom: 0rem;
+        }
+        .services p{
+            margin-bottom: 4rem;
         }
         @media screen and (max-width: 750px){
             div.images{order: 2;}
@@ -108,24 +112,9 @@
             }
         }
         
-        .services p{
-            margin-bottom: 4rem;
-        }
+        
     }
-    @media screen and (width:1024px){
-        .dope{
-            margin-bottom: 6rem;  
-            margin-left: 0rem; 
-            margin-right: 0rem;
-        }
-        .single-image{
-            margin-bottom: 12rem; 
-            margin-left: 0rem;
-        }
-        .double-image{
-            margin-left: 0rem; 
-        }
-    }
+    
 
 </style>
 

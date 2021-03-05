@@ -57,7 +57,7 @@
                     <img src="assets/img/artist/p3.jpg" class="img-fluid b w-100"/>
                 </figure>
             </div>
-            <div class="col-xl-4 content" style="flex: 100%!important; max-width: 100%!important;">
+            <div class="col-xl-4 content">
                 <!-- <h3>Rajputana</h3> -->
                 <!--  <p>Radha and Krishna are the epitome of divine love and this painting tries to depictit in its own unique and creative way. The beautiful and unique intermixing of various colours represents the..</p> -->
             </div>
@@ -90,22 +90,23 @@
     </section>
 
 </div>
-<section class="main-content dope">
+<section class="main-content ">
     <div class="container">
 
         <div class="content">
             <div class="row">
-                <div class="col-lg-5 col-md-6">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-5 col-lg-5 col-md-6">
                     <h5>Folk Art</h5>
                     <h1 class="">Rich <span>traditions</span><br><span>painted</span> in colours</h1>
-                    <p class="intro" style="margin-top:24px">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different
+                    <p class="intro" style="margin-top:5vh">India is a home to numerous traditional art forms. These art forms depict stories of various cultures from different
                         parts of India and are an invaluable part of our civilisation. We promise to bring to you these different art forms including<strong> Madhubani,
                             Pattachitra, Wurli, Phad, Picchwai, Miniature</strong> from artists who have been carrying on these traditions from generations. One thing which we can
                         assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
                    
                 </div>
-                <div class="col-lg-1 col-md-1"></div>
-                <div class="col-lg-6 col-md-5 please">
+                <div class="col-xl-1 col-lg-1 col-md-1"></div>
+                <div class="col-xl-5 col-lg-5 col-md-5 please">
                     <img src="assets/img/Folk Art_/2.png" class="img-fluid " alt="">
                 </div>
             </div>
@@ -117,7 +118,7 @@
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                <p class="medium" style="margin-bottom: -1.5rem;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
+                <p class="medium" style="margin-bottom: -3vh;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
                 </p>
             </div>
             <div class="col-lg-3"></div>
@@ -137,16 +138,17 @@
         color: black !important;
     }
 
-    .dope .container {
-        margin-left: 12.0625rem;
-        padding-right: 12.0625rem;
-    }
+    /* .dope .container {
+        margin-left: 13vw;
+        padding-right: 12.062vw;
+    } */
 
     .please {
-        margin-top: 5rem;
+        margin-top: 10vh;
+        margin-left:2rem;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 991px) {
         .main-content {
             margin-top: 6.125rem !important;
         }

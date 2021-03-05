@@ -1,12 +1,7 @@
 <?php include('header.php') ?>
 
 <style type="text/css">
-    .dope .container {
-        margin-left: 12.0625rem;
-        padding-right: 12.0625rem;
-
-    }
-
+   
     .text1 {
         color: #707070 !important;
     }
@@ -14,9 +9,6 @@
     .text1:hover {
         color: black !important;
         text-decoration: none !important;
-    }
-    .mt-100{
-        margin-top: 0.25rem;
     }
     @media screen and (max-width: 768px){
     	.legends{
@@ -28,13 +20,13 @@
 
 <section class="main-content dope get-touch">
     <div class="container">
-        <h5 style=" margin-bottom: 3.025rem;">Contact us</h5>
+        <h5 style=" margin-bottom: 7vh;">Contact us</h5>
         <div class="web-wrap">
             <div class="content">
                 <h1 class="uppercase">GET <span>in</span> TOUCH</h1>
                 <div class="row">
                     <div class="col-lg-12 mt-40">
-                        <p class="intro" style="padding-right: 0;">We listen to you and welcome your ideas.</p>
+                        <p class="intro">We listen to you and welcome your ideas.</p>
                         <div class="row">
                             <div class="col-sm-6">
                                 <h3>Correspondence Address</h3>

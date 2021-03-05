@@ -16,7 +16,7 @@ function closeNav() {
         // $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
         $("#mySidenav ul li a").addClass("fadeOutDown animated"),
 
-        $("body").css("overflow-y", "scroll"),
+        $("body").css("overflow-y", "hidden"),
         document.getElementById("mySidenav").style.height = "0",
         document.getElementById("main").style.marginTop = "0",
         $(".closebtn").css("display", "none"),
@@ -28,7 +28,7 @@ $(document).ready(function () {
     $("#mySidenav li a").click(function () {
         $("#mySidenav ul li a").removeClass(" fadeInUp animated"),
             $("#mySidenav ul li a").addClass(" fadeOutDown animated"),
-            $("body").css("overflow-y", "scroll"),
+            $("body").css("overflow-y", "hidden"),
             document.getElementById("mySidenav").style.height = "0",
             document.getElementById("main").style.marginTop = "0",
             $(".closebtn").css("display", "none"),

@@ -2,9 +2,9 @@
 
 <section class="main-content dope">
     <div class="container">
-        <h5 style="margin-bottom: 3rem;">Atulya Artists</h5>
+        <h5 style="margin-bottom: 7vh;">Atulya Artists</h5>
         <div class="web-wrap">
-            <h1 class="uppercase" style="margin-bottom: 3rem;">LET <span>us</span> CRAFT<br> YOUR DREAMS <span>into</span> REALITY</h1>
+            <h1 class="uppercase" style="margin-bottom: 8vh;">LET <span>us</span> CRAFT<br> YOUR DREAMS <span>into</span> REALITY</h1>
             <div class="content">
                 <div class="row">
                     <div class="col-lg-6">
@@ -13,7 +13,7 @@
                             paintbrush.</p>
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <p>At Atulya we have always aimed to connect and with artists who are gifted by nature to express not the outward appearance of things, but their inward
                             significance. A pool of all creative minds has been created from all races of life, professions, genders and regions.</p>
 
@@ -23,6 +23,7 @@
 
                         <p>Atulya’s social media platforms actively seeks to connect with talented and new age artists as well.</p>
                     </div>
+                    <div class="col-lg-1" ></div>
                 </div>
             </div>
         </div>
@@ -38,16 +39,17 @@
 
 <section class="main-content dope">
     <div class="container">
-        <h5 style="margin-bottom: 3rem;">Network Benefits</h5>
+        <h5 style="margin-bottom: 7vh;">Network Benefits</h5>
         <div class="web-wrap">
-            <h1 style="margin-bottom: 3rem;">FULFILLING <span>your</span> JOURNEY <br><span>to</span> COLOUR <span>the</span> WORLD</h1>
+            <h1 style="margin-bottom: 8vh;">FULFILLING <span>your</span> JOURNEY <br><span>to</span> COLOUR <span>the</span> WORLD</h1>
             <div class="content">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <p class="intro">Some of the problems the artists face today are middleman, lack of technological infrastructure, lack of knowledge of the art market. Here
                             is how we are attempting to solve.</p>
 
                     </div>
+                    <div clas="col-lg-1"></div>
                     <div class="col-lg-6">
                         <p><strong>ARTWORK VALUATION</strong>: Proper valuation of their art after doing in-depth and detailed market research.</p>
 
@@ -73,10 +75,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <h5 style="margin-bottom: 3rem;">Form</h5>
+                    <h5 style="margin-bottom: 7vh;">Form</h5>
                     <h1>Join Artist <br> <span> network</span></h1>
                     <!--  <p class="intro mt-40" style="color:#707070">The aim of art is to represent not the outward appearance of things, but their inward significance.</p> -->
-                    <p class="intro" style="color:#383838;margin-top: 2.4rem;margin-bottom: -1.2rem;">Fill out this form to become an Atulya Artist</p>
+                    <p class="intro" style="color:#383838;margin-top: 5vh;margin-bottom: 0;">Fill out this form to become an Atulya Artist</p>
                 </div>
             </div>
             <div class="form">
@@ -194,10 +196,10 @@
 <script src="assets/js/validate.js"></script>
 
 <style type="text/css">
-    .dope .container {
+    /* .dope .container {
         margin-left: 12.0625rem;
         padding-right: 12.0625rem;
-    }
+    } */
 
     @media only screen and (max-width: 768px) {
         .col,

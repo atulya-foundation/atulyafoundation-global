@@ -170,7 +170,7 @@
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                <p class="medium" style="margin-bottom: -1.5rem;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
+                <p class="medium" style="margin-bottom: -2.5vh;">For any of the above artwork, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
                 </p>
             </div>
             <div class="col-lg-3"></div>
@@ -190,10 +190,10 @@
         color: black !important;
     }
 
-    .dope .container {
+    /* .dope .container {
         margin-left: 14.5rem;
         padding-right: 12.0625rem;
-    }
+    } */
 
     @media only screen and (max-width: 768px) {
         .main-content {

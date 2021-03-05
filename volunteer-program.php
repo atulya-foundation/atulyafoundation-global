@@ -194,10 +194,10 @@
 <?php include('footer.php') ?>
 
 <style type="text/css">
-    .main-content .dp {
+    /* .main-content .dp {
         margin-left: 12.0625rem;
         padding-right: 12.0625rem;
-    }
+    } */
 
     @media only screen and (max-width: 768px) {
         .col,
