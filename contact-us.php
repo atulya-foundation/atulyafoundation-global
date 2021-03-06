@@ -63,7 +63,7 @@
     </div>
 </section>
 
-<section class="bg-white" style="margin-bottom: -9vh;">
+<section class="bg-white" >
     <div class="main-content dope main-padding">
         <div class="container">
             <h2>If you don’t find what you need, fill out our contact form</h2>
