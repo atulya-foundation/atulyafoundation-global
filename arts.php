@@ -105,7 +105,7 @@
                         assure you is, these traditional paintings will make your spaces much more beautiful since they carry with them a sense of heritage.</p>
                    
                 </div>
-                <div class="col-xl-1 col-lg-1 col-md-1"></div>
+                <div class="col-xl-0 col-lg-0 col-md-0"></div>
                 <div class="col-xl-5 col-lg-5 col-md-5 please">
                     <img src="assets/img/Folk Art_/2.png" class="img-fluid " alt="">
                 </div>
@@ -118,7 +118,7 @@
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                <p class="medium" style="margin-bottom: -3vh;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
+                <p class="medium" style="margin-top:6vh;margin-bottom: -3vh;">For any of the above product or service, drop a mail to <a href="mailto:sales@atulyafoundation.org">sales@atulyafoundation.org</a>
                 </p>
             </div>
             <div class="col-lg-3"></div>
