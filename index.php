@@ -263,7 +263,7 @@
             <img src="assets/img/Component2.svg" class="img-fluid" alt="">
         </div>
         <nav class="navbar navbar-dark fixed-top n" style="background-color: #000000!important;">
-            <a href="index" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
+            <a href="/" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
             <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
         </nav>
         <div class="content" id="content">
