@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
 <div class="logo-pos">
-    <a href="arts.php"><img src="assets/img/atulya_arts_logo.svg" class="img-fluid" alt=""></a>
+    <a href="arts"><img src="assets/img/atulya_arts_logo.svg" class="img-fluid" alt=""></a>
 </div>
 <section class="main-content dope">
     <div class="container">
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="call-to-action">
-            <a href="premium-collection.php" class="btn-call-to-action">Art Collection</a>
+            <a href="premium-collection" class="btn-call-to-action">Art Collection</a>
         </div>
     </div>
 </section>

@@ -26,10 +26,10 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Services</h2>
                             <ul>
-                                <li><a href="arts.php">Atulya Arts</a></li>
-                                <li><a href="crafts.php">Atulya Crafts</a></li>
-                                <li><a href="designs.php">Atulya Designs</a></li>
-                                <li><a href="consulting.php">Art Consulting</a></li>
+                                <li><a href="arts">Atulya Arts</a></li>
+                                <li><a href="crafts">Atulya Crafts</a></li>
+                                <li><a href="designs">Atulya Designs</a></li>
+                                <li><a href="consulting">Art Consulting</a></li>
                             </ul>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Who we are</h2>
                             <ul>
-                                <li><a href="about-us.php">About us</a></li>
+                                <li><a href="about-us">About us</a></li>
                                 <li><a href="about-us.php#team">Atulya Team</a></li>
                                 <li><a href="about-us.php#clients">Our Clients</a></li>
                             </ul>
@@ -56,10 +56,10 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Other Links</h2>
                             <ul>
-                                <li><a href="premium-collection.php">Art Collection</a></li>
-                                <li><a href="volunteer-program.php">Volunteer with us</a></li>
+                                <li><a href="premium-collection">Art Collection</a></li>
+                                <li><a href="volunteer-program">Volunteer with us</a></li>
                                 
-                                <li><a href="contact-us.php">Get in touch</a></li>
+                                <li><a href="contact-us">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,9 +68,9 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
             <div class="col-lg-12 copyright">
                 <ul>
                     <li style="color: #AAAAAA">© 2020 Atulya Foundation. All Right Reserved.</li>
-                    <li><span>|</span> <a href="privacy-policy.php">Privacy Policy</a></li>
+                    <li><span>|</span> <a href="privacy-policy">Privacy Policy</a></li>
                     <!-- <li><a href="#">License</a></li> -->
-                    <li><a href="terms-of-use.php">Terms of Use</a></li>
+                    <li><a href="terms-of-use">Terms of Use</a></li>
                 </ul>
             </div>
         </div>

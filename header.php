@@ -52,10 +52,10 @@
             <div class="col-xl-5 nav-menu doomst">
                 <ul>
                     <!--  <li><a id="home" href="javascript:void(0)"> Homepage</a></li>-->
-                    <li><a id="arts" class="nav-main-menu" href="arts.php">Atulya Arts</a></li>
-                    <li><a id="crafts" class="nav-main-menu" href="crafts.php">Atulya Crafts</a></li>
-                    <li><a id="design" class="nav-main-menu" href="designs.php">Atulya Designs</a></li>
-                    <li><a id="about" class="nav-main-menu" href="consulting.php">Art Consulting</a></li>
+                    <li><a id="arts" class="nav-main-menu" href="arts">Atulya Arts</a></li>
+                    <li><a id="crafts" class="nav-main-menu" href="crafts">Atulya Crafts</a></li>
+                    <li><a id="design" class="nav-main-menu" href="designs">Atulya Designs</a></li>
+                    <li><a id="about" class="nav-main-menu" href="consulting">Art Consulting</a></li>
                 </ul>
             </div>
 
@@ -63,14 +63,14 @@
                 <div class="row justify-content-end">
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
-                            <li><a href="about-us.php">About Us</a></li>
-                            <li><a href="premium-collection.php">Art Collection</a></li>
-                            <li><a href="volunteer-program.php">Join as Volunteer</a></li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="premium-collection">Art Collection</a></li>
+                            <li><a href="volunteer-program">Join as Volunteer</a></li>
                             <li><a href="atulya-artists.php#join">Join As Artist</a></li>
                             <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
                             
                             <li><a href="about-us.php#team">Our Team</a></li>
-                            <li><a data-wow-delay="0.30s" href="contact-us.php">Get in touch</a></li>
+                            <li><a data-wow-delay="0.30s" href="contact-us">Get in touch</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-12 color_h_w " >
@@ -94,12 +94,12 @@
 <section class="main bgnv">
     <div onclick="openNav()" class="toggle-btn"><img src="assets/img/<?php echo $nav_toggle ?>" alt=""></div>
     <div class="logo ">
-        <a href="index.php"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
+        <a href="index"><img src="assets/img/<?php echo $logo ?>" class="img-fluid" alt=""></a>
     </div>
 </section>
 
 <nav class="navbar navbar-dark fixed-top n" style="background-color: #000000!important;">
-    <a href="index.php" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
+    <a href="index" class="brand"><img src="assets/img/Component2.svg" class="img-fluid" alt=""></a>
     <div onclick="openNav()" class="btn "><img src="assets/img/toggle-white.svg" alt=""></div>
 </nav>
 

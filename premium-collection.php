@@ -2,7 +2,7 @@
 
 
 <div class="logo-pos">
-    <a href="arts.php"><img src="assets/img/atulya_arts_logo.svg" class="img-fluid" alt=""></a>
+    <a href="arts"><img src="assets/img/atulya_arts_logo.svg" class="img-fluid" alt=""></a>
 </div>
 
 <section class="main-content dope">

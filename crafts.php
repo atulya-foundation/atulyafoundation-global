@@ -119,7 +119,7 @@
 </style>
 
 <div class="logo-pos">
-    <a href="crafts.php"><img src="assets/img/atulya_crafts_logo.svg" class="img-fluid" alt=""></a>
+    <a href="crafts"><img src="assets/img/atulya_crafts_logo.svg" class="img-fluid" alt=""></a>
 </div>
 
 <section class="main-content dope ">
