@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-lg-4" style="margin-top: 5vh; margin-bottom: 0rem;">
 
-                        <img src="assets/img/svg/asme.svg" class="img-fluid grayscale"/>
+                         <!--<img src="assets/img/svg/asme.svg" class="img-fluid grayscale"/>-->
 
                     </div>
                 </div>
