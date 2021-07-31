@@ -227,7 +227,7 @@
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
                             <li><a href="about-us">About Us</a></li>
-                            <li><a href="premium-collection">Art Collection</a></li>
+                            <li><a href="art-collection">Art Collection</a></li>
                             <li><a href="volunteer-program">Join as Volunteer</a></li>
                             <li><a href="atulya-artists#join">Join As Artist</a></li>
                             <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
@@ -307,7 +307,7 @@
                     glimpse inside is highly recommended.</p>
             </div>
             <div class="call-to-action">
-                <a href="premium-collection" class="btn-call-to-action">Premium Collection</a>
+                <a href="art-collection" class="btn-call-to-action">Premium Collection</a>
             </div>
         </div>
     </section>

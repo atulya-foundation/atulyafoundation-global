@@ -63,7 +63,7 @@
             </div>
         </div>
         <div class="call-to-action">
-            <a href="premium-collection" class="btn-call-to-action">Art Collection</a>
+            <a href="art-collection" class="btn-call-to-action">Art Collection</a>
         </div>
     </div>
 </section>

@@ -63,7 +63,7 @@
                     <div class="col-xl-12  small-nav color_h_w">
                         <ul class="sec">
                             <li><a href="about-us">About Us</a></li>
-                            <li><a href="premium-collection">Art Collection</a></li>
+                            <li><a href="art-collection">Art Collection</a></li>
                             <li><a href="volunteer-program">Join as Volunteer</a></li>
                             <li><a href="atulya-artists#join">Join As Artist</a></li>
                             <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
