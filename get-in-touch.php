@@ -40,10 +40,10 @@
                                         <div class="row ">
                                             <div class="col-lg-12 ">
                                                 <div class="row legends">
-                                                    <div class="col-sm-1"><a class="text1" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram"></i> </a></div>
-                                                    <div class="col-sm-1"><a class="text1" href="https://www.linkedin.com/company/atulya"><i class="fab fa-linkedin"></i></a></div>
-                                                    <div class="col-sm-1"><a class="text1" href="https://www.facebook.com/Aulyafoundation"><i class="fab fa-facebook"></i> </a></div>
-                                                    <div class="col-sm-1"><a class="text1" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg"><i class="fab fa-youtube"></i></a></div>
+                                                    <div class="col-sm-1"><a class="text1" target="new" href="https://www.instagram.com/atulya_foundation/"><i class="fab fa-instagram"></i> </a></div>
+                                                    <div class="col-sm-1"><a class="text1" target="new" href="https://www.linkedin.com/company/atulya"><i class="fab fa-linkedin"></i></a></div>
+                                                    <div class="col-sm-1"><a class="text1" target="new" href="https://www.facebook.com/Aulyafoundation"><i class="fab fa-facebook"></i> </a></div>
+                                                    <div class="col-sm-1"><a class="text1" target="new" href="https://www.youtube.com/channel/UCFaDTKXpGJ7P8izz0inccNg"><i class="fab fa-youtube"></i></a></div>
                                                 </div>
                                             </div>
                                         </div>      
