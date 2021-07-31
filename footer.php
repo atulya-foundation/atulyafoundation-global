@@ -67,7 +67,7 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
             </div>
             <div class="col-lg-12 copyright">
                 <ul>
-                    <li style="color: #AAAAAA">© 2020 Atulya Foundation. All Right Reserved.</li>
+                    <li style="color: #AAAAAA">© 2021 Atulya Foundation. All Right Reserved.</li>
                     <li><span>|</span> <a href="privacy-policy">Privacy Policy</a></li>
                     <!-- <li><a href="#">License</a></li> -->
                     <li><a href="terms-of-use">Terms of Use</a></li>
