@@ -6,7 +6,6 @@
 
     <title>Atulya Foundation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noindex, noimageindex, nofollow, nosnippet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/newStyle.css">
     <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
