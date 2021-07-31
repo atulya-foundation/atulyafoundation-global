@@ -128,7 +128,7 @@
                                     <option value="">How, as a volunteer, can you contribute to the Atulya foundation?*</option>
 
                                     <option value="Building artists network">Building artists network</option>
-                                    <option value="Technology & innovation">Technology & innovation</option>
+                                    <option value="Product & innovation">Technology & innovation</option>
                                     <option value="Media & marketing">Media & marketing</option>
                                     <option value="Operations & logistical support">Operations & logistical support</option>
                                 </select>

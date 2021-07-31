@@ -193,53 +193,24 @@
 </section>
 
 
-<section class="single-image">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-lg-5 col-md-6 images">
-                
-                    <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid">
-                
-            </div>
-           <div class="col-lg-1 col-md-1 "></div>
-            <div class="col-lg-5 col-md-5 services">
-                <h3>Digital Art & Illustrations</h3>
-                <p>Our illustrators create original images done completely on computer or hand-drawn images scanned into a computer and finished using a software program. Our art
-                    takes a number of forms, from fine art to decoration to storytelling illustrations. We use any combination of media and techniques to create our work as we
-                    collaborate with writers, editors, managers, marketers and art directors across all graphic design types</p>
-            </div>
-            <div class="col-lg-1"></div>
-        </div>
-    </div>
-</section>
-
-
 <section class="double-image">
     <div class="container">
         <div class="row">
             
             <div class="col-lg-5 col-md-5 services">
-                <h3>Packaging Design</h3>
-                    <p>Packaging! it is not just packaging or merely a wrapper to protect the product. Every box, bottle and bag, every can, container, or canister is a chance tell
-                        the story of your brand. We target that design of the packaging should be such that it immediately grabs the attention of the consumer. It is a practical
-                        element that can make a huge impact on the product’s viability in the market.</p>
+                <h3>User Interface Design</h3>
+                <p>A user interface (UI) design is an essential part of the user experience when a user interacts with a device or application. We always aim to design interfaces
+                    which are balanced in aesthetic appeal with technical functionality and adaptable to changing user needs. Our designers focus that layout of a user interface
+                    design should be clearly set out for users so that elements can be found in a logical position.</p>
             </div>
             <div class="col-lg-1 col-md-2"></div>
             <div class="col-lg-6 col-md-5 images" class="parent">
-                    <img class="image1 img-fluid" src="assets/img/Atulya designs/Packaging/1.jpg">
-                    <img class="image2 img-fluid" src="assets/img/Atulya designs/Packaging/2.jpg">
+                    <img class="image1 img-fluid" src="assets/img/Atulya designs/UI/1.jpg">
+                    <img class="image2 img-fluid" src="assets/img/Atulya designs/UI/2.jpg">
             </div>
         </div>
     </div>
 </section>
-
-<section class="large-image atulya-image">
-    <figure>
-        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100">
-    </figure>
-</section>
-
 
 <section class="single-image">
     <div class="container">
@@ -263,24 +234,57 @@
 </section>
 
 
+
+
+
+<section class="large-image atulya-image">
+    <figure>
+        <img src="assets/img/artist/pawel-czerwinski-fPN1w7bIuNU-unsplash.png" class="img-fluid w-100">
+    </figure>
+</section>
+
+
+<section class="single-image">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-5 col-md-6 images">
+                
+                    <img src="assets/img/Atulya designs/Digital art/1.jpg" class="img-fluid">
+                
+            </div>
+           <div class="col-lg-1 col-md-1 "></div>
+            <div class="col-lg-5 col-md-5 services">
+                <h3>Digital Art & Illustrations</h3>
+                <p>Our illustrators create original images done completely on computer or hand-drawn images scanned into a computer and finished using a software program. Our art
+                    takes a number of forms, from fine art to decoration to storytelling illustrations. We use any combination of media and techniques to create our work as we
+                    collaborate with writers, editors, managers, marketers and art directors across all graphic design types</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</section>
+
 <section class="double-image">
     <div class="container">
         <div class="row">
             
             <div class="col-lg-5 col-md-5 services">
-                <h3>User Interface Design</h3>
-                <p>A user interface (UI) design is an essential part of the user experience when a user interacts with a device or application. We always aim to design interfaces
-                    which are balanced in aesthetic appeal with technical functionality and adaptable to changing user needs. Our designers focus that layout of a user interface
-                    design should be clearly set out for users so that elements can be found in a logical position.</p>
+                <h3>Packaging Design</h3>
+                    <p>Packaging! it is not just packaging or merely a wrapper to protect the product. Every box, bottle and bag, every can, container, or canister is a chance tell
+                        the story of your brand. We target that design of the packaging should be such that it immediately grabs the attention of the consumer. It is a practical
+                        element that can make a huge impact on the product’s viability in the market.</p>
             </div>
             <div class="col-lg-1 col-md-2"></div>
             <div class="col-lg-6 col-md-5 images" class="parent">
-                    <img class="image1 img-fluid" src="assets/img/Atulya designs/UI/1.jpg">
-                    <img class="image2 img-fluid" src="assets/img/Atulya designs/UI/2.jpg">
+                    <img class="image1 img-fluid" src="assets/img/Atulya designs/Packaging/1.jpg">
+                    <img class="image2 img-fluid" src="assets/img/Atulya designs/Packaging/2.jpg">
             </div>
         </div>
     </div>
 </section>
+
+
 
 <section class="bot-line">
     <div class="container">
