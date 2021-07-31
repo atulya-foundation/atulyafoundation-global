@@ -229,10 +229,10 @@
                             <li><a href="about-us">About Us</a></li>
                             <li><a href="premium-collection">Art Collection</a></li>
                             <li><a href="volunteer-program">Join as Volunteer</a></li>
-                            <li><a href="atulya-artists.php#join">Join As Artist</a></li>
-                            <li><a href="atulya-artists.php#benefits">Artist Network Benefits</a></li>
+                            <li><a href="atulya-artists#join">Join As Artist</a></li>
+                            <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                             
-                            <li><a href="about-us.php#team">Our Team</a></li>
+                            <li><a href="about-us#team">Our Team</a></li>
                             <li><a data-wow-delay="0.30s" href="contact-us">Get in touch</a></li>
                         </ul>
                     </div>

@@ -38,8 +38,8 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                             <h2>Who we are</h2>
                             <ul>
                                 <li><a href="about-us">About us</a></li>
-                                <li><a href="about-us.php#team">Atulya Team</a></li>
-                                <li><a href="about-us.php#clients">Our Clients</a></li>
+                                <li><a href="about-us#team">Atulya Team</a></li>
+                                <li><a href="about-us#clients">Our Clients</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="atulya-artists.php#join">Join as Artist</a></li>
-                                <li><a href="atulya-artists.php#benefits">Network Benefits</a></li>
+                                <li><a href="atulya-artists#join">Join as Artist</a></li>
+                                <li><a href="atulya-artists#benefits">Network Benefits</a></li>
                             </ul>
                         </div>
                     </div>
