@@ -47,7 +47,7 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                         <div class="widget">
                             <h2>Atulya Artists</h2>
                             <ul>
-                                <li><a href="atulya-artists#join">Join as Artist</a></li>
+                                <li><a href="atulya-artists">Join as Artist</a></li>
                                 <li><a href="atulya-artists#benefits">Network Benefits</a></li>
                             </ul>
                         </div>
