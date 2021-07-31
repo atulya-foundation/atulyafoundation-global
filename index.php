@@ -229,7 +229,7 @@
                             <li><a href="about-us">About Us</a></li>
                             <li><a href="art-collection">Art Collection</a></li>
                             <li><a href="volunteer-program">Join as Volunteer</a></li>
-                            <li><a href="atulya-artists#join">Join As Artist</a></li>
+                            <li><a href="atulya-artists">Join As Artist</a></li>
                             <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                             
                             <li><a href="about-us#team">Our Team</a></li>
