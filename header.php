@@ -18,7 +18,7 @@
         $bg_body_color = "#F0EDE9";
         $logo = "Component1.svg";
         $nav_toggle = "toggle_icon_black.svg";
-    } elseif ($page == "contact-us.php") {
+    } elseif ($page == "get-in-touch.php") {
         $bg_body_color = "#F6F4F2";
         $logo = "Component1.svg";
         $nav_toggle = "toggle_icon_black.svg";
@@ -69,7 +69,7 @@
                             <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                             
                             <li><a href="about-us#team">Our Team</a></li>
-                            <li><a data-wow-delay="0.30s" href="contact-us">Get in touch</a></li>
+                            <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-12 color_h_w " >

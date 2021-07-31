@@ -59,7 +59,7 @@ if ($page == "volunteer-program.php" || $page == "get-in-touch.php" || $page == 
                                 <li><a href="premium-collection">Art Collection</a></li>
                                 <li><a href="volunteer-program">Volunteer with us</a></li>
                                 
-                                <li><a href="contact-us">Get in touch</a></li>
+                                <li><a href="get-in-touch">Get in touch</a></li>
                             </ul>
                         </div>
                     </div>

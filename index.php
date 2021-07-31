@@ -233,7 +233,7 @@
                             <li><a href="atulya-artists#benefits">Artist Network Benefits</a></li>
                             
                             <li><a href="about-us#team">Our Team</a></li>
-                            <li><a data-wow-delay="0.30s" href="contact-us">Get in touch</a></li>
+                            <li><a data-wow-delay="0.30s" href="get-in-touch">Get in touch</a></li>
                         </ul>
                     </div>
                     <div class="col-xl-12 color_h_w " >
